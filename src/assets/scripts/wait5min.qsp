@@ -1,0 +1,3 @@
+this.waitCounter++;
+console.log('this.waitCounter', this.waitCounter);
+if (this.waitCounter >= 3) {'[GOTO mark_final8]';} else {'[GOTO passed5min]';}
