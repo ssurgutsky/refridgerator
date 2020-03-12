@@ -1,0 +1,84 @@
+<template>
+  <div>
+    <canvas id="canvas" style="width: 100%; height: 100%; object-fit: contain" width="640px" height="480px"></canvas>
+  </div>
+</template>
+
+<script>
+
+import commonUtils from '@/components/utils/CommonUtils.js'
+
+export default {
+  name: 'ImagePlayer',
+  data () {
+    return {
+      imagePlayer: null,
+      currentImages: ''
+    }
+  },
+  mounted () {
+    if (!this.imagePlayer) {
+      this.initialize()
+    }
+  },
+
+  methods: {
+    initialize () {
+      // console.log(this.$refs)
+      this.imagePlayer = this.$refs.imagePlayer
+    },
+
+    showImages (value) {
+      if (!value || value === '') return
+
+      this.currentImages = value
+
+      //      console.log('showImages', value)
+      const arr = value.split('&')
+      //      console.log(arr)
+      const images = arr.map(function (imageStr) {
+        let result = {}
+        const str = imageStr.split('|')
+        if (str[0]) {
+          result.name = str[0]
+        }
+        let params = null
+        if (str[1]) {
+          params = {}
+          let paramsArr = str[1].split(';')
+          params.posX = paramsArr[0] || 0
+          params.posY = paramsArr[1] || 0
+          params.scaleX = paramsArr[2] || 1
+          params.scaleY = paramsArr[3] || 1
+          params.rotation = paramsArr[4] || 0
+          params.alpha = paramsArr[5] || 1
+          result.params = params
+        }
+        return result
+      })
+      //      console.log(images)
+
+      let canvas = document.getElementById('canvas')
+      let ctx = canvas.getContext('2d')
+
+      images.forEach(function (item, i, images) {
+        let img = new Image()
+        img.onload = () => {
+          commonUtils.drawImageCustom(canvas, ctx, img, item.params)
+        }
+        img.src = require('@/assets/images/' + item.name)
+      }, this)
+    },
+
+    clearImages () {
+      let canvas = document.getElementById('canvas')
+      let ctx = canvas.getContext('2d')
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
+      this.currentImages = ''
+    }
+  }
+}
+</script>
+
+<style scoped>
+</style>
