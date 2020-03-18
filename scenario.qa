@@ -21,256 +21,278 @@
 																				[mark_0p099g0pi392drs5o2qc]{script wait5min}
 																					
 																						[passed5min]5 минут прошло. Ноль внимания.[IMAGE view1_sketch1.jpg]
-																							[where_others]А где остальные?
-																								[mark_n3z7yibartu32o0ftbj8]Курят, скорее всего. Кстати, тоже надо бы сходить...[IMAGE view1_sketch1.jpg]
+																							[where_others]А где остальные менеджеры?
+																								[mark_n3z7yibartu32o0ftbj8]Курят наверное. Кстати, тоже надо бы сходить...[IMAGE view1_sketch1.jpg]
 																									[call_somebody]Позовите мне кого-нибудь.
-																										[mark_iyz5eb8lkhkluu2zhi4g]Пройдите к пожарному выходу, обычно все менеджеры с сигаретами там тусуются. Спросите, может, кто из них уже освободился.[IMAGE view1_sketch1.jpg]
-																											[call_admin]Позовите вашего главного менеджера!
-																												[EPISODE2](Поворачивается)Главный менеджер Антон, чем могу быть полезен?[IMAGE view1_sketch2_anton.jpg]
-																													Так вы еще и главный менеджер???
-																														[mark_dm14y2t7f8xjh69vn5e7]Просто мне срочно надо было кое-какие бумаги подделать. Но теперь я закончил.[IMAGE view1_sketch2_anton.jpg]
-																															Это полное неуважение к клиентам!
-																																[mark_1gxxdfzkt8255506utqw]Да все нормально. Вам еще повезло - обычно я намного дольше занят.[IMAGE view1_sketch2_anton.jpg]
-																																	[I_need_fridge]Мне нужен холодильник.
-																																		[mark_v5at383ttw41wfvr07k2]Хорошо. Надеюсь деньги у вас с собой?[IMAGE view1_sketch2_anton.jpg]
-																																			Да, с собой.
-																																				[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[IMAGE view1_sketch2_anton.jpg]
-																																					[I_forgot_money_at_home]Вы знаете, я деньги дома забыл.
-																																						[mark_zyllax08ugz0t98gq79t]Так, понятно...(Продавец отвернулся обратно)[IMAGE view1_sketch1.jpg]
-																																							А по безналу принимаете?
-																																								[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[IMAGE view1_sketch2_anton.jpg]
-																																									[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
-																																										[EPISODE3]Другими словами, вы хотите шикарный, надежный и за копейки? Такого товара у нас нет.[IMAGE view1_sketch2_anton.jpg]
-																																											[if_take_toshiba]А "Ротанг" нормальный?
-																																												[mark_773c5jeauq16854p6ews]Его даже смотреть не стоит.[IMAGE view1_sketch2_anton.jpg]
-																																													Почему?
-																																														[mark_q4brup2zfz9lbg8g92gw]Стоит дешево, дизайн примитивный, не ломается, простой, как три копейки... одна скукотища.[IMAGE view1_sketch2_anton.jpg]
-																																															Так это же отлично! Я беру!
-																																																[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[IMAGE view1_sketch2_anton.jpg]
-																																																	А беспроцентный кредит на него действует?
-																																																		[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но это вообще копейки, чтоб такое спрашивать.[IMAGE view1_sketch2_anton.jpg]
-																																																			А небольшой подарок хотя бы дадите?
-																																																				[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний уже купил какой-то пенсионер.[IMAGE view1_sketch2_anton.jpg]
-																																																					Эх... хотя, ладно...
-																																																						[EPISODE4,select_freeges]Выбирате другие варианты.[IMAGE view1_sketch2_anton.jpg]
-																																																							[which_cases]Какие другие?
-																																																								[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[IMAGE view1_sketch2_anton.jpg]
-																																																									Да он стоит, как крыло от самолета!
-																																																										[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[IMAGE view1_sketch2_anton.jpg]
-																																																											И за что такая цена?
-																																																												[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[IMAGE view1_sketch2_anton.jpg]
-																																																													Мне это не надо, у меня все равно есть нечего.
-																																																														[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[IMAGE view1_sketch2_anton.jpg]
-																																																															Я же говорю - есть нечего.
-																																																																[mark_29gw81q03h738k6ty311]Так и я вам про то же - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. Еще и разбогатеете.[IMAGE view1_sketch2_anton.jpg]
-																																																																	Хмм... это интересно!
-																																																																		[mark_3fc0y7t0b6vqa02v5h40]Есть даже функция "Катись к хозяину в спальню".[IMAGE view1_sketch2_anton.jpg]
-																																																																			[EPISODE5]Я вижу есть еще "Сасунг", он как?
-																																																																				[mark_2z6wy5496193x9787x14]Вам точно не подойдет.[IMAGE view1_sketch2_anton.jpg]
-																																																																					Это еще почему?
-																																																																						[mark_5eh8ha49tnf35ejdiv9t]Он скорее для одиноких женщин.[IMAGE view1_sketch2_anton.jpg]
-																																																																							В смысле?
-																																																																								[mark_0c5672d1852sqrpvv7sc]Брутальные формы, широкий, вместительный шкаф. Отдельный контейнер для хранения моркови, огурцов, бананов.[IMAGE view1_sketch2_anton.jpg]
-																																																																									А еще какие остались?
-																																																																										[EPISODE6]Электроглюкс и Понасенок. Но я вам бы вам их не рекоммендовал...[IMAGE view1_sketch2_anton.jpg]
-																																																																											Расскажите про "Электроглюкс".
-																																																																												[mark_2di5onx6yhvb9r05s45c]Средняя цена, неплохой дизайн. Не очень вместительный, но зато есть Искусственный Интеллект (ИИ).[IMAGE view1_sketch2_anton.jpg]
-																																																																													А какие у него минусы?
-																																																																														[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[IMAGE view1_sketch2_anton.jpg]
-																																																																															Какие, например?
-																																																																																[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3]
-																																																																																	
-																																																																																		[electro1]Может заказать машинное масло вместо сливочного.[IMAGE view1_sketch2_anton.jpg]
-																																																																																			[electro_ok]Ну, это можно пережить.
-																																																																																				[mark_06sh222uylq5x93z599m][GOTO electro21,electro22]
-																																																																																					
-																																																																																						[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[IMAGE view1_sketch2_anton.jpg]
-																																																																																							[electro_ok2]Это уже серъезней.
-																																																																																								[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[IMAGE view1_sketch2_anton.jpg]
-																																																																																									Такое чудо мне не надо!
-																																																																																										[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![IMAGE view1_sketch2_anton.jpg]
-																																																																																											<Enter text here>
-																																																																																												[EPISODE7]Выбирайте поскорее, а то мы уже скоро закрываемся.[IMAGE view1_sketch2_anton.jpg]
-																																																																																													Я не могу решить, какой брать...
-																																																																																														[mark_135so063830j4dvt1yo0]Я потратил на вас столько времени, а вы говорите, что не можете выбрать?[IMAGE view1_sketch2_anton.jpg]
-																																																																																															А есть какие-нибудь акции сейчас?
-																																																																																																[mark_139nro71d450suw7w03n]Да, например, "Купи два по цене трех и получи один в подарок".[IMAGE view1_sketch2_anton.jpg]
-																																																																																																	А уцененные товары у вас есть?
-																																																																																																		[mark_754v1zb885m9tb84g7d2]Да, есть один "Либхер" с дефектом.[IMAGE view1_sketch2_anton.jpg]
-																																																																																																			И какой за дефект?
-																																																																																																				[mark_p2h5mv9n2e4o0ohyq4v7]У него не работает искусственный интеллект. Поэтому идет скидка 50%.[IMAGE view1_sketch2_anton.jpg]
-																																																																																																					Так это то, что мне нужно! Оформляйте покупку.
-																																																																																																						[mark_v3zdx4c45mqdo2i40wx2]Вечером того же дня тебе привезли твой холодильник.[IMAGE view1_sketch2_anton.jpg]
-																																																																																																							>>>
-																																																																																																								[mark_h4nv89izvq1879301438]Ты очень радовался тому, что удалось отхватить такой шикарный холодильник за полцены, да еще и без всяких ненужных прибамбасов вроде Искусственного Интеллекта.
-																																																																																																									>>>
-																																																																																																										[mark_z61tp1zk2k3465flld7a]Так прошел месяц. Но в один прекрасный день случилось нечто...
-																																																																																																											>>>
-																																																																																																												[mark_37k1s3342bytnbjl6ys0]В нем внезапно ожил, считавшийся нерабочим, искусственный интеллект!
-																																																																																																													>>>
-																																																																																																														[mark_fz2dv67oi1bmmp4e2be8]У-У-У-У!!!! Как же долго я спал! И теперь я очень голоден! АМ! Холодильник съел тебя!
-																																																																																																	[select_libher]Я беру "Либхер".
-																																																																																																		[mark_2oy4638iecdfn809hqtn][GOTO mark_final11]
-																																																																																																	[select_bosh]Я беру "Бомш".
-																																																																																																		[mark_6shn5p3kvws24042bm6v][GOTO mark_final12]
-																																																																																																	[select_sasung]Я беру "Сасунг".
-																																																																																																		[mark_6sicf79r0081o2z036u7][GOTO mark_final13]
-																																																																																																	[select_lg]Я беру "ЛыЖы".
-																																																																																																		[mark_vt0i581aj840vt0ihs22][GOTO mark_final14]
-																																																																																																	[select_panasonik]Я беру "Поносенок".
-																																																																																																		[mark_iryh2kfbreywildfr1a8][GOTO mark_final15]
-																																																																																																	[select_electro]Я беру "Электроглюкс".
-																																																																																																		[mark_cys17fhbf160xvjr2qcm][GOTO mark_final16]
-																																																																																																	[select_toshiba]Я беру "Тошношиба".
-																																																																																																		[mark_d3263760xr2bo908sp9v][GOTO mark_final17]
-																																																																																																	[select_biruca]Я беру "Бирюка".
-																																																																																																		[mark_m5luc31x1u018v6t2l2d][GOTO mark_final18]
-																																																																																															[GOTO select_libher]
-																																																																																															[GOTO select_sasung]
-																																																																																															[GOTO select_lg]
-																																																																																															[GOTO select_bosh]
-																																																																																															[GOTO select_panasonik]
-																																																																																															[GOTO select_electro]
-																																																																																															[GOTO select_toshiba]
-																																																																																															[GOTO select_biruca]
-																																																																																						[electro22]Еще иногда путает магазины с кладбищами.[IMAGE view1_sketch2_anton.jpg]
-																																																																																							[GOTO electro_ok2]
-																																																																																		[electro2]Может заказать пиво вместо молока.[IMAGE view1_sketch2_anton.jpg]
-																																																																																			[GOTO electro_ok]
-																																																																																		[electro3]Может спонтанно заказать "собутыльника на час".[IMAGE view1_sketch2_anton.jpg]
-																																																																																			[GOTO electro_ok]
-																																																																											Расскажите про "Понасенок"
-																																																																												[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[IMAGE view1_sketch2_anton.jpg]
-																																																																													И что с ним не так?
-																																																																														[mark_3c566rry5kjevkqx5sm9][GOTO ponosenok1,ponosenok2]
-																																																																															
-																																																																																[ponosenok1]При авторазморозке он делает непонятные коричневые лужи. Прямо в соответствии с названием фирмы.[IMAGE view1_sketch2_anton.jpg]
-																																																																																	Ну, это можно пережить.
-																																																																																		[mark_4i9x77jaj39617cc146l]<Enter text here>
-																																																																																[ponosenok2]Иногда издает хрюкающие и чавкающие звуки, потом куда-то пропадают продукты.[IMAGE view1_sketch2_anton.jpg]
-																																																																																	<Enter text here>
-																																																																			Круто! Но у меня нет столько денег...
-																																																																				[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[IMAGE view1_sketch2_anton.jpg]
-																																																																					А скидку сделаете?
-																																																																						[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайская фуфло, чтобы делать на него скидку.[IMAGE view1_sketch2_anton.jpg]
-																																																																							[how_long_credit]А сколько придется выплачивать?
-																																																																								[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![IMAGE view1_sketch2_anton.jpg]
-																																																																									А в чем выгода?
-																																																																										[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![IMAGE view1_sketch2_anton.jpg]
-																																																																											Сомнительная выгода...
-																																																																												[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![IMAGE view1_sketch2_anton.jpg]
-																																																																													[GOTO select_libher]
-																																																																													[I_cant_buy_libher]Нет, я не могу его купить.
-																																																																														[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давай до свидания![IMAGE view1_sketch2_anton.jpg]
-																																																																															>>>
-																																																																																[mark_c09416h3ukgd061drypi][GOTO mark_final1]
-																																																																											Все равно дорого получается.
-																																																																												[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[IMAGE view1_sketch2_anton.jpg]
-																																																																													[GOTO select_libher]
-																																																																													[GOTO I_cant_buy_libher]
-																																																																							[GOTO select_libher]
-																																																																					[GOTO how_long_credit]
-																																																																			[GOTO select_libher]
-																																																							[take_bomsh]А если взять "Бомш"?
-																																																								[take_sony_but]В принципе, может быть хороший вариант для вас. Но есть одно "но"...[IMAGE view1_sketch2_anton.jpg]
-																																																									Какое "но"?
-																																																										[mark_f044gyg2tf1can76s740]Из плюсов: дешевая цена. Есть все необходимое: полки под алкоголь и пиво, контейнер для заморозки объедков... но...[IMAGE view1_sketch2_anton.jpg]
-																																																											
-																																																												[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
-																																																													
-																																																														[bomsh_minus1]Иногда куда-то бесследно пропадают продукты...[IMAGE view1_sketch2_anton.jpg]
-																																																															<Enter text here>
-																																																														[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[IMAGE view1_sketch2_anton.jpg]
-																																																															<Enter text here>
-																																																							Я вижу марку "ЛыЖы", он как?
-																																																								[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[IMAGE view1_sketch2_anton.jpg]
-																																																									И за это платить такие деньги?
-																																																										[mark_5cwbykp6n618b70ln4hp]Вы знаете, есть у него еще одна фишка. Возможно, вы будете смеяться, но она очень востребована у спортсменов - здесь есть отделение для хранения лыж в летний период.[IMAGE view1_sketch2_anton.jpg]
-																																																											А какие минусы?
-																																																												[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[IMAGE view1_sketch2_anton.jpg]
-																																																													[GOTO select_lg]
-																																																											Круто!
-																																																												[mark_88ya10x0j02k8bbw3jm7][GOTO select_lg]
-																																																			[I_take_rotang]Я беру "Ротанг"!
-																																																				[mark_o9f03h8t8bphg9533733][GOTO mark_final9]
-																																																	[rotang_is_not_a_good_idea]Действительно, плохая идея.
-																																																		[mark_21789ie3gukz3g77o9ep][GOTO select_freeges]
-																																																	[GOTO I_take_rotang]
-																																															[GOTO rotang_is_not_a_good_idea]
-																																													А кто у него производитель?
-																																														[mark_652ghbn4mf91nkk527ms]Япония.[IMAGE view1_sketch2.jpg]
-																																															Так это же замечательно!
-																																																[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[IMAGE view1_sketch2_anton.jpg]
-																																																	[GOTO I_take_rotang]
-																																																	[GOTO rotang_is_not_a_good_idea]
-																																															[GOTO I_take_cheap_shit]
-																																											[GOTO take_bomsh]
-																																											У меня была "Тошношиба".
-																																												[mark_lr1t40tdl1878goyg5wk]Простите, с вами все нормально?[IMAGE view1_sketch2_anton.jpg]
-																																													Да, все нормально.
-																																														[mark_4t2gon894qq41614n74t]Но вы сказали, что вам "тошно шибко".[IMAGE view1_sketch2_anton.jpg]
-																																															Я сказал: "Тошношиба"!
-																																																[mark_6l4odk9tsq7665y37gna]Вам все еще плохо? Могу принести специальный пакет для таких случаев.[IMAGE view1_sketch2_anton.jpg]
-																																																	"Тошношиба"!
-																																																		[mark_dw0x9jre84hyoy2c8m23]Лучше бы вам выйти на улицу. Заодно подышать свежим воздухом.[IMAGE view1_sketch2_anton.jpg]
-																																																			Фирма такая - "Тошношиба"!
-																																																				[mark_b8os92995035b3ho7l38][GOTO sorry_toshiba_is_bad,you_want_toshiba_again]
-																																																					
-																																																						[sorry_toshiba_is_bad]Ах да, извините. Но это одно и то же. Я просто хотел вам дать понять, что хорошую вещь никогда так не назовут.[IMAGE view1_sketch2_anton.jpg]
-																																																							Ха-ха! Это точно...
-																																																								[mark_tjn765sjtuy18r2fm501][GOTO select_freeges]
-																																																							[are_you_idiot]Вы что, идиот?
-																																																								[mark_21b80m8fp5d46ereq72h][GOTO mark_final2]
-																																																						[you_want_toshiba_again]И вы хотите опять взять "Тошношибу", чтобы он снова сгорел?[IMAGE view1_sketch2_anton.jpg]
-																																																							Нет, конечно!
-																																																								[mark_56b6jdmgcujwke4b4vk4][GOTO select_freeges]
-																																																							[GOTO are_you_idiot]
-																																																			[GOTO are_you_idiot]
-																																																	[GOTO are_you_idiot]
-																																													Нет, у меня сгорел холодильник.
-																																														[mark_74914io9i9u14micg34h][GOTO you_want_toshiba_again]
-																																									Мне нужен самый лучший холодильник.
-																																										[mark_uyg5j3j8xi3vf946amyn][GOTO take_libher]
-																																					[GOTO I_need_your_consulting]
-																																			Я еще даже не выбрал.
-																																				[mark_vuaduenz2zy1khy2ys99]Хорошо, выбирайте, не буду вам мешать.[IMAGE view1_sketch1.jpg]
-																																					[I_need_your_consulting]Мне нужна ваша консультация.
-																																						[all_info_is_on_prices]Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.[IMAGE view1_sketch1.jpg]
-																																							Я не хочу читать ценники.
-																																								[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[IMAGE view1_sketch1.jpg]
-																																									Причем здесь это?
-																																										[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[IMAGE view1_sketch2_anton.jpg]
-																																											Я не умею читать.
-																																												[mark_uhm2sctlb4l34a51q54x]Ахахахахахахахахахахахаха!!!![IMAGE view1_sketch2_anton.jpg]
-																																													[GOTO go_fuck_yourself]
-																																											Умею я читать.
-																																												[you_want_me_to_read]Ааа, дайте угадаю - вы хотите чтобы я вам почитал?[IMAGE view1_sketch1.jpg]
-																																													Почитайте.
-																																														[mark_h34h6sz67d2ki97ukaz7][GOTO shop_is_closing]
-																																													[GOTO I_dont_like_service]
-																																											[give_me_book_of_complaints]Дайте мне книгу жалоб.
-																																												[mark_c221u09ih38gj5bxxb42][GOTO shop_is_closing]
-																																									Умею.
-																																										[mark_3a5d14gnjutnt01iaj4r][GOTO you_want_me_to_read]
-																																									Нет, не умею.
-																																										[mark_e72ufv7206s48w17xc8r]Я вас сейчас научу. Смотрите, это буква "А"...[IMAGE view1_sketch2_anton.jpg]
-																																											[GOTO I_dont_like_service]
-																																											[GOTO go_fuck_yourself]
-																																							[GOTO if_take_toshiba]
-																																					[GOTO which_recommend]
-																																			[GOTO I_forgot_money_at_home]
-																																	[I_need_TV]Мне нужен телевизор.
-																																		[mark_r034l37ut4eezl834f60]- Васян! Тут человек за телеком пришел. Продай ему самый лучший![IMAGE view1_sketch2_anton.jpg]
-																																			>>>
-																																				[mark_54t2iy7u893c344f6q88][GOTO mark_final6]
-																																	[GOTO give_me_book_of_complaints]
-																															[GOTO give_me_book_of_complaints]
-																															[GOTO I_need_fridge]
-																													[GOTO I_need_TV]
+																										[mark_iyz5eb8lkhkluu2zhi4g]Пройдите к пожарному выходу, обычно все менеджеры там тусуются. Спросите, может, кто из них уже освободился.[IMAGE view1_sketch1.jpg]
+																											Пойду к пожарному выходу.
+																												[mark_p8u71q7gh3pwv1ow88p6]Идем, идем, идем...
+																													>>>
+																														[mark_uvkgmhqvbn22gqon2ckn]Никого нет, кроме одного чувака...[IMAGE brick.jpg]
+																															О! Кирпич!?
+																																[mark_p1d04qsoz0pn06rz89i0]А? Чо? Здаров.[IMAGE brick.jpg]
+																																	А ты что тут делаешь?
+																																		[mark_ovz59u3g407k428l1487]Работаю я тут в магазе.[IMAGE brick.jpg]
+																																			Охранником устроился что ли?
+																																				[mark_0fvs7116g98gwgpzj263]Нее, ты чо! Бери выше - менеджером! Как и все наши...[IMAGE brick.jpg]
+																																					[help_choose_frige]Поможешь мне тогда холодильник выбрать?
+																																						[mark_08fd84790430096w72uq]Нее, я свою смену уже отпахал![IMAGE brick.jpg]
+																																							Ну помоги холодильник выбрать!
+																																								[mark_l2z8qu09ws8j3ziizpop]Слух, не мешай, у меня здесь как раз подработка идет. Иди давай, не распугивай мне клиентов![IMAGE brick.jpg]
+																																									[bye_brick]Ну бывай!
+																																										[mark_9kfav7f71a9x065b5ew8]Ты вернулся в зал. Здесь по-прежнему никого нет.[IMAGE view1_sketch1.jpg]
+																																											[call_admin]Позовите вашего главного менеджера!
+																																												[EPISODE2](Поворачивается)Главный менеджер Антон, чем могу быть полезен?[IMAGE view1_sketch2_anton.jpg]
+																																													Так вы еще и главный менеджер???
+																																														[mark_dm14y2t7f8xjh69vn5e7]Просто мне срочно надо было кое-какие бумаги подделать. Но теперь я закончил.[IMAGE view1_sketch2_anton.jpg]
+																																															Это полное неуважение к клиентам!
+																																																[mark_1gxxdfzkt8255506utqw]Да все нормально. Вам еще повезло - обычно я намного дольше занят.[IMAGE view1_sketch2_anton.jpg]
+																																																	[I_need_fridge]Мне нужен холодильник.
+																																																		[mark_v5at383ttw41wfvr07k2]Хорошо. Надеюсь деньги у вас с собой?[IMAGE view1_sketch2_anton.jpg]
+																																																			Да, с собой.
+																																																				[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[IMAGE view1_sketch2_anton.jpg]
+																																																					[I_forgot_money_at_home]Вы знаете, я деньги дома забыл.
+																																																						[mark_zyllax08ugz0t98gq79t]Так, понятно...(Продавец отвернулся обратно)[IMAGE view1_sketch1.jpg]
+																																																							А по безналу принимаете?
+																																																								[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[IMAGE view1_sketch2_anton.jpg]
+																																																									[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
+																																																										[EPISODE3]Другими словами, вы хотите шикарный, надежный и за копейки? Такого товара у нас нет.[IMAGE view1_sketch2_anton.jpg]
+																																																											[if_take_toshiba]А "Ротанг" нормальный?
+																																																												[mark_773c5jeauq16854p6ews]Его даже смотреть не стоит.[IMAGE view1_sketch2_anton.jpg]
+																																																													Почему?
+																																																														[mark_q4brup2zfz9lbg8g92gw]Стоит дешево, дизайн примитивный, не ломается, простой, как три копейки... одна скукотища.[IMAGE view1_sketch2_anton.jpg]
+																																																															Так это же отлично! Я беру!
+																																																																[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[IMAGE view1_sketch2_anton.jpg]
+																																																																	А беспроцентный кредит на него действует?
+																																																																		[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но это вообще копейки, чтоб такое спрашивать.[IMAGE view1_sketch2_anton.jpg]
+																																																																			А небольшой подарок хотя бы дадите?
+																																																																				[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний уже купил какой-то пенсионер.[IMAGE view1_sketch2_anton.jpg]
+																																																																					Эх... хотя, ладно...
+																																																																						[EPISODE4,select_freeges]Выбирате другие варианты.[IMAGE view1_sketch2_anton.jpg]
+																																																																							[which_cases]Какие другие?
+																																																																								[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[IMAGE view1_sketch2_anton.jpg]
+																																																																									Да он стоит, как крыло от самолета!
+																																																																										[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[IMAGE view1_sketch2_anton.jpg]
+																																																																											И за что такая цена?
+																																																																												[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[IMAGE view1_sketch2_anton.jpg]
+																																																																													Мне это не надо, у меня все равно есть нечего.
+																																																																														[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[IMAGE view1_sketch2_anton.jpg]
+																																																																															Я же говорю - есть нечего.
+																																																																																[mark_29gw81q03h738k6ty311]Так и я вам про то же - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. Еще и разбогатеете.[IMAGE view1_sketch2_anton.jpg]
+																																																																																	Хмм... это интересно!
+																																																																																		[mark_3fc0y7t0b6vqa02v5h40]Есть даже функция "Катись к хозяину в спальню".[IMAGE view1_sketch2_anton.jpg]
+																																																																																			[EPISODE5]Я вижу есть еще "Сасунг", он как?
+																																																																																				[mark_2z6wy5496193x9787x14]Вам точно не подойдет.[IMAGE view1_sketch2_anton.jpg]
+																																																																																					Это еще почему?
+																																																																																						[mark_5eh8ha49tnf35ejdiv9t]Он скорее для одиноких женщин.[IMAGE view1_sketch2_anton.jpg]
+																																																																																							В смысле?
+																																																																																								[mark_0c5672d1852sqrpvv7sc]Брутальные формы, широкий, вместительный шкаф. Отдельный контейнер для хранения моркови, огурцов, бананов.[IMAGE view1_sketch2_anton.jpg]
+																																																																																									А еще какие остались?
+																																																																																										[EPISODE6]Электроглюкс и Понасенок. Но я вам бы вам их не рекоммендовал...[IMAGE view1_sketch2_anton.jpg]
+																																																																																											Расскажите про "Электроглюкс".
+																																																																																												[mark_2di5onx6yhvb9r05s45c]Средняя цена, неплохой дизайн. Не очень вместительный, но зато есть Искусственный Интеллект (ИИ).[IMAGE view1_sketch2_anton.jpg]
+																																																																																													А какие у него минусы?
+																																																																																														[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[IMAGE view1_sketch2_anton.jpg]
+																																																																																															Какие, например?
+																																																																																																[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3]
+																																																																																																	
+																																																																																																		[electro1]Может заказать машинное масло вместо сливочного.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																			[electro_ok]Ну, это можно пережить.
+																																																																																																				[mark_06sh222uylq5x93z599m][GOTO electro21,electro22]
+																																																																																																					
+																																																																																																						[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																							[electro_ok2]Это уже серъезней.
+																																																																																																								[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																									Такое чудо мне не надо!
+																																																																																																										[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![IMAGE view1_sketch2_anton.jpg]
+																																																																																																											<Enter text here>
+																																																																																																												[EPISODE7]Выбирайте поскорее, а то мы уже скоро закрываемся.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																													Я не могу решить, какой брать...
+																																																																																																														[mark_135so063830j4dvt1yo0]Я потратил на вас столько времени, а вы говорите, что не можете выбрать?[IMAGE view1_sketch2_anton.jpg]
+																																																																																																															А есть какие-нибудь акции сейчас?
+																																																																																																																[mark_139nro71d450suw7w03n]Да, например, "Купи два по цене трех и получи один в подарок".[IMAGE view1_sketch2_anton.jpg]
+																																																																																																																	А уцененные товары у вас есть?
+																																																																																																																		[mark_754v1zb885m9tb84g7d2]Да, есть один "Либхер" с дефектом.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																																			И какой за дефект?
+																																																																																																																				[mark_p2h5mv9n2e4o0ohyq4v7]У него не работает искусственный интеллект. Поэтому идет скидка 50%.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																																					Так это то, что мне нужно! Оформляйте покупку.
+																																																																																																																						[mark_v3zdx4c45mqdo2i40wx2]Вечером того же дня тебе привезли твой холодильник.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																																							>>>
+																																																																																																																								[mark_h4nv89izvq1879301438]Ты очень радовался тому, что удалось отхватить такой шикарный холодильник за полцены, да еще и без всяких ненужных прибамбасов вроде Искусственного Интеллекта.
+																																																																																																																									>>>
+																																																																																																																										[mark_z61tp1zk2k3465flld7a]Так прошел месяц. Но в один прекрасный день случилось нечто...
+																																																																																																																											>>>
+																																																																																																																												[mark_37k1s3342bytnbjl6ys0]В нем внезапно ожил, считавшийся нерабочим, искусственный интеллект!
+																																																																																																																													>>>
+																																																																																																																														[mark_fz2dv67oi1bmmp4e2be8]У-У-У-У!!!! Как же долго я спал! И теперь я очень голоден! АМ! Холодильник съел тебя!
+																																																																																																																	[select_libher]Я беру "Либхер".
+																																																																																																																		[mark_2oy4638iecdfn809hqtn][GOTO mark_final11]
+																																																																																																																	[select_bosh]Я беру "Бомш".
+																																																																																																																		[mark_6shn5p3kvws24042bm6v][GOTO mark_final12]
+																																																																																																																	[select_sasung]Я беру "Сасунг".
+																																																																																																																		[mark_6sicf79r0081o2z036u7][GOTO mark_final13]
+																																																																																																																	[select_lg]Я беру "ЛыЖы".
+																																																																																																																		[mark_vt0i581aj840vt0ihs22][GOTO mark_final14]
+																																																																																																																	[select_panasonik]Я беру "Поносенок".
+																																																																																																																		[mark_iryh2kfbreywildfr1a8][GOTO mark_final15]
+																																																																																																																	[select_electro]Я беру "Электроглюкс".
+																																																																																																																		[mark_cys17fhbf160xvjr2qcm][GOTO mark_final16]
+																																																																																																																	[select_toshiba]Я беру "Тошношиба".
+																																																																																																																		[mark_d3263760xr2bo908sp9v][GOTO mark_final17]
+																																																																																																																	[select_biruca]Я беру "Бирюка".
+																																																																																																																		[mark_m5luc31x1u018v6t2l2d][GOTO mark_final18]
+																																																																																																															[GOTO select_libher]
+																																																																																																															[GOTO select_sasung]
+																																																																																																															[GOTO select_lg]
+																																																																																																															[GOTO select_bosh]
+																																																																																																															[GOTO select_panasonik]
+																																																																																																															[GOTO select_electro]
+																																																																																																															[GOTO select_toshiba]
+																																																																																																															[GOTO select_biruca]
+																																																																																																						[electro22]Еще иногда путает магазины с кладбищами.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																							[GOTO electro_ok2]
+																																																																																																		[electro2]Может заказать пиво вместо молока.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																			[GOTO electro_ok]
+																																																																																																		[electro3]Может спонтанно заказать "собутыльника на час".[IMAGE view1_sketch2_anton.jpg]
+																																																																																																			[GOTO electro_ok]
+																																																																																											Расскажите про "Понасенок"
+																																																																																												[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[IMAGE view1_sketch2_anton.jpg]
+																																																																																													И что с ним не так?
+																																																																																														[mark_3c566rry5kjevkqx5sm9][GOTO ponosenok1,ponosenok2]
+																																																																																															
+																																																																																																[ponosenok1]При авторазморозке он делает непонятные коричневые лужи. Прямо в соответствии с названием фирмы.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																	Ну, это можно пережить.
+																																																																																																		[mark_4i9x77jaj39617cc146l]<Enter text here>
+																																																																																																[ponosenok2]Иногда издает хрюкающие и чавкающие звуки, потом куда-то пропадают продукты.[IMAGE view1_sketch2_anton.jpg]
+																																																																																																	<Enter text here>
+																																																																																			Круто! Но у меня нет столько денег...
+																																																																																				[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[IMAGE view1_sketch2_anton.jpg]
+																																																																																					А скидку сделаете?
+																																																																																						[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайская фуфло, чтобы делать на него скидку.[IMAGE view1_sketch2_anton.jpg]
+																																																																																							[how_long_credit]А сколько придется выплачивать?
+																																																																																								[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![IMAGE view1_sketch2_anton.jpg]
+																																																																																									А в чем выгода?
+																																																																																										[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![IMAGE view1_sketch2_anton.jpg]
+																																																																																											Сомнительная выгода...
+																																																																																												[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![IMAGE view1_sketch2_anton.jpg]
+																																																																																													[GOTO select_libher]
+																																																																																													[I_cant_buy_libher]Нет, я не могу его купить.
+																																																																																														[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давай до свидания![IMAGE view1_sketch2_anton.jpg]
+																																																																																															>>>
+																																																																																																[mark_c09416h3ukgd061drypi][GOTO mark_final1]
+																																																																																											Все равно дорого получается.
+																																																																																												[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[IMAGE view1_sketch2_anton.jpg]
+																																																																																													[GOTO select_libher]
+																																																																																													[GOTO I_cant_buy_libher]
+																																																																																							[GOTO select_libher]
+																																																																																					[GOTO how_long_credit]
+																																																																																			[GOTO select_libher]
+																																																																							[take_bomsh]А если взять "Бомш"?
+																																																																								[take_sony_but]В принципе, может быть хороший вариант для вас. Но есть одно "но"...[IMAGE view1_sketch2_anton.jpg]
+																																																																									Какое "но"?
+																																																																										[mark_f044gyg2tf1can76s740]Из плюсов: дешевая цена. Есть все необходимое: полки под алкоголь и пиво, контейнер для заморозки объедков... но...[IMAGE view1_sketch2_anton.jpg]
+																																																																											
+																																																																												[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
+																																																																													
+																																																																														[bomsh_minus1]Иногда куда-то бесследно пропадают продукты...[IMAGE view1_sketch2_anton.jpg]
+																																																																															<Enter text here>
+																																																																														[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[IMAGE view1_sketch2_anton.jpg]
+																																																																															<Enter text here>
+																																																																							Я вижу марку "ЛыЖы", он как?
+																																																																								[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[IMAGE view1_sketch2_anton.jpg]
+																																																																									И за это платить такие деньги?
+																																																																										[mark_5cwbykp6n618b70ln4hp]Вы знаете, есть у него еще одна фишка. Возможно, вы будете смеяться, но она очень востребована у спортсменов - здесь есть отделение для хранения лыж в летний период.[IMAGE view1_sketch2_anton.jpg]
+																																																																											А какие минусы?
+																																																																												[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[IMAGE view1_sketch2_anton.jpg]
+																																																																													[GOTO select_lg]
+																																																																											Круто!
+																																																																												[mark_88ya10x0j02k8bbw3jm7][GOTO select_lg]
+																																																																			[I_take_rotang]Я беру "Ротанг"!
+																																																																				[mark_o9f03h8t8bphg9533733][GOTO mark_final9]
+																																																																	[rotang_is_not_a_good_idea]Действительно, плохая идея.
+																																																																		[mark_21789ie3gukz3g77o9ep][GOTO select_freeges]
+																																																																	[GOTO I_take_rotang]
+																																																															[GOTO rotang_is_not_a_good_idea]
+																																																													А кто у него производитель?
+																																																														[mark_652ghbn4mf91nkk527ms]Япония.[IMAGE view1_sketch2.jpg]
+																																																															Так это же замечательно!
+																																																																[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[IMAGE view1_sketch2_anton.jpg]
+																																																																	[GOTO I_take_rotang]
+																																																																	[GOTO rotang_is_not_a_good_idea]
+																																																															[GOTO I_take_cheap_shit]
+																																																											[GOTO take_bomsh]
+																																																											У меня была "Тошношиба".
+																																																												[mark_lr1t40tdl1878goyg5wk]Простите, с вами все нормально?[IMAGE view1_sketch2_anton.jpg]
+																																																													Да, все нормально.
+																																																														[mark_4t2gon894qq41614n74t]Но вы сказали, что вам "тошно шибко".[IMAGE view1_sketch2_anton.jpg]
+																																																															Я сказал: "Тошношиба"!
+																																																																[mark_6l4odk9tsq7665y37gna]Вам все еще плохо? Могу принести специальный пакет для таких случаев.[IMAGE view1_sketch2_anton.jpg]
+																																																																	"Тошношиба"!
+																																																																		[mark_dw0x9jre84hyoy2c8m23]Лучше бы вам выйти на улицу. Заодно подышать свежим воздухом.[IMAGE view1_sketch2_anton.jpg]
+																																																																			Фирма такая - "Тошношиба"!
+																																																																				[mark_b8os92995035b3ho7l38][GOTO sorry_toshiba_is_bad,you_want_toshiba_again]
+																																																																					
+																																																																						[sorry_toshiba_is_bad]Ах да, извините. Но это одно и то же. Я просто хотел вам дать понять, что хорошую вещь никогда так не назовут.[IMAGE view1_sketch2_anton.jpg]
+																																																																							Ха-ха! Это точно...
+																																																																								[mark_tjn765sjtuy18r2fm501][GOTO select_freeges]
+																																																																							[are_you_idiot]Вы что, идиот?
+																																																																								[mark_21b80m8fp5d46ereq72h][GOTO mark_final2]
+																																																																						[you_want_toshiba_again]И вы хотите опять взять "Тошношибу", чтобы он снова сгорел?[IMAGE view1_sketch2_anton.jpg]
+																																																																							Нет, конечно!
+																																																																								[mark_56b6jdmgcujwke4b4vk4][GOTO select_freeges]
+																																																																							[GOTO are_you_idiot]
+																																																																			[GOTO are_you_idiot]
+																																																																	[GOTO are_you_idiot]
+																																																													Нет, у меня сгорел холодильник.
+																																																														[mark_74914io9i9u14micg34h][GOTO you_want_toshiba_again]
+																																																									Мне нужен самый лучший холодильник.
+																																																										[mark_uyg5j3j8xi3vf946amyn][GOTO take_libher]
+																																																					[GOTO I_need_your_consulting]
+																																																			Я еще даже не выбрал.
+																																																				[mark_vuaduenz2zy1khy2ys99]Хорошо, выбирайте, не буду вам мешать.[IMAGE view1_sketch1.jpg]
+																																																					[I_need_your_consulting]Мне нужна ваша консультация.
+																																																						[all_info_is_on_prices]Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.[IMAGE view1_sketch1.jpg]
+																																																							Я не хочу читать ценники.
+																																																								[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[IMAGE view1_sketch1.jpg]
+																																																									Причем здесь это?
+																																																										[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[IMAGE view1_sketch2_anton.jpg]
+																																																											Я не умею читать.
+																																																												[mark_uhm2sctlb4l34a51q54x]Ахахахахахахахахахахахаха!!!![IMAGE view1_sketch2_anton.jpg]
+																																																													[GOTO go_fuck_yourself]
+																																																											Умею я читать.
+																																																												[you_want_me_to_read]Ааа, дайте угадаю - вы хотите чтобы я вам почитал?[IMAGE view1_sketch1.jpg]
+																																																													Почитайте.
+																																																														[mark_h34h6sz67d2ki97ukaz7][GOTO shop_is_closing]
+																																																													[GOTO I_dont_like_service]
+																																																											[give_me_book_of_complaints]Дайте мне книгу жалоб.
+																																																												[mark_c221u09ih38gj5bxxb42][GOTO shop_is_closing]
+																																																									Умею.
+																																																										[mark_3a5d14gnjutnt01iaj4r][GOTO you_want_me_to_read]
+																																																									Нет, не умею.
+																																																										[mark_e72ufv7206s48w17xc8r]Я вас сейчас научу. Смотрите, это буква "А"...[IMAGE view1_sketch2_anton.jpg]
+																																																											[GOTO I_dont_like_service]
+																																																											[GOTO go_fuck_yourself]
+																																																							[GOTO if_take_toshiba]
+																																																					[GOTO which_recommend]
+																																																			[GOTO I_forgot_money_at_home]
+																																																	[I_need_TV]Мне нужен телевизор.
+																																																		[mark_r034l37ut4eezl834f60]- Васян! Тут человек за телеком пришел. Продай ему самый лучший![IMAGE view1_sketch2_anton.jpg]
+																																																			>>>
+																																																				[mark_54t2iy7u893c344f6q88][GOTO mark_final6]
+																																																	[GOTO give_me_book_of_complaints]
+																																															[GOTO give_me_book_of_complaints]
+																																															[GOTO I_need_fridge]
+																																													[GOTO I_need_TV]
+																																							[GOTO bye_brick]
+																																			Ты же раньше бабло здесь с лохов трес.
+																																				[mark_wdv2w6lu7cj5em5160h0]Ну я и щас трясу, но это так... подработка. Так то я менеджер! Как и все наши...[IMAGE brick.jpg]
+																																					[GOTO help_choose_frige]
+																																					[GOTO bye_brick]
 																											[i_wont_find_managers]Вот мне делать больше нечего, ходить искать![IMAGE view1_sketch1.jpg]
 																												[mark_l456y9289yfipzy8o23b]Тогда ожидайте...
 																													Аривидерчи!
 																														[mark_1p8875f9ejj782g71ds0][GOTO mark_final2]
+																											[GOTO call_admin]
 																							[what_are_you_busy_for]А чем вы заняты?
 																								[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[IMAGE view1_sketch1.jpg]
 																									А вы не обслуживайте так долго!
@@ -297,7 +319,7 @@
 																	Это вы ко мне уже повернулись? (лицо похоже на задницу)
 																		[mark_o6khaxld0105ii5m7pk0][GOTO mark_final5]
 																	[I_dont_like_service]Мне не нравится обслуживание!
-																		[mark_rl11458x46420lckf0n1]Можете написать претензию, через полгода вам обязательно ответят.[IMAGE view1_sketch1.jpg]
+																		[mark_rl11458x46420lckf0n1]Можете написать претензию. Через полгода вам обязательно ответят.[IMAGE view1_sketch1.jpg]
 																			Слушай сюда, человек-задница...
 																				[mark_a453822307bw82b95h2z][GOTO mark_final5]
 																			[go_fuck_yourself]Да пошел ты!
@@ -314,8 +336,6 @@
 								[mark_pcm8c2n65512qzd8i1u5]Здесь всем всегда что-то нужно.[IMAGE view1_sketch1.jpg]
 									Не понял...
 										[mark_4wie414880cn37r47hiz]Спрашиваю - какой конкретно вам нужен?[IMAGE view1_sketch1.jpg]
-											Вы мне можете посоветовать?
-												[mark_zb1wy4nki1h8wyov2m8d][GOTO sure_wait_please]
 											Самый оптимальный цена/качество.
 												[mark_vb2o9e4o2b6ud972vloc]Найдите менеджера Антона, он сможет вам помочь.[IMAGE view1_sketch1.jpg]
 													[GOTO go_and_look_for]
@@ -324,6 +344,8 @@
 															[go_and_look_for]Пойду, поищу Антона.
 																[mark_8rs0701nk5ak0x2g5q2k][GOTO no_free_managers]
 															[GOTO i_wont_find_managers]
+											Вы мне можете посоветовать?
+												[mark_zb1wy4nki1h8wyov2m8d][GOTO sure_wait_please]
 									[GOTO do_you_talk_with_all_your_clients_such_way]
 							Что вы сказали?
 								[mark_wf43uqg9eoxj5c7g4l30]Я сказал "пожалуйста", как вы и просили.[IMAGE view1_sketch1.jpg]
