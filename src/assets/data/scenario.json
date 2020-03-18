@@ -628,10 +628,10 @@
                                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                                                                                               "_mark": "",
-                                                                                                                                                                                                                                                                                                                              "_content": "[LABEL ]"
+                                                                                                                                                                                                                                                                                                                              "_content": "[LABEL >>>]"
                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                           ],
-                                                                                                                                                                                                                                                                                                                          "_mark": "mark_765r62ro03v41u54023t",
+                                                                                                                                                                                                                                                                                                                          "_mark": "shop_is_closing",
                                                                                                                                                                                                                                                                                                                           "_content": "[LABEL Извините, наш магазин уже закрывается. Приходите завтра, давай до свидания!][IMAGE view1_sketch2_anton.jpg]"
                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                       ],
@@ -1050,7 +1050,7 @@
                                                                                                                                                                                             }
                                                                                                                                                                                           ],
                                                                                                                                                                                           "_mark": "mark_sv1vzb511urb5716ld65",
-                                                                                                                                                                                          "_content": "[LABEL И вы хотите взять опять \"Тошношибу\", чтобы он снова сгорел?][IMAGE view1_sketch2_anton.jpg]"
+                                                                                                                                                                                          "_content": "[LABEL И вы хотите опять взять \"Тошношибу\", чтобы он снова сгорел?][IMAGE view1_sketch2_anton.jpg]"
                                                                                                                                                                                         }
                                                                                                                                                                                       ],
                                                                                                                                                                                       "_mark": "",
@@ -1058,7 +1058,7 @@
                                                                                                                                                                                     }
                                                                                                                                                                                   ],
                                                                                                                                                                                   "_mark": "mark_lr1t40tdl1878goyg5wk",
-                                                                                                                                                                                  "_content": "[LABEL Простите... у вас все нормально?][IMAGE view1_sketch2_anton.jpg]"
+                                                                                                                                                                                  "_content": "[LABEL Простите, с вами все нормально?][IMAGE view1_sketch2_anton.jpg]"
                                                                                                                                                                                 }
                                                                                                                                                                               ],
                                                                                                                                                                               "_mark": "",
@@ -1173,10 +1173,20 @@
                                                                                                                                               ],
                                                                                                                                               "_mark": "I_need_TV",
                                                                                                                                               "_content": "[LABEL Мне нужен телевизор.]"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                              "node": [
+                                                                                                                                                {
+                                                                                                                                                  "_mark": "mark_c221u09ih38gj5bxxb42",
+                                                                                                                                                  "_content": "[LABEL ][GOTO shop_is_closing]"
+                                                                                                                                                }
+                                                                                                                                              ],
+                                                                                                                                              "_mark": "",
+                                                                                                                                              "_content": "[LABEL Дайте мне книгу жалоб.]"
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_1gxxdfzkt8255506utqw",
-                                                                                                                                          "_content": "[LABEL Да все нормально. Когда меня отвлекают, я еще дольше могу быть занят.][IMAGE view1_sketch2_anton.jpg]"
+                                                                                                                                          "_content": "[LABEL Да все нормально. Вам еще повезло - обычно я намного дольше занят.][IMAGE view1_sketch2_anton.jpg]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "",
@@ -1188,11 +1198,11 @@
                                                                                                                                     }
                                                                                                                                   ],
                                                                                                                                   "_mark": "mark_dm14y2t7f8xjh69vn5e7",
-                                                                                                                                  "_content": "[LABEL Просто мне надо было кое-какие бумаги подделать.][IMAGE view1_sketch2_anton.jpg]"
+                                                                                                                                  "_content": "[LABEL Просто мне срочно надо было кое-какие бумаги подделать. Но теперь я закончил.][IMAGE view1_sketch2_anton.jpg]"
                                                                                                                                 }
                                                                                                                               ],
                                                                                                                               "_mark": "",
-                                                                                                                              "_content": "[LABEL Что ж вы сразу то не сказали???]"
+                                                                                                                              "_content": "[LABEL Так вы еще и главный менеджер???]"
                                                                                                                             },
                                                                                                                             {
                                                                                                                               "_mark": "",
@@ -1209,16 +1219,28 @@
                                                                                                                     {
                                                                                                                       "node": [
                                                                                                                         {
-                                                                                                                          "_mark": "mark_1p8875f9ejj782g71ds0",
-                                                                                                                          "_content": "[LABEL ][GOTO mark_final2]"
+                                                                                                                          "node": [
+                                                                                                                            {
+                                                                                                                              "node": [
+                                                                                                                                {
+                                                                                                                                  "_mark": "mark_1p8875f9ejj782g71ds0",
+                                                                                                                                  "_content": "[LABEL ][GOTO mark_final2]"
+                                                                                                                                }
+                                                                                                                              ],
+                                                                                                                              "_mark": "",
+                                                                                                                              "_content": "[LABEL Аривидерчи!]"
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "_mark": "mark_l456y9289yfipzy8o23b",
+                                                                                                                          "_content": "[LABEL Тогда ожидайте...]"
                                                                                                                         }
                                                                                                                       ],
                                                                                                                       "_mark": "i_wont_find_managers",
-                                                                                                                      "_content": "[LABEL Вот мне делать больше нечего, ходить искать!]"
+                                                                                                                      "_content": "[LABEL Вот мне делать больше нечего, ходить искать!][IMAGE view1_sketch1.jpg]"
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "_mark": "mark_iyz5eb8lkhkluu2zhi4g",
-                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, все менеджеры обычно там тусуются. Спросите у них, кто уже освободился.][IMAGE view1_sketch1.jpg]"
+                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры с сигаретами там тусуются. Спросите, может, кто из них уже освободился.][IMAGE view1_sketch1.jpg]"
                                                                                                                 }
                                                                                                               ],
                                                                                                               "_mark": "call_somebody",
@@ -1356,7 +1378,7 @@
                                                                         }
                                                                       ],
                                                                       "_mark": "can_you_help_me",
-                                                                      "_content": "[LABEL Вы ведь можете мне помочь?]"
+                                                                      "_content": "[LABEL Вы ведь сможете мне помочь?]"
                                                                     },
                                                                     {
                                                                       "_mark": "",
@@ -1550,7 +1572,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_vb2o9e4o2b6ud972vloc",
-                                                          "_content": "[LABEL Найдите менеджера Антона, он сможет вам поможет.][IMAGE view1_sketch1.jpg]"
+                                                          "_content": "[LABEL Найдите менеджера Антона, он сможет вам помочь.][IMAGE view1_sketch1.jpg]"
                                                         }
                                                       ],
                                                       "_mark": "",

@@ -24,13 +24,13 @@
 																							[where_others]А где остальные?
 																								[mark_n3z7yibartu32o0ftbj8]Курят, скорее всего. Кстати, тоже надо бы сходить...[IMAGE view1_sketch1.jpg]
 																									[call_somebody]Позовите мне кого-нибудь.
-																										[mark_iyz5eb8lkhkluu2zhi4g]Пройдите к пожарному выходу, все менеджеры обычно там тусуются. Спросите у них, кто уже освободился.[IMAGE view1_sketch1.jpg]
+																										[mark_iyz5eb8lkhkluu2zhi4g]Пройдите к пожарному выходу, обычно все менеджеры с сигаретами там тусуются. Спросите, может, кто из них уже освободился.[IMAGE view1_sketch1.jpg]
 																											[call_admin]Позовите вашего главного менеджера!
 																												[EPISODE2](Поворачивается)Главный менеджер Антон, чем могу быть полезен?[IMAGE view1_sketch2_anton.jpg]
-																													Что ж вы сразу то не сказали???
-																														[mark_dm14y2t7f8xjh69vn5e7]Просто мне надо было кое-какие бумаги подделать.[IMAGE view1_sketch2_anton.jpg]
+																													Так вы еще и главный менеджер???
+																														[mark_dm14y2t7f8xjh69vn5e7]Просто мне срочно надо было кое-какие бумаги подделать. Но теперь я закончил.[IMAGE view1_sketch2_anton.jpg]
 																															Это полное неуважение к клиентам!
-																																[mark_1gxxdfzkt8255506utqw]Да все нормально. Когда меня отвлекают, я еще дольше могу быть занят.[IMAGE view1_sketch2_anton.jpg]
+																																[mark_1gxxdfzkt8255506utqw]Да все нормально. Вам еще повезло - обычно я намного дольше занят.[IMAGE view1_sketch2_anton.jpg]
 																																	[I_need_fridge]Мне нужен холодильник.
 																																		[mark_v5at383ttw41wfvr07k2]А деньги у вас с собой?[IMAGE view1_sketch2_anton.jpg]
 																																			Я пока только смотрю.
@@ -159,8 +159,8 @@
 																																																																										[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![IMAGE view1_sketch2_anton.jpg]
 																																																																											[GOTO select_libher]
 																																																																											[I_cant_buy_libher]Нет, я не могу его купить.
-																																																																												[mark_765r62ro03v41u54023t]Извините, наш магазин уже закрывается. Приходите завтра, давай до свидания![IMAGE view1_sketch2_anton.jpg]
-																																																																													
+																																																																												[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давай до свидания![IMAGE view1_sketch2_anton.jpg]
+																																																																													>>>
 																																																																														[mark_c09416h3ukgd061drypi][GOTO mark_final1]
 																																																																									Все равно дорого получается.
 																																																																										[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[IMAGE view1_sketch2_anton.jpg]
@@ -204,7 +204,7 @@
 																																													[GOTO I_take_cheap_shit]
 																																									[GOTO take_bomsh]
 																																									У меня была "Тошношиба".
-																																										[mark_lr1t40tdl1878goyg5wk]Простите... у вас все нормально?[IMAGE view1_sketch2_anton.jpg]
+																																										[mark_lr1t40tdl1878goyg5wk]Простите, с вами все нормально?[IMAGE view1_sketch2_anton.jpg]
 																																											Да, все нормально.
 																																												[mark_4t2gon894qq41614n74t]Вы сказали, что у вас была тошнота.[IMAGE view1_sketch2_anton.jpg]
 																																													"Тошношиба"!
@@ -212,7 +212,7 @@
 																																															Ха-ха! Верно!
 																																																[mark_tjn765sjtuy18r2fm501][GOTO select_freeges]
 																																											Нет, у меня сгорел холодильник.
-																																												[mark_sv1vzb511urb5716ld65]И вы хотите взять опять "Тошношибу", чтобы он снова сгорел?[IMAGE view1_sketch2_anton.jpg]
+																																												[mark_sv1vzb511urb5716ld65]И вы хотите опять взять "Тошношибу", чтобы он снова сгорел?[IMAGE view1_sketch2_anton.jpg]
 																																													Нет, конечно!
 																																														[mark_56b6jdmgcujwke4b4vk4][GOTO select_freeges]
 																																													Вы что, идиот?
@@ -232,10 +232,14 @@
 																																				[mark_eu4f5b11l52vtr251a46][GOTO all_info_is_on_prices]
 																																	[I_need_TV]Мне нужен телевизор.
 																																		[mark_54t2iy7u893c344f6q88][GOTO mark_final6]
+																																	Дайте мне книгу жалоб.
+																																		[mark_c221u09ih38gj5bxxb42][GOTO shop_is_closing]
 																															[GOTO I_need_TV]
 																													[GOTO I_need_TV]
-																											[i_wont_find_managers]Вот мне делать больше нечего, ходить искать!
-																												[mark_1p8875f9ejj782g71ds0][GOTO mark_final2]
+																											[i_wont_find_managers]Вот мне делать больше нечего, ходить искать![IMAGE view1_sketch1.jpg]
+																												[mark_l456y9289yfipzy8o23b]Тогда ожидайте...
+																													Аривидерчи!
+																														[mark_1p8875f9ejj782g71ds0][GOTO mark_final2]
 																							[what_are_you_busy_for]А чем вы заняты?
 																								[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[IMAGE view1_sketch1.jpg]
 																									А вы не обслуживайте так долго!
@@ -252,7 +256,7 @@
 																[mark_4127r82s0227xe03z6o0][GOTO mark_final6]
 													Я просто пытаюсь быть интеллегентным!
 														[mark_e2lpfc4bmxr7yzmo9d61]Я тоже.[IMAGE view1_sketch1.jpg]
-															[can_you_help_me]Вы ведь можете мне помочь?
+															[can_you_help_me]Вы ведь сможете мне помочь?
 																[mark_1j1v6xn1np871pg9we49][GOTO sure_wait_please]
 															[GOTO what_are_you_busy_for]
 													[do_you_talk_with_all_your_clients_such_way]Вы со всеми клиентами так общаетесь?
@@ -282,7 +286,7 @@
 											Вы мне можете посоветовать?
 												[mark_zb1wy4nki1h8wyov2m8d][GOTO sure_wait_please]
 											Самый оптимальный цена/качество.
-												[mark_vb2o9e4o2b6ud972vloc]Найдите менеджера Антона, он сможет вам поможет.[IMAGE view1_sketch1.jpg]
+												[mark_vb2o9e4o2b6ud972vloc]Найдите менеджера Антона, он сможет вам помочь.[IMAGE view1_sketch1.jpg]
 													[GOTO go_and_look_for]
 													И как мне его узнать?
 														[mark_0411a4tw5y1ow6m92wr7]У него на бейдже написано "Менеджер Антон".[IMAGE view1_sketch1.jpg]
