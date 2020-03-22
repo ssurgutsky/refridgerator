@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kri-games.ms1" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Manager simulator 1</name>
+<widget id="com.kri-games.ma1" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Manager Anton 1</name>
     <description>
-        Manager simulator 1.
+        Manager Anton 1.
     </description>
     <author email="krigamess@gmail.com" href="http://kri-games.ru">
         Kristina Games Team
