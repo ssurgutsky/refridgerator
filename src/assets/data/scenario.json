@@ -1780,7 +1780,7 @@
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
-                                                                                      "_content": "[LABEL Слушай сюда, человек-задница...]"
+                                                                                      "_content": "[LABEL Слушай сюда - я тебе сейчас задницу надеру!]"
                                                                                     },
                                                                                     {
                                                                                       "node": [
@@ -1808,11 +1808,11 @@
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
-                                                                              "_content": "[LABEL Говорящая задница! (лицо похоже на задницу)]"
+                                                                              "_content": "[LABEL Реально говорящая задница!]"
                                                                             }
                                                                           ],
                                                                           "_mark": "mark_s0pl57f6qb20z458o287",
-                                                                          "_content": "[LABEL А это не задница. Это я с вами говорю. (поворачивается, лицо похоже на жопу)][IMAGE view1_sketch2_anton.jpg]"
+                                                                          "_content": "[LABEL А это не задница. Это я с вами говорю.][IMAGE view1_sketch2_anton.jpg]"
                                                                         }
                                                                       ],
                                                                       "_mark": "",
@@ -1867,7 +1867,7 @@
                                                   "_content": "[LABEL Как?][IMAGE view1_sketch1.jpg]"
                                                 }
                                               ],
-                                              "_mark": "",
+                                              "_mark": "why_do_you_speak_so_rude",
                                               "_content": "[LABEL Почему вы так со мной разговариваете?]"
                                             },
                                             {
@@ -1977,6 +1977,10 @@
                                             {
                                               "_mark": "",
                                               "_content": "[LABEL ][GOTO sorry_hello]"
+                                            },
+                                            {
+                                              "_mark": "",
+                                              "_content": "[LABEL ][GOTO why_do_you_speak_so_rude]"
                                             }
                                           ],
                                           "_mark": "mark_wf43uqg9eoxj5c7g4l30",
@@ -2023,24 +2027,10 @@
                     {
                       "_mark": "",
                       "_content": "[LABEL ][GOTO tell_me_please]"
-                    },
-                    {
-                      "_mark": "",
-                      "_content": "[LABEL ][GOTO could_you]"
-                    },
-                    {
-                      "node": [
-                        {
-                          "_mark": "manager_ignores_you",
-                          "_content": "[LABEL ]"
-                        }
-                      ],
-                      "_mark": "",
-                      "_content": "[LABEL Клиента обслужите?]"
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT",
-                  "_content": "[LABEL Продавец стоит к тебе спиной. Что делает - не видно...{script resetGameStats}][IMAGE view1_sketch1.jpg]"
+                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][IMAGE view1_sketch1.jpg]"
                 },
                 {
                   "_mark": "mark_final1",

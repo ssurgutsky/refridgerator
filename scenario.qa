@@ -1,13 +1,13 @@
 [mark_i12f439hy9dtgblc00w6]Менеджер Антон 1. Симулятор менеджера торгового зала.[IMAGE Intro.jpg]
 	START GAME / НАЧАТЬ ИГРУ
-		[GAME_SAVEPOINT]Продавец стоит к тебе спиной. Что делает - не видно...{script resetGameStats}[IMAGE view1_sketch1.jpg]
+		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[IMAGE view1_sketch1.jpg]
 			Покашляю, чтобы привлечь внимание.
 				[manager_ignores_you]Продавец тебя не замечает.[IMAGE view1_sketch1.jpg]
 					[tell_me_please]Скажите, пожалуйста...
 						[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[IMAGE view1_sketch1.jpg]
 							[could_you]Вы не могли бы...
 								[mark_ys38g7ofx20tk71qg678]Мог бы.[IMAGE view1_sketch1.jpg]
-									Почему вы так со мной разговариваете?
+									[why_do_you_speak_so_rude]Почему вы так со мной разговариваете?
 										[mark_8941e255c4r71d594977]Как?[IMAGE view1_sketch1.jpg]
 											Как-то недружелюбно...
 												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1_sketch1.jpg]
@@ -328,16 +328,16 @@
 													[do_you_talk_with_all_your_clients_such_way]Вы со всеми клиентами так общаетесь?
 														[mark_sik68yi7040q02k6kyb3]А вас здороваться сначала не учили?[IMAGE view1_sketch1.jpg]
 															Да, но не с говорящей задницей.
-																[mark_s0pl57f6qb20z458o287]А это не задница. Это я с вами говорю. (поворачивается, лицо похоже на жопу)[IMAGE view1_sketch2_anton.jpg]
+																[mark_s0pl57f6qb20z458o287]А это не задница. Это я с вами говорю.[IMAGE view1_sketch2_anton.jpg]
 																	[I_dont_like_service]Мне не нравится обслуживание!
 																		[mark_rl11458x46420lckf0n1]Можете написать претензию. Через полгода вам обязательно ответят.[IMAGE view1_sketch1.jpg]
-																			Слушай сюда, человек-задница...
+																			Слушай сюда - я тебе сейчас задницу надеру!
 																				[call_security]Толя, подойди сюда, тут у нас неадекватный посетитель![IMAGE view1_sketch2_anton.jpg]
 																					>>>
 																						[mark_o6khaxld0105ii5m7pk0][GOTO mark_final5]
 																			[go_fuck_yourself]Да пошел ты!
 																				[mark_q5dbbwtbzu3h5gud3980][GOTO mark_final2]
-																	Говорящая задница! (лицо похоже на задницу)
+																	Реально говорящая задница!
 																		[mark_vhntz948e4r5x9bc3p36][GOTO call_security]
 															[GOTO sorry_hello]
 											Плохо.
@@ -366,14 +366,12 @@
 								[mark_wf43uqg9eoxj5c7g4l30]Я сказал "пожалуйста", как вы и просили.[IMAGE view1_sketch1.jpg]
 									[GOTO can_you_help_me]
 									[GOTO sorry_hello]
+									[GOTO why_do_you_speak_so_rude]
 					[hello]Здравствуйте!
 						[mark_63d289keo6ke4rpq27ek][GOTO hello_I_am_busy]
 					[GOTO I_need_new_fridge]
 			[GOTO I_need_new_fridge]
 			[GOTO tell_me_please]
-			[GOTO could_you]
-			Клиента обслужите?
-				[manager_ignores_you]
 		[mark_final1][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал]
 		[mark_final2][FINAL Ты психанул и ушел из магазина. Отрицательный финал.]
 		[mark_final3][FINAL !!!Такого нет!!! Ты выбрал дерьмовый товар, он сломался на следующий день. Отрицательный финал.]
