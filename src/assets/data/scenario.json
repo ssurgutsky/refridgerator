@@ -1472,7 +1472,7 @@
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "EPISODE2",
-                                                                                                                                                                                                                          "_content": "[LABEL (Поворачивается)Главный менеджер Антон, чем могу быть полезен?][IMAGE anton_front.png|300;100;0.8;0.8;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                          "_content": "[LABEL Главный менеджер Антон, чем могу быть полезен?][IMAGE anton_front.png|300;100;0.8;0.8;0;1][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                       "_mark": "call_admin",
@@ -1586,7 +1586,7 @@
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_p8u71q7gh3pwv1ow88p6",
-                                                                                                                                          "_content": "[LABEL Идем, идем, идем...][VIDEO fire_exit_forward][AUDIO silent_10.5]"
+                                                                                                                                          "_content": "[LABEL Идем на пожарный выход...][VIDEO fire_exit_forward][AUDIO silent_10.5]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "",
@@ -1816,7 +1816,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "mark_aef613smor68jgt34i6s",
-                                                                                  "_content": "[LABEL Охрана! Подойдите сюда! Тут какой-то наркоман!][IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]"
+                                                                                  "_content": "[LABEL Охрана! Подойдите сюда! Тут какой-то наркоман!][IMAGE anton_back_ass.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -2046,31 +2046,31 @@
                 },
                 {
                   "_mark": "mark_final1",
-                  "_content": "[LABEL ][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал]"
+                  "_content": "[LABEL ][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал][IMAGE shop_is_closed.jpg]"
                 },
                 {
                   "_mark": "mark_final2",
-                  "_content": "[LABEL ][FINAL Ты психанул и ушел из магазина. Отрицательный финал.]"
+                  "_content": "[LABEL ][FINAL Ты психанул и ушел из магазина. Отрицательный финал.][IMAGE gone_from_shop.jpg]"
                 },
                 {
                   "_mark": "mark_final3",
-                  "_content": "[LABEL ][FINAL !!!Такого нет!!! Ты выбрал дерьмовый товар, он сломался на следующий день. Отрицательный финал.]"
+                  "_content": "[LABEL ]"
                 },
                 {
                   "_mark": "mark_final4",
-                  "_content": "[LABEL ][FINAL Похоже, что ты пришел в магазин под чем-то и тебя конкретно глючит. Охрана выкинула тебя из магазина. Отрицательный финал.]"
+                  "_content": "[LABEL ][FINAL Похоже, что ты пришел в магазин под чем-то и тебя конкретно глючит. Охрана выкинула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]"
                 },
                 {
                   "_mark": "mark_final5",
-                  "_content": "[LABEL ][FINAL Охрана выпнула тебя из магазина. Отрицательный финал.]"
+                  "_content": "[LABEL ][FINAL Охрана выпнула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]"
                 },
                 {
                   "_mark": "mark_final6",
-                  "_content": "[LABEL ][FINAL Похоже, ты забыл за чем пришел, и в итоге тебе впарили не тот товар, который сломался на следующий день. Отрицательный финал.]"
+                  "_content": "[LABEL ][FINAL Похоже, ты забыл за чем пришел, и в итоге тебе впарили не тот товар, который сгорел вместе с твоим домом на следующий день. Отрицательный финал.][IMAGE house_in_fire.jpg]"
                 },
                 {
                   "_mark": "mark_final8",
-                  "_content": "[LABEL ][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.]"
+                  "_content": "[LABEL ][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]"
                 },
                 {
                   "_mark": "mark_final9",
