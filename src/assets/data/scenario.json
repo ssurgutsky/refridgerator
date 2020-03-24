@@ -1208,7 +1208,7 @@
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                   "_mark": "mark_zyllax08ugz0t98gq79t",
-                                                                                                                                                                                                                                                                  "_content": "[LABEL Так, понятно...(Продавец отвернулся обратно)][IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]"
+                                                                                                                                                                                                                                                                  "_content": "[LABEL Так, понятно...][IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]"
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                               "_mark": "I_forgot_money_at_home",
@@ -1410,7 +1410,7 @@
                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                   "_mark": "mark_v5at383ttw41wfvr07k2",
-                                                                                                                                                                                                                                                  "_content": "[LABEL Хорошо. Надеюсь деньги у вас с собой?][IMAGE view1.jpg&anton_front.png|300;100;0.8;0.8;0;1]"
+                                                                                                                                                                                                                                                  "_content": "[LABEL Хорошо. Надеюсь, деньги у вас с собой?][IMAGE view1.jpg&anton_front.png|300;100;0.8;0.8;0;1]"
                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                               "_mark": "I_need_fridge",
@@ -1514,7 +1514,7 @@
                                                                                                                                                                                             }
                                                                                                                                                                                           ],
                                                                                                                                                                                           "_mark": "mark_l2z8qu09ws8j3ziizpop",
-                                                                                                                                                                                          "_content": "[LABEL Слух, не мешай, у меня щас здесь подработка идет. Иди давай, не распугивай мне клиентов!][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                          "_content": "[LABEL Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов!][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
                                                                                                                                                                                         }
                                                                                                                                                                                       ],
                                                                                                                                                                                       "_mark": "",
@@ -1586,7 +1586,7 @@
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_p8u71q7gh3pwv1ow88p6",
-                                                                                                                                          "_content": "[LABEL Идем, идем, идем...][VIDEO fire_exit_forward][AUDIO silent_4.5]"
+                                                                                                                                          "_content": "[LABEL Идем, идем, идем...][VIDEO fire_exit_forward][AUDIO silent_10.5]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "",
@@ -1760,7 +1760,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "hello_I_am_busy",
-                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.(даже не повернулся гад!)][IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]"
+                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.][IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]"
                                                                 }
                                                               ],
                                                               "_mark": "sorry_hello",

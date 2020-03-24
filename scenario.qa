@@ -12,7 +12,7 @@
 											Как-то недружелюбно...
 												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
 													[sorry_hello]Здравствуйте!
-														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.(даже не повернулся гад!)[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
+														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
 															Пойду еще кого-нибудь поищу.
 																[walk_around]...[VIDEO walk_around][AUDIO silent_7]
 																	
@@ -30,7 +30,7 @@
 																													[call_somebody]Позовите мне кого-нибудь.
 																														[EPISODE1]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
 																															Пойду к пожарному выходу.
-																																[mark_p8u71q7gh3pwv1ow88p6]Идем, идем, идем...[VIDEO fire_exit_forward][AUDIO silent_4.5]
+																																[mark_p8u71q7gh3pwv1ow88p6]Идем, идем, идем...[VIDEO fire_exit_forward][AUDIO silent_10.5]
 																																	
 																																		[mark_uvkgmhqvbn22gqon2ckn]Никого нет, кроме одного чувака...[BGNDIMAGE brick.jpg]
 																																			О! Кирпич!?
@@ -42,7 +42,7 @@
 																																									[help_choose_frige]Поможешь мне тогда холодильник выбрать?
 																																										[mark_08fd84790430096w72uq]Нее, я свою смену уже отпахал![VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
 																																											Ну помоги холодильник выбрать!
-																																												[mark_l2z8qu09ws8j3ziizpop]Слух, не мешай, у меня щас здесь подработка идет. Иди давай, не распугивай мне клиентов![VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
+																																												[mark_l2z8qu09ws8j3ziizpop]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
 																																													[bye_brick]Ну бывай!
 																																														[mark_730ww48nzq5rj791qkt6]Погодь! Выручи соткой до зарплаты? А то я лохов уже неделю не встречал. Вымерли что-ли?!...[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
 																																															Ладно, держи.
@@ -60,7 +60,7 @@
 																																																											Да, с собой.
 																																																												[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[IMAGE view1.jpg&anton_front.png|300;100;0.8;0.8;0;1]
 																																																													[I_forgot_money_at_home]Кажется, я деньги дома оставил.
-																																																														[mark_zyllax08ugz0t98gq79t]Так, понятно...(Продавец отвернулся обратно)[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
+																																																														[mark_zyllax08ugz0t98gq79t]Так, понятно...[IMAGE view1.jpg&anton_back.png|400;240;0.5;0.5;0;1]
 																																																															А, нет, я их на карту положил. По безналу принимаете?
 																																																																[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[IMAGE view1.jpg&anton_front.png|300;100;0.8;0.8;0;1]
 																																																																	[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
