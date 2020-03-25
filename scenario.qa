@@ -1,34 +1,34 @@
 [mark_i12f439hy9dtgblc00w6]Менеджер Антон 1. Симулятор менеджера торгового зала.[IMAGE Intro.jpg]
 	START GAME / НАЧАТЬ ИГРУ
-		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 			Покашляю, чтобы привлечь внимание.
-				[manager_ignores_you]Продавец тебя не замечает.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+				[manager_ignores_you]Продавец тебя не замечает.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 					[tell_me_please]Скажите, пожалуйста...
-						[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+						[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 							[could_you]Вы не могли бы...
-								[mark_ys38g7ofx20tk71qg678]Мог бы.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+								[mark_ys38g7ofx20tk71qg678]Мог бы.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 									[why_do_you_speak_so_rude]Почему вы так со мной разговариваете?
-										[mark_8941e255c4r71d594977]Как?[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+										[mark_8941e255c4r71d594977]Как?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 											Как-то недружелюбно...
-												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 													[sorry_hello]Здравствуйте!
-														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 															Пойду еще кого-нибудь поищу.
 																[walk_around]...[VIDEO walk_around][AUDIO silent_7]
 																	
-																		[no_free_managers]Ты обошел весь зал, но кроме кассира и охранника никого не встретил.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																		[no_free_managers]Ты обошел весь зал, но кроме кассира и охранника никого не встретил.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																			Извините, но кроме вас в зале никого больше нет.
-																				[sure_wait_please]Верно, но я сейчас занят. Пожалуйста, подождите.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																				[sure_wait_please]Верно, но я сейчас занят. Пожалуйста, подождите.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																					[wait5min]Подожду 5 минут.(Видно, что он какой то фигней занят!)
 																						[mark_0p099g0pi392drs5o2qc]{script wait5min}
 																							
-																								[passed5min]5 минут прошло. Ноль внимания.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																								[passed5min]5 минут прошло. Ноль внимания.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																									[what_are_you_busy_for]А чем вы заняты?
-																										[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																										[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																											[where_others]А где остальные менеджеры?
-																												[mark_n3z7yibartu32o0ftbj8]Курят наверное. Кстати, тоже надо бы сходить...[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																												[mark_n3z7yibartu32o0ftbj8]Курят наверное. Кстати, тоже надо бы сходить...[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																													[call_somebody]Позовите мне кого-нибудь.
-																														[EPISODE1]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																														[EPISODE1]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																															Пойду к пожарному выходу.
 																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO fire_exit_forward][AUDIO silent_10.5]
 																																	
@@ -48,7 +48,7 @@
 																																															Ладно, держи.
 																																																[mark_4ue2uan6d8i7229m4q7n]Спасиб, братух! Если тебе холодильник нужен - на складе есть элитный "Либхер" с хорошей скидкой. Тряси его с главного менеджера Антохи.[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
 																																																	Спасибо, Кирпич!
-																																																		[back_to_shop]Ты вернулся в зал. Здесь по-прежнему никого нет.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																																		[back_to_shop]Ты вернулся в зал. Здесь по-прежнему никого нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																			[call_admin]Позовите вашего главного менеджера!
 																																																				[EPISODE2]Главный менеджер Антон, чем могу быть полезен?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																					Так вы еще и главный менеджер???
@@ -60,7 +60,7 @@
 																																																											Да, с собой.
 																																																												[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																													[I_forgot_money_at_home]Кажется, я деньги дома оставил.
-																																																														[mark_zyllax08ugz0t98gq79t]Так, понятно...[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																																														[mark_zyllax08ugz0t98gq79t]Так, понятно...[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																															А, нет, я их на карту положил. По безналу принимаете?
 																																																																[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																																	[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
@@ -259,11 +259,11 @@
 																																																															[GOTO I_dont_like_service]
 																																																													[GOTO I_need_your_consulting]
 																																																											Я еще даже не выбрал.
-																																																												[mark_vuaduenz2zy1khy2ys99]Хорошо, выбирайте, не буду вам мешать.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																																												[mark_vuaduenz2zy1khy2ys99]Хорошо, выбирайте, не буду вам мешать.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																													[I_need_your_consulting]Мне нужна ваша консультация.
-																																																														[all_info_is_on_prices]Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																																														[all_info_is_on_prices]Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																															Я не хочу читать ценники.
-																																																																[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																																																[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																																	Причем здесь это?
 																																																																		[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																																			Я не умею читать.
@@ -308,18 +308,18 @@
 																																									[GOTO help_choose_frige]
 																																									[GOTO bye_brick]
 																															[i_wont_find_managers]Вот мне делать больше нечего, ходить искать!
-																																[mark_l456y9289yfipzy8o23b]Тогда ожидайте...[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																																[mark_l456y9289yfipzy8o23b]Тогда ожидайте...[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																	Аривидерчи!
 																																		[mark_1p8875f9ejj782g71ds0][GOTO mark_final2]
 																															[GOTO call_admin]
 																													[GOTO call_admin]
 																											А вы не обслуживайте так долго!
-																												[mark_v3c23pbaqq7y71995dy9]Как по-вашему я могу быстро обслуживать, если мне постоянно приходится подделывать претензии по долгому обслуживанию?[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																												[mark_v3c23pbaqq7y71995dy9]Как по-вашему я могу быстро обслуживать, если мне постоянно приходится подделывать претензии по долгому обслуживанию?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																													[GOTO call_admin]
 																													[GOTO call_somebody]
 																											[GOTO call_somebody]
 																									А долго мне еще ждать?
-																										[wait_5-10_minutes]Минут пять. Максимум десять.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+																										[wait_5-10_minutes]Минут пять. Максимум десять.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																											[GOTO wait5min]
 																									[GOTO where_others]
 																					А долго ждать?
@@ -329,12 +329,12 @@
 															Пойду лучше телеки гляну.
 																[mark_4127r82s0227xe03z6o0][GOTO mark_final6]
 													Я просто пытаюсь быть интеллегентным!
-														[mark_e2lpfc4bmxr7yzmo9d61]Я тоже.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+														[mark_e2lpfc4bmxr7yzmo9d61]Я тоже.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 															[can_you_help_me]Вы ведь можете мне помочь?
 																[mark_1j1v6xn1np871pg9we49][GOTO sure_wait_please]
 															[GOTO what_are_you_busy_for]
 													[do_you_talk_with_all_your_clients_such_way]Вы со всеми клиентами так общаетесь?
-														[mark_sik68yi7040q02k6kyb3]А вас здороваться не учили?[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+														[mark_sik68yi7040q02k6kyb3]А вас здороваться не учили?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 															Да, учили, но не с говорящей задницей.
 																[mark_s0pl57f6qb20z458o287]А это не задница. Это я с вами говорю.[IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
 																	Реально говорящая задница!
@@ -343,21 +343,21 @@
 																				[mark_0n45gpgb9212m0171r85][GOTO mark_final4]
 															[GOTO sorry_hello]
 											Плохо.
-												[mark_1mk0117zf515l0he2f6i]Вовсе нет.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+												[mark_1mk0117zf515l0he2f6i]Вовсе нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 													[GOTO can_you_help_me]
 													[GOTO what_are_you_busy_for]
 											[GOTO do_you_talk_with_all_your_clients_such_way]
 									[GOTO do_you_talk_with_all_your_clients_such_way]
 									[GOTO can_you_help_me]
 							[I_need_new_fridge]Мне нужен новый холодильник.
-								[mark_pcm8c2n65512qzd8i1u5]Здесь всем всегда что-то нужно.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+								[mark_pcm8c2n65512qzd8i1u5]Здесь всем всегда что-то нужно.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 									Не понял...
-										[mark_4wie414880cn37r47hiz]Спрашиваю - какой конкретно вам нужен?[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+										[mark_4wie414880cn37r47hiz]Спрашиваю - какой конкретно вам нужен?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 											Самый оптимальный цена/качество.
-												[mark_vb2o9e4o2b6ud972vloc]Найдите менеджера Антона, он сможет вам помочь.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+												[mark_vb2o9e4o2b6ud972vloc]Найдите менеджера Антона, он сможет вам помочь.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 													[GOTO go_and_look_for]
 													И как мне его узнать?
-														[mark_0411a4tw5y1ow6m92wr7]У него на бейдже написано "Менеджер Антон".[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+														[mark_0411a4tw5y1ow6m92wr7]У него на бейдже написано "Менеджер Антон".[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 															[go_and_look_for]Пойду, поищу Антона.
 																[mark_8rs0701nk5ak0x2g5q2k][GOTO walk_around]
 															[GOTO i_wont_find_managers]
@@ -365,7 +365,7 @@
 												[mark_zb1wy4nki1h8wyov2m8d][GOTO sure_wait_please]
 									[GOTO do_you_talk_with_all_your_clients_such_way]
 							Что вы сказали?
-								[mark_wf43uqg9eoxj5c7g4l30]Я сказал "пожалуйста", как вы и просили.[BGNDIMAGE view1.jpg][IMAGE anton_back.png|400;240;0.5;0.5;0;1]
+								[mark_wf43uqg9eoxj5c7g4l30]Я сказал "пожалуйста", как вы и просили.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 									[GOTO can_you_help_me]
 									[GOTO sorry_hello]
 									[GOTO why_do_you_speak_so_rude]

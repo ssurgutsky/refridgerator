@@ -1208,7 +1208,7 @@
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                   "_mark": "mark_zyllax08ugz0t98gq79t",
-                                                                                                                                                                                                                                                                  "_content": "[LABEL Так, понятно...][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                                                                  "_content": "[LABEL Так, понятно...][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                               "_mark": "I_forgot_money_at_home",
@@ -1374,7 +1374,7 @@
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                                           "_mark": "mark_408gp542x6gkiujh50rp",
-                                                                                                                                                                                                                                                                          "_content": "[LABEL Вы не умеете читать?][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                                                                          "_content": "[LABEL Вы не умеете читать?][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                       "_mark": "",
@@ -1386,7 +1386,7 @@
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                   "_mark": "all_info_is_on_prices",
-                                                                                                                                                                                                                                                                  "_content": "[LABEL Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                                                                  "_content": "[LABEL Ну что вы как маленький? На ценниках есть вся исчерпывающая информация о товаре.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                               "_mark": "I_need_your_consulting",
@@ -1398,7 +1398,7 @@
                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                           "_mark": "mark_vuaduenz2zy1khy2ys99",
-                                                                                                                                                                                                                                                          "_content": "[LABEL Хорошо, выбирайте, не буду вам мешать.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                                                          "_content": "[LABEL Хорошо, выбирайте, не буду вам мешать.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                       "_mark": "",
@@ -1480,7 +1480,7 @@
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                   "_mark": "back_to_shop",
-                                                                                                                                                                                                                  "_content": "[LABEL Ты вернулся в зал. Здесь по-прежнему никого нет.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                                                                                                  "_content": "[LABEL Ты вернулся в зал. Здесь по-прежнему никого нет.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                                                                                                 }
                                                                                                                                                                                                               ],
                                                                                                                                                                                                               "_mark": "",
@@ -1608,7 +1608,7 @@
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_l456y9289yfipzy8o23b",
-                                                                                                                                          "_content": "[LABEL Тогда ожидайте...][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                          "_content": "[LABEL Тогда ожидайте...][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "i_wont_find_managers",
@@ -1620,7 +1620,7 @@
                                                                                                                                     }
                                                                                                                                   ],
                                                                                                                                   "_mark": "EPISODE1",
-                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                 }
                                                                                                                               ],
                                                                                                                               "_mark": "call_somebody",
@@ -1632,7 +1632,7 @@
                                                                                                                             }
                                                                                                                           ],
                                                                                                                           "_mark": "mark_n3z7yibartu32o0ftbj8",
-                                                                                                                          "_content": "[LABEL Курят наверное. Кстати, тоже надо бы сходить...][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                          "_content": "[LABEL Курят наверное. Кстати, тоже надо бы сходить...][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                         }
                                                                                                                       ],
                                                                                                                       "_mark": "where_others",
@@ -1652,7 +1652,7 @@
                                                                                                                             }
                                                                                                                           ],
                                                                                                                           "_mark": "mark_v3c23pbaqq7y71995dy9",
-                                                                                                                          "_content": "[LABEL Как по-вашему я могу быстро обслуживать, если мне постоянно приходится подделывать претензии по долгому обслуживанию?][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                          "_content": "[LABEL Как по-вашему я могу быстро обслуживать, если мне постоянно приходится подделывать претензии по долгому обслуживанию?][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                         }
                                                                                                                       ],
                                                                                                                       "_mark": "",
@@ -1664,7 +1664,7 @@
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "_mark": "mark_k49kml91kn97jv0gs3aw",
-                                                                                                                  "_content": "[LABEL Оформляю претензию по долгому обслуживанию.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                  "_content": "[LABEL Оформляю претензию по долгому обслуживанию.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                 }
                                                                                                               ],
                                                                                                               "_mark": "what_are_you_busy_for",
@@ -1680,7 +1680,7 @@
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "_mark": "wait_5-10_minutes",
-                                                                                                                  "_content": "[LABEL Минут пять. Максимум десять.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                                  "_content": "[LABEL Минут пять. Максимум десять.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                 }
                                                                                                               ],
                                                                                                               "_mark": "",
@@ -1692,7 +1692,7 @@
                                                                                                             }
                                                                                                           ],
                                                                                                           "_mark": "passed5min",
-                                                                                                          "_content": "[LABEL 5 минут прошло. Ноль внимания.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                                          "_content": "[LABEL 5 минут прошло. Ноль внимания.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                         }
                                                                                                       ],
                                                                                                       "_mark": "",
@@ -1718,7 +1718,7 @@
                                                                                             }
                                                                                           ],
                                                                                           "_mark": "sure_wait_please",
-                                                                                          "_content": "[LABEL Верно, но я сейчас занят. Пожалуйста, подождите.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                          "_content": "[LABEL Верно, но я сейчас занят. Пожалуйста, подождите.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
@@ -1730,7 +1730,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "no_free_managers",
-                                                                                  "_content": "[LABEL Ты обошел весь зал, но кроме кассира и охранника никого не встретил.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                                  "_content": "[LABEL Ты обошел весь зал, но кроме кассира и охранника никого не встретил.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -1760,7 +1760,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "hello_I_am_busy",
-                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                 }
                                                               ],
                                                               "_mark": "sorry_hello",
@@ -1786,7 +1786,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_e2lpfc4bmxr7yzmo9d61",
-                                                                  "_content": "[LABEL Я тоже.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                  "_content": "[LABEL Я тоже.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                 }
                                                               ],
                                                               "_mark": "",
@@ -1836,7 +1836,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_sik68yi7040q02k6kyb3",
-                                                                  "_content": "[LABEL А вас здороваться не учили?][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                  "_content": "[LABEL А вас здороваться не учили?][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                 }
                                                               ],
                                                               "_mark": "do_you_talk_with_all_your_clients_such_way",
@@ -1844,7 +1844,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_on1rv8i91e81lv5h5yo1",
-                                                          "_content": "[LABEL Дружелюбные люди обычно сначала здороваются.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                          "_content": "[LABEL Дружелюбные люди обычно сначала здороваются.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -1864,7 +1864,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_1mk0117zf515l0he2f6i",
-                                                          "_content": "[LABEL Вовсе нет.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                          "_content": "[LABEL Вовсе нет.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -1876,7 +1876,7 @@
                                                     }
                                                   ],
                                                   "_mark": "mark_8941e255c4r71d594977",
-                                                  "_content": "[LABEL Как?][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                  "_content": "[LABEL Как?][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                 }
                                               ],
                                               "_mark": "why_do_you_speak_so_rude",
@@ -1892,7 +1892,7 @@
                                             }
                                           ],
                                           "_mark": "mark_ys38g7ofx20tk71qg678",
-                                          "_content": "[LABEL Мог бы.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                          "_content": "[LABEL Мог бы.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                         }
                                       ],
                                       "_mark": "could_you",
@@ -1934,7 +1934,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "mark_0411a4tw5y1ow6m92wr7",
-                                                                  "_content": "[LABEL У него на бейдже написано \"Менеджер Антон\".][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                                  "_content": "[LABEL У него на бейдже написано \"Менеджер Антон\".][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                 }
                                                               ],
                                                               "_mark": "",
@@ -1942,7 +1942,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_vb2o9e4o2b6ud972vloc",
-                                                          "_content": "[LABEL Найдите менеджера Антона, он сможет вам помочь.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                          "_content": "[LABEL Найдите менеджера Антона, он сможет вам помочь.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -1960,7 +1960,7 @@
                                                     }
                                                   ],
                                                   "_mark": "mark_4wie414880cn37r47hiz",
-                                                  "_content": "[LABEL Спрашиваю - какой конкретно вам нужен?][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                                  "_content": "[LABEL Спрашиваю - какой конкретно вам нужен?][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                 }
                                               ],
                                               "_mark": "",
@@ -1972,7 +1972,7 @@
                                             }
                                           ],
                                           "_mark": "mark_pcm8c2n65512qzd8i1u5",
-                                          "_content": "[LABEL Здесь всем всегда что-то нужно.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                          "_content": "[LABEL Здесь всем всегда что-то нужно.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                         }
                                       ],
                                       "_mark": "I_need_new_fridge",
@@ -1996,7 +1996,7 @@
                                             }
                                           ],
                                           "_mark": "mark_wf43uqg9eoxj5c7g4l30",
-                                          "_content": "[LABEL Я сказал \"пожалуйста\", как вы и просили.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                          "_content": "[LABEL Я сказал \"пожалуйста\", как вы и просили.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                         }
                                       ],
                                       "_mark": "",
@@ -2004,7 +2004,7 @@
                                     }
                                   ],
                                   "_mark": "mark_6585un975zrf7qt5p8z8",
-                                  "_content": "[LABEL \"Пожалуйста\".][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                                  "_content": "[LABEL \"Пожалуйста\".][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                 }
                               ],
                               "_mark": "tell_me_please",
@@ -2026,7 +2026,7 @@
                             }
                           ],
                           "_mark": "manager_ignores_you",
-                          "_content": "[LABEL Продавец тебя не замечает.][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                          "_content": "[LABEL Продавец тебя не замечает.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                         }
                       ],
                       "_mark": "",
@@ -2042,7 +2042,7 @@
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT",
-                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][IMAGE anton_back.png|400;240;0.5;0.5;0;1][BGNDIMAGE view1.jpg]"
+                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                 },
                 {
                   "_mark": "mark_final1",
