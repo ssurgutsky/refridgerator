@@ -241,7 +241,7 @@
 																																																																											Фирма такая - "Тошношиба"!
 																																																																												[mark_b8os92995035b3ho7l38][GOTO sorry_toshiba_is_bad,you_want_toshiba_again]
 																																																																													
-																																																																														[sorry_toshiba_is_bad]Ладно, извините. Я просто хотел вам дать понять, что хорошую вещь "Тошношибой" не назовут.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																														[sorry_toshiba_is_bad]Ладно, извините. Я просто хотел вам дать понять, что хорошую вещь "Тошношиба" не назовут.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																																															Это точно.
 																																																																																[mark_222613l5n981hsrj1x5w][GOTO shop_is_closing]
 																																																																															[are_you_idiot]Вы что, идиот?

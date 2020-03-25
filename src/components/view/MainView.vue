@@ -3,7 +3,6 @@
     <VideoPlayer class="video-container" ref="videoPlayer" @videoEnded="processVideoEnded"/>
     <BgndImagePlayer class="bgnd-image-container" ref="bgndImagePlayer"/>
     <ImagePlayer class="image-container" ref="imagePlayer"/>
-    <!---YandexMoneyPlayer class="yandex-money-container" ref="yandexMoneyPlayer"/--->
     <AudioPlayer class="audio-container" ref="audioPlayer"
       @audioEnded="processAudioEnded"
       @musicEnded="processMusicEnded"
@@ -26,7 +25,6 @@
 import VideoPlayer from './VideoPlayer.vue'
 import BgndImagePlayer from './BgndImagePlayer.vue'
 import ImagePlayer from './ImagePlayer.vue'
-// import YandexMoneyPlayer from './YandexMoneyPlayer.vue'
 import AudioPlayer from './AudioPlayer.vue'
 import TimerView from './TimerView.vue'
 import QuestionView from './QuestionView.vue'
@@ -38,7 +36,6 @@ export default {
     VideoPlayer,
     BgndImagePlayer,
     ImagePlayer,
-    // YandexMoneyPlayer,
     AudioPlayer,
     TimerView,
     QuestionView,
