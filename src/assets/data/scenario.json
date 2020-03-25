@@ -1620,7 +1620,7 @@
                                                                                                                                     }
                                                                                                                                   ],
                                                                                                                                   "_mark": "EPISODE1",
-                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
+                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там. Спросите, может, кто из них уже освободился.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                                                                 }
                                                                                                                               ],
                                                                                                                               "_mark": "call_somebody",
@@ -1722,7 +1722,7 @@
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
-                                                                                      "_content": "[LABEL Извините, но кроме вас в зале никого больше нет.]"
+                                                                                      "_content": "[LABEL Кроме вас никого из менеджеров больше нет.]"
                                                                                     },
                                                                                     {
                                                                                       "_mark": "",
@@ -1730,7 +1730,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "no_free_managers",
-                                                                                  "_content": "[LABEL Ты обошел весь зал, но кроме кассира и охранника никого не встретил.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
+                                                                                  "_content": "[LABEL Ты обошел весь зал, но других менеджеров так и не встретил.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -1738,7 +1738,7 @@
                                                                             }
                                                                           ],
                                                                           "_mark": "walk_around",
-                                                                          "_content": "[LABEL ...][VIDEO walk_around][AUDIO silent_7]"
+                                                                          "_content": "[LABEL ...][VIDEO go1,go2][AUDIO silent_6]"
                                                                         }
                                                                       ],
                                                                       "_mark": "",
@@ -2026,7 +2026,7 @@
                             }
                           ],
                           "_mark": "manager_ignores_you",
-                          "_content": "[LABEL Продавец тебя не замечает.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
+                          "_content": "[LABEL Он тебя не замечает.][IMAGE {script anton_back}][BGNDIMAGE view1.jpg]"
                         }
                       ],
                       "_mark": "",
