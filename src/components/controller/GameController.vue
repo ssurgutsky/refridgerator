@@ -246,6 +246,12 @@ export default {
     },
 
     clearAndShowBgndImages () {
+      // Hide video screen if there is no video but there is a background image
+      let hasVideoEmpty = this.gameModel.hasVideoEmpty()
+      if (hasVideoEmpty && this.gameModel.currentBgndImages) {
+        this.mainView.playVideo('NONE', false)
+      }
+
       this.mainView.clearBgndImages()
       this.mainView.showBgndImages(this.gameModel.currentBgndImages)
     },

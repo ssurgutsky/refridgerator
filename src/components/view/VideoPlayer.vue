@@ -126,10 +126,10 @@ export default {
         this.styleObject1.display = 'block'
         //        this.videoPlayer1.src = ''
         this.videoPlayer1.pause()
-        this.styleObject2.width = '100%'
-        this.styleObject2.height = '100%'
         this.styleObject1.width = 0
         this.styleObject1.height = 0
+        this.styleObject2.width = '100%'
+        this.styleObject2.height = '100%'
         this.currentVideoPlayer = this.videoPlayer2
       }
       this.currentPlayerNo = 3 - this.currentPlayerNo
