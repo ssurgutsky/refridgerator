@@ -66,15 +66,15 @@
 																																																																	[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
 																																																																		[EPISODE3]Другими словами, вы хотите шикарный, надежный и за копейки? Такого товара у нас нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																																			[if_take_orsk]А "Орск" нормальный?
-																																																																				[mark_773c5jeauq16854p6ews]Он вам не подойдет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																				[mark_773c5jeauq16854p6ews]Он вам не подойдет.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1]
 																																																																					Почему?
-																																																																						[mark_q4brup2zfz9lbg8g92gw]Стоит копейки, дизайн примитивный, не ломается, простой, как валенок... одно разочарование.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																						[mark_q4brup2zfz9lbg8g92gw]Стоит копейки, дизайн примитивный, не ломается, простой, как валенок... одно разочарование.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
 																																																																							Так это же отлично! Я беру!
-																																																																								[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																								[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
 																																																																									А беспроцентный кредит на него действует?
-																																																																										[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но тут цена - вообще копейки, чтоб такое спрашивать.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																										[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но тут цена - вообще копейки, чтоб такое спрашивать.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
 																																																																											А небольшой подарок хотя бы дадите?
-																																																																												[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний уже купил какой-то пенсионер.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																												[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний уже купил какой-то пенсионер.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																																													Эх... хотя, ладно...
 																																																																														[EPISODE4,select_freeges]Выбирате другие варианты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
 																																																																															[which_cases]Какие другие?
@@ -224,9 +224,9 @@
 																																																																									[GOTO I_take_orsk]
 																																																																							[GOTO orsk_is_not_a_good_idea]
 																																																																					[orsk_country]А кто у него производитель?
-																																																																						[mark_652ghbn4mf91nkk527ms]Япония.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																						[mark_652ghbn4mf91nkk527ms]Япония.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
 																																																																							Так это же замечательно!
-																																																																								[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																								[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
 																																																																									[GOTO I_take_orsk]
 																																																																									[GOTO orsk_is_not_a_good_idea]
 																																																																			[GOTO take_bomsh]
@@ -381,7 +381,7 @@
 		[mark_final5][FINAL Охрана выпнула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]
 		[mark_final6][FINAL Похоже, ты забыл за чем пришел. Тебе впарили другой товар, который сгорел вместе с твоим домом на следующий день. Отрицательный финал.][IMAGE house_in_fire.jpg]
 		[mark_final8][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]
-		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.]
+		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. В нем тебя и похоронят. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1]
 		[mark_final11][FINAL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.]
 		[mark_final12][FINAL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.]
 		[mark_final13][FINAL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.]
