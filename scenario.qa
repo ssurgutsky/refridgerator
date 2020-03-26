@@ -50,81 +50,81 @@
 																																																	Спасибо, Кирпич!
 																																																		[back_to_shop]Ты вернулся в зал. Здесь по-прежнему никого нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																			[call_admin]Позовите вашего главного менеджера!
-																																																				[EPISODE2]Главный менеджер Антон, чем могу быть полезен?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																				[EPISODE2]Главный менеджер Антон, чем могу быть полезен?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																					Так вы еще и главный менеджер???
-																																																						[mark_dm14y2t7f8xjh69vn5e7]Да. Мне надо было кое-какие бумаги подделать. Но теперь я закончил.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																						[mark_dm14y2t7f8xjh69vn5e7]Да. Мне надо было кое-какие бумаги подделать. Но теперь я закончил.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																							Это полное неуважение к клиентам!
-																																																								[mark_1gxxdfzkt8255506utqw]Да все нормально. Вам еще повезло - обычно я намного дольше занят.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																								[mark_1gxxdfzkt8255506utqw]Да все нормально. Вам еще повезло - обычно я намного дольше занят.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																									[I_need_fridge]Мне нужен холодильник.
-																																																										[mark_v5at383ttw41wfvr07k2]Хорошо. Надеюсь, деньги у вас с собой?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																										[mark_v5at383ttw41wfvr07k2]Хорошо. Надеюсь, деньги у вас с собой?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																											Да, с собой.
-																																																												[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																												[mark_667f280d015796899wu9]Замечательно! Тогда не стесняйтесь, чувствуйте себя, как дома. Ходите, выбирайте. Как определитесь, сразу бегом ко мне - оплачивать.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																													[I_forgot_money_at_home]Кажется, я деньги дома оставил.
 																																																														[mark_zyllax08ugz0t98gq79t]Так, понятно...[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																															А, нет, я их на карту положил. По безналу принимаете?
-																																																																[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																[mark_k4kz4e97lu250uw7p938]И снова: "Здравствуйте!"[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																	[which_recommend]Какой вы посоветуете, чтобы стильно, качественно и недорого?
-																																																																		[EPISODE3]Другими словами, вы хотите шикарный, надежный и за копейки? Такого товара у нас нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																		[EPISODE3]Другими словами, вы хотите шикарный, надежный и за копейки? Такого товара у нас нет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																			[if_take_orsk]А "Орск" нормальный?
-																																																																				[mark_773c5jeauq16854p6ews]Он вам не подойдет.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1]
+																																																																				[mark_773c5jeauq16854p6ews]Он вам не подойдет.[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1]
 																																																																					Почему?
-																																																																						[mark_q4brup2zfz9lbg8g92gw]Стоит копейки, дизайн примитивный, не ломается, простой, как валенок... одно разочарование.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
+																																																																						[mark_q4brup2zfz9lbg8g92gw]Стоит копейки, дизайн примитивный, не ломается, простой, как валенок... одно разочарование.[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																							Так это же отлично! Я беру!
-																																																																								[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
+																																																																								[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																									А беспроцентный кредит на него действует?
-																																																																										[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но тут цена - вообще копейки, чтоб такое спрашивать.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
+																																																																										[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но тут цена - вообще копейки, чтоб такое спрашивать.[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																											А небольшой подарок хотя бы дадите?
 																																																																												[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний уже купил какой-то пенсионер.[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																																													Эх... хотя, ладно...
-																																																																														[EPISODE4,select_freeges]Выбирате другие варианты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																														[EPISODE4,select_freeges]Выбирате другие варианты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																															[which_cases]Какие другие?
-																																																																																[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																	Да он стоит, как крыло от самолета!
-																																																																																		[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																		[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																			И за что такая цена?
-																																																																																				[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																				[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																					Мне это не надо, у меня все равно есть нечего.
-																																																																																						[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																						[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																							Я же говорю - есть нечего.
-																																																																																								[mark_29gw81q03h738k6ty311]Так и пытаюсь объяснить - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. А может даже еще и разбогатеете![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																								[mark_29gw81q03h738k6ty311]Так и пытаюсь объяснить - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. А может даже еще и разбогатеете![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																									Хмм... это интересно!
-																																																																																										[mark_3fc0y7t0b6vqa02v5h40]Также есть функция "Катись к хозяину в спальню".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																										[mark_3fc0y7t0b6vqa02v5h40]Также есть функция "Катись к хозяину в спальню".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																											[EPISODE5]Я вижу есть еще "Сасунг", он как?
-																																																																																												[mark_2z6wy5496193x9787x14]Вам точно не подойдет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																												[mark_2z6wy5496193x9787x14]Вам точно не подойдет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																													Это еще почему?
-																																																																																														[mark_5eh8ha49tnf35ejdiv9t]Он, скорее, для одиноких женщин.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																														[mark_5eh8ha49tnf35ejdiv9t]Он, скорее, для одиноких женщин.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																															В смысле?
-																																																																																																[mark_0c5672d1852sqrpvv7sc]Брутальные формы, широкий, вместительный шкаф. Отдельный контейнер для хранения моркови, огурцов, бананов.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																[mark_0c5672d1852sqrpvv7sc]Брутальные формы, широкий, вместительный шкаф. Отдельный контейнер для хранения моркови, огурцов, бананов.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																	А еще какие имеются?
-																																																																																																		[EPISODE6]Электроглюкс и Понасенок. Но я вам бы вам их не рекоммендовал...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																		[EPISODE6]Электроглюкс и Понасенок. Но я вам бы вам их не рекоммендовал...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																			Расскажите про "Электроглюкс".
-																																																																																																				[mark_2di5onx6yhvb9r05s45c]Средняя цена, неплохой дизайн. Не особо вместительный, но зато есть Искусственный Интеллект (ИИ).[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																				[mark_2di5onx6yhvb9r05s45c]Средняя цена, неплохой дизайн. Не особо вместительный, но зато есть Искусственный Интеллект (ИИ).[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																					А какие у него минусы?
-																																																																																																						[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																						[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																							Какие, например?
 																																																																																																								[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3]
 																																																																																																									
-																																																																																																										[electro1]Может заказать машинное масло вместо сливочного.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																										[electro1]Может заказать машинное масло вместо сливочного.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																											[electro_ok]Ну, это можно пережить.
 																																																																																																												[mark_06sh222uylq5x93z599m][GOTO electro21,electro22]
 																																																																																																													
-																																																																																																														[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																														[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																															[electro_ok2]Это уже серъезней.
-																																																																																																																[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																	Такое чудо мне не надо!
-																																																																																																																		[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																		[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																			<Enter text here>
-																																																																																																																				[EPISODE7]Выбирайте поскорее, а то мы уже скоро закрываемся.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																				[EPISODE7]Выбирайте поскорее, а то мы уже скоро закрываемся.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																					Я не могу решить, какой брать...
-																																																																																																																						[mark_135so063830j4dvt1yo0]Я потратил на вас столько времени, а вы говорите, что не можете выбрать?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																						[mark_135so063830j4dvt1yo0]Я потратил на вас столько времени, а вы говорите, что не можете выбрать?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																							А есть какие-нибудь акции сейчас?
-																																																																																																																								[mark_139nro71d450suw7w03n]Да, например, "Купи два по цене трех и получи один в подарок".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																								[mark_139nro71d450suw7w03n]Да, например, "Купи два по цене трех и получи один в подарок".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																									А уцененные товары у вас есть?
-																																																																																																																										[mark_754v1zb885m9tb84g7d2]Да, есть один "Либхер" с дефектом.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																										[mark_754v1zb885m9tb84g7d2]Да, есть один "Либхер" с дефектом.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																											И какой за дефект?
-																																																																																																																												[mark_p2h5mv9n2e4o0ohyq4v7]У него не работает искусственный интеллект. Поэтому идет скидка 50%.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																												[mark_p2h5mv9n2e4o0ohyq4v7]У него не работает искусственный интеллект. Поэтому идет скидка 50%.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																													Так это то, что мне нужно! Оформляйте покупку.
-																																																																																																																														[mark_v3zdx4c45mqdo2i40wx2]Вечером того же дня тебе привезли твой холодильник.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																																														[mark_v3zdx4c45mqdo2i40wx2]Вечером того же дня тебе привезли твой холодильник.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																															>>>
 																																																																																																																																[mark_h4nv89izvq1879301438]Ты очень радовался тому, что удалось отхватить такой шикарный холодильник за полцены, да еще и без всяких ненужных прибамбасов вроде Искусственного Интеллекта.
 																																																																																																																																	>>>
@@ -157,63 +157,63 @@
 																																																																																																																							[GOTO select_electro]
 																																																																																																																							[GOTO select_toshiba]
 																																																																																																																							[GOTO select_biruca]
-																																																																																																														[electro22]Еще иногда путает магазины с кладбищами.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																														[electro22]Еще иногда путает магазины с кладбищами.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																															[GOTO electro_ok2]
-																																																																																																										[electro2]Может заказать пиво вместо молока.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																										[electro2]Может заказать пиво вместо молока.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																											[GOTO electro_ok]
-																																																																																																										[electro3]Может спонтанно заказать "собутыльника на час".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																										[electro3]Может спонтанно заказать "собутыльника на час".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																											[GOTO electro_ok]
 																																																																																																			Расскажите про "Понасенок"
-																																																																																																				[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																				[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																					И что с ним не так?
 																																																																																																						[mark_3c566rry5kjevkqx5sm9][GOTO ponosenok1,ponosenok2]
 																																																																																																							
-																																																																																																								[ponosenok1]При авторазморозке он делает непонятные коричневые лужи. Прямо в соответствии с названием фирмы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																								[ponosenok1]При авторазморозке он делает непонятные коричневые лужи. Прямо в соответствии с названием фирмы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																									Ну, это можно пережить.
 																																																																																																										[mark_4i9x77jaj39617cc146l]<Enter text here>
-																																																																																																								[ponosenok2]Иногда издает хрюкающие и чавкающие звуки, потом куда-то пропадают продукты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																								[ponosenok2]Иногда издает хрюкающие и чавкающие звуки, потом куда-то пропадают продукты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																									<Enter text here>
 																																																																																											Круто! Но у меня нет столько денег...
-																																																																																												[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																												[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																													А скидку сделаете?
-																																																																																														[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайское фуфло, чтобы делать на него скидку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																														[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайское фуфло, чтобы делать на него скидку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																															[how_long_credit]А сколько придется выплачивать?
-																																																																																																[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																	А в чем выгода?
-																																																																																																		[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																		[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																			Сомнительная выгода...
-																																																																																																				[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																				[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																					[GOTO select_libher]
 																																																																																																					[I_cant_buy_libher]Нет, я не могу его купить.
-																																																																																																						[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																						[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																							>>>
 																																																																																																								[mark_c09416h3ukgd061drypi][GOTO mark_final1]
 																																																																																																			Все равно дорого получается.
-																																																																																																				[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																																				[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																					[GOTO select_libher]
 																																																																																																					[GOTO I_cant_buy_libher]
 																																																																																															[GOTO select_libher]
 																																																																																													[GOTO how_long_credit]
 																																																																																											[GOTO select_libher]
 																																																																															[take_bomsh]А если взять "Бомш"?
-																																																																																[mark_f044gyg2tf1can76s740]Из плюсов: низкая цена. Есть все необходимое: полки под алкоголь и пиво, контейнер для заморозки объедков.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																[mark_f044gyg2tf1can76s740]Из плюсов: низкая цена. Есть все необходимое: полки под алкоголь и пиво, контейнер для заморозки объедков.[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1]
 																																																																																	Заморозки объедков???
-																																																																																		[mark_6fbo2se046j35a2e2e8d]Конечно. Это же "Бомш".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																		[mark_6fbo2se046j35a2e2e8d]Конечно. Это же "Бомш".[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																			Ну, допустим, не объедков, а продуктов.
-																																																																																				[take_sony_but]В принципе, может быть и хороший вариант. Но есть одно "но".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																				[take_sony_but]В принципе, может быть и хороший вариант. Но есть одно "но".[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																					Какое "но"?
 																																																																																						[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
 																																																																																							
-																																																																																								[bomsh_minus1]Иногда куда-то бесследно пропадают продукты...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																								[bomsh_minus1]Иногда куда-то бесследно пропадают продукты...[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																									<Enter text here>
-																																																																																								[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																								[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																									<Enter text here>
 																																																																															Я вижу марку "ЛыЖы", он как?
-																																																																																[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																	И за это платить такие деньги?
-																																																																																		[mark_5cwbykp6n618b70ln4hp]Вы знаете, есть у него еще одна фишка. Возможно, вы будете смеяться, но она очень востребована у спортсменов - здесь есть отделение для хранения лыж в летний период.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																		[mark_5cwbykp6n618b70ln4hp]Вы знаете, есть у него еще одна фишка. Возможно, вы будете смеяться, но она очень востребована у спортсменов - здесь есть отделение для хранения лыж в летний период.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																			А какие минусы?
-																																																																																				[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																																				[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																					[GOTO select_lg]
 																																																																																			Круто!
 																																																																																				[mark_88ya10x0j02k8bbw3jm7][GOTO select_lg]
@@ -224,29 +224,29 @@
 																																																																									[GOTO I_take_orsk]
 																																																																							[GOTO orsk_is_not_a_good_idea]
 																																																																					[orsk_country]А кто у него производитель?
-																																																																						[mark_652ghbn4mf91nkk527ms]Япония.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
+																																																																						[mark_652ghbn4mf91nkk527ms]Япония.[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																							Так это же замечательно!
-																																																																								[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[BGNDIMAGE orsk_bg.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front}]
+																																																																								[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[BGNDIMAGE fridge_bg1.jpg][IMAGE fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																									[GOTO I_take_orsk]
 																																																																									[GOTO orsk_is_not_a_good_idea]
 																																																																			[GOTO take_bomsh]
 																																																																			У меня была "Тошношиба".
-																																																																				[mark_lr1t40tdl1878goyg5wk]Простите, с вами все в порядке?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																				[mark_lr1t40tdl1878goyg5wk]Простите, с вами все в порядке?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																					Что вы имеете в виду?
-																																																																						[mark_4t2gon894qq41614n74t]Вы только что сказали "тошно-шибко".[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																						[mark_4t2gon894qq41614n74t]Вы только что сказали "тошно-шибко".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																							Я сказал: "Тошношиба"!
-																																																																								[mark_6l4odk9tsq7665y37gna]Вам все еще плохо? Могу принести специальный пакет для таких случаев.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																								[mark_6l4odk9tsq7665y37gna]Вам все еще плохо? Могу принести специальный пакет для таких случаев.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																									"Тошношиба"!
-																																																																										[mark_dw0x9jre84hyoy2c8m23]Выходите на улицу, избавляйтесь там от своей проблемы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																										[mark_dw0x9jre84hyoy2c8m23]Выходите на улицу, избавляйтесь там от своей проблемы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																											Фирма такая - "Тошношиба"!
 																																																																												[mark_b8os92995035b3ho7l38][GOTO sorry_toshiba_is_bad,you_want_toshiba_again]
 																																																																													
-																																																																														[sorry_toshiba_is_bad]Ладно, извините. Я просто хотел вам дать понять, что хорошую вещь "Тошношиба" не назовут.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																														[sorry_toshiba_is_bad]Ладно, извините. Я просто хотел вам дать понять, что хорошую вещь "Тошношиба" не назовут.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																															Это точно.
 																																																																																[mark_222613l5n981hsrj1x5w][GOTO shop_is_closing]
 																																																																															[are_you_idiot]Вы что, идиот?
 																																																																																[mark_21b80m8fp5d46ereq72h][GOTO mark_final2]
-																																																																														[you_want_toshiba_again]Ладно, извините. И вы хотите взять снова "Тошношибу", чтобы он снова сгорел?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																														[you_want_toshiba_again]Ладно, извините. И вы хотите взять снова "Тошношибу", чтобы он снова сгорел?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																															Нет, конечно!
 																																																																																[mark_5whm2k5571069823v9ys][GOTO shop_is_closing]
 																																																																															[GOTO are_you_idiot]
@@ -265,18 +265,18 @@
 																																																															Я не хочу читать ценники.
 																																																																[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[BGNDIMAGE view1.jpg][IMAGE {script anton_back}]
 																																																																	Причем здесь это?
-																																																																		[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																		[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																			Я не умею читать.
-																																																																				[mark_uhm2sctlb4l34a51q54x]Ахахахахахахахахахахахаха!!!![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																				[mark_uhm2sctlb4l34a51q54x]Ахахахахахахахахахахахаха!!!![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																					[GOTO go_fuck_yourself]
 																																																																			Умею я читать.
-																																																																				[you_want_me_to_read]Ааа, дайте угадаю - вы хотите чтобы я вам почитал?[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																				[you_want_me_to_read]Ааа, дайте угадаю - вы хотите чтобы я вам почитал?[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																					Почитайте.
 																																																																						[mark_h34h6sz67d2ki97ukaz7][GOTO shop_is_closing]
 																																																																					[I_dont_like_service]Мне не нравится обслуживание!
-																																																																						[mark_rl11458x46420lckf0n1]Можете написать претензию. Через полгода вам обязательно ответят.[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																						[mark_rl11458x46420lckf0n1]Можете написать претензию. Через полгода вам обязательно ответят.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																							Слушай сюда! Я тебе щас задницу надеру!
-																																																																								[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																								[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																									>>>
 																																																																										[mark_o6khaxld0105ii5m7pk0][GOTO mark_final5]
 																																																																							[go_fuck_yourself]Да пошел ты!
@@ -286,14 +286,14 @@
 																																																																	Умею.
 																																																																		[mark_3a5d14gnjutnt01iaj4r][GOTO you_want_me_to_read]
 																																																																	Нет, не умею.
-																																																																		[mark_e72ufv7206s48w17xc8r]Я вас сейчас научу. Смотрите, это буква "А"...[BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																																		[mark_e72ufv7206s48w17xc8r]Я вас сейчас научу. Смотрите, это буква "А"...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																			[GOTO I_dont_like_service]
 																																																																			[GOTO go_fuck_yourself]
 																																																															[GOTO if_take_orsk]
 																																																													[GOTO which_recommend]
 																																																											[GOTO I_forgot_money_at_home]
 																																																									[I_need_TV]Мне нужен телевизор.
-																																																										[mark_r034l37ut4eezl834f60]- Васян! Тут человек за телеком пришел. Продай ему самый лучший![BGNDIMAGE view1.jpg][IMAGE {script anton_front}]
+																																																										[mark_r034l37ut4eezl834f60]- Васян! Тут человек за телеком пришел. Продай ему самый лучший![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																											>>>
 																																																												[mark_54t2iy7u893c344f6q88][GOTO mark_final6]
 																																																									[GOTO give_me_book_of_complaints]

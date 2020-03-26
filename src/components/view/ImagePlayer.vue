@@ -33,7 +33,7 @@ export default {
 
       this.currentImages = value
 
-      //      console.log('showImages', value)
+      console.log('showImages', value)
       const arr = value.split('&')
       //      console.log(arr)
       const images = arr.map(function (imageStr) {
