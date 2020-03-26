@@ -78,17 +78,17 @@
 																																																																													Эх... хотя, ладно...
 																																																																														[EPISODE4,select_freeges]Выбирате другие варианты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																															[which_cases]Какие другие?
-																																																																																[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1]
 																																																																																	Да он стоит, как крыло от самолета!
-																																																																																		[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																		[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																			И за что такая цена?
-																																																																																				[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																				[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																					Мне это не надо, у меня все равно есть нечего.
-																																																																																						[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																						[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																							Я же говорю - есть нечего.
-																																																																																								[mark_29gw81q03h738k6ty311]Так и пытаюсь объяснить - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. А может даже еще и разбогатеете![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																								[mark_29gw81q03h738k6ty311]Так и пытаюсь объяснить - поиск заказа идет по самой низкой цене. Это позволит вам существенно экономить. А может даже еще и разбогатеете![BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																									Хмм... это интересно!
-																																																																																										[mark_3fc0y7t0b6vqa02v5h40]Также есть функция "Катись к хозяину в спальню".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																										[mark_3fc0y7t0b6vqa02v5h40]Также есть функция "Катись к хозяину в спальню".[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																											[EPISODE5]Я вижу есть еще "Сасунг", он как?
 																																																																																												[mark_2z6wy5496193x9787x14]Вам точно не подойдет.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																													Это еще почему?
@@ -174,22 +174,22 @@
 																																																																																																								[ponosenok2]Иногда издает хрюкающие и чавкающие звуки, потом куда-то пропадают продукты.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																									<Enter text here>
 																																																																																											Круто! Но у меня нет столько денег...
-																																																																																												[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																												[mark_mdy84g3a288vlea91sww]Возьмите в кредит.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																													А скидку сделаете?
-																																																																																														[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайское фуфло, чтобы делать на него скидку.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																														[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайское фуфло, чтобы делать на него скидку.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																															[how_long_credit]А сколько придется выплачивать?
-																																																																																																[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																	А в чем выгода?
-																																																																																																		[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																		[mark_6rzq78a9f90s29963uk7]Ежемесячный платеж составляет сущие копейки. Берите, не прогадаете![BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																			Сомнительная выгода...
-																																																																																																				[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																				[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																					[GOTO select_libher]
 																																																																																																					[I_cant_buy_libher]Нет, я не могу его купить.
 																																																																																																						[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																							>>>
 																																																																																																								[mark_c09416h3ukgd061drypi][GOTO mark_final1]
 																																																																																																			Все равно дорого получается.
-																																																																																																				[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																				[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[BGNDIMAGE fridge_bg3.jpg][IMAGE fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																					[GOTO select_libher]
 																																																																																																					[GOTO I_cant_buy_libher]
 																																																																																															[GOTO select_libher]
@@ -384,10 +384,10 @@
 		[mark_final6][FINAL Похоже, ты забыл за чем пришел. Тебе впарили другой товар, который сгорел вместе с твоим домом на следующий день. Отрицательный финал.][IMAGE house_in_fire.jpg]
 		[mark_final8][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]
 		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. В нем тебя и похоронят. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1]
-		[mark_final11][FINAL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.]
-		[mark_final12][FINAL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.]
+		[mark_final11][FINAL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.][IMAGE fridge_libher.png|160;20;1;1;0;1]
+		[mark_final12][FINAL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.][IMAGE fridge_bomsh.png|10;250;1;1;0;1]
 		[mark_final13][FINAL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.]
-		[mark_final14][FINAL Ты оказался очень скудоумным человеком. Потому что лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.]
+		[mark_final14][FINAL Ты оказался очень скудоумным человеком. Потому что лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.][IMAGE fridge_lg2.png|150;0;1;1;0;1]
 		[mark_final15][FINAL В итоге ты устал выбирать коричневые лужи от холодильника, разозлился и выкинул его с балкона. Отрицательный финал.]
 		[mark_final16][FINAL Через месяц ты сошел с ума с этим холодильником. Его ИИ подчинил себе твой разум и волю. Отрицательный финал.]
 		[mark_final17][FINAL Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.]
