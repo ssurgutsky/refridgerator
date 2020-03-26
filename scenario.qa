@@ -204,19 +204,21 @@
 																																																																																					Какое "но"?
 																																																																																						[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
 																																																																																							
-																																																																																								[bomsh_minus1]Иногда куда-то бесследно пропадают продукты...[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																								[bomsh_minus1]Иногда куда-то бесследно пропадают объедки...[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																									<Enter text here>
 																																																																																								[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[BGNDIMAGE fridge_bg4.jpg][IMAGE fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																									<Enter text here>
 																																																																															Я вижу марку "ЛыЖы", он как?
-																																																																																[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																[mark_63ca4thl51g734m392mt]Неплохой выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_lg.png|150;0;1;1;0;1]
 																																																																																	И за это платить такие деньги?
-																																																																																		[mark_5cwbykp6n618b70ln4hp]Вы знаете, есть у него еще одна фишка. Возможно, вы будете смеяться, но она очень востребована у спортсменов - здесь есть отделение для хранения лыж в летний период.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
-																																																																																			А какие минусы?
-																																																																																				[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
-																																																																																					[GOTO select_lg]
-																																																																																			Круто!
-																																																																																				[mark_88ya10x0j02k8bbw3jm7][GOTO select_lg]
+																																																																																		[mark_16788pon18onig9hy6uf]Вы знаете, есть у него еще одна фишка. Многие спортсмены только из-за этого его покупают...[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
+																																																																																			Ну и какая?
+																																																																																				[mark_5cwbykp6n618b70ln4hp]Здесь есть отделение для хранения лыж в летний период.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_lg2.png|150;0;1;1;0;1&{script anton_front_right}]
+																																																																																					А какие минусы?
+																																																																																						[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Прямо, как тренер.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
+																																																																																							[GOTO select_lg]
+																																																																																					Круто!
+																																																																																						[mark_88ya10x0j02k8bbw3jm7][GOTO select_lg]
 																																																																											[I_take_orsk]Я беру "Орск"!
 																																																																												[mark_o9f03h8t8bphg9533733][GOTO mark_final9]
 																																																																									[orsk_is_not_a_good_idea]Действительно, плохая идея.
