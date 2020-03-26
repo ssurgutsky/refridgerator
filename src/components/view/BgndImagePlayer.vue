@@ -6,7 +6,7 @@
 
 <script>
 
-import commonUtils from '@/components/utils/CommonUtils.js'
+import imageUtils from '@/components/utils/ImageUtils.js'
 
 export default {
   name: 'BgndImagePlayer',
@@ -36,11 +36,12 @@ export default {
       //      console.log('showImages', value)
       const arr = value.split('&')
       //      console.log(arr)
-      const images = arr.map(function (imageStr) {
+      const imageItems = arr.map(function (imageStr) {
         let result = {}
         const str = imageStr.split('|')
         if (str[0]) {
           result.name = str[0]
+          result.path = require('@/assets/images/' + result.name)
         }
 
         if (str[1]) {
@@ -61,13 +62,7 @@ export default {
       let canvas = document.getElementById('canvas')
       let ctx = canvas.getContext('2d')
 
-      images.forEach(function (item, i, images) {
-        let img = new Image()
-        img.onload = () => {
-          commonUtils.drawImageCustom(canvas, ctx, img, item.params)
-        }
-        img.src = require('@/assets/images/' + item.name)
-      }, this)
+      imageUtils.loadDrawImageItems(imageItems, canvas, ctx)
     },
 
     clearBgndImages () {
