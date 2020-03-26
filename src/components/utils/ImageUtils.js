@@ -1,7 +1,40 @@
 /* eslint no-eval: 0 */
 export default {
 
-  loadDrawImageItems (imageItems, canvas, ctx) {
+  showImages (value, canvas, ctx) {
+    if (!value || value === '') return
+
+    this.currentImages = value
+
+    // console.log('showImages', value)
+    const arr = value.split('&')
+    //      console.log(arr)
+    const imageItems = arr.map(function (imageStr) {
+      let result = {}
+      const str = imageStr.split('|')
+      if (str[0]) {
+        result.name = str[0]
+        result.path = require('@/assets/images/' + result.name)
+      }
+      let params = null
+      if (str[1]) {
+        params = {}
+        let paramsArr = str[1].split(';')
+        params.posX = paramsArr[0] || 0
+        params.posY = paramsArr[1] || 0
+        params.scaleX = paramsArr[2] || 1
+        params.scaleY = paramsArr[3] || 1
+        params.rotation = paramsArr[4] || 0
+        params.alpha = paramsArr[5] || 1
+        result.params = params
+      }
+      return result
+    })
+    //      console.log(images)
+    this.loadAndDrawImageItems(imageItems, canvas, ctx)
+  },
+
+  loadAndDrawImageItems (imageItems, canvas, ctx) {
     Promise
       .all(imageItems.map(item => this.loadImageByItem(item)))
       .then((images) => {
