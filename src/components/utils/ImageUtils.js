@@ -1,13 +1,12 @@
 /* eslint no-eval: 0 */
 export default {
+  // Image sequence is a string of kind
+  // 'bg.png|0,0;1;1;0;1&image1.png|100,50;0.5;0.5;0;1&image2.png|100,50;0.5;0.5;0;1
+  showImages (imagesSequence, canvas, ctx) {
+    if (!imagesSequence || imagesSequence === '') return
 
-  showImages (value, canvas, ctx) {
-    if (!value || value === '') return
-
-    this.currentImages = value
-
-    // console.log('showImages', value)
-    const arr = value.split('&')
+    // console.log('showImages', imagesSequence)
+    const arr = imagesSequence.split('&')
     //      console.log(arr)
     const imageItems = arr.map(function (imageStr) {
       let result = {}
@@ -79,6 +78,7 @@ export default {
     ctx.restore()
   },
 
+  // !!!Is not used!!!
   getObjectFitSize (image) {
     var imageComputedStyle = window.getComputedStyle(image)
     var imageObjectFit = imageComputedStyle.getPropertyValue('object-fit')
