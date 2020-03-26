@@ -102,21 +102,21 @@
 																																																																																																					А еще какие имеются?
 																																																																																																						[EPISODE6]Электроглюкс и Понасенок. Но я вам бы вам их не рекоммендовал...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																							Расскажите про "Электроглюкс".
-																																																																																																								[mark_2di5onx6yhvb9r05s45c]Средняя цена, неплохой дизайн. Не особо вместительный, но зато есть Искусственный Интеллект (ИИ).[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																								[mark_2di5onx6yhvb9r05s45c]Средняя цена, футуристический дизайн. Не особо вместительный, но зато есть Искусственный Интеллект (ИИ).[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1]
 																																																																																																									А какие у него минусы?
-																																																																																																										[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																										[mark_x507n4cmtemppz7xmt43]Понимаете, ИИ пока пробная версия, частенько дает сбои...[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																											Какие, например?
 																																																																																																												[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3]
 																																																																																																													
-																																																																																																														[electro1]Может заказать машинное масло вместо сливочного.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																														[electro1]Может заказать машинное масло вместо сливочного.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																															[electro_ok]Ну, это можно пережить.
 																																																																																																																[mark_06sh222uylq5x93z599m][GOTO electro21,electro22]
 																																																																																																																	
-																																																																																																																		[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																																		[electro21]Еще иногда может обидиться и ничего не заказывать пару дней.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																																			[electro_ok2]Это уже серъезней.
-																																																																																																																				[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																																				[mark_xmh66q81l0tyds1yze6u]А у одного владельца ИИ даже влюбился в его жену и открывался только ей одной.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_left}]
 																																																																																																																					Такое чудо мне не надо!
-																																																																																																																						[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																																						[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																																							<Enter text here>
 																																																																																																																								[EPISODE7]Выбирайте поскорее, а то мы уже скоро закрываемся.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
 																																																																																																																									Я не могу решить, какой брать...
@@ -161,14 +161,14 @@
 																																																																																																																											[GOTO select_electro]
 																																																																																																																											[GOTO select_toshiba]
 																																																																																																																											[GOTO select_biruca]
-																																																																																																																		[electro22]Еще иногда путает магазины с кладбищами.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																																		[electro22]Еще иногда путает магазины с кладбищами.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																																			[GOTO electro_ok2]
-																																																																																																														[electro2]Может заказать пиво вместо молока.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																														[electro2]Может заказать пиво вместо молока.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																															[GOTO electro_ok]
-																																																																																																														[electro3]Может спонтанно заказать "собутыльника на час".[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																														[electro3]Может спонтанно заказать "собутыльника на час".[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																															[GOTO electro_ok]
 																																																																																																							Расскажите про "Понасенок"
-																																																																																																								[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[BGNDIMAGE view1.jpg][IMAGE {script anton_front_right}]
+																																																																																																								[mark_ou0s97mks7692k4rq28p]Средняя цена, удобный, вместительный, практичный, надежный.[BGNDIMAGE fridge_bg5.jpg][IMAGE fridge_porosenok.png|160;60;0.9;0.9;0;1]
 																																																																																																									И что с ним не так?
 																																																																																																										[mark_3c566rry5kjevkqx5sm9][GOTO ponosenok1,ponosenok2]
 																																																																																																											
