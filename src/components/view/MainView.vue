@@ -89,11 +89,11 @@ export default {
     },
 
     showBgndImages (images) {
-      this.$refs.bgndImagePlayer.showBgndImages(images)
+      this.$refs.bgndImagePlayer.showImages(images)
     },
 
     clearBgndImages () {
-      this.$refs.bgndImagePlayer.clearBgndImages()
+      this.$refs.bgndImagePlayer.clearImages()
     },
 
     showImages (images) {

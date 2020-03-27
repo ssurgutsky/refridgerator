@@ -6,6 +6,12 @@
       width="640px"
       height="480px"
     ></canvas>
+    <canvas
+      id="canvasHidden"
+      width="640px"
+      height="480px"
+      display="none"
+    ></canvas>
   </div>
 </template>
 
@@ -42,6 +48,20 @@ export default {
       let ctx = canvas.getContext('2d')
 
       imageUtils.showImages(value, canvas, ctx)
+        .finally(() => {
+          this.switchCanvas()
+        })
+    },
+
+    switchCanvas () {
+      let destCanvas = document.getElementById('canvas')
+      let sourceCanvas = document.getElementById('canvasHidden')
+
+      // grab the context from your destination canvas
+      var destCtx = destCanvas.getContext('2d')
+
+      // call its drawImage() function passing it the source canvas directly
+      destCtx.drawImage(sourceCanvas, 0, 0)
     },
 
     clearImages () {

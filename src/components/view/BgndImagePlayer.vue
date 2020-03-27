@@ -1,6 +1,17 @@
 <template>
   <div>
-    <canvas id="canvas" style="width: 100%; height: 100%; object-fit: contain" width="640px" height="480px"></canvas>
+    <canvas
+      id="canvas"
+      style="width: 100%; height: 100%; object-fit: contain"
+      width="640px"
+      height="480px"
+    ></canvas>
+    <canvas
+      id="canvasHidden"
+      width="640px"
+      height="480px"
+      display="none"
+    ></canvas>
   </div>
 </template>
 
@@ -12,12 +23,12 @@ export default {
   name: 'BgndImagePlayer',
   data () {
     return {
-      bgndImagePlayer: null,
-      currentBgndImages: ''
+      imagePlayer: null,
+      currentImages: ''
     }
   },
   mounted () {
-    if (!this.bgndImagePlayer) {
+    if (!this.imagePlayer) {
       this.initialize()
     }
   },
@@ -25,25 +36,39 @@ export default {
   methods: {
     initialize () {
       // console.log(this.$refs)
-      this.bgndImagePlayer = this.$refs.bgndImagePlayer
+      this.imagePlayer = this.$refs.imagePlayer
     },
 
-    showBgndImages (value) {
+    showImages (value) {
       if (!value || value === '') return
 
-      this.currentBgndImages = value
+      this.currentImages = value
 
       let canvas = document.getElementById('canvas')
       let ctx = canvas.getContext('2d')
 
       imageUtils.showImages(value, canvas, ctx)
+        .finally(() => {
+          this.switchCanvas()
+        })
     },
 
-    clearBgndImages () {
+    switchCanvas () {
+      let destCanvas = document.getElementById('canvas')
+      let sourceCanvas = document.getElementById('canvasHidden')
+
+      // grab the context from your destination canvas
+      var destCtx = destCanvas.getContext('2d')
+
+      // call its drawImage() function passing it the source canvas directly
+      destCtx.drawImage(sourceCanvas, 0, 0)
+    },
+
+    clearImages () {
       let canvas = document.getElementById('canvas')
       let ctx = canvas.getContext('2d')
       ctx.clearRect(0, 0, canvas.width, canvas.height)
-      this.currentBgndImages = ''
+      this.currentImages = ''
     }
   }
 }
