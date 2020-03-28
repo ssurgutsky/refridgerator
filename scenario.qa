@@ -172,6 +172,8 @@
 																																																																																																																																																																											
 																																																																																																																																																																												[mark_lwt84yu74258gr42hw2v][GOTO mark_final1]
 																																																																																																																																																								[mark_ns891i31c067121g4slk]<Enter text here>
+																																																																																																																																																							А еще что-нибудь есть?
+																																																																																																																																																								[mark_1dhs6u7dvlcdroe1lrmb][GOTO you_here_to_warm_up]
 																																																																																																																																																					Я так раззорюсь...
 																																																																																																																																																						[mark_st8olupw8x2je1w6ws73]Тогда я просто не знаю, что вам еще предложить...[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
 																																																																																																																																																					[select_biruca]Я беру "Бирюка".
@@ -230,9 +232,7 @@
 																																																																																																						[mark_hdx1ft58d06p40i4ed2g]Даже если вы станете бомжом, то все равно сможете легко оплачивать кредит. Настолько маленький платеж получается![IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																							[GOTO select_libher]
 																																																																																																							[I_cant_buy_libher]Нет, я не могу его купить.
-																																																																																																								[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
-																																																																																																									>>>
-																																																																																																										[mark_c09416h3ukgd061drypi][GOTO mark_final2]
+																																																																																																								[mark_11618jv7a20s89v0x793][GOTO shop_is_closing]
 																																																																																																					Все равно дорого получается.
 																																																																																																						[mark_q1u194eeuaf69qu3o9ev]Хорошие вещи не стоят дешево, но радуют своих хозяев.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
 																																																																																																							[GOTO select_libher]
@@ -241,7 +241,7 @@
 																																																																																															[GOTO how_long_credit]
 																																																																																													[GOTO select_libher]
 																																																																																	[take_bomsh]А если взять "Бомш"?
-																																																																																		[mark_f044gyg2tf1can76s740]Из плюсов: низкая цена. Есть все необходимое: полки под алкоголь и пиво, контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
+																																																																																		[mark_f044gyg2tf1can76s740]Из плюсов: низкая цена. Есть все необходимое: полки под напитки, контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
 																																																																																			Заморозки объедков???
 																																																																																				[mark_6fbo2se046j35a2e2e8d]Конечно. Это же "Бомш".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																					Ну, допустим, не объедков, а продуктов.
@@ -267,9 +267,7 @@
 																																																																																												[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Но, это, скорее, забота о вашем здоровье![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
 																																																																																													[GOTO select_lg]
 																																																																																													[dont_like_lg]Он мне не подходит.
-																																																																																														[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
-																																																																																															>>>
-																																																																																																[mark_3c4263oq815ojq3d50vy][GOTO mark_final7]
+																																																																																														[mark_xrwy5vn3butp5sl99h62][GOTO fire_alarm]
 																																																																																											[GOTO dont_like_lg]
 																																																																																									[GOTO select_lg]
 																																																																																							Круто!
@@ -441,6 +439,18 @@
 					[GOTO I_need_new_fridge]
 			[GOTO I_need_new_fridge]
 			[GOTO tell_me_please]
+		[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
+			>>>
+				[mark_3c4263oq815ojq3d50vy][GOTO mark_final7]
+		[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
+			>>>
+				[mark_c09416h3ukgd061drypi][GOTO mark_final2]
+		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана!
+			>>>
+				[security_go_out_shop]Выходим из магазина, живо![IMAGE security.jpg]
+					>>>
+						[mark_f332bi26g670v1uek83y][GOTO mark_final5]
+		[mark_10y31xhk96k1u64j057x]<Enter text here>
 		[mark_final1][FINAL Холодильник съел твой мозг! Главный финал... :(][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
 		[mark_final2][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал][IMAGE shop_is_closed.jpg]
 		[mark_final3][FINAL Ты психанул и ушел из магазина. Отрицательный финал.][IMAGE gone_from_shop.jpg]
