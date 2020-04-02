@@ -71,8 +71,8 @@
 																																																																						[mark_773c5jeauq16854p6ews]Он вам не подойдет.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1]
 																																																																							Почему?
 																																																																								[mark_q4brup2zfz9lbg8g92gw]Стоит копейки, дизайн примитивный, не ломается, простой, как валенок... одно разочарование.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
-																																																																									Так это же отлично! Я беру!
-																																																																										[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет, но не ломается. Вы готовы прожить с ним всю жизнь?[IMAGE fridge_bg1.jpg&fridge_orsk.pn
+																																																																									Так это же отлично!
+																																																																										[mark_uk7eqld4304a91zev4sf]Сначала подумайте - через несколько лет выйдут новые модели: красивее, солиднее, качественнее и экономичнее. А этот стареет, блекнет, воняет и не ломается. Вы готовы прожить с ним всю жизнь?[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																											А беспроцентный кредит на него действует?
 																																																																												[mark_4k2g3152b7e21ddtlr3z]Я, конечно, понимаю, что люди и зубные щетки в кредит берут, но тут цена - вообще копейки, чтоб такое спрашивать.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																													А небольшой подарок хотя бы дадите?
@@ -83,7 +83,7 @@
 																																																																																		[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1]
 																																																																																			Да он стоит, как крыло от самолета!
 																																																																																				[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный - работает, как часы.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
-																																																																																					И за что такая цена?
+																																																																																					[libher_why_big_cost]И за что такая цена?
 																																																																																						[mark_sj85331o2803lszh834k]У него достаточно много функций. К примеру, есть ночной режим: видеокамера + пневматическая пушка. Навсегда отбивает желание у любителей ночной еды.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1&{script anton_front_right
 																																																																																							У меня все равно есть нечего.
 																																																																																								[mark_h5an9z8dfzpqas922rz4]Также присутствует заказ продуктов через Интернет. Он сам следит, какие продукты закончились и сразу же оформляет заказ на доставку.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1&{script anton_front_right}]
@@ -242,6 +242,7 @@
 																																																																																																	[GOTO select_libher]
 																																																																																															[GOTO how_long_credit]
 																																																																																													[GOTO select_libher]
+																																																																																			[GOTO libher_why_big_cost]
 																																																																																	[take_bomsh]А если взять "Бомш"?
 																																																																																		[mark_f044gyg2tf1can76s740]Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
 																																																																																			Заморозки объедков?
@@ -301,16 +302,17 @@
 																																																																																				[mark_7l9g8v68g012zeb8j4ve][GOTO store_ski]
 																																																																													[I_take_orsk]Я беру "Орск"!
 																																																																														[mark_o9f03h8t8bphg9533733][GOTO mark_final9]
-																																																																											[orsk_is_not_a_good_idea]Действительно, плохая идея.
+																																																																											[orsk_is_not_a_good_idea]Действительно, не стоит оно того.
 																																																																												[mark_21789ie3gukz3g77o9ep][GOTO select_freeges]
 																																																																											[GOTO I_take_orsk]
 																																																																									[GOTO orsk_is_not_a_good_idea]
 																																																																							[orsk_country]А кто у него производитель?
 																																																																								[mark_652ghbn4mf91nkk527ms]Япония.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																									Так это же замечательно!
-																																																																										[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской технологии.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
+																																																																										[mark_7rhky12k81k65jvvqh57]Ну как сказать... на самом деле его собирали армяне в Узбекистане по японской лицензии.[IMAGE fridge_bg1.jpg&fridge_orsk.png|150;100;1;1;0;1&{script anton_front_right}]
 																																																																											[GOTO I_take_orsk]
 																																																																											[GOTO orsk_is_not_a_good_idea]
+																																																																									[GOTO I_take_orsk]
 																																																																					[GOTO take_bomsh]
 																																																																					У меня была "Тошношиба".
 																																																																						[mark_lr1t40tdl1878goyg5wk]Простите, с вами все в порядке?[IMAGE view1.jpg&{script anton_front_right}]
@@ -464,18 +466,16 @@
 		[security_here_is_junk]Охрана! Подойдите сюда! Тут какой-то наркоман![IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
 			>>>
 				[mark_817kz4r3wq4ilgu71ls7][GOTO security_go_out_shop]
-		[terror_alarm]Внимание! Магазин захватили террористы!
+		[terror_alarm]Вы слышали? Кажется наш магазин захватили террористы! Вам срочно надо уходить отсюда![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
-				[mark_44g5p0a24qt01ycu1crm]Вы слышали? Террористы! Вам срочно надо уходить из магазина!
-					>>>
-						[mark_k8n2k7mqnx7qe8j02j88][GOTO mark_final7]
-		[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
+				[mark_k8n2k7mqnx7qe8j02j88][GOTO mark_final7]
+		[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_3c4263oq815ojq3d50vy][GOTO mark_final7]
 		[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_c09416h3ukgd061drypi][GOTO mark_final2]
-		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда!
+		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_27kzjjtki214v13oky9d][GOTO security_go_out_shop]
 		[security_go_out_shop]Выходим из магазина, живо![IMAGE security.jpg]
