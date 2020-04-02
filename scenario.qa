@@ -137,7 +137,7 @@
 																																																																																																																																								[mark_0x1k25dgm54609l2g7qh]"Бирюка". Наш, отечественный, без излишеств по демократичной цене.[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1]
 																																																																																																																																									Расскажите мне про него.
 																																																																																																																																										[mark_2qk13utyq1pr5r172o94]Надежный. Это я уже говорил. Дешевый. Тоже говорил. Что вам еще надо?[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
-																																																																																																																																											Еще что-нибудь скажите...
+																																																																																																																																											Еще что-нибудь расскажите про него.
 																																																																																																																																												[mark_e8tfp30rs89sm8zwsdyg]Может использоваться, как сейф. Стенки и дверь просто пуленепробиваемые![IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
 																																																																																																																																													О, круто! А еще?
 																																																																																																																																														[mark_08k2gdj5a28vfn8905mc]Вам этого мало?[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
@@ -172,19 +172,21 @@
 																																																																																																																																																																											
 																																																																																																																																																																												[mark_lwt84yu74258gr42hw2v][GOTO mark_final1]
 																																																																																																																																																								[mark_ns891i31c067121g4slk]<Enter text here>
-																																																																																																																																																							А еще что-нибудь есть?
+																																																																																																																																																							[have_you_whatever_else]А еще что-нибудь есть?
 																																																																																																																																																								[mark_1dhs6u7dvlcdroe1lrmb][GOTO you_here_to_warm_up]
 																																																																																																																																																					Я так раззорюсь...
 																																																																																																																																																						[mark_st8olupw8x2je1w6ws73]Тогда я просто не знаю, что вам еще предложить...[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
-																																																																																																																																																					[select_biruca]Я беру "Бирюка".
-																																																																																																																																																						[mark_m5luc31x1u018v6t2l2d][GOTO mark_final18]
+																																																																																																																																																							[GOTO have_you_whatever_else]
+																																																																																																																																																							[select_biruca]Я беру "Бирюка".
+																																																																																																																																																								[mark_m5luc31x1u018v6t2l2d][GOTO mark_final18]
+																																																																																																																																																					[GOTO select_biruca]
 																																																																																																																																											А ИИ в нем есть?
 																																																																																																																																												[mark_qf940611uy2qc50864k8]<извините наш магазин закрывается>[IMAGE fridge_bg1.jpg&fridge_biruca.png|130;10;1;1;0;1&{script anton_front_left}]
 																																																																																																																																			Так это то, что мне нужно! Оформляйте покупку.
 																																																																																																																																				[mark_79nqh0viq97lhml09l73][GOTO taken_libher50]
 																																																																																																																															[select_libher]Я беру "Либхер".
 																																																																																																																																[mark_2oy4638iecdfn809hqtn][GOTO mark_final11]
-																																																																																																																															[select_bosh]Я беру "Бомш".
+																																																																																																																															[select_bomsh]Я беру "Бомш".
 																																																																																																																																[mark_6shn5p3kvws24042bm6v][GOTO mark_final12]
 																																																																																																																															[select_sasung]Я беру "Сасунг".
 																																																																																																																																[mark_6sicf79r0081o2z036u7][GOTO mark_final13]
@@ -199,7 +201,7 @@
 																																																																																																																													[GOTO select_libher]
 																																																																																																																													[GOTO select_sasung]
 																																																																																																																													[GOTO select_lg]
-																																																																																																																													[GOTO select_bosh]
+																																																																																																																													[GOTO select_bomsh]
 																																																																																																																													[GOTO select_panasonik]
 																																																																																																																													[GOTO select_electro]
 																																																																																																																													[GOTO select_toshiba]
@@ -241,27 +243,48 @@
 																																																																																															[GOTO how_long_credit]
 																																																																																													[GOTO select_libher]
 																																																																																	[take_bomsh]А если взять "Бомш"?
-																																																																																		[mark_f044gyg2tf1can76s740]Из плюсов: низкая цена. Есть все необходимое: полки под напитки, контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
-																																																																																			Заморозки объедков???
+																																																																																		[mark_f044gyg2tf1can76s740]Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
+																																																																																			Заморозки объедков?
 																																																																																				[mark_6fbo2se046j35a2e2e8d]Конечно. Это же "Бомш".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																					Ну, допустим, не объедков, а продуктов.
-																																																																																						[take_sony_but]В принципе, может быть и хороший вариант. Но есть одно "но".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
-																																																																																							Какое "но"?
-																																																																																								[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
-																																																																																									
-																																																																																										[bomsh_minus1]Иногда куда-то бесследно пропадают объедки...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
-																																																																																											<Enter text here>
-																																																																																										[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
-																																																																																											<Enter text here>
+																																																																																						[mark_56z59480l5zp4dj1xgb3]Да, как захотите, так и будете называть ваши объедки.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																							[bomsh_bottles_for_juce]Это разве бутылки для сока?
+																																																																																								[mark_02h06bh2y5li1h5i9710]Конечно. Для пшеничного, нефильтрованного сока. Это же "Бомш".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																									[bomsh_pluses]А достоинства у него какие?
+																																																																																										[mark_nv1y99xozbq32au3jm9j]Ну, сами понимаете, за такую цену он вам вприсядку не спляшет и песню не споет...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																											[bomsh_minuses]А недостатки у него какие?
+																																																																																												[mark_72k89z0959z1q0pall9c]Недостатков нет. Но есть одно "но".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																													Какое "но"?
+																																																																																														[mark_pxe4l5aa87z77mnj19uc][GOTO bomsh_minus1,bomsh_minus2]
+																																																																																															
+																																																																																																[bomsh_minus1]Иногда куда-то бесследно пропадают бутылки с пшеничным соком...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																	Печально...
+																																																																																																		[mark_6t3rvfk4j1w2bvy18se0]Зато у этой марки есть один неоспоримый плюс, которого нет у других.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																			Какой?
+																																																																																																				[bomsh_big_plus]Один пожилой клиент приобрел у нас "Бомш". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																					[dont_like_bomsh]Знаете, он мне не подходит.
+																																																																																																						[mark_1b915f748sgbg8o6v1al][GOTO terror_alarm]
+																																																																																																					[GOTO select_bomsh]
+																																																																																																			[GOTO select_bomsh]
+																																																																																																[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																	Это очень плохо.
+																																																																																																		[mark_i8tl2zy8l9ln1yo2t193][GOTO bomsh_big_plus]
+																																																																																													[GOTO select_bomsh]
+																																																																																									[GOTO bomsh_minuses]
+																																																																																							[GOTO bomsh_minuses]
+																																																																																							[GOTO bomsh_pluses]
+																																																																																					[GOTO bomsh_bottles_for_juce]
+																																																																																					[GOTO bomsh_pluses]
+																																																																																			[GOTO bomsh_bottles_for_juce]
 																																																																																	Я вижу марку "ЛыЖы", он как?
 																																																																																		[mark_63ca4thl51g734m392mt]Отличный выбор. Не сказать, что у него низкая цена, но из плюсов: спортивный дизайн и быстрый отклик на нажатие кнопок.[IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1]
 																																																																																			И за это платить такие деньги?
-																																																																																				[mark_16788pon18onig9hy6uf]Вы знаете, есть у него еще одна фишка. Многие спортсмены только из-за этого его покупают...[IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
+																																																																																				[mark_16788pon18onig9hy6uf]Есть у него еще одна фишка. Многие спортсмены только из-за этого его покупают...[IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
 																																																																																					Какая?
 																																																																																						[store_ski]Здесь есть отделение для хранения лыж в летний период.[IMAGE fridge_bg5.jpg&fridge_lg2.png|150;0;1;1;0;1]
 																																																																																							У меня нет лыж.
 																																																																																								[mark_p763hue5u13w2o7l7049]С таким холодильником обязательно появятся. И вы сразу станете сильным, выносливым и здоровым![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
-																																																																																									Лучше вместо лыж хранить там продукты.
+																																																																																									Лучше вместо лыж хранить там пельмени.
 																																																																																										[mark_8098x1djca12rxm40c7z]Это будет не гарантийный случай. Вы знаете, мы получаем куда больше прибыли, когда наши клиенты используют функции вещей не по назначению.[IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
 																																																																																											А какие минусы?
 																																																																																												[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Но, это, скорее, забота о вашем здоровье![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
@@ -335,9 +358,7 @@
 																																																																							[I_dont_like_service]Мне не нравится обслуживание!
 																																																																								[mark_rl11458x46420lckf0n1]Можете написать претензию. Через полгода вам обязательно ответят.[IMAGE view1.jpg&{script anton_front_right}]
 																																																																									Слушай сюда! Я тебе щас задницу надеру!
-																																																																										[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[IMAGE view1.jpg&{script anton_front_right}]
-																																																																											>>>
-																																																																												[mark_o6khaxld0105ii5m7pk0][GOTO mark_final5]
+																																																																										[mark_hjnpd58k44p2w92a8iy2][GOTO call_security]
 																																																																									[go_fuck_yourself]Да пошел ты!
 																																																																										[mark_q5dbbwtbzu3h5gud3980][GOTO mark_final3]
 																																																																					[give_me_book_of_complaints]Дайте мне книгу жалоб.
@@ -403,9 +424,7 @@
 															Да, учили, но не с говорящей задницей.
 																[mark_s0pl57f6qb20z458o287]А это не задница. Это я с вами говорю.[IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
 																	Реально говорящая задница!
-																		[mark_aef613smor68jgt34i6s]Охрана! Подойдите сюда! Тут какой-то наркоман![IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
-																			>>>
-																				[mark_0n45gpgb9212m0171r85][GOTO mark_final4]
+																		[mark_7r2tvsft5imd250z6pdt][GOTO security_here_is_junk]
 															[GOTO sorry_hello]
 											Плохо.
 												[mark_1mk0117zf515l0he2f6i]Я пришел на работу работать, а не на глупые вопросы отвечать - почему я с вами так разговариваю.[IMAGE view1.jpg&{script anton_back}]
@@ -437,24 +456,36 @@
 					[hello]Здравствуйте!
 						[mark_63d289keo6ke4rpq27ek][GOTO hello_I_am_busy]
 					[GOTO I_need_new_fridge]
-			[GOTO I_need_new_fridge]
 			[GOTO tell_me_please]
+			[GOTO I_need_new_fridge]
+		[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[IMAGE view1.jpg&{script anton_front_right}]
+			>>>
+				[mark_etu46u585h62p7c0i90t][GOTO security_go_out_shop]
+		[security_here_is_junk]Охрана! Подойдите сюда! Тут какой-то наркоман![IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
+			>>>
+				[mark_817kz4r3wq4ilgu71ls7][GOTO security_go_out_shop]
+		[terror_alarm]Внимание! Магазин захватили террористы!
+			>>>
+				[mark_44g5p0a24qt01ycu1crm]Вы слышали? Террористы! Вам срочно надо уходить из магазина!
+					>>>
+						[mark_k8n2k7mqnx7qe8j02j88][GOTO mark_final7]
 		[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
 			>>>
 				[mark_3c4263oq815ojq3d50vy][GOTO mark_final7]
 		[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_c09416h3ukgd061drypi][GOTO mark_final2]
-		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана!
+		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда!
 			>>>
-				[security_go_out_shop]Выходим из магазина, живо![IMAGE security.jpg]
-					>>>
-						[mark_f332bi26g670v1uek83y][GOTO mark_final5]
-		[mark_10y31xhk96k1u64j057x]<Enter text here>
+				[mark_27kzjjtki214v13oky9d][GOTO security_go_out_shop]
+		[security_go_out_shop]Выходим из магазина, живо![IMAGE security.jpg]
+			>>>
+				[mark_f332bi26g670v1uek83y][GOTO mark_final5]
+		[SEPARATOR]
 		[mark_final1][FINAL Холодильник съел твой мозг! Главный финал... :(][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
 		[mark_final2][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал][IMAGE shop_is_closed.jpg]
 		[mark_final3][FINAL Ты психанул и ушел из магазина. Отрицательный финал.][IMAGE gone_from_shop.jpg]
-		[mark_final4][FINAL Похоже, что ты пришел в магазин под чем-то и тебя конкретно глючит. Охрана выкинула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]
+		[mark_final4]
 		[mark_final5][FINAL Охрана выпнула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]
 		[mark_final6][FINAL Похоже, ты забыл за чем пришел. Тебе впарили другой товар, который сгорел вместе с твоим домом на следующий день. Отрицательный финал.][IMAGE house_in_fire.jpg]
 		[mark_final7][FINAL Тебе пришлось срочно уйти из магазина. Отрицательный финал][IMAGE shop_is_closed.jpg]
