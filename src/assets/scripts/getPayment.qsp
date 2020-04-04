@@ -1,0 +1,43 @@
+console.log('store', this.store);
+
+let productId = "com.kri_games.ma1.coin1";
+
+this.payment_pending = true;
+this.payment_success = false;
+
+/*
+this.store.order(productId)
+    .then((p) => {
+        console.log("store.order.then::", p);
+        this.store.once(productId)
+            .approved((order) => {
+                this.payment_pending = false;
+                this.payment_success = true;
+                order.finish();
+                
+                console.log("store.then.approved::", order);
+            })
+            .cancelled((order) => {
+                this.payment_pending = false;
+                this.payment_success = false;
+
+                console.log("store.then.cancelled::", order);
+            })
+            .error((e) => {
+                this.payment_pending = false;
+                this.payment_success = false;
+
+                console.log("store.then.error::" + e.code + ": " + e.message);
+            });
+    })
+    .error((e) => {
+        this.payment_pending = false;
+        this.payment_success = false;
+
+        console.log("store.order.error:: ERROR " + e.code + ": " + e.message);
+    });
+/**/
+
+setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
+
+'';

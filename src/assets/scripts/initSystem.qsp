@@ -1,0 +1,4 @@
+this.payment_pending = false;
+this.payment_success = false;
+
+'';
