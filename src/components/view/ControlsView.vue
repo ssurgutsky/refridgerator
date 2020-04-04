@@ -1,9 +1,9 @@
 <template>
   <div>
     <button @click="onRestartClick">RESTART</button>
-    <button @click="onSaveClick">SAVE</button>
-    <button @click="onLoadClick">LOAD</button>
-    <button @click="onSkipClick">SKIP</button>
+    <button :style="styleObjectCheat" @click="onSaveClick">SAVE</button>
+    <button :style="styleObjectCheat" @click="onLoadClick">LOAD</button>
+    <button :style="styleObjectCheat" @click="onSkipClick">SKIP</button>
     <button :style="styleObjectCheat" @click="onBackClick">BACK</button>
     <button :style="styleObjectCheat" @click="onEpisodeClick">EPISODE</button>
   </div>

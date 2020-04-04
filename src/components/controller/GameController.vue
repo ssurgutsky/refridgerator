@@ -78,7 +78,7 @@ export default {
         console.log(this.gameModel.getCurrentNavigateUrl())
         // navigator.app.loadUrl(this.gameModel.getCurrentNavigateUrl(), {openExternal: true})
         // window.location = this.gameModel.getCurrentNavigateUrl()
-        window.open(this.gameModel.getCurrentNavigateUrl())
+        window.open(this.gameModel.getCurrentNavigateUrl(), '_system')
         // location.replace(this.gameModel.getCurrentNavigateUrl())
       }
     },
