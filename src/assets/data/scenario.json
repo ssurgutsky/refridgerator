@@ -1328,7 +1328,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "_mark": "mark_s0t6uh5y17b45nl4h31z",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_content": "[LABEL Пивко холодное - пожалуйста, ночью колбаски пожрать - без проблем, месячное содержание - всего пара сотен рублей. Надоело общение - выключил нахрен, разлюбил - сдал по программе утилизации.][IMAGE fridge_bg5.jpg&fridge_ariston.png|250;60;0.9;0.9;0;1&{script anton_front_right}]"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_content": "[LABEL Пивко холодное - пожалуйста, ночью колбаски пожрать - без проблем, месячное содержание - всего пара сотен рублей. Надоело общение - выключил нахрен, разлюбил - сдал по программе утилизации.]"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_mark": "",
@@ -2652,7 +2652,7 @@
                                                                                                                                                                                                             }
                                                                                                                                                                                                           ],
                                                                                                                                                                                                           "_mark": "mark_ht148aj862wm21q30ogd",
-                                                                                                                                                                                                          "_content": "[LABEL {script getPayment}]"
+                                                                                                                                                                                                          "_content": "[LABEL {this.productId = com.kri_games.ma1.coin1\";'';}{script getPayment}]"
                                                                                                                                                                                                         }
                                                                                                                                                                                                       ],
                                                                                                                                                                                                       "_mark": "donate",
@@ -3300,7 +3300,7 @@
                     }
                   ],
                   "_mark": "security_go_out_shop",
-                  "_content": "[LABEL Выходим из магазина, живо!][IMAGE security.jpg]"
+                  "_content": "[LABEL Выходим из магазина, живо!][IMAGE security1.jpg]"
                 },
                 {
                   "_mark": "SEPARATOR",
@@ -3377,9 +3377,89 @@
               ],
               "_mark": "",
               "_content": "[LABEL START GAME / НАЧАТЬ ИГРУ]"
+            },
+            {
+              "node": [
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "node": [
+                                    {
+                                      "node": [
+                                        {
+                                          "node": [
+                                            {
+                                              "node": [
+                                                {
+                                                  "node": [
+                                                    {
+                                                      "node": [
+                                                        {
+                                                          "_mark": "mark_790313417a53d817ku7r",
+                                                          "_content": "[LABEL ][GOTO START]"
+                                                        }
+                                                      ],
+                                                      "_mark": "",
+                                                      "_content": "[LABEL >>>]"
+                                                    }
+                                                  ],
+                                                  "_mark": "mark_lo9fb6iz5619s1v1w24v",
+                                                  "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.][IMAGE episodes.jpg]"
+                                                }
+                                              ],
+                                              "_mark": "",
+                                              "_content": "[LABEL ]"
+                                            }
+                                          ],
+                                          "_mark": "payment_success2",
+                                          "_content": "[LABEL ...][IMAGE episodes.jpg][PURCHASE cheats]"
+                                        },
+                                        {
+                                          "node": [
+                                            {
+                                              "_mark": "",
+                                              "_content": "[LABEL ][GOTO buy_episodes]"
+                                            }
+                                          ],
+                                          "_mark": "payment_fail2",
+                                          "_content": "[LABEL Что то не так, попробуй еще раз.][IMAGE episodes.jpg]"
+                                        }
+                                      ],
+                                      "_mark": "",
+                                      "_content": "[LABEL ]"
+                                    }
+                                  ],
+                                  "_mark": "mark_7u249b2lf7c472494fvi",
+                                  "_content": "[LABEL {script checkPayment2}]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL ]"
+                            }
+                          ],
+                          "_mark": "wait2",
+                          "_content": "[LABEL ...][IMAGE episodes.jpg][AUDIO silent_3]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL ]"
+                    }
+                  ],
+                  "_mark": "mark_7ay0crivt5fo2krptr7j",
+                  "_content": "[LABEL {this.productId = \"com.kri_games.ma1.episodes\";'';}{script getPayment}]"
+                }
+              ],
+              "_mark": "buy_episodes",
+              "_content": "[LABEL Эпизоды игры.]"
             }
           ],
-          "_mark": "mark_i12f439hy9dtgblc00w6",
+          "_mark": "START",
           "_content": "[LABEL Менеджер Антон 1. Симулятор менеджера торгового зала.{script initSystem}][IMAGE Intro.jpg]"
         }
       ]

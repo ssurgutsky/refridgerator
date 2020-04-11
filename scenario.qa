@@ -1,4 +1,4 @@
-[mark_i12f439hy9dtgblc00w6]Менеджер Антон 1. Симулятор менеджера торгового зала.[IMAGE Intro.jpg]{script initSystem}
+[START]Менеджер Антон 1. Симулятор менеджера торгового зала.[IMAGE Intro.jpg]{script initSystem}
 	START GAME / НАЧАТЬ ИГРУ
 		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[IMAGE view1.jpg&{script anton_back}]
 			Покашляю, чтобы привлечь внимание.
@@ -46,7 +46,7 @@
 																																													[bye_brick]Ну бывай!
 																																														[EPISODE2,mark_730ww48nzq5rj791qkt6]Погодь! Выручи деньгами до зарплаты? А то я лохов уже неделю не встречал. Вымерли что-ли?!...[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
 																																															[donate]Достать лопатник.
-																																																[mark_ht148aj862wm21q30ogd]{script getPayment}
+																																																[mark_ht148aj862wm21q30ogd]{this.productId = com.kri_games.ma1.coin1";'';}{script getPayment}
 																																																	
 																																																		[wait]...[VIDEO GopStandsBouncing][AUDIO silent_4]
 																																																			
@@ -318,7 +318,7 @@
 																																																																																																																																	Жесть какая-то.
 																																																																																																																																		[mark_90gg87rl19dr3zfn91zu]Несмотря на все недостатки Аристона - он вам будет лучше жены![IMAGE fridge_bg5.jpg&fridge_ariston.png|250;60;0.9;0.9;0;1&{script anton_front_right}]
 																																																																																																																																			Это еще почему?
-																																																																																																																																				[mark_s0t6uh5y17b45nl4h31z]Пивко холодное - пожалуйста, ночью колбаски пожрать - без проблем, месячное содержание - всего пара сотен рублей. Надоело общение - выключил нахрен, разлюбил - сдал по программе утилизации.[IMAGE fridge_bg5.jpg&fridge_ariston.png|250;60;0.9;0.9;0;1&{script anton_front_right}]
+																																																																																																																																				[mark_s0t6uh5y17b45nl4h31z]Пивко холодное - пожалуйста, ночью колбаски пожрать - без проблем, месячное содержание - всего пара сотен рублей. Надоело общение - выключил нахрен, разлюбил - сдал по программе утилизации.[IMAGE fridge_bg5.jpg&fridge_ariston.pn
 																																																																																																																																					Хмм... что-то в этом есть!
 																																																																																																																																						[mark_tu21b8rdn8279858tnp9]Знакомый взял - не жалуется. Правда ему еще ипотеку выплатить надо за деревянный дом, пока он не развалился.[IMAGE fridge_bg5.jpg&fridge_ariston.png|250;60;0.9;0.9;0;1&{script anton_front_right}]
 																																																																																																																																							[not_ariston]Он мне не подходит.
@@ -606,7 +606,7 @@
 		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_27kzjjtki214v13oky9d][GOTO security_go_out_shop]
-		[security_go_out_shop]Выходим из магазина, живо![IMAGE security.jpg]
+		[security_go_out_shop]Выходим из магазина, живо![IMAGE security1.jpg]
 			>>>
 				[mark_f332bi26g670v1uek83y][GOTO mark_final5]
 		[SEPARATOR]
@@ -627,3 +627,17 @@
 		[mark_final16][FINAL Через месяц ты сошел с ума с этим холодильником. Его ИИ подчинил себе твой разум и волю. Отрицательный финал.][IMAGE fridge_electro.png|200;20;1;1;0;1]
 		[mark_final17][FINAL Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.][IMAGE house_in_fire.jpg]
 		[mark_final18][FINAL Дома ты залез внутрь холодильника и, нечаянно, захлопнул за собой дверцу. А дверь у холодильников изнутри не открывается... Отрицательный финал.][IMAGE fridge_biruca.png|250;0;1;1;0;1]
+	[buy_episodes]Эпизоды игры.
+		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.ma1.episodes";'';}{script getPayment}
+			
+				[wait2]...[IMAGE episodes.jpg][AUDIO silent_3]
+					
+						[mark_7u249b2lf7c472494fvi]{script checkPayment2}
+							
+								[payment_success2]...[IMAGE episodes.jpg][PURCHASE cheats]
+									
+										[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+											>>>
+												[mark_790313417a53d817ku7r][GOTO START]
+								[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg]
+									[GOTO buy_episodes]
