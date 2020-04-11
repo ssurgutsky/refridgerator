@@ -4,6 +4,7 @@ let productId = this.productId;
 
 this.payment_pending = true;
 this.payment_success = false;
+
 /*
 this.store.order(productId)
     .then((p) => {
