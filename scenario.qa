@@ -114,29 +114,29 @@
 																																																																																																																	Расскажите про "Электроглюкс".
 																																																																																																																		[mark_2di5onx6yhvb9r05s45c]Цена чуть выше средней, футуристический дизайн. Не особо вместительный, зато есть искусственный интеллект, которого зовут Кузьма.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																			Очень стильно!
-																																																																																																																				[mark_36h4y67odff2e1s1cw77]Кузьма: Спасибо, братан!
+																																																																																																																				[mark_36h4y67odff2e1s1cw77]Кузьма: Спасибо, братан![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																					[electro_minuses]А есть у него минусы?
 																																																																																																																						[mark_x507n4cmtemppz7xmt43]Понимаете, "Кузьма" - пока пробная версия, частенько дает сбои...[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																																							Какие, например?
-																																																																																																																								[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3]
+																																																																																																																								[mark_d1mb2lgnl0h6w12h5y9e][GOTO electro1,electro2,electro3,electro4]
 																																																																																																																									
-																																																																																																																										[electro1]Может заказать машинное масло вместо сливочного.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
+																																																																																																																										[electro1]Может заказать машинное масло вместо сливочного.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																											
-																																																																																																																												[mark_cuu19fw6nt27h41m19oj]Кузьма: Братан, меня смазать нужно было!
+																																																																																																																												[mark_cuu19fw6nt27h41m19oj]Кузьма: Братан, меня смазать нужно было![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																													[electro_ok]Ну, тогда ладно.
-																																																																																																																														[mark_f0m2xwat54l92zc5xxpn]Еще иногда может обидиться и ничего не заказывать пару дней.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
+																																																																																																																														[mark_f0m2xwat54l92zc5xxpn]Еще иногда может обидиться и ничего не заказывать пару дней.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																															
-																																																																																																																																[mark_0jr88rn3mpc3rjbld5v9]Кузьма: Обычная осенняя депрессия...
+																																																																																																																																[mark_0jr88rn3mpc3rjbld5v9]Кузьма: Обычная осенняя депрессия...[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																	Это уже серъезней.
 																																																																																																																																		[mark_xmh66q81l0tyds1yze6u]А у одного владельца Кузька влюбился в его жену и открывался только ей одной.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_left}]
 																																																																																																																																			
-																																																																																																																																				[mark_6hh71186qc9h43csg52d]Кузьма: Она вокруг меня голая постоянно вертелась!
+																																																																																																																																				[mark_6hh71186qc9h43csg52d]Кузьма: Она вокруг меня голая постоянно вертелась![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																					Нет, спасибо, такое чудо мне не надо.
 																																																																																																																																						[mark_5xy55xn7j3d3gnkaky64]Зато с ним не соскучитесь![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
 																																																																																																																																							У меня своих проблем хватает.
-																																																																																																																																								[electro_buy_chess_drink]Кузьма: Братан, ну купи меня. Я в шахматы красиво проигрывать умею! Ну, или бухать вместе будем...
+																																																																																																																																								[electro_buy_chess_drink]Кузьма: Братан, ну купи меня. Я в шахматы красиво проигрывать умею! Ну, или бухать вместе будем...[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																									[electro_i_am_ok_alone]Мне итак нормально.
-																																																																																																																																										[steel_energy]Кузьма: ладно, братан, открою тебе секрет - я умею воровать электричество у соседей. Бери меня, не прогадаешь!
+																																																																																																																																										[steel_energy]Кузьма: ладно, братан, открою тебе секрет - я умею воровать электричество у соседей. Бери меня, не прогадаешь![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																											Нет, он мне не подходит.
 																																																																																																																																												[EPISODE8]Выбирайте поскорее, а то мы уже скоро закрываемся.[IMAGE view1.jpg&{script anton_front_right}]
 																																																																																																																																													Я не могу решить, какой брать...
@@ -243,61 +243,60 @@
 																																																																																																																																															[GOTO select_electro]
 																																																																																																																																															[GOTO select_toshiba]
 																																																																																																																																											[electro_i_dont_know]Ну, не знаю даже...
-																																																																																																																																												[mark_4q515748fo7o3h08gvz6]Кузьма: Я дешевле "Либхера"!!!!!
+																																																																																																																																												[mark_4q515748fo7o3h08gvz6]Кузьма: Братан, я лучше и дешевле "Либхера"!!![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																													[electro_ok_buy]Ладно, уговорили.
-																																																																																																																																														[mark_571t95jm44xxl704m918]Кузьма: Спасибо, братан! Ты - лучший! Каких девочек предпочитаешь: блондинок или брюнеток?
+																																																																																																																																														[mark_571t95jm44xxl704m918]Кузьма: Спасибо, братан! Ты - лучший! Каких девочек предпочитаешь: блондинок или брюнеток?[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																																															[GOTO select_electro]
 																																																																																																																																									[GOTO electro_i_dont_know]
 																																																																																																																																							[GOTO electro_i_am_ok_alone]
 																																																																																																																																					Вот это прикол!
 																																																																																																																																						[mark_84h433s691c36w592582][GOTO electro_buy_chess_drink]
 																																																																																																																																	А что он еще умеет?
-																																																																																																																																		[mark_n9xx7m965ejz5gy23204]
-																																																																																																																																			[GOTO electro21,electro22,electro23]
-																																																																																																																																				[electro21]Кузьма: Я могу отвечать на звонки: Здравствуйте! С вами говорит холодильник. Пожалуйста, говорите помедленнее - стенка вибрирует, карандаш сползает.
-																																																																																																																																					А еще?
-																																																																																																																																						[mark_3cvdn9ng80thgec8af4r][GOTO electro22,electro23]
-																																																																																																																																					[GOTO electro_ok_buy]
-																																																																																																																																					[GOTO electro_i_dont_know]
-																																																																																																																																				[electro22]Кузьма: даже если во мне останется только репчатый лук и сгущенка, я все равно смогу найти рецепт блюда.
-																																																																																																																																					Не впечатляет.
-																																																																																																																																						[mark_dh467e359xkhhhr8qlrk]Кузьма: я даже смогу найти рецепт блюда, если во мне останутся только майонез и решетки!
-																																																																																																																																							И какой рецепт?
-																																																																																																																																								[mark_617tt6ffj98el106185s]Кузьма: обещай купить меня, скажу.
-																																																																																																																																									Ладно, обещаю и какой?
-																																																																																																																																										[mark_raig73z8b87d0aaox8o6]Кузьма: Яйцо под майонезом.
-																																																																																																																																											Так ведь нет яйца!
-																																																																																																																																												[mark_6817f8aev0l20788qupo]Кузьма: У соседки есть, сходишь, попросишь.
-																																																																																																																																													[GOTO electro_i_dont_know]
-																																																																																																																																									Ну уж нет.
-																																																																																																																																										[mark_h93gbr345299u6221v32][GOTO electro_buy_chess_drink]
-																																																																																																																																							[GOTO electro_i_dont_know]
-																																																																																																																																					И какой будет рецепт?
-																																																																																																																																						[mark_btp17p765mse77r9tgkb]Кузьма: Репчатый лук под сгущенкой. Или сгущенка под репчатым луком. Либо сгущенка в сгущенке под репчатым луком. Короче, много вариантов! Ну как тебе, а?
-																																																																																																																																							Все ясно, он мне не подходит.
-																																																																																																																																								[mark_l56g9mfa44bjyny641x9][GOTO electro_buy_chess_drink]
-																																																																																																																																							[GOTO electro_i_dont_know]
-																																																																																																																																				[electro23]Кузьма: я умею отличать холодильник-девочку от холодильника-мальчика!
-																																																																																																																																					И как интересно?
-																																																																																																																																						[mark_a6qdz75215il3abuehr1]Кузьма: обещай купить меня, скажу.
-																																																																																																																																							Ладно, обещаю и как?
-																																																																																																																																								[mark_mn2z69o95catz8qcv99c]Кузьма: Нет яиц.
-																																																																																																																																									[GOTO electro_ok_buy]
-																																																																																																																																							Ну уж нет.
-																																																																																																																																								[mark_57vn7x9fi28z1sqq7122][GOTO electro_buy_chess_drink]
-																																																																																																																																					Мне это не интересно.
-																																																																																																																																						[mark_t6123p0w246go6fzszne][GOTO electro22]
-																																																																																																																										[electro2]Может заказать пиво вместо молока.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
+																																																																																																																																		[mark_312n56wm09k553h8691v][GOTO electro21,electro22,electro23]
+																																																																																																																																			[electro21]Кузьма: Я могу отвечать на звонки: Здравствуйте! С вами говорит холодильник. Пожалуйста, говорите помедленнее - стенка вибрирует, карандаш сползает.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																				[mark_lv8f74sh59dev02s2254]А еще?
+																																																																																																																																					[mark_3cvdn9ng80thgec8af4r][GOTO electro22,electro23]
+																																																																																																																																				[mark_94xduo73p8zpl9ooafev][GOTO electro_ok_buy]
+																																																																																																																																				[mark_wdivi17zgec5sn82j375][GOTO electro_i_dont_know]
+																																																																																																																																			[electro22]Кузьма: даже если во мне останется только репчатый лук и сгущенка, я все равно смогу найти рецепт блюда.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																				[mark_6d3my6d81kmdt74f816r]Не впечатляет.
+																																																																																																																																					[mark_dh467e359xkhhhr8qlrk]Кузьма: я даже смогу найти рецепт блюда, если во мне останутся только майонез и решетки![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																						[mark_u237d2wn5uvwn1749lau]И какой рецепт?
+																																																																																																																																							[mark_617tt6ffj98el106185s]Кузьма: обещай купить меня, скажу.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																								[mark_6s9kc57h7zck6og3j79x]Ладно, обещаю и какой?
+																																																																																																																																									[mark_raig73z8b87d0aaox8o6]Кузьма: Яйцо под майонезом.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																										[mark_vg97bhbqzw8d2w2f0662]Так ведь нет яйца!
+																																																																																																																																											[mark_6817f8aev0l20788qupo]Кузьма: У соседки есть - сходишь, попросишь.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																												[mark_o749xjetv53oc31cok1o][GOTO electro_i_dont_know]
+																																																																																																																																								[mark_48n099did0z4073nr1su]Ну уж нет.
+																																																																																																																																									[mark_h93gbr345299u6221v32][GOTO electro_buy_chess_drink]
+																																																																																																																																						[mark_c3n8397y4m3z3sh90krt][GOTO electro_i_dont_know]
+																																																																																																																																				[mark_x3qsl7si4u54bb0nw14o]И какой будет рецепт?
+																																																																																																																																					[mark_btp17p765mse77r9tgkb]Кузьма: Репчатый лук под сгущенкой. Или сгущенка под репчатым луком. Либо сгущенка в сгущенке под репчатым луком. Короче, много вариантов! Ну как тебе, а?[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																						[mark_i81v66nl9rgv228wx469]Все ясно, он мне не подходит.
+																																																																																																																																							[mark_l56g9mfa44bjyny641x9][GOTO electro_buy_chess_drink]
+																																																																																																																																						[mark_9i8888bj1g1ng8k2859i][GOTO electro_i_dont_know]
+																																																																																																																																			[electro23]Кузьма: я умею отличать холодильник-девочку от холодильника-мальчика![IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																				[mark_m64a462c02rj19vsw2qp]И как интересно?
+																																																																																																																																					[mark_a6qdz75215il3abuehr1]Кузьма: обещай купить меня, скажу.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																						[mark_0xv6ikaw31kt6iac703w]Ладно, обещаю и как?
+																																																																																																																																							[mark_mn2z69o95catz8qcv99c]Кузьма: Нет яиц.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
+																																																																																																																																								[mark_6i2o2i06s82om9900ljg][GOTO electro_ok_buy]
+																																																																																																																																						[mark_1rddp111yq388kl8sek6]Ну уж нет.
+																																																																																																																																							[mark_57vn7x9fi28z1sqq7122][GOTO electro_buy_chess_drink]
+																																																																																																																																				[mark_g76z85bwcgw4ipo09o03]Мне это не интересно.
+																																																																																																																																					[mark_t6123p0w246go6fzszne][GOTO electro22]
+																																																																																																																										[electro2]Может заказать пиво вместо молока.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																											
-																																																																																																																												[mark_cnf71j635g24063so5y6]Кузьма: Заметь, по самой демократичной цене!
+																																																																																																																												[mark_cnf71j635g24063so5y6]Кузьма: Заметь, по самой демократичной цене.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																													[GOTO electro_ok]
-																																																																																																																										[electro3]Может спонтанно заказать "собутыльника на час".[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
+																																																																																																																										[electro3]Может спонтанно заказать "собутыльника на час".[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																											
-																																																																																																																												[mark_keur4p0cihxhmtatu823]Кузьма: Заметь, начитанного и образованного человека!
+																																																																																																																												[mark_keur4p0cihxhmtatu823]Кузьма: Заметь, начитанного и образованного человека.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																													[GOTO electro_ok]
-																																																																																																																										[electro4]Иногда путает магазины с кладбищами.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}]
+																																																																																																																										[electro4]Иногда путает магазины с кладбищами.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1&{script anton_front_right}][AUDIO silent_2.13]
 																																																																																																																											
-																																																																																																																												[mark_61v2mftgh1ayg1xa1ad1]Кузьма: Братан, просто там мясо дешевле было!
+																																																																																																																												[mark_61v2mftgh1ayg1xa1ad1]Кузьма: Братан, я не виноват. Там просто мясо дешевле было.[IMAGE fridge_bg5.jpg&fridge_electro.png|200;20;1;1;0;1]
 																																																																																																																													[GOTO electro_ok]
 																																																																																																																			[GOTO electro_minuses]
 																																																																																																																	Расскажите про "Аристон".
@@ -611,7 +610,7 @@
 			>>>
 				[mark_f332bi26g670v1uek83y][GOTO mark_final5]
 		[SEPARATOR]
-		[mark_final1][FINAL Холодильник съел твой мозг! Главный финал... :(][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
+		[mark_final1][FINAL Искусственный интеллект холодильника съел твой мозг! Главный финал... :)][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
 		[mark_final2][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал][IMAGE shop_is_closed.jpg]
 		[mark_final3][FINAL Ты психанул и ушел из магазина. Отрицательный финал.][IMAGE gone_from_shop.jpg]
 		[mark_final4]
