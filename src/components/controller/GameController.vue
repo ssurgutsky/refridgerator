@@ -35,7 +35,9 @@ export default {
       mode: 0,
       MODE_QUESTION: 1,
       MODE_AFTER_QUESTION: 2,
-      MODE_ANSWER: 3
+      MODE_ANSWER: 3,
+
+      PURCHASE_ITEM_CHEATS: 'cheats'
     }
   },
   mounted () {
@@ -46,7 +48,17 @@ export default {
       this.mainView = this.$refs.mainView
       this.gameModel = this.$refs.gameModel
 
+      this.loadPurchasedItems()
+
       this.restartGame()
+    },
+
+    loadPurchasedItems () {
+      let value = this.gameModel.loadPurchasedItem(this.PURCHASE_ITEM_CHEATS)
+      console.log('this.purchaseItems:', this.PURCHASE_ITEM_CHEATS, value)
+      if (value) {
+        this.mainView.enablePurchasedCheats()
+      }
     },
 
     restartGame () {
@@ -64,6 +76,22 @@ export default {
 
       this.mainView.setQuestionText(this.gameModel.getCurrentQuestionLabel())
 
+      // User purchased some of cheat buttons
+      console.log('GC:purchaseItem:', this.PURCHASE_ITEM_CHEATS, this.gameModel.purchaseItem)
+      if (this.gameModel.purchaseItem === this.PURCHASE_ITEM_CHEATS) {
+        console.log('Save:purchaseItem:', this.PURCHASE_ITEM_CHEATS, this.gameModel.purchaseItem)
+        this.mainView.enablePurchasedCheats()
+        this.gameModel.savePurchasedItem(this.gameModel.purchaseItem)
+      }
+
+      if (this.gameModel.getCurrentNavigateUrl()) {
+        console.log(this.gameModel.getCurrentNavigateUrl())
+        // navigator.app.loadUrl(this.gameModel.getCurrentNavigateUrl(), {openExternal: true})
+        // window.location = this.gameModel.getCurrentNavigateUrl()
+        window.open(this.gameModel.getCurrentNavigateUrl(), '_system')
+        // location.replace(this.gameModel.getCurrentNavigateUrl())
+      }
+
       this.mode = this.MODE_QUESTION
       this.playVideoAndAudio()
 
@@ -73,14 +101,6 @@ export default {
       this.playAmbient()
       this.playSoundFx()
       this.playMusic()
-
-      if (this.gameModel.getCurrentNavigateUrl()) {
-        console.log(this.gameModel.getCurrentNavigateUrl())
-        // navigator.app.loadUrl(this.gameModel.getCurrentNavigateUrl(), {openExternal: true})
-        // window.location = this.gameModel.getCurrentNavigateUrl()
-        window.open(this.gameModel.getCurrentNavigateUrl(), '_system')
-        // location.replace(this.gameModel.getCurrentNavigateUrl())
-      }
     },
 
     showAfterQuestion () {

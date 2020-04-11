@@ -169,6 +169,10 @@ export default {
     cheatEpisode () {
       console.log('cheatEpisode')
       this.$emit('cheatEpisode')
+    },
+
+    enablePurchasedCheats () {
+      this.$refs.controlsView.enablePurchasedCheats()
     }
   }
 }

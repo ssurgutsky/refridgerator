@@ -1,0 +1,2 @@
+console.log('this.payment_pending', this.payment_pending);
+this.payment_pending ? '[GOTO wait2]' : (this.payment_success ? '[GOTO payment_success2]' : '[GOTO payment_fail2]');

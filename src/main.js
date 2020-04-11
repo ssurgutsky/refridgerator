@@ -10,6 +10,9 @@ import VueVirtualScroller from 'vue-virtual-scroller'
 Vue.use(VueVirtualScroller)
 
 Vue.config.productionTip = false
+
+// NOTE: process.env.DEBUG is read from config/dev.env.js or config/prod.env.js
+// Use this.$debug in your code further
 Vue.prototype.$debug = process.env.DEBUG
 
 /* eslint-disable no-new */

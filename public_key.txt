@@ -1,0 +1,4 @@
+ProductId: com.kri_games.sg3.episodes
+
+Play Console -> Apps -> an App -> Development Tools -> Services and API
+

@@ -61,8 +61,9 @@ export default {
       this.createMarksDictionary(scenario)
       // console.log(this.marksDictionary)
 
-      if (process.env.$debug) {
-        console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
+      // console.log('this.$debug', this.$debug)
+      if (this.$debug) {
+        // console.log('gameScriptsDictionary:', this.gameScriptsDictionary)
 
         commonUtils.runTests()
         this.runTests()
@@ -84,8 +85,14 @@ export default {
       // window.store.verbosity = window.store.DEBUG
 
       window.store.register({
-        id: 'com.kri_games.ma1.coin1',
+        id: 'com.kri_games.voenkomat.coin1',
         alias: 'coin1',
+        type: window.store.CONSUMABLE
+      })
+
+      window.store.register({
+        id: 'com.kri_games.voenkomat.episodes',
+        alias: 'episodes',
         type: window.store.CONSUMABLE
       })
 
@@ -142,6 +149,16 @@ export default {
         return true
       }
       return false
+    },
+
+    savePurchasedItem (purchaseItem) {
+      console.log('Saving... purchaseItem:', purchaseItem)
+      localStorage.setItem(purchaseItem, true)
+    },
+
+    loadPurchasedItem (purchaseItem) {
+      console.log('Loading... purchaseItem:', purchaseItem)
+      return localStorage.getItem(purchaseItem)
     },
 
     restartGame () {
@@ -231,6 +248,9 @@ export default {
       this.currentQuestionLabel = label
 
       this.navigateUrl = commonUtils.getTagValueNAVIGATEURL(this.currentNode._parsedContent)
+
+      this.purchaseItem = commonUtils.getTagValuePURCHASE(this.currentNode._parsedContent)
+      console.log('purchaseItem:', this.purchaseItem)
 
       const bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
       this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)

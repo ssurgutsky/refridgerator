@@ -5,7 +5,7 @@
     <button :style="styleObjectCheat" @click="onLoadClick">LOAD</button>
     <button :style="styleObjectCheat" @click="onSkipClick">SKIP</button>
     <button :style="styleObjectCheat" @click="onBackClick">BACK</button>
-    <button :style="styleObjectCheat" @click="onEpisodeClick">EPISODE</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onEpisodeClick">EPISODE</button>
   </div>
 </template>
 
@@ -14,9 +14,12 @@
 export default {
   data () {
     return {
+      // Hide cheat button in release
       styleObjectCheat: {
         display: this.$debug ? 'auto' : 'none'
-      }
+      },
+      // Can buy this cheat to enable button
+      isCheatPurchased: false
     }
   },
   methods: {
@@ -48,6 +51,11 @@ export default {
     onEpisodeClick () {
       console.log('cheatEpisode')
       this.$emit('cheatEpisode')
+    },
+
+    enablePurchasedCheats () {
+      console.log('enablePurchasedCheats')
+      this.isCheatPurchased = true
     }
   }
 }
