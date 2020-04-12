@@ -92,7 +92,7 @@
 																																																																																											А небольшой подарок хотя бы дадите?
 																																																																																												[mark_2ylp330932a3834fl1y7]Вы знаете, я только что проверил по базе, к сожалению, последний купил уже какой-то пенсионер.[IMAGE view1.jpg&{script anton_back}]
 																																																																																													Эх... хотя, ладно...
-																																																																																														[EPISODE5,select_freeges]Выбирате другие варианты.[IMAGE view1.jpg&{script anton_front_right}]
+																																																																																														[EPISODE5,select_fridges]Выбирате другие варианты.[IMAGE view1.jpg&{script anton_front_right}]
 																																																																																															[which_cases]Какие другие?
 																																																																																																[take_libher]Возьмите самый дорогой "Либхер" и не парьтесь.[IMAGE fridge_bg3.jpg&fridge_libher.png|160;20;1;1;0;1]
 																																																																																																	Да он стоит, как крыло от самолета!
@@ -383,7 +383,7 @@
 																																																																																																					Ну, допустим, не объедков, а продуктов.
 																																																																																																						[mark_56z59480l5zp4dj1xgb3]Да, как захотите, так и будете называть ваши объедки.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																							[bomsh_bottles_for_juce]Это разве бутылки для сока?
-																																																																																																								[mark_02h06bh2y5li1h5i9710]Конечно. Для пшеничного, нефильтрованного сока. Это же "Бомш".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																								[mark_02h06bh2y5li1h5i9710]Конечно. Для пшеничного, нефильтрованного сока.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																									[bomsh_pluses]А достоинства у него какие?
 																																																																																																										[mark_40g9tg41ovl9ijzdbtdf]Ну, к примеру, греческий салат, простоявший с неделю в этом холодильнике не портится, а становится античным.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																											[bomsh_minuses]А недостатки у него какие?
@@ -395,9 +395,9 @@
 																																																																																																																	Печально...
 																																																																																																																		[mark_6t3rvfk4j1w2bvy18se0]Зато у этой марки есть один неоспоримый плюс, которого нет у других.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																																			Какой?
-																																																																																																																				[bomsh_big_plus]Один пожилой клиент приобрел у нас "Бомш". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.[IMAGE fridge_bg4.jpg&fridge_bomsh.png
+																																																																																																																				[bomsh_big_plus]Один пожилой клиент приобрел у нас "Бомш". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																																					[dont_like_bomsh]Знаете, он мне не подходит.
-																																																																																																																						[mark_1b915f748sgbg8o6v1al][GOTO terror_alarm]
+																																																																																																																						[mark_1b915f748sgbg8o6v1al][GOTO terror_alarm,take_libher]
 																																																																																																																					[GOTO select_bomsh]
 																																																																																																																			[GOTO select_bomsh]
 																																																																																																																[bomsh_minus2]Иногда он на неделю просто запирает дверь и отключается. Как буд-то уходит в запой...[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
@@ -424,7 +424,7 @@
 																																																																																																										[mark_ecr4394iwd9278a2v824]Из минусов: он частенько тупит и специально перемораживает алкогольные напитки до абсолютного нуля. Но, это, скорее, забота о вашем здоровье![IMAGE fridge_bg5.jpg&fridge_lg.png|150;0;1;1;0;1&{script anton_front_right}]
 																																																																																																											[GOTO select_lg]
 																																																																																																											[dont_like_lg]Он мне не подходит.
-																																																																																																												[mark_xrwy5vn3butp5sl99h62][GOTO fire_alarm]
+																																																																																																												[mark_xrwy5vn3butp5sl99h62][GOTO fire_alarm,take_libher]
 																																																																																																									[GOTO dont_like_lg]
 																																																																																																							[GOTO select_lg]
 																																																																																																					Круто!
@@ -436,7 +436,7 @@
 																																																																																											[I_take_orsk]Я беру "Орск"!
 																																																																																												[mark_o9f03h8t8bphg9533733][GOTO mark_final9]
 																																																																																									[orsk_is_not_a_good_idea]Действительно, не стоит оно того.
-																																																																																										[mark_21789ie3gukz3g77o9ep][GOTO select_freeges]
+																																																																																										[mark_21789ie3gukz3g77o9ep][GOTO select_fridges]
 																																																																																									[GOTO I_take_orsk]
 																																																																																							[GOTO orsk_is_not_a_good_idea]
 																																																																																					[orsk_country]А кто у него производитель?
@@ -465,7 +465,7 @@
 																																																																																														[mark_21b80m8fp5d46ereq72h][GOTO mark_final3]
 																																																																																												[you_want_toshiba_again]Ладно, извините. И вы хотите взять снова "Тошношибу", чтобы он снова сгорел?[IMAGE view1.jpg&{script anton_front_right}]
 																																																																																													Нет, конечно!
-																																																																																														[mark_5whm2k5571069823v9ys][GOTO shop_is_closing]
+																																																																																														[mark_5whm2k5571069823v9ys][GOTO shop_is_closing,select_fridges]
 																																																																																													[GOTO are_you_idiot]
 																																																																																									[GOTO are_you_idiot]
 																																																																																							[GOTO are_you_idiot]

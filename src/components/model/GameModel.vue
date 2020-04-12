@@ -216,7 +216,7 @@ export default {
         let markName = commonUtils.getArrayRandomElement(markNames)
         result = this.findNodeWithMark(scenario, markName)
         if (!result) {
-          console.log('Cant find mark in scenario!', markName)
+          console.log('%c Cant find mark in scenario!' + markName, 'background: #FF0000; color: #FFFFFF')
           return node
         }
 
@@ -230,12 +230,13 @@ export default {
     },
 
     prepareCurrentQuestion () {
-      this.prevQuestionNodes.push(this.currentNode)
-
       this.currentNode = this.processGOTONode(this.currentNode)
 
       const saveObj = { ...this.gameData }
       this.currentNode._gameData = JSON.parse(JSON.stringify(saveObj))
+
+      // NOTE: should stay after _gameData set!!!
+      this.prevQuestionNodes.push(this.currentNode)
 
       // console.log('gameData:', this.gameData)
 
