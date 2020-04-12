@@ -2592,7 +2592,7 @@
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                                           "_mark": "EPISODE3",
-                                                                                                                                                                                                                                                                          "_content": "[LABEL Главный менеджер Втиралов Антон, чем могу быть полезен?][IMAGE view1.jpg&{script anton_front_left}]"
+                                                                                                                                                                                                                                                                          "_content": "[LABEL Главный менеджер Антуан Втиралов, чем могу быть полезен?][IMAGE view1.jpg&{script anton_front_left}]"
                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                       "_mark": "call_admin",
@@ -3272,7 +3272,7 @@
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT",
-                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][IMAGE view1.jpg&{script anton_back}]"
+                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][VIDEO anton][IMAGE view1.jpg&{script anton_back}]"
                 },
                 {
                   "node": [

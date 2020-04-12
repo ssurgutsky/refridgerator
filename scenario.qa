@@ -1,6 +1,6 @@
 [START]Менеджер Антон 1. Симулятор менеджера торгового зала.[IMAGE Intro.jpg]{script initSystem}
 	START GAME / НАЧАТЬ ИГРУ
-		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[IMAGE view1.jpg&{script anton_back}]
+		[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[IMAGE view1.jpg&{script anton_back}][VIDEO anton]
 			Покашляю, чтобы привлечь внимание.
 				[manager_ignores_you]Он тебя не замечает.[IMAGE view1.jpg&{script anton_back}]
 					[tell_me_please]Скажите, пожалуйста...
@@ -62,7 +62,7 @@
 																																																													>>>
 																																																														[back_to_shop]Ты вернулся в зал. Здесь по-прежнему никого нет.[IMAGE view1.jpg&{script anton_back}]
 																																																															[call_admin]Позовите вашего главного менеджера!
-																																																																[EPISODE3]Главный менеджер Втиралов Антон, чем могу быть полезен?[IMAGE view1.jpg&{script anton_front_left}]
+																																																																[EPISODE3]Главный менеджер Антуан Втиралов, чем могу быть полезен?[IMAGE view1.jpg&{script anton_front_left}]
 																																																																	Странно, что с таким отношением к клиентам вы еще не прогорели...
 																																																																		[mark_c0ogi6l8634lmi2p2k60]Говорят, что в Новый Год\nВсё всегда сбывается\nДаже то, что за весь год\nНам сбыть не получается...[IMAGE view1.jpg&{script anton_front_left}]
 																																																																			[are_you_administrator]Значит, вы еще и главный менеджер?
