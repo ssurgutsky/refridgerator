@@ -1784,7 +1784,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "_mark": "bomsh_big_plus",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_content": "[LABEL Один пожилой клиент приобрел у нас \"Бомш\". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.][IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_content": "[LABEL Один пожилой клиент приобрел у нас \"Бомш\". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.]"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_mark": "",
@@ -1904,7 +1904,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                                                                                                                                                                   "_mark": "mark_f044gyg2tf1can76s740",
-                                                                                                                                                                                                                                                                                                                                                                                                                  "_content": "[LABEL Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.][IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]"
+                                                                                                                                                                                                                                                                                                                                                                                                                  "_content": "[LABEL Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.]"
                                                                                                                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                                                                                                                                                                               "_mark": "",
@@ -2852,7 +2852,7 @@
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_p8u71q7gh3pwv1ow88p6",
-                                                                                                                                          "_content": "[LABEL Идем на пожарный выход...][VIDEO fire_exit_forward][AUDIO silent_10.5]"
+                                                                                                                                          "_content": "[LABEL Идем на пожарный выход...][VIDEO go_exit1,go_exit2][AUDIO silent_9.5]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "",
@@ -3344,7 +3344,7 @@
                     }
                   ],
                   "_mark": "terror_alarm",
-                  "_content": "[LABEL Вы слышали? Кажется наш магазин захватили террористы! Вам срочно надо уходить отсюда!][IMAGE view1.jpg&{script anton_front_right}]"
+                  "_content": "[LABEL Вы слышали? Кажется наш магазин захватили пьяные террористы! Вам срочно надо уходить отсюда!][IMAGE view1.jpg&{script anton_front_right}]"
                 },
                 {
                   "node": [
@@ -3360,7 +3360,7 @@
                     }
                   ],
                   "_mark": "fire_alarm",
-                  "_content": "[LABEL Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина!][IMAGE view1.jpg&{script anton_front_right}]"
+                  "_content": "[LABEL Вы слышите?! Это пожарная тревога. Извините, но вам срочно нужно эвакуироваться из магазина!][IMAGE view1.jpg&{script anton_front_right}]"
                 },
                 {
                   "node": [
@@ -3376,7 +3376,7 @@
                     }
                   ],
                   "_mark": "shop_is_closing",
-                  "_content": "[LABEL Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания!][IMAGE view1.jpg&{script anton_front_right}]"
+                  "_content": "[LABEL Извините, но наш магазин уже закрывается. Приходите завтра. Д авайте до свидания!][IMAGE view1.jpg&{script anton_front_right}]"
                 },
                 {
                   "node": [
@@ -3392,23 +3392,141 @@
                     }
                   ],
                   "_mark": "you_here_to_warm_up",
-                  "_content": "[LABEL Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда!][IMAGE view1.jpg&{script anton_front_right}]"
+                  "_content": "[LABEL Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой. Охрана, подойдите сюда!][IMAGE view1.jpg&{script anton_front_right}]"
                 },
                 {
                   "node": [
                     {
                       "node": [
                         {
-                          "_mark": "mark_f332bi26g670v1uek83y",
-                          "_content": "[LABEL ][GOTO mark_final5]"
+                          "_mark": "mark_u1w45gtbiz4jtqdf3288",
+                          "_content": "[LABEL ][GOTO mark_final7]"
                         }
                       ],
                       "_mark": "",
                       "_content": "[LABEL >>>]"
                     }
                   ],
+                  "_mark": "earthquake",
+                  "_content": "[LABEL О боже, что это?! Землетрясение! Вам нужно срочно эвакуироваться из магазина! И завтра тоже не приходите.][IMAGE view1.jpg&{script anton_front_right}]"
+                },
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "_mark": "mark_t4rgykpmppxk4i72s532",
+                          "_content": "[LABEL ][GOTO mark_final7]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL >>>]"
+                    }
+                  ],
+                  "_mark": "boss_call",
+                  "_content": "[LABEL Извините, только что звонил директор, сказал срочно закрывать магазин. Вам сейчас придется уйти.][IMAGE view1.jpg&{script anton_front_right}]"
+                },
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "_mark": "mark_f332bi26g670v1uek83y",
+                                  "_content": "[LABEL ][GOTO mark_final5]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL >>>]"
+                            }
+                          ],
+                          "_mark": "mark_5erj651oraaxb8403dco",
+                          "_content": "[LABEL Давай, пошевеливайся!][VIDEO go_exit2][AUDIO silent_3]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL Не имеет права!]"
+                    },
+                    {
+                      "node": [
+                        {
+                          "_mark": "mark_o198i7j304s9ka48ulq9",
+                          "_content": "[LABEL ][GOTO mark_final7]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL Ладно, я ухожу!]"
+                    },
+                    {
+                      "node": [
+                        {
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "node": [
+                                    {
+                                      "node": [
+                                        {
+                                          "node": [
+                                            {
+                                              "node": [
+                                                {
+                                                  "_mark": "mark_f7x6o5k08h02as1t0693",
+                                                  "_content": "[LABEL ][GOTO mark_final5]"
+                                                }
+                                              ],
+                                              "_mark": "",
+                                              "_content": "[LABEL >>>]"
+                                            }
+                                          ],
+                                          "_mark": "mark_x4ep69056jc35k913qq2",
+                                          "_content": "[LABEL Тебя ударили сзади чем-то тупым.][IMAGE view1.jpg&{script anton_front_right}]"
+                                        }
+                                      ],
+                                      "_mark": "who_on_me",
+                                      "_content": "[LABEL Кто тут еще на меня?!]"
+                                    },
+                                    {
+                                      "node": [
+                                        {
+                                          "_mark": "mark_l8j4990rt0j96r22ii4y",
+                                          "_content": "[LABEL ][GOTO mark_final4]"
+                                        }
+                                      ],
+                                      "_mark": "",
+                                      "_content": "[LABEL Зови!]"
+                                    }
+                                  ],
+                                  "_mark": "mark_u1au444w59122i90z5h7",
+                                  "_content": "[LABEL Вам лучше покинуть магазин! Или я позову всех менеджеров!][IMAGE view1.jpg&{script anton_front_right}]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL Лошара...]"
+                            },
+                            {
+                              "_mark": "",
+                              "_content": "[LABEL ][GOTO who_on_me]"
+                            }
+                          ],
+                          "_mark": "mark_2nh90uv12enyn4vy99ys",
+                          "_content": "[LABEL Аааа!!! Мамочкааа!!! Он мне нос сломал!][IMAGE security1.jpg]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL Дам охраннику в бубен.]"
+                    }
+                  ],
                   "_mark": "security_go_out_shop",
-                  "_content": "[LABEL Выходим из магазина, живо!][IMAGE security1.jpg]"
+                  "_content": "[LABEL Проходим на выход!][IMAGE security1.jpg]"
+                },
+                {
+                  "_mark": "mark_4dblm1826l6rq388t8z5",
+                  "_content": "[LABEL ]"
                 },
                 {
                   "_mark": "SEPARATOR",
@@ -3428,7 +3546,7 @@
                 },
                 {
                   "_mark": "mark_final4",
-                  "_content": "[LABEL ]"
+                  "_content": "[LABEL ][FINAL Тебя выкурили из магазина подоспевшие менеджеры. Отрицательный финал.][IMAGE managers_smoke.jpg]"
                 },
                 {
                   "_mark": "mark_final5",
@@ -3444,7 +3562,7 @@
                 },
                 {
                   "_mark": "mark_final8",
-                  "_content": "[LABEL ][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]"
+                  "_content": "[LABEL ][FINAL Ты прождал, пока магазин закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]"
                 },
                 {
                   "_mark": "mark_final9",

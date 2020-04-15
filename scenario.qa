@@ -30,7 +30,7 @@
 																													[call_somebody]Позовите мне кого-нибудь.
 																														[EPISODE1]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[IMAGE view1.jpg&{script anton_back}]
 																															Пойду к пожарному выходу.
-																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO fire_exit_forward][AUDIO silent_10.5]
+																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO go_exit1,go_exit2][AUDIO silent_9.5]
 																																	
 																																		[mark_uvkgmhqvbn22gqon2ckn]Никого нет, кроме одного чувака...[BGNDVIDEO GopIdle]
 																																			О! Колян! Клеткин! Здорово!
@@ -58,7 +58,7 @@
 																																																									
 																																																										[payment_success]...[VIDEO GopTakes5rub][AUDIO silent_2.7]
 																																																											
-																																																												[mark_773nu066478li3cn85zf]От души, братух! Если тебе нужен реальный холодильник - я слыхал на складе есть элитный "Либхер" с большой скидкой. Пытай до последнего вздоха главнюка менеджера Антоху! [VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO G
+																																																												[mark_773nu066478li3cn85zf]От души, братух! Если тебе нужен реальный холодильник - я слыхал на складе есть элитный "Либхер" с большой скидкой. Пытай до последнего вздоха главнюка менеджера Антоху! [VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO 
 																																																													>>>
 																																																														[back_to_shop]Ты вернулся в зал. Здесь по-прежнему никого нет.[IMAGE view1.jpg&{script anton_back}]
 																																																															[call_admin]Позовите вашего главного менеджера!
@@ -377,7 +377,7 @@
 																																																																																															[take_bomsh]А если взять "Бомш"?
 																																																																																																[mark_oqq5od4927r0j6067l34]...[VIDEO look_around][AUDIO silent_6]
 																																																																																																	
-																																																																																																		[mark_f044gyg2tf1can76s740]Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1]
+																																																																																																		[mark_f044gyg2tf1can76s740]Вариант на любителя. При самой наидешманской цене в нем есть все самое минимально необходимое для полноценной, насыщенной событиями, жизни человека: бутылки для сока и контейнер для заморозки объедков.[IMAGE fridge_bg4.jpg&fridg
 																																																																																																			Заморозки объедков?
 																																																																																																				[mark_6fbo2se046j35a2e2e8d]Конечно. Это же "Бомш".[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																					Ну, допустим, не объедков, а продуктов.
@@ -395,7 +395,7 @@
 																																																																																																																	Печально...
 																																																																																																																		[mark_6t3rvfk4j1w2bvy18se0]Зато у этой марки есть один неоспоримый плюс, которого нет у других.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
 																																																																																																																			Какой?
-																																																																																																																				[bomsh_big_plus]Один пожилой клиент приобрел у нас "Бомш". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.[IMAGE fridge_bg4.jpg&fridge_bomsh.png|10;250;1;1;0;1&{script anton_front_right}]
+																																																																																																																				[bomsh_big_plus]Один пожилой клиент приобрел у нас "Бомш". Пока его не было дома, к нему залезли воры. Открыв этот холодильник и увидев, что внутри - воры не только ничего не взяли, но и из жалости оставили ему денег.[IMAGE fridge_bg4.jpg&fridge_bomsh.png
 																																																																																																																					[dont_like_bomsh]Знаете, он мне не подходит.
 																																																																																																																						[mark_1b915f748sgbg8o6v1al][GOTO terror_alarm,take_libher]
 																																																																																																																					[GOTO select_bomsh]
@@ -614,30 +614,52 @@
 		[security_here_is_junk]Охрана! Подойдите сюда! Тут какой-то наркоман![IMAGE view1.jpg&anton_back_ass.png|400;240;0.5;0.5;0;1]
 			>>>
 				[mark_817kz4r3wq4ilgu71ls7][GOTO security_go_out_shop]
-		[terror_alarm]Вы слышали? Кажется наш магазин захватили террористы! Вам срочно надо уходить отсюда![IMAGE view1.jpg&{script anton_front_right}]
+		[terror_alarm]Вы слышали? Кажется наш магазин захватили пьяные террористы! Вам срочно надо уходить отсюда![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_k8n2k7mqnx7qe8j02j88][GOTO mark_final7]
-		[fire_alarm]Вы слышите? Это пожарная тревога. Извините, вам сейчас придется срочно эвакуироваться из магазина![IMAGE view1.jpg&{script anton_front_right}]
+		[fire_alarm]Вы слышите?! Это пожарная тревога. Извините, но вам срочно нужно эвакуироваться из магазина![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_3c4263oq815ojq3d50vy][GOTO mark_final7]
-		[shop_is_closing]Извините, наш магазин уже закрывается. Приходите завтра, давайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
+		[shop_is_closing]Извините, но наш магазин уже закрывается. Приходите завтра. Д авайте до свидания![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_c09416h3ukgd061drypi][GOTO mark_final2]
-		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой! Охрана! Подойдите сюда![IMAGE view1.jpg&{script anton_front_right}]
+		[you_here_to_warm_up]Знаете, я понял - вы зашли в наш магазин просто погреться, а не за покупкой. Охрана, подойдите сюда![IMAGE view1.jpg&{script anton_front_right}]
 			>>>
 				[mark_27kzjjtki214v13oky9d][GOTO security_go_out_shop]
-		[security_go_out_shop]Выходим из магазина, живо![IMAGE security1.jpg]
+		[earthquake]О боже, что это?! Землетрясение! Вам нужно срочно эвакуироваться из магазина! И завтра тоже не приходите.[IMAGE view1.jpg&{script anton_front_right}]
 			>>>
-				[mark_f332bi26g670v1uek83y][GOTO mark_final5]
+				[mark_u1w45gtbiz4jtqdf3288][GOTO mark_final7]
+		[boss_call]Извините, только что звонил директор, сказал срочно закрывать магазин. Вам сейчас придется уйти.[IMAGE view1.jpg&{script anton_front_right}]
+			>>>
+				[mark_t4rgykpmppxk4i72s532][GOTO mark_final7]
+		[security_go_out_shop]Проходим на выход![IMAGE security1.jpg]
+			Не имеет права!
+				[mark_5erj651oraaxb8403dco]Давай, пошевеливайся![VIDEO go_exit2][AUDIO silent_3]
+					>>>
+						[mark_f332bi26g670v1uek83y][GOTO mark_final5]
+			Ладно, я ухожу!
+				[mark_o198i7j304s9ka48ulq9][GOTO mark_final7]
+			Дам охраннику в бубен.
+				[mark_2nh90uv12enyn4vy99ys]Аааа!!! Мамочкааа!!! Он мне нос сломал![IMAGE security1.jpg]
+					Лошара...
+						[mark_u1au444w59122i90z5h7]Вам лучше покинуть магазин! Или я позову всех менеджеров![IMAGE view1.jpg&{script anton_front_right}]
+							[who_on_me]Кто тут еще на меня?!
+								[mark_x4ep69056jc35k913qq2]Тебя ударили сзади чем-то тупым.[IMAGE view1.jpg&{script anton_front_right}]
+									>>>
+										[mark_f7x6o5k08h02as1t0693][GOTO mark_final5]
+							Зови!
+								[mark_l8j4990rt0j96r22ii4y][GOTO mark_final4]
+					[GOTO who_on_me]
+		[mark_4dblm1826l6rq388t8z5]
 		[SEPARATOR]
 		[mark_final1][FINAL Искусственный интеллект холодильника съел твой мозг! Главный финал... :)][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
 		[mark_final2][FINAL Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал][IMAGE shop_is_closed.jpg]
 		[mark_final3][FINAL Ты психанул и ушел из магазина. Отрицательный финал.][IMAGE gone_from_shop.jpg]
-		[mark_final4]
+		[mark_final4][FINAL Тебя выкурили из магазина подоспевшие менеджеры. Отрицательный финал.][IMAGE managers_smoke.jpg]
 		[mark_final5][FINAL Охрана выпнула тебя из магазина. Отрицательный финал.][IMAGE out_of_shop.jpg]
 		[mark_final6][FINAL Похоже, ты забыл за чем пришел. Тебе впарили другой товар, который сгорел вместе с твоим домом на следующий день. Отрицательный финал.][IMAGE house_in_fire.jpg]
 		[mark_final7][FINAL Тебе пришлось срочно уйти из магазина. Отрицательный финал][IMAGE shop_is_closed.jpg]
-		[mark_final8][FINAL Ты прождал, пока магазин не закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]
+		[mark_final8][FINAL Ты прождал, пока магазин закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg]
 		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. В нем тебя и похоронят. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1]
 		[mark_final11][FINAL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.][IMAGE fridge_libher.png|160;20;1;1;0;1]
 		[mark_final12][FINAL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.][IMAGE fridge_bomsh.png|10;250;1;1;0;1]
