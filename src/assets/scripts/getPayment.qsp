@@ -4,7 +4,7 @@ let productId = this.productId;
 
 this.payment_pending = true;
 this.payment_success = false;
-
+/*
 this.store.order(productId)
     .then((p) => {
         console.log("store.order.then::", p);
@@ -37,6 +37,6 @@ this.store.order(productId)
     });
 /**/
 
-//setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
+setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
 
 '';
