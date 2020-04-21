@@ -3022,7 +3022,7 @@
                                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                                           "_mark": "EPISODE5,back_to_shop",
-                                                                                                                                                                                                                                                                          "_content": "[LABEL Ты вернулся в зал.][VIDEO go3][AUDIO silent_3][MUSIC The_Old_RV]"
+                                                                                                                                                                                                                                                                          "_content": "[LABEL Ты вернулся в зал.][VIDEO go3][AUDIO silent_1,you_returned,silent_1][MUSIC The_Old_RV]"
                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                       "_mark": "",
@@ -3030,7 +3030,7 @@
                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                   "_mark": "mark_go58l10x6c26t3n09z75",
-                                                                                                                                                                                                                                                                  "_content": "[LABEL Пытай до последнего вздоха главнюка менеджера Антоху!][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                                                                                                  "_content": "[LABEL Пытай до последнего вздоха главнюка менеджера Антоху!][VIDEO GopSpeechLoadingLoop][AUDIO g_ask_anton][BGNDVIDEO GopStandsBouncing]"
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                               ],
                                                                                                                                                                                                                                                               "_mark": "",
@@ -3038,7 +3038,7 @@
                                                                                                                                                                                                                                                             }
                                                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                                                           "_mark": "mark_773nu066478li3cn85zf",
-                                                                                                                                                                                                                                                          "_content": "[LABEL От души, с душой, в душу, братух! Я слыхал на складе есть элитный \"Либхер\" с большой скидкой.][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                                                                                          "_content": "[LABEL От души, с душой, в душу, братух! Я слыхал на складе есть элитный \"Либхер\" с большой скидкой.][VIDEO GopSpeechLoadingLoop][AUDIO g_thanks][BGNDVIDEO GopStandsBouncing]"
                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                       "_mark": "",
@@ -3090,11 +3090,11 @@
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "mark_ht148aj862wm21q30ogd",
-                                                                                                                                                                                                                          "_content": "[LABEL {this.productId = \"com.kri_games.ma1.coin1\";'';}{script getPayment}]"
+                                                                                                                                                                                                                          "_content": "[LABEL {this.productId = \"com.kri_games.fridge.coin1\";'';}{script getPayment}]"
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                       "_mark": "donate",
-                                                                                                                                                                                                                      "_content": "[LABEL Достать лопатник.]"
+                                                                                                                                                                                                                      "_content": "[LABEL Достать монету.]"
                                                                                                                                                                                                                     },
                                                                                                                                                                                                                     {
                                                                                                                                                                                                                       "_mark": "",
@@ -3102,7 +3102,7 @@
                                                                                                                                                                                                                     }
                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                   "_mark": "EPISODE4",
-                                                                                                                                                                                                                  "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                                                  "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing]"
                                                                                                                                                                                                                 }
                                                                                                                                                                                                               ],
                                                                                                                                                                                                               "_mark": "bye_brick",
@@ -3126,7 +3126,7 @@
                                                                                                                                                                                                             }
                                                                                                                                                                                                           ],
                                                                                                                                                                                                           "_mark": "gop_subwork",
-                                                                                                                                                                                                          "_content": "[LABEL Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов!][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                                          "_content": "[LABEL Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов!][VIDEO GopSpeechLoadingLoop][AUDIO g_dont_disturb_me][BGNDVIDEO GopStandsBouncing]"
                                                                                                                                                                                                         }
                                                                                                                                                                                                       ],
                                                                                                                                                                                                       "_mark": "",
@@ -3142,7 +3142,7 @@
                                                                                                                                                                                                     }
                                                                                                                                                                                                   ],
                                                                                                                                                                                                   "_mark": "mark_08fd84790430096w72uq",
-                                                                                                                                                                                                  "_content": "[LABEL Нее, я свою смену уже отпахал!][VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]"
+                                                                                                                                                                                                  "_content": "[LABEL Нее, я свою смену уже отпахал!][VIDEO GopSpeechSimpleLoop][AUDIO g_i_worked][BGNDVIDEO GopHappyLoop]"
                                                                                                                                                                                                 }
                                                                                                                                                                                               ],
                                                                                                                                                                                               "_mark": "help_choose_frige",
@@ -3186,7 +3186,7 @@
                                                                                                                                                                                             }
                                                                                                                                                                                           ],
                                                                                                                                                                                           "_mark": "mark_ot0t8mcx2n29u7i4e7e2",
-                                                                                                                                                                                          "_content": "[LABEL Это для другой работы-подработки...][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]"
+                                                                                                                                                                                          "_content": "[LABEL Это для другой работы-подработки...][VIDEO GopSpeechLoadingLoop][AUDIO g_its_for_another_work][BGNDVIDEO GopHappyLoop]"
                                                                                                                                                                                         }
                                                                                                                                                                                       ],
                                                                                                                                                                                       "_mark": "",
@@ -3198,7 +3198,7 @@
                                                                                                                                                                                     }
                                                                                                                                                                                   ],
                                                                                                                                                                                   "_mark": "mark_0fvs7116g98gwgpzj263",
-                                                                                                                                                                                  "_content": "[LABEL Нее, ты чо! Бери выше - менеджером! Как и все наши...][VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]"
+                                                                                                                                                                                  "_content": "[LABEL Нее, ты чо! Бери выше - менеджером! Как и все наши...][VIDEO GopSpeechLoadingLoop][AUDIO g_i_am_manager][BGNDVIDEO GopHappyLoop]"
                                                                                                                                                                                 }
                                                                                                                                                                               ],
                                                                                                                                                                               "_mark": "",
@@ -3226,7 +3226,7 @@
                                                                                                                                                                             }
                                                                                                                                                                           ],
                                                                                                                                                                           "_mark": "mark_ovz59u3g407k428l1487",
-                                                                                                                                                                          "_content": "[LABEL Работаю я тут в магазе.][VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]"
+                                                                                                                                                                          "_content": "[LABEL Работаю я тут в магазе.][VIDEO GopSpeechSimpleLoop][AUDIO g_i_work_here][BGNDVIDEO GopHappyLoop]"
                                                                                                                                                                         }
                                                                                                                                                                       ],
                                                                                                                                                                       "_mark": "",
@@ -3234,7 +3234,7 @@
                                                                                                                                                                     }
                                                                                                                                                                   ],
                                                                                                                                                                   "_mark": "mark_p1d04qsoz0pn06rz89i0",
-                                                                                                                                                                  "_content": "[LABEL А... это ты...][VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]"
+                                                                                                                                                                  "_content": "[LABEL А... это ты...][VIDEO GopSpeechSimpleLoop][AUDIO g_ah_you][BGNDVIDEO GopHappyLoop]"
                                                                                                                                                                 }
                                                                                                                                                               ],
                                                                                                                                                               "_mark": "",
@@ -3242,7 +3242,7 @@
                                                                                                                                                             }
                                                                                                                                                           ],
                                                                                                                                                           "_mark": "mark_3p95t16f3k8g712h7rr7",
-                                                                                                                                                          "_content": "[LABEL Эээ, братишка, постой!][VIDEO GopIntro][AUDIO silent_1.5,Hey_brother_stop.mp3,silent_2.5]"
+                                                                                                                                                          "_content": "[LABEL Эээ, братишка, постой!][VIDEO GopIntro][AUDIO silent_1.4,hey_brother_stop.mp3,silent_2]"
                                                                                                                                                         }
                                                                                                                                                       ],
                                                                                                                                                       "_mark": "",
@@ -3250,7 +3250,7 @@
                                                                                                                                                     }
                                                                                                                                                   ],
                                                                                                                                                   "_mark": "EPISODE3",
-                                                                                                                                                  "_content": "[LABEL Никого нет, кроме одного чувака...][BGNDVIDEO GopIdle][MUSIC Trespass]"
+                                                                                                                                                  "_content": "[LABEL Никого нет, кроме одного чувака...][VIDEO GopIdle][AUDIO nobody_at_fire_exit][BGNDVIDEO GopIdle][MUSIC Trespass]"
                                                                                                                                                 }
                                                                                                                                               ],
                                                                                                                                               "_mark": "",
@@ -3258,7 +3258,7 @@
                                                                                                                                             }
                                                                                                                                           ],
                                                                                                                                           "_mark": "mark_p8u71q7gh3pwv1ow88p6",
-                                                                                                                                          "_content": "[LABEL Идем на пожарный выход...][VIDEO go_exit1,go_exit2][AUDIO silent_9.5]"
+                                                                                                                                          "_content": "[LABEL Идем на пожарный выход...][VIDEO go_exit1,go_exit2][AUDIO you_go_fire_exit,silent_7]"
                                                                                                                                         }
                                                                                                                                       ],
                                                                                                                                       "_mark": "",
@@ -3292,7 +3292,7 @@
                                                                                                                                     }
                                                                                                                                   ],
                                                                                                                                   "_mark": "EPISODE2",
-                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.][IMAGE view1.jpg&{script a_b}]"
+                                                                                                                                  "_content": "[LABEL Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.][IMAGE view1.jpg&{script a_b}][AUDIO a_go_fire_exit][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                                                                 }
                                                                                                                               ],
                                                                                                                               "_mark": "call_somebody",
@@ -3304,7 +3304,7 @@
                                                                                                                             }
                                                                                                                           ],
                                                                                                                           "_mark": "mark_n3z7yibartu32o0ftbj8",
-                                                                                                                          "_content": "[LABEL Курят наверное. Кстати, тоже надо бы сходить...][IMAGE view1.jpg&{script a_b}]"
+                                                                                                                          "_content": "[LABEL Курят наверное. Кстати, тоже надо бы сходить...][IMAGE view1.jpg&{script a_b}][AUDIO a_they_smoking][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                                                         }
                                                                                                                       ],
                                                                                                                       "_mark": "where_others",
@@ -3336,7 +3336,7 @@
                                                                                                                     }
                                                                                                                   ],
                                                                                                                   "_mark": "mark_k49kml91kn97jv0gs3aw",
-                                                                                                                  "_content": "[LABEL Оформляю претензию по долгому обслуживанию.][IMAGE view1.jpg&{script a_b}]"
+                                                                                                                  "_content": "[LABEL Оформляю претензию по долгому обслуживанию.][IMAGE view1.jpg&{script a_b}][AUDIO a_fill_long_service][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                                                 }
                                                                                                               ],
                                                                                                               "_mark": "what_are_you_busy_for",
@@ -3364,7 +3364,7 @@
                                                                                                             }
                                                                                                           ],
                                                                                                           "_mark": "passed5min",
-                                                                                                          "_content": "[LABEL 5 минут прошло. Ноль внимания.][IMAGE view1.jpg&{script a_b}]"
+                                                                                                          "_content": "[LABEL 5 минут прошло. Ноль внимания.][IMAGE view1.jpg&{script a_b}][AUDIO 5_minz_passed][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                                         }
                                                                                                       ],
                                                                                                       "_mark": "",
@@ -3390,7 +3390,7 @@
                                                                                             }
                                                                                           ],
                                                                                           "_mark": "sure_wait_please",
-                                                                                          "_content": "[LABEL Верно, но я сейчас занят. Пожалуйста, подождите.][IMAGE view1.jpg&{script a_b}]"
+                                                                                          "_content": "[LABEL Верно, но я сейчас занят. Пожалуйста, подождите.][IMAGE view1.jpg&{script a_b}][AUDIO a_correct_but_busy][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                         }
                                                                                       ],
                                                                                       "_mark": "",
@@ -3402,7 +3402,7 @@
                                                                                     }
                                                                                   ],
                                                                                   "_mark": "no_free_managers",
-                                                                                  "_content": "[LABEL Ты обошел весь зал, но других менеджеров так и не встретил.][IMAGE view1.jpg&{script a_b}]"
+                                                                                  "_content": "[LABEL Ты обошел весь зал, но других менеджеров так и не встретил.][IMAGE view1.jpg&{script a_b}][AUDIO you_didnt_meet_managers][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                                 }
                                                                               ],
                                                                               "_mark": "",
@@ -3444,7 +3444,7 @@
                                                                     }
                                                                   ],
                                                                   "_mark": "hello_I_am_busy",
-                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.][IMAGE view1.jpg&{script a_b}]"
+                                                                  "_content": "[LABEL Здравствуйте. Но я сейчас занят.][IMAGE view1.jpg&{script a_b}][AUDIO a_says_hi_busy][BGNDIMAGE view1.jpg&{script a_b}]"
                                                                 }
                                                               ],
                                                               "_mark": "sorry_hello",
@@ -3516,7 +3516,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_on1rv8i91e81lv5h5yo1",
-                                                          "_content": "[LABEL Дружелюбные люди обычно сначала здороваются.][IMAGE view1.jpg&{script a_b}]"
+                                                          "_content": "[LABEL Дружелюбные люди обычно сначала здороваются.][IMAGE view1.jpg&{script a_b}][AUDIO a_first_hi][BGNDIMAGE view1.jpg&{script a_b}]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -3548,7 +3548,7 @@
                                                     }
                                                   ],
                                                   "_mark": "mark_8941e255c4r71d594977",
-                                                  "_content": "[LABEL Как?][IMAGE view1.jpg&{script a_b}]"
+                                                  "_content": "[LABEL Как?][IMAGE view1.jpg&{script a_b}][AUDIO a_how][BGNDIMAGE view1.jpg&{script a_b}]"
                                                 }
                                               ],
                                               "_mark": "why_do_you_speak_so_rude",
@@ -3564,7 +3564,7 @@
                                             }
                                           ],
                                           "_mark": "mark_ys38g7ofx20tk71qg678",
-                                          "_content": "[LABEL Мог бы.][IMAGE view1.jpg&{script a_b}]"
+                                          "_content": "[LABEL Мог бы.][IMAGE view1.jpg&{script a_b}][AUDIO a_i_can][BGNDIMAGE view1.jpg&{script a_b}]"
                                         }
                                       ],
                                       "_mark": "could_you",
@@ -3676,7 +3676,7 @@
                                     }
                                   ],
                                   "_mark": "mark_6585un975zrf7qt5p8z8",
-                                  "_content": "[LABEL \"Пожалуйста\".][IMAGE view1.jpg&{script a_b}]"
+                                  "_content": "[LABEL \"Пожалуйста\".][IMAGE view1.jpg&{script a_b}][AUDIO a_please][BGNDIMAGE view1.jpg&{script a_b}]"
                                 }
                               ],
                               "_mark": "tell_me_please",
@@ -3698,7 +3698,7 @@
                             }
                           ],
                           "_mark": "manager_ignores_you",
-                          "_content": "[LABEL Он тебя не замечает.][IMAGE view1.jpg&{script a_b}]"
+                          "_content": "[LABEL Он тебя не замечает.][IMAGE view1.jpg&{script a_b}][AUDIO coughing,manager_ignores_you][BGNDIMAGE view1.jpg&{script a_b}]"
                         }
                       ],
                       "_mark": "",
@@ -3714,7 +3714,7 @@
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT,EPISODE1",
-                  "_content": "[LABEL Продавец чем-то занят. Что делает - не видно...{script resetGameStats}][IMAGE view1.jpg&{script a_b}][MUSIC The_DeLong_Incident]"
+                  "_content": "[LABEL Продавец чем-то занят. Что делает - не понятно.{script resetGameStats}][IMAGE view1.jpg&{script a_b}][AUDIO silent_3,manager_is_busy][BGNDIMAGE view1.jpg&{script a_b}][MUSIC The_DeLong_Incident]"
                 },
                 {
                   "node": [
@@ -4048,7 +4048,7 @@
                 },
                 {
                   "_mark": "mark_final1",
-                  "_content": "[LABEL ][FINAL Искусственный интеллект холодильника подчинил себе твой разум и волю! Главный мрачный финал.][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]"
+                  "_content": "[LABEL ][FINAL Дефектный Искусственный Интеллект холодильника \"Либхер\" оказался злодеем и подчинил себе твой разум и волю! Главный драматический финал.][IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]"
                 },
                 {
                   "_mark": "mark_final2",
@@ -4192,7 +4192,7 @@
                     }
                   ],
                   "_mark": "mark_7ay0crivt5fo2krptr7j",
-                  "_content": "[LABEL {this.productId = \"com.kri_games.ma1.episodes\";'';}{script getPayment}]"
+                  "_content": "[LABEL {this.productId = \"com.kri_games.fridge.episodes\";'';}{script getPayment}]"
                 }
               ],
               "_mark": "buy_episodes",

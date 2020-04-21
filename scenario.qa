@@ -1,56 +1,56 @@
 [START]Холодильник v1.0. Квест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER OFF]
 	START GAME / НАЧАТЬ ИГРУ
-		[GAME_SAVEPOINT,EPISODE1]Продавец чем-то занят. Что делает - не видно...{script resetGameStats}[IMAGE view1.jpg&{script a_b}][MUSIC The_DeLong_Incident]
+		[GAME_SAVEPOINT,EPISODE1]Продавец чем-то занят. Что делает - не понятно.{script resetGameStats}[IMAGE view1.jpg&{script a_b}][AUDIO silent_3,manager_is_busy][BGNDIMAGE view1.jpg&{script a_b}][MUSIC The_DeLong_Incident]
 			Покашляю, чтобы привлечь внимание.
-				[manager_ignores_you]Он тебя не замечает.[IMAGE view1.jpg&{script a_b}]
+				[manager_ignores_you]Он тебя не замечает.[IMAGE view1.jpg&{script a_b}][AUDIO coughing,manager_ignores_you][BGNDIMAGE view1.jpg&{script a_b}]
 					[tell_me_please]Скажите, пожалуйста...
-						[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[IMAGE view1.jpg&{script a_b}]
+						[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[IMAGE view1.jpg&{script a_b}][AUDIO a_please][BGNDIMAGE view1.jpg&{script a_b}]
 							[could_you]Вы не могли бы...
-								[mark_ys38g7ofx20tk71qg678]Мог бы.[IMAGE view1.jpg&{script a_b}]
+								[mark_ys38g7ofx20tk71qg678]Мог бы.[IMAGE view1.jpg&{script a_b}][AUDIO a_i_can][BGNDIMAGE view1.jpg&{script a_b}]
 									[why_do_you_speak_so_rude]Почему вы так со мной разговариваете?
-										[mark_8941e255c4r71d594977]Как?[IMAGE view1.jpg&{script a_b}]
+										[mark_8941e255c4r71d594977]Как?[IMAGE view1.jpg&{script a_b}][AUDIO a_how][BGNDIMAGE view1.jpg&{script a_b}]
 											Как-то недружелюбно...
-												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1.jpg&{script a_b}]
+												[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1.jpg&{script a_b}][AUDIO a_first_hi][BGNDIMAGE view1.jpg&{script a_b}]
 													[sorry_hello]Здравствуйте!
-														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[IMAGE view1.jpg&{script a_b}]
+														[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[IMAGE view1.jpg&{script a_b}][AUDIO a_says_hi_busy][BGNDIMAGE view1.jpg&{script a_b}]
 															Пойду еще кого-нибудь поищу.
 																[walk_around]...[VIDEO go1,go2][AUDIO silent_6]
 																	
-																		[no_free_managers]Ты обошел весь зал, но других менеджеров так и не встретил.[IMAGE view1.jpg&{script a_b}]
+																		[no_free_managers]Ты обошел весь зал, но других менеджеров так и не встретил.[IMAGE view1.jpg&{script a_b}][AUDIO you_didnt_meet_managers][BGNDIMAGE view1.jpg&{script a_b}]
 																			Кроме вас никого из менеджеров больше нет.
-																				[sure_wait_please]Верно, но я сейчас занят. Пожалуйста, подождите.[IMAGE view1.jpg&{script a_b}]
+																				[sure_wait_please]Верно, но я сейчас занят. Пожалуйста, подождите.[IMAGE view1.jpg&{script a_b}][AUDIO a_correct_but_busy][BGNDIMAGE view1.jpg&{script a_b}]
 																					[wait5min]Подожду 5 минут.
 																						[mark_0p099g0pi392drs5o2qc]{script wait5min}
 																							
-																								[passed5min]5 минут прошло. Ноль внимания.[IMAGE view1.jpg&{script a_b}]
+																								[passed5min]5 минут прошло. Ноль внимания.[IMAGE view1.jpg&{script a_b}][AUDIO 5_minz_passed][BGNDIMAGE view1.jpg&{script a_b}]
 																									[what_are_you_busy_for]А чем вы заняты?
-																										[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[IMAGE view1.jpg&{script a_b}]
+																										[mark_k49kml91kn97jv0gs3aw]Оформляю претензию по долгому обслуживанию.[IMAGE view1.jpg&{script a_b}][AUDIO a_fill_long_service][BGNDIMAGE view1.jpg&{script a_b}]
 																											[where_others]А где остальные менеджеры?
-																												[mark_n3z7yibartu32o0ftbj8]Курят наверное. Кстати, тоже надо бы сходить...[IMAGE view1.jpg&{script a_b}]
+																												[mark_n3z7yibartu32o0ftbj8]Курят наверное. Кстати, тоже надо бы сходить...[IMAGE view1.jpg&{script a_b}][AUDIO a_they_smoking][BGNDIMAGE view1.jpg&{script a_b}]
 																													[call_somebody]Позовите мне кого-нибудь.
-																														[EPISODE2]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[IMAGE view1.jpg&{script a_b}]
+																														[EPISODE2]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[IMAGE view1.jpg&{script a_b}][AUDIO a_go_fire_exit][BGNDIMAGE view1.jpg&{script a_b}]
 																															Пойду к пожарному выходу.
-																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO go_exit1,go_exit2][AUDIO silent_9.5]
+																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO go_exit1,go_exit2][AUDIO you_go_fire_exit,silent_7]
 																																	
-																																		[EPISODE3]Никого нет, кроме одного чувака...[BGNDVIDEO GopIdle][MUSIC Trespass]
+																																		[EPISODE3]Никого нет, кроме одного чувака...[VIDEO GopIdle][AUDIO nobody_at_fire_exit][BGNDVIDEO GopIdle][MUSIC Trespass]
 																																			О! Колян! Клеткин! Здорово!
-																																				[mark_3p95t16f3k8g712h7rr7]Эээ, братишка, постой![VIDEO GopIntro][AUDIO silent_1.5,Hey_brother_stop.mp3,silent_2.5]
+																																				[mark_3p95t16f3k8g712h7rr7]Эээ, братишка, постой![VIDEO GopIntro][AUDIO silent_1.4,hey_brother_stop.mp3,silent_2]
 																																					
-																																						[mark_p1d04qsoz0pn06rz89i0]А... это ты...[VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
+																																						[mark_p1d04qsoz0pn06rz89i0]А... это ты...[VIDEO GopSpeechSimpleLoop][AUDIO g_ah_you][BGNDVIDEO GopHappyLoop]
 																																							А ты что тут делаешь?
-																																								[mark_ovz59u3g407k428l1487]Работаю я тут в магазе.[VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
+																																								[mark_ovz59u3g407k428l1487]Работаю я тут в магазе.[VIDEO GopSpeechSimpleLoop][AUDIO g_i_work_here][BGNDVIDEO GopHappyLoop]
 																																									Охранником устроился что ли?
-																																										[mark_0fvs7116g98gwgpzj263]Нее, ты чо! Бери выше - менеджером! Как и все наши...[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
+																																										[mark_0fvs7116g98gwgpzj263]Нее, ты чо! Бери выше - менеджером! Как и все наши...[VIDEO GopSpeechLoadingLoop][AUDIO g_i_am_manager][BGNDVIDEO GopHappyLoop]
 																																											Почему тогда у тебя одежда гопника?
-																																												[mark_ot0t8mcx2n29u7i4e7e2]Это для другой работы-подработки...[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
+																																												[mark_ot0t8mcx2n29u7i4e7e2]Это для другой работы-подработки...[VIDEO GopSpeechLoadingLoop][AUDIO g_its_for_another_work][BGNDVIDEO GopHappyLoop]
 																																													[help_choose_frige]Слушай, помоги мне холодильник выбрать?
-																																														[mark_08fd84790430096w72uq]Нее, я свою смену уже отпахал![VIDEO GopSpeechSimpleLoop][AUDIO silent_2.13][BGNDVIDEO GopHappyLoop]
+																																														[mark_08fd84790430096w72uq]Нее, я свою смену уже отпахал![VIDEO GopSpeechSimpleLoop][AUDIO g_i_worked][BGNDVIDEO GopHappyLoop]
 																																															Давай, помоги холодильник выбрать!
-																																																[gop_subwork]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
+																																																[gop_subwork]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO g_dont_disturb_me][BGNDVIDEO GopStandsBouncing]
 																																																	[bye_brick]Ну бывай!
-																																																		[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
-																																																			[donate]Достать лопатник.
-																																																				[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.ma1.coin1";'';}{script getPayment}
+																																																		[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing]
+																																																			[donate]Достать монету.
+																																																				[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.fridge.coin1";'';}{script getPayment}
 																																																					
 																																																						[wait]...[VIDEO GopStandsBouncing][AUDIO silent_4]
 																																																							
@@ -58,11 +58,11 @@
 																																																									
 																																																										[payment_success]...[VIDEO GopTakes5rub][AUDIO silent_2.7]
 																																																											
-																																																												[mark_773nu066478li3cn85zf]От души, с душой, в душу, братух! Я слыхал на складе есть элитный "Либхер" с большой скидкой.[VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
+																																																												[mark_773nu066478li3cn85zf]От души, с душой, в душу, братух! Я слыхал на складе есть элитный "Либхер" с большой скидкой.[VIDEO GopSpeechLoadingLoop][AUDIO g_thanks][BGNDVIDEO GopStandsBouncing]
 																																																													>>>
-																																																														[mark_go58l10x6c26t3n09z75]Пытай до последнего вздоха главнюка менеджера Антоху![VIDEO GopSpeechLoadingLoop][AUDIO silent_2.13][BGNDVIDEO GopStandsBouncing]
+																																																														[mark_go58l10x6c26t3n09z75]Пытай до последнего вздоха главнюка менеджера Антоху![VIDEO GopSpeechLoadingLoop][AUDIO g_ask_anton][BGNDVIDEO GopStandsBouncing]
 																																																															Понял, спасибо.
-																																																																[EPISODE5,back_to_shop]Ты вернулся в зал.[VIDEO go3][AUDIO silent_3][MUSIC The_Old_RV]
+																																																																[EPISODE5,back_to_shop]Ты вернулся в зал.[VIDEO go3][AUDIO silent_1,you_returned,silent_1][MUSIC The_Old_RV]
 																																																																	
 																																																																		[mark_i4ue61sdv9689v2qfo88]По-прежнему никого из менеджеров нет.[IMAGE view1.jpg&{script a_b}]
 																																																																			[call_admin]Позовите вашего главного менеджера!
@@ -763,7 +763,7 @@
 		[mark_final17][FINAL Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.][IMAGE house_in_fire.jpg][MUSIC NONE][AMBIENT NONE]
 		[mark_final18][FINAL Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.][IMAGE fridge_biruca.png|250;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 	[buy_episodes]Эпизоды игры.
-		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.ma1.episodes";'';}{script getPayment}
+		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
 			
 				[wait2]...[IMAGE episodes.jpg][AUDIO silent_3]
 					

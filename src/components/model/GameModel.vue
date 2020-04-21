@@ -85,13 +85,13 @@ export default {
       // window.store.verbosity = window.store.DEBUG
 
       window.store.register({
-        id: 'com.kri_games.voenkomat.coin1',
+        id: 'com.kri_games.fridge.coin1',
         alias: 'coin1',
         type: window.store.CONSUMABLE
       })
 
       window.store.register({
-        id: 'com.kri_games.voenkomat.episodes',
+        id: 'com.kri_games.fridge.episodes',
         alias: 'episodes',
         type: window.store.CONSUMABLE
       })

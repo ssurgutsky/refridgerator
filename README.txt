@@ -16,3 +16,9 @@ cordova build android
 
 https://github.com/apache/cordova-android/issues/670
 (install gradle, set paths)
+
+
+
+
+COMPRESS MP3 files
+https://www.ps2pdf.com/compress-mp3
