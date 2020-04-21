@@ -1,0 +1,8 @@
+let name = 'anton_front' + parseInt(1 + Math.random() * 3)  + '.png';
+
+let s = 0.8 + Math.random() * 0.2;
+let x = 100 + parseInt(Math.random() * 25 - Math.random() * 50);
+let y = 100 + parseInt((0.8 - s) * 200);
+let r = -Math.random() * 7 + Math.random() * 7;
+
+name + '|' + x +';' + y +';' + s + ';' + s + ';' + r + ';1';

@@ -1,0 +1,7 @@
+let name = 'anton_back.png';
+
+let s = 0.5 + Math.random() * 0.05;
+let x = 400 + parseInt(Math.random() * 5 - Math.random() * 10);
+let y = 240 + parseInt((0.5 - s) * 100);
+
+name + '|' + x +';' + y +';' + s + ';' + s + ';0;1';
