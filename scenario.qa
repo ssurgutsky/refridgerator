@@ -30,14 +30,14 @@
 																													[call_somebody]Позовите мне кого-нибудь.
 																														[EPISODE2]Пройдите к пожарному выходу, обычно все менеджеры там курят. Спросите, может, кто из них уже освободился.[IMAGE view1.jpg&{script a_b}][AUDIO a_go_fire_exit][BGNDIMAGE view1.jpg&{script a_b}]
 																															Пойду к пожарному выходу.
-																																[mark_p8u71q7gh3pwv1ow88p6]Идем на пожарный выход...[VIDEO go_exit1,go_exit2][AUDIO you_go_fire_exit,silent_7]
+																																[mark_p8u71q7gh3pwv1ow88p6]Идем к пожарному выходу...[VIDEO go_exit1,go_exit2][AUDIO silent_9.2]
 																																	
 																																		[EPISODE3]Никого нет, кроме одного чувака...[VIDEO GopIdle][AUDIO nobody_at_fire_exit][BGNDVIDEO GopIdle][MUSIC Trespass]
-																																			О! Колян! Клеткин! Здорово!
+																																			Да это же Кирпич!
 																																				[mark_3p95t16f3k8g712h7rr7]Эээ, братишка, постой![VIDEO GopIntro][AUDIO silent_1.4,hey_brother_stop.mp3,silent_2]
 																																					
 																																						[mark_p1d04qsoz0pn06rz89i0]А... это ты...[VIDEO GopSpeechSimpleLoop][AUDIO g_ah_you][BGNDVIDEO GopHappyLoop]
-																																							А ты что тут делаешь?
+																																							Здорово, Кирпич! А ты что тут делаешь?
 																																								[mark_ovz59u3g407k428l1487]Работаю я тут в магазе.[VIDEO GopSpeechSimpleLoop][AUDIO g_i_work_here][BGNDVIDEO GopHappyLoop]
 																																									Охранником устроился что ли?
 																																										[mark_0fvs7116g98gwgpzj263]Нее, ты чо! Бери выше - менеджером! Как и все наши...[VIDEO GopSpeechLoadingLoop][AUDIO g_i_am_manager][BGNDVIDEO GopHappyLoop]
@@ -545,7 +545,7 @@
 																																																																																																				[mark_222613l5n981hsrj1x5w][GOTO shop_is_closing]
 																																																																																																			[are_you_idiot]Вы что, идиот?
 																																																																																																				[mark_21b80m8fp5d46ereq72h][GOTO mark_final3]
-																																																																																																		[you_want_toshiba_again]Ладно, извините. И вы хотите взять снова "Тошношибу", чтобы он снова сгорел?[IMAGE view1.jpg&{script a_f_r}][AUDIO a_tosh_desc6][BGNDIMAGE view1.jpg&{script a_f_r}]
+																																																																																																		[you_want_toshiba_again]Ладно, извините. И вы хотите взять снова "Тошношибу"? Чтобы он снова сгорел?[IMAGE view1.jpg&{script a_f_r}][AUDIO a_tosh_desc6][BGNDIMAGE view1.jpg&{script a_f_r}]
 																																																																																																			Нет конечно!
 																																																																																																				[mark_5whm2k5571069823v9ys][GOTO shop_is_closing,select_fridges]
 																																																																																																			[GOTO are_you_idiot]
@@ -564,7 +564,7 @@
 																																																																																	Я не хочу читать ценники.
 																																																																																		[mark_408gp542x6gkiujh50rp]Вы не умеете читать?[IMAGE view1.jpg&{script a_b}][AUDIO a_can_you_read][BGNDIMAGE view1.jpg&{script a_b}]
 																																																																																			Причем здесь это?
-																																																																																				[mark_4i403wh51i0cn1bd9sgi]Просто если не умеете читать, так и скажите. Никто не станет над вами смеяться.[IMAGE view1.jpg&{script a_f_r}][AUDIO a_say_if_cant_read][BGNDIMAGE view1.jpg&{script a_f_r}]
+																																																																																				[mark_4i403wh51i0cn1bd9sgi]Просто если вы не умеете читать, так и скажите. Никто не станет над вами смеяться.[IMAGE view1.jpg&{script a_f_r}][AUDIO a_say_if_cant_read][BGNDIMAGE view1.jpg&{script a_f_r}]
 																																																																																					Я не умею читать.
 																																																																																						[mark_uhm2sctlb4l34a51q54x]Ахахахахахахахахахахахаха!!!![IMAGE view1.jpg&{script a_f_r}][AUDIO a_laughing][BGNDIMAGE view1.jpg&{script a_f_r}]
 																																																																																							[GOTO go_fuck_yourself]
@@ -614,7 +614,7 @@
 																																															[GOTO bye_brick]
 																																															[GOTO gop_help_choose]
 																																													Какой работы-подработки?
-																																														[mark_kwyo53py18h677efkft4]А ты чо, не догоняешь чо ли?[VIDEO GopSpeechSimpleLoop][AUDIO g_you_dont_follow][BGNDVIDEO GopHappyLoop]
+																																														[mark_kwyo53py18h677efkft4]А ты чо, не догоняешь чтоль?[VIDEO GopSpeechSimpleLoop][AUDIO g_you_dont_follow][BGNDVIDEO GopHappyLoop]
 																																															А, я понял!
 																																																[mark_6p9cu8h32f527a9ladg1][GOTO gop_subwork]
 																																															Нет.
@@ -702,12 +702,12 @@
 			>>>
 				[mark_5b9mrx0ct554bz23f595]Не может быть! Вы слышите?![IMAGE view1.jpg&{script a_f_r}][AUDIO a_you_hear][BGNDIMAGE view1.jpg&{script a_f_r}][AMBIENT drunken_terror][MUSIC NONE]
 					>>>
-						[mark_368i2s8k6lukc2f8mazs]Наш магазин захватили пьяные американские террористы! Вам срочно надо уходить отсюда![IMAGE view1.jpg&{script a_f_r}][AUDIO a_drunken_terror][BGNDIMAGE view1.jpg&{script a_f_r}]
+						[mark_368i2s8k6lukc2f8mazs]Наш магазин захватили пьяные американские террористы! Вам нужно срочно уходить отсюда![IMAGE view1.jpg&{script a_f_r}][AUDIO a_drunken_terror][BGNDIMAGE view1.jpg&{script a_f_r}]
 							>>>
 								[mark_k8n2k7mqnx7qe8j02j88][GOTO mark_final7]
-		[fire_alarm]Секундочку, мне нужно кое-что сделать...[IMAGE view1.jpg&{script a_b}][AUDIO a_wait_sec][BGNDIMAGE view1.jpg&{script a_b}]
+		[fire_alarm]Секундочку, мне надо кое-что сделать...[IMAGE view1.jpg&{script a_b}][AUDIO a_wait_sec][BGNDIMAGE view1.jpg&{script a_b}]
 			>>>
-				[mark_so8hwgk55ct0s69929x2]Вы слышите?![IMAGE view1.jpg&{script a_f_l}][AUDIO a_you_hear2][BGNDIMAGE view1.jpg&{script a_f_l}][AMBIENT fire_alarm]
+				[mark_so8hwgk55ct0s69929x2]Вы слышите?![IMAGE view1.jpg&{script a_f_l}][AUDIO a_you_hear2][BGNDIMAGE view1.jpg&{script a_f_l}][MUSIC fire_alarm]
 					>>>
 						[fire_alarm2]Это пожарная тревога! Извините, но вам срочно нужно эвакуироваться из магазина![IMAGE view1.jpg&{script a_f_r}][AUDIO a_fire_alarm][BGNDIMAGE view1.jpg&{script a_f_r}]
 							>>>
