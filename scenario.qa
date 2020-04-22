@@ -341,7 +341,7 @@
 																																																																																																																																													[GOTO electro_minuses]
 																																																																																																																																									Расскажите про "Аристон".
 																																																																																																																																										[mark_s2l495k68pu4r8l41i98]Могу рассказать анекдот.[IMAGE view1.jpg&{script a_f_r}][AUDIO a_anek1][BGNDIMAGE view1.jpg&{script a_f_r}]
-																																																																																																																																											>>>
+																																																																																																																																											Давайте!
 																																																																																																																																												[mark_z2013fah9smzwy1ej980]Приходит мальчик домой, маме жалуется: "Мама, почему во дворе все меня холодильником обзывают?", а она ему: "Не обращай на них внимания, Аристон".[IMAGE view1.jpg&{script a_f_r}][AUDIO a_anek2][BGNDIMAGE view1.jpg&{script a_f_r}]
 																																																																																																																																													Хахаха... а серъезно?
 																																																																																																																																														[mark_pwc6dw6ik3c47i648tff]...[VIDEO go4][AUDIO silent_2]
@@ -352,13 +352,13 @@
 																																																																																																																																																			Как это? Почему?
 																																																																																																																																																				[mark_1g5npf7f0y4i4n78dth7]Никто толком не может разобраться - Абдристон он и есть Абдристон. Ойу... извините, я хотел сказать Аристон.[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc3][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																					Это очень странно...
-																																																																																																																																																						[ariston_strong]Зато он очень крепкий. У моего знакомого уже 3 года держит на себе потолок в кухне его деревянного дома.[IMAGE fridge_ariston_home.jpg][AUDIO a_aris_desc4][BGNDIMAGE fridge_ariston_home.jpg]
+																																																																																																																																																						[ariston_strong]Зато он очень крепкий. У моего знакомого 3 года держит на себе потолок в кухне его деревянного дома.[IMAGE fridge_ariston_home.jpg][AUDIO a_aris_desc4][BGNDIMAGE fridge_ariston_home.jpg]
 																																																																																																																																																							И только из-за этого покупать?
 																																																																																																																																																								[mark_051to945d8u4xqz1tm4v]Ну, как хотите. Вы всегда можете взять "Сасунг".[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc5][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																									И что говорит знакомый?
 																																																																																																																																																										[mark_7i0f1184w1u18nf8lj8z]Знакомый говорит, все нормально, только время от времени он еще издает звук, напоминающий тяжкий вздох.[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc6][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																											И как ему этот звук?
-																																																																																																																																																												[mark_b9nn354f7t11arc7p614]Первое время пугало. Но, потом он подошел к нему, обнял, похлопал по спине и сказал: "Держись, бро, мы в России!" - и сразу все прошло.[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc7][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
+																																																																																																																																																												[mark_b9nn354f7t11arc7p614]Первое время это пугало. Но, потом он подошел к нему, обнял, похлопал по спине и сказал: "Держись, бро, мы в России!" - и сразу все прошло.[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc7][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																													Жесть какая-то.
 																																																																																																																																																														[mark_90gg87rl19dr3zfn91zu]Несмотря на все недостатки Аристона - он вам будет лучше жены![IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc8][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																															Это еще почему?
@@ -394,6 +394,8 @@
 																																																																																																																																																					[GOTO not_ariston]
 																																																																																																																																													Знаю я этот анекдот.
 																																																																																																																																														[mark_387rn46955in34s07ktg][GOTO ariston_desc]
+																																																																																																																																											Нет, не надо.
+																																																																																																																																												[mark_4v0ez79ghd3trlw8508t][GOTO ariston_desc]
 																																																																																																																																					[GOTO select_sasung]
 																																																																																																																													[GOTO which_else_fridges]
 																																																																																																																											[GOTO which_else_fridges]
@@ -404,7 +406,7 @@
 																																																																																																																									[libher_discount]А скидку сделаете?
 																																																																																																																										[mark_t982f530l27189r781ec]Понимаете, это не какое-нибудь китайское фуфло, чтобы делать на него скидку.[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_discount][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																																											[how_long_credit]А сколько придется выплачивать кредит?
-																																																																																																																												[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьми кредит на три года и получи еще год в подарок. Очень выгодно![IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_credit2][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
+																																																																																																																												[mark_i9i34o34rj32n92tca7v]У нас как раз сейчас проходит супер акция: возьмите кредит на три года и получите еще год в подарок. Очень выгодно![IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_credit2][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																																													Не понял?!
 																																																																																																																														[mark_xc2yk7832mrl6n7id8uv]Да не заморачивайте голову, просто поверьте мне - это очень выгодно.[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_credit3][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																																															[credit4years_what_is_the_good]А в чем выгода?
@@ -727,7 +729,7 @@
 						[mark_thwenj2n0ct35w46001g]Землетрясение!!! Вам нужно срочно эвакуироваться из магазина![IMAGE view1.jpg&{script a_f_r}][AUDIO a_earthquake2][BGNDIMAGE view1.jpg&{script a_f_r}]
 							>>>
 								[mark_u1w45gtbiz4jtqdf3288][GOTO mark_final7]
-		[boss_call]Минуту... мне надо кое-что посмотреть.[IMAGE view1.jpg&{script a_b}][AUDIO a_one_min2][BGNDIMAGE view1.jpg&{script a_b}][SOUNDFX boss_cry]
+		[boss_call]Минуту... мне надо кое-что посмотреть.[IMAGE view1.jpg&{script a_b}][AUDIO a_one_min2,boss_cry][BGNDIMAGE view1.jpg&{script a_b}]
 			>>>
 				[mark_63jfet95307fyqh900r5]Извините, директор сообщил, что нужно срочно закрыть магазин по техническим причинам. К сожалению, вам придется сейчас уйти.[IMAGE view1.jpg&{script a_f_r}][AUDIO a_boss_call][BGNDIMAGE view1.jpg&{script a_f_r}]
 					>>>
@@ -760,10 +762,10 @@
 		[mark_final6][FINAL Похоже, ты забыл за чем пришел. В итоге тебе впарили другой товар, из-за которого на следующий день сгорел твой дом. Отрицательный финал.][IMAGE house_in_fire.jpg][MUSIC NONE][AMBIENT NONE]
 		[mark_final7][FINAL Тебе пришлось срочно уйти из магазина. Отрицательный финал][IMAGE shop_is_closed.jpg][MUSIC NONE][AMBIENT NONE]
 		[mark_final8][FINAL Ты прождал, пока магазин закрылся. Отрицательный финал.][IMAGE shop_is_closed.jpg][MUSIC NONE][AMBIENT NONE]
-		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. В нем тебя и похоронят. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1][MUSIC NONE][AMBIENT NONE]
+		[mark_final9][FINAL Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 		[mark_final11][FINAL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.][IMAGE fridge_libher.png|160;20;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 		[mark_final12][FINAL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.][IMAGE fridge_bomsh.png|10;250;1;1;0;1][MUSIC NONE][AMBIENT NONE]
-		[mark_final13][FINAL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.][MUSIC NONE][AMBIENT NONE]
+		[mark_final13][FINAL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.][IMAGE {script fridge_sasung}][MUSIC NONE][AMBIENT NONE]
 		[mark_final14][FINAL Ты оказался очень скудоумным человеком. Потому что лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.][IMAGE fridge_lg2.png|150;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 		[mark_final15][FINAL В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.][IMAGE fridge_ariston.png|160;60;0.9;0.9;0;1][MUSIC NONE][AMBIENT NONE]
 		[mark_final16][FINAL Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.][IMAGE fridge_electro.png|200;20;1;1;0;1][MUSIC NONE][AMBIENT NONE]
