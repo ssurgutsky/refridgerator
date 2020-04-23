@@ -3765,8 +3765,14 @@
                       "_content": "[LABEL ][GOTO I_need_new_fridge]"
                     },
                     {
+                      "node": [
+                        {
+                          "_mark": "mark_53gh95f0dqoz06f22148",
+                          "_content": "[LABEL {this.gotoSuccess='GAME_SAVEPOINT';this.gotoCancel='GAME_SAVEPOINT';''}][GOTO buy_button_episodes]"
+                        }
+                      ],
                       "_mark": "",
-                      "_content": "[LABEL ][GOTO buy_episodes]"
+                      "_content": "[LABEL Эпизоды игры]"
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT,EPISODE1",
@@ -4169,13 +4175,11 @@
                 {
                   "_mark": "mark_final18",
                   "_content": "[LABEL ][FINAL Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.][IMAGE fridge_biruca.png|250;0;1;1;0;1][AUDIO final_frozen,negative_final][MUSIC NONE][AMBIENT NONE]"
-                }
-              ],
-              "_mark": "",
-              "_content": "[LABEL START GAME / НАЧАТЬ ИГРУ]"
-            },
-            {
-              "node": [
+                },
+                {
+                  "_mark": "FOR_MONEY",
+                  "_content": "[LABEL ]"
+                },
                 {
                   "node": [
                     {
@@ -4197,72 +4201,98 @@
                                                     {
                                                       "node": [
                                                         {
-                                                          "_mark": "mark_l173w68sf3ab3l9l8j3q",
-                                                          "_content": "[LABEL {'[GOTO ' + this.gotoSuccess + ']'}]"
+                                                          "node": [
+                                                            {
+                                                              "node": [
+                                                                {
+                                                                  "_mark": "mark_l173w68sf3ab3l9l8j3q",
+                                                                  "_content": "[LABEL {'[GOTO ' + this.gotoSuccess + ']'}]"
+                                                                }
+                                                              ],
+                                                              "_mark": "",
+                                                              "_content": "[LABEL >>>]"
+                                                            }
+                                                          ],
+                                                          "_mark": "mark_lo9fb6iz5619s1v1w24v",
+                                                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.][IMAGE episodes.jpg]"
                                                         }
                                                       ],
                                                       "_mark": "",
-                                                      "_content": "[LABEL >>>]"
+                                                      "_content": "[LABEL ]"
                                                     }
                                                   ],
-                                                  "_mark": "mark_lo9fb6iz5619s1v1w24v",
-                                                  "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.][IMAGE episodes.jpg]"
+                                                  "_mark": "payment_success2",
+                                                  "_content": "[LABEL ...][IMAGE episodes.jpg][PURCHASE cheats]"
+                                                },
+                                                {
+                                                  "node": [
+                                                    {
+                                                      "_mark": "",
+                                                      "_content": "[LABEL ][GOTO try_again_buy_button_episodes]"
+                                                    },
+                                                    {
+                                                      "node": [
+                                                        {
+                                                          "_mark": "mark_677039120q01r58og222",
+                                                          "_content": "[LABEL {'[GOTO ' + this.gotoCancel + ']'}]"
+                                                        }
+                                                      ],
+                                                      "_mark": "cancel_buy_button_episodes",
+                                                      "_content": "[LABEL Нет, спасибо]"
+                                                    }
+                                                  ],
+                                                  "_mark": "payment_fail2",
+                                                  "_content": "[LABEL Что то не так, попробуй еще раз.][IMAGE episodes.jpg]"
                                                 }
                                               ],
                                               "_mark": "",
                                               "_content": "[LABEL ]"
                                             }
                                           ],
-                                          "_mark": "payment_success2",
-                                          "_content": "[LABEL ...][IMAGE episodes.jpg][PURCHASE cheats]"
-                                        },
-                                        {
-                                          "node": [
-                                            {
-                                              "_mark": "",
-                                              "_content": "[LABEL {'[GOTO ' + this.gotoFail + ']'}]"
-                                            },
-                                            {
-                                              "node": [
-                                                {
-                                                  "_mark": "mark_677039120q01r58og222",
-                                                  "_content": "[LABEL {'[GOTO ' + this.gotoCancel + ']'}]"
-                                                }
-                                              ],
-                                              "_mark": "",
-                                              "_content": "[LABEL Отменить]"
-                                            }
-                                          ],
-                                          "_mark": "payment_fail2",
-                                          "_content": "[LABEL Что то не так, попробуй еще раз.][IMAGE episodes.jpg]"
+                                          "_mark": "mark_7u249b2lf7c472494fvi",
+                                          "_content": "[LABEL {script checkPayment2}]"
                                         }
                                       ],
                                       "_mark": "",
                                       "_content": "[LABEL ]"
                                     }
                                   ],
-                                  "_mark": "mark_7u249b2lf7c472494fvi",
-                                  "_content": "[LABEL {script checkPayment2}]"
+                                  "_mark": "wait2",
+                                  "_content": "[LABEL ...][IMAGE episodes.jpg][AUDIO silent_3]"
                                 }
                               ],
                               "_mark": "",
                               "_content": "[LABEL ]"
                             }
                           ],
-                          "_mark": "wait2",
-                          "_content": "[LABEL ...][IMAGE episodes.jpg][AUDIO silent_3]"
+                          "_mark": "mark_m93t389s21d7j019e00k",
+                          "_content": "[LABEL {this.productId = \"com.kri_games.fridge.episodes\";'';}{script getPayment}]"
                         }
                       ],
+                      "_mark": "try_again_buy_button_episodes",
+                      "_content": "[LABEL Эпизоды игры.]"
+                    },
+                    {
                       "_mark": "",
-                      "_content": "[LABEL ]"
+                      "_content": "[LABEL ][GOTO cancel_buy_button_episodes]"
                     }
                   ],
-                  "_mark": "mark_7ay0crivt5fo2krptr7j",
-                  "_content": "[LABEL {this.gotoSuccess='START';this.gotoFail='buy_episodes';this.gotoCancel='START';this.productId = \"com.kri_games.fridge.episodes\";'';}{script getPayment}]"
+                  "_mark": "buy_button_episodes",
+                  "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.][IMAGE episodes.jpg]"
+                }
+              ],
+              "_mark": "",
+              "_content": "[LABEL START GAME / НАЧАТЬ ИГРУ]"
+            },
+            {
+              "node": [
+                {
+                  "_mark": "mark_8is9fa297dh3orz5l021",
+                  "_content": "[LABEL {this.gotoSuccess='START';this.gotoCancel='START';''}][GOTO buy_button_episodes]"
                 }
               ],
               "_mark": "buy_episodes",
-              "_content": "[LABEL Эпизоды игры.]"
+              "_content": "[LABEL Эпизоды игры]"
             }
           ],
           "_mark": "START",
