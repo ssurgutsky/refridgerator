@@ -694,6 +694,7 @@
 					[GOTO I_need_new_fridge]
 			[GOTO tell_me_please]
 			[GOTO I_need_new_fridge]
+			[GOTO buy_episodes]
 		[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[IMAGE view1.jpg&{script a_f_r}][AUDIO a_call_security1][BGNDIMAGE view1.jpg&{script a_f_r}]
 			>>>
 				[mark_etu46u585h62p7c0i90t][GOTO security_go_out_shop]
@@ -772,7 +773,7 @@
 		[mark_final17][FINAL Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.][IMAGE house_in_fire.jpg][AUDIO final_tosh,negative_final][MUSIC NONE][AMBIENT NONE]
 		[mark_final18][FINAL Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.][AUDIO final_frozen,negative_final][IMAGE fridge_biruca.png|250;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 	[buy_episodes]Эпизоды игры.
-		[mark_7ay0crivt5fo2krptr7j]{this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
+		[mark_7ay0crivt5fo2krptr7j]{this.gotoSuccess='START';this.gotoFail='buy_episodes';this.gotoCancel='START';this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
 			
 				[wait2]...[IMAGE episodes.jpg][AUDIO silent_3]
 					
@@ -782,6 +783,8 @@
 									
 										[mark_lo9fb6iz5619s1v1w24v]Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
 											>>>
-												[mark_790313417a53d817ku7r][GOTO START]
+												[mark_l173w68sf3ab3l9l8j3q]{'[GOTO ' + this.gotoSuccess + ']'}
 								[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg]
-									[GOTO buy_episodes]
+									{'[GOTO ' + this.gotoFail + ']'}
+									Отменить
+										[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}

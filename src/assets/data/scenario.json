@@ -3763,6 +3763,10 @@
                     {
                       "_mark": "",
                       "_content": "[LABEL ][GOTO I_need_new_fridge]"
+                    },
+                    {
+                      "_mark": "",
+                      "_content": "[LABEL ][GOTO buy_episodes]"
                     }
                   ],
                   "_mark": "GAME_SAVEPOINT,EPISODE1",
@@ -4193,8 +4197,8 @@
                                                     {
                                                       "node": [
                                                         {
-                                                          "_mark": "mark_790313417a53d817ku7r",
-                                                          "_content": "[LABEL ][GOTO START]"
+                                                          "_mark": "mark_l173w68sf3ab3l9l8j3q",
+                                                          "_content": "[LABEL {'[GOTO ' + this.gotoSuccess + ']'}]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -4216,7 +4220,17 @@
                                           "node": [
                                             {
                                               "_mark": "",
-                                              "_content": "[LABEL ][GOTO buy_episodes]"
+                                              "_content": "[LABEL {'[GOTO ' + this.gotoFail + ']'}]"
+                                            },
+                                            {
+                                              "node": [
+                                                {
+                                                  "_mark": "mark_677039120q01r58og222",
+                                                  "_content": "[LABEL {'[GOTO ' + this.gotoCancel + ']'}]"
+                                                }
+                                              ],
+                                              "_mark": "",
+                                              "_content": "[LABEL Отменить]"
                                             }
                                           ],
                                           "_mark": "payment_fail2",
@@ -4244,7 +4258,7 @@
                     }
                   ],
                   "_mark": "mark_7ay0crivt5fo2krptr7j",
-                  "_content": "[LABEL {this.productId = \"com.kri_games.fridge.episodes\";'';}{script getPayment}]"
+                  "_content": "[LABEL {this.gotoSuccess='START';this.gotoFail='buy_episodes';this.gotoCancel='START';this.productId = \"com.kri_games.fridge.episodes\";'';}{script getPayment}]"
                 }
               ],
               "_mark": "buy_episodes",
