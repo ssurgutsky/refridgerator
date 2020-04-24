@@ -106,7 +106,7 @@
 																																																																																																									Эх... хотя, ладно...
 																																																																																																										[EPISODE8,select_fridges]Выбирате другие варианты.[IMAGE view1.jpg&{script a_f_r}][AUDIO a_choose_others][BGNDIMAGE view1.jpg&{script a_f_r}]
 																																																																																																											[which_cases]Какие другие?
-																																																																																																												[take_libher]Возьмите самый дорогой - "Либхер" и не парьтесь.[IMAGE {script fridge_libher}][AUDIO a_take_libher][BGNDIMAGE {script fridge_libher}][MUSIC Unstoppable]
+																																																																																																												[take_libher]Возьмите самый дорогой - "Либхер" и не парьтесь.[IMAGE {script fridge_libher}][AUDIO a_take_libher][BGNDIMAGE {script fridge_libher}][MUSIC Point_Green_Getdown]
 																																																																																																													Да он стоит, как крыло от самолета!
 																																																																																																														[mark_6s18f968wcj52mel3mtu]Ну, не дешевый, это да. Зато качественный и надежный.[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_desc1][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																															[libher_why_big_cost]И за что такая цена?
@@ -367,7 +367,7 @@
 																																																																																																																																																			[aris_haha]Хахаха... а серъезно?
 																																																																																																																																																				[mark_pwc6dw6ik3c47i648tff]...[VIDEO go4][AUDIO silent_2]
 																																																																																																																																																					
-																																																																																																																																																						[ariston_desc]Средняя цена, вместительный, крепкий, но...[IMAGE {script fridge_ariston}][AUDIO a_aris_desc1][BGNDIMAGE {script fridge_ariston}][MUSIC Point_Green_Getdown]
+																																																																																																																																																						[ariston_desc]Средняя цена, вместительный, крепкий, но...[IMAGE {script fridge_ariston}][AUDIO a_aris_desc1][BGNDIMAGE {script fridge_ariston}][MUSIC Carmelized]
 																																																																																																																																																							Что "но"?
 																																																																																																																																																								[mark_x9481qk33e25a0fhw2hq]Иногда, при авторазморозке, он делает непонятные коричневые лужи.[IMAGE {script fridge_ariston}&{script a_f_r}][AUDIO a_aris_desc2][BGNDIMAGE {script fridge_ariston}&{script a_f_r}]
 																																																																																																																																																									Как это? Почему?
@@ -470,9 +470,11 @@
 																																																																																																															[libher_from_germany]Судя по названию холодильник из Германии?
 																																																																																																																[mark_s4271744622n7cpu325d]Почему вы так решили?[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_why_german][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																																	Название, как в немецких фильмах для взрослых.
-																																																																																																																		[mark_9ky8pjisj995hophwanr]Нет, это в честь его создателя - японского дизайнера Либидо Херовато.[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_libidoh][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
+																																																																																																																		[libidoherovato]Нет, это в честь его создателя - японского дизайнера Либидо Херовато.[IMAGE {script fridge_libher}&{script a_f_r}][AUDIO a_libher_libidoh][BGNDIMAGE {script fridge_libher}&{script a_f_r}]
 																																																																																																																			А какие у него есть функции?
 																																																																																																																				[mark_3955z6v4y5rt6o9aj785][GOTO libher_functions]
+																																																																																																																	Ну у них же там все: геры-херы.
+																																																																																																																		[mark_al8yr8brsm4l8882yfwe][GOTO libidoherovato]
 																																																																																																													[GOTO libher_why_big_cost]
 																																																																																																													[GOTO libher_from_germany]
 																																																																																																											[take_bomsh]А если взять "Бомш"?
