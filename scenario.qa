@@ -83,7 +83,7 @@
 																																																																																		[mark_q9w2s98rb5itl7ydk215]Так... понятно...[IMAGE view1.jpg&{script a_f_l}][AUDIO a_ok_clear][BGNDIMAGE view1.jpg&{script a_f_l}]
 																																																																																			
 																																																																																				[mark_zyllax08ugz0t98gq79t]...[IMAGE view1.jpg&{script a_b}]
-																																																																																					Не понимаю, как здесь могут работать такие лицемерные менеджеры, как вы?
+																																																																																					Не понимаю, как в таком солидном магазине работают такие лицемерные менеджеры, как вы?
 																																																																																						[mark_b7u7jxm42z3zl02r9u94]Я работаю с понедельника по субботу с 10:00 до 18:00.[IMAGE view1.jpg&{script a_f_l}][AUDIO a_work_week][BGNDIMAGE view1.jpg&{script a_f_l}]
 																																																																																							По безналу оплату принимаете?
 																																																																																								[anton_hi_again]И снова: "Здравствуйте!"[IMAGE view1.jpg&{script a_f_r}][AUDIO a_hi_again][BGNDIMAGE view1.jpg&{script a_f_r}]
@@ -194,7 +194,7 @@
 																																																																																																																																																																																																	О, круто! А что еще?
 																																																																																																																																																																																																		[mark_08k2gdj5a28vfn8905mc]А вам что еще надо?[IMAGE {script fridge_biruca}&{script a_f_l}][AUDIO a_biruca_what_more][BGNDIMAGE {script fridge_biruca}&{script a_f_l}]
 																																																																																																																																																																																																			Хотелось бы знать все о нем.
-																																																																																																																																																																																																				[biruca_nuclear_explosion]Я вам больше скажу - если неподалеку случится ядерный взрыв, а вы спрячетесь в него, то точно выживите. Вам этого достаточно?[IMAGE {script fridge_biruca}&{script a_f_l}][AUDIO a_biruca_desc4][BGNDIMAGE {script fridge_biruca}&{sc
+																																																																																																																																																																																																				[biruca_nuclear_explosion]Я вам больше скажу - если неподалеку случится ядерный взрыв, а вы спрячетесь в него, то точно выживите. Вам этого достаточно?[IMAGE {script fridge_biruca}&{script a_f_l}][AUDIO a_biruca_desc4][BGNDIMAGE {script fridge_biruca}&{script fridge_biruca}&{script a_f_l}]
 																																																																																																																																																																																																					Отлично! А еще?
 																																																																																																																																																																																																						[mark_ksiatw9eo3w143a4447j]Либо просто сможете сэкономить на покупке гроба после своей смерти.[IMAGE {script fridge_biruca}&{script a_f_l}][AUDIO a_biruca_desc5][BGNDIMAGE {script fridge_biruca}&{script a_f_l}]
 																																																																																																																																																																																																							Ну а минусы?
@@ -879,8 +879,7 @@
 																[mark_l173w68sf3ab3l9l8j3q]{'[GOTO ' + this.gotoSuccess + ']'}
 												[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg]
 													[GOTO try_again_buy_button_episodes]
-													[cancel_buy_button_episodes]Продолжить
+													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
-					[GOTO cancel_buy_button_episodes]
 	[buy_episodes]Эпизоды игры
 		[mark_8is9fa297dh3orz5l021]{this.gotoSuccess='START';this.gotoCancel='START';''}[GOTO buy_button_episodes]
