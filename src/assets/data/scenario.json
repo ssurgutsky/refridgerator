@@ -3520,7 +3520,7 @@
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "EPISODE4",
-                                                                                                                                                                                                                          "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing]"
+                                                                                                                                                                                                                          "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER OFF]"
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                       "_mark": "bye_brick",
@@ -4604,7 +4604,7 @@
                             }
                           ],
                           "_mark": "mark_final9",
-                          "_content": "[LABEL Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.][IMAGE fridge_orsk.png|150;100;1;1;0;1][AUDIO final_good_not_best,neitral_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.][IMAGE kitchen.jpg&fridge_orsk.png|150;100;1;1;0;1][AUDIO final_good_not_best,neitral_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4618,7 +4618,7 @@
                             }
                           ],
                           "_mark": "mark_final11",
-                          "_content": "[LABEL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.][IMAGE fridge_libher.png|160;20;1;1;0;1][AUDIO final_most_bad][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.][IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO final_most_bad][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4632,7 +4632,7 @@
                             }
                           ],
                           "_mark": "mark_final12",
-                          "_content": "[LABEL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.][IMAGE fridge_bomsh.png|10;250;1;1;0;1][AUDIO final_bomsh,negative_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.][IMAGE kitchen.jpg&fridge_bomsh.png|120;290;1;1;0;1][AUDIO final_bomsh,negative_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4646,7 +4646,7 @@
                             }
                           ],
                           "_mark": "mark_final13",
-                          "_content": "[LABEL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.][IMAGE {script fridge_sasung}][AUDIO final_lonly_woman,neitral_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.][IMAGE kitchen.jpg&fridge_sasung.png|50;50;1;1;0;1][AUDIO final_lonly_woman,neitral_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4660,7 +4660,7 @@
                             }
                           ],
                           "_mark": "mark_final14",
-                          "_content": "[LABEL Лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.][IMAGE fridge_lg2.png|150;0;1;1;0;1][AUDIO final_lg_bad,negative_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.][IMAGE kitchen.jpg&fridge_lg2.png|150;0;1;1;0;1][AUDIO final_lg_bad,negative_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4674,7 +4674,7 @@
                             }
                           ],
                           "_mark": "mark_final15",
-                          "_content": "[LABEL В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.][IMAGE fridge_ariston.png|160;60;0.9;0.9;0;1][AUDIO final_ariston,negative_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.][IMAGE kitchen.jpg&fridge_ariston.png|115;20;1;1;0;1][AUDIO final_ariston,negative_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4688,7 +4688,7 @@
                             }
                           ],
                           "_mark": "mark_final16",
-                          "_content": "[LABEL Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.][IMAGE fridge_electro.png|200;20;1;1;0;1][AUDIO final_electro,negative_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.][IMAGE kitchen.jpg&fridge_electro.png|200;20;1;1;0;1][AUDIO final_electro,negative_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
@@ -4716,7 +4716,7 @@
                             }
                           ],
                           "_mark": "mark_final18",
-                          "_content": "[LABEL Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.][IMAGE fridge_biruca.png|250;0;1;1;0;1][AUDIO final_frozen,negative_final][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.][IMAGE kitchen.jpg&fridge_biruca.png|250;0;1;1;0;1][AUDIO final_frozen,negative_final][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "_mark": "FOR_MONEY",
@@ -4842,7 +4842,7 @@
             }
           ],
           "_mark": "START",
-          "_content": "[LABEL Холодильник v1.0. Квест покупки холодильника.{script initSystem}][IMAGE Intro.jpg][MUSIC music1][ANSWERSORDER OFF]"
+          "_content": "[LABEL Холодильник v1.0. Квест покупки холодильника.{script initSystem}{script resetGameStats}][IMAGE Intro.jpg][MUSIC music1][ANSWERSORDER OFF]"
         }
       ]
     }

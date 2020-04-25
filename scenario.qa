@@ -1,4 +1,4 @@
-[START]Холодильник v1.0. Квест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER OFF]
+[START]Холодильник v1.0. Квест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER OFF]{script resetGameStats}
 	START GAME / НАЧАТЬ ИГРУ
 		[EPISODE1]Продавец чем-то занят. Что делает - не понятно.[IMAGE view1.jpg&{script a_b}][AUDIO manager_is_busy][BGNDIMAGE view1.jpg&{script a_b}]
 			
@@ -50,7 +50,7 @@
 																																																	Давай, помоги холодильник выбрать!
 																																																		[gop_subwork]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO g_dont_disturb_me][BGNDVIDEO GopStandsBouncing]
 																																																			[bye_brick]Ну бывай!
-																																																				[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing]
+																																																				[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER OFF]
 																																																					[donate]Достать монету.
 																																																						[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.fridge.coin1";'';}{script getPayment}
 																																																							
@@ -854,31 +854,31 @@
 				[mark_final8]Ты прождал, пока магазин закрылся. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_wait_until_closed,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final9]Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.[IMAGE fridge_orsk.png|150;100;1;1;0;1][AUDIO final_good_not_best,neitral_final][MUSIC NONE][AMBIENT NONE]
+				[mark_final9]Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.[IMAGE kitchen.jpg&fridge_orsk.png|150;100;1;1;0;1][AUDIO final_good_not_best,neitral_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final11]Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.[IMAGE fridge_libher.png|160;20;1;1;0;1][AUDIO final_most_bad][MUSIC NONE][AMBIENT NONE]
+				[mark_final11]Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.[IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO final_most_bad][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final12]Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.[IMAGE fridge_bomsh.png|10;250;1;1;0;1][AUDIO final_bomsh,negative_final][MUSIC NONE][AMBIENT NONE]
+				[mark_final12]Ты купил товар дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.[IMAGE kitchen.jpg&fridge_bomsh.png|120;290;1;1;0;1][AUDIO final_bomsh,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final13]Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.[IMAGE {script fridge_sasung}][AUDIO final_lonly_woman,neitral_final][MUSIC NONE][AMBIENT NONE]
+				[mark_final13]Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.[IMAGE kitchen.jpg&fridge_sasung.png|50;50;1;1;0;1][AUDIO final_lonly_woman,neitral_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final14]Лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.[AUDIO final_lg_bad,negative_final][IMAGE fridge_lg2.png|150;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
+				[mark_final14]Лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.[AUDIO final_lg_bad,negative_final][IMAGE kitchen.jpg&fridge_lg2.png|150;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final15]В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.[IMAGE fridge_ariston.png|160;60;0.9;0.9;0;1][AUDIO final_ariston,negative_final][MUSIC NONE][AMBIENT NONE]
+				[mark_final15]В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.[IMAGE kitchen.jpg&fridge_ariston.png|115;20;1;1;0;1][AUDIO final_ariston,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final16]Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.[AUDIO final_electro,negative_final][IMAGE fridge_electro.png|200;20;1;1;0;1][MUSIC NONE][AMBIENT NONE]
+				[mark_final16]Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.[AUDIO final_electro,negative_final][IMAGE kitchen.jpg&fridge_electro.png|200;20;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[mark_final17]Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.[IMAGE house_in_fire.jpg][AUDIO final_tosh,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
-				[mark_final18]Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.[AUDIO final_frozen,negative_final][IMAGE fridge_biruca.png|250;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
+				[mark_final18]Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.[AUDIO final_frozen,negative_final][IMAGE kitchen.jpg&fridge_biruca.png|250;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[FOR_MONEY]
