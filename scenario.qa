@@ -1,22 +1,22 @@
 [START]Холодильник v1.0. Квест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER OFF]{script resetGameStats}
 	START GAME / НАЧАТЬ ИГРУ
-		[EPISODE1]Продавец чем-то занят. Что делает - не понятно.[IMAGE view1.jpg&{script a_b}][AUDIO manager_is_busy][BGNDIMAGE view1.jpg&{script a_b}]
+		[EPISODE1]Продавец чем-то занят. Что делает - не понятно.[IMAGE view1.jpg&{script a_b}][AUDIO manager_is_busy][BGNDIMAGE *]
 			
 				[GAME_SAVEPOINT]Продавец чем-то занят. Что делает - не понятно.{script resetGameStats}[BGNDIMAGE view1.jpg&{script a_b}][MUSIC The_DeLong_Incident]
 					Покашляю, чтобы привлечь внимание.
-						[manager_ignores_you]Он тебя не замечает.[IMAGE view1.jpg&{script a_b}][AUDIO coughing,manager_ignores_you][BGNDIMAGE view1.jpg&{script a_b}]
+						[manager_ignores_you]Он тебя не замечает.[IMAGE view1.jpg&{script a_b}][AUDIO coughing,manager_ignores_you][BGNDIMAGE *]
 							[tell_me_please]Скажите, пожалуйста...
-								[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[IMAGE view1.jpg&{script a_b}][AUDIO a_please][BGNDIMAGE view1.jpg&{script a_b}]
+								[mark_6585un975zrf7qt5p8z8]"Пожалуйста".[IMAGE view1.jpg&{script a_b}][AUDIO a_please][BGNDIMAGE *]
 									[could_you]Вы не могли бы...
-										[mark_ys38g7ofx20tk71qg678]Мог бы.[IMAGE view1.jpg&{script a_b}][AUDIO a_i_can][BGNDIMAGE view1.jpg&{script a_b}]
+										[mark_ys38g7ofx20tk71qg678]Мог бы.[IMAGE view1.jpg&{script a_b}][AUDIO a_i_can][BGNDIMAGE *]
 											[why_do_you_speak_so_rude]Почему вы так со мной разговариваете?
-												[mark_8941e255c4r71d594977]Как?[IMAGE view1.jpg&{script a_b}][AUDIO a_how][BGNDIMAGE view1.jpg&{script a_b}]
+												[mark_8941e255c4r71d594977]Как?[IMAGE view1.jpg&{script a_b}][AUDIO a_how][BGNDIMAGE *]
 													Как-то недружелюбно...
-														[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1.jpg&{script a_b}][AUDIO a_first_hi][BGNDIMAGE view1.jpg&{script a_b}]
+														[mark_on1rv8i91e81lv5h5yo1]Дружелюбные люди обычно сначала здороваются.[IMAGE view1.jpg&{script a_b}][AUDIO a_first_hi][BGNDIMAGE *]
 															[sorry_hello]Здравствуйте!
 																[hello_I_am_busy]Здравствуйте. Но я сейчас занят.[IMAGE view1.jpg&{script a_b}][AUDIO a_says_hi_busy][BGNDIMAGE view1.jpg&{script a_b}]
 																	Пойду еще кого-нибудь поищу.
-																		[walk_around]...[VIDEO go1,go2][AUDIO silent_6]
+																		[walk_around]...[VIDEO go1,go2][AUDIO silent_6.5]
 																			
 																				[no_free_managers]Ты обошел весь зал, но других менеджеров так и не встретил.[IMAGE view1.jpg&{script a_b}][AUDIO you_didnt_meet_managers][BGNDIMAGE view1.jpg&{script a_b}]
 																					Кроме вас никого из менеджеров больше нет.
@@ -83,7 +83,7 @@
 																																																																																		[mark_q9w2s98rb5itl7ydk215]Так... понятно...[IMAGE view1.jpg&{script a_f_l}][AUDIO a_ok_clear][BGNDIMAGE view1.jpg&{script a_f_l}]
 																																																																																			
 																																																																																				[mark_zyllax08ugz0t98gq79t]...[IMAGE view1.jpg&{script a_b}]
-																																																																																					Не понимаю, как в таком солидном магазине работают такие лицемерные менеджеры, как вы?
+																																																																																					Как в таком солидном магазине работают такие лицемерные менеджеры, как вы?
 																																																																																						[mark_b7u7jxm42z3zl02r9u94]Я работаю с понедельника по субботу с 10:00 до 18:00.[IMAGE view1.jpg&{script a_f_l}][AUDIO a_work_week][BGNDIMAGE view1.jpg&{script a_f_l}]
 																																																																																							По безналу оплату принимаете?
 																																																																																								[anton_hi_again]И снова: "Здравствуйте!"[IMAGE view1.jpg&{script a_f_r}][AUDIO a_hi_again][BGNDIMAGE view1.jpg&{script a_f_r}]
@@ -220,9 +220,9 @@
 																																																																																																																																																																																																																											>>>
 																																																																																																																																																																																																																												[EPISODE15]... Искусственный Интеллект![IMAGE kitchen2.jpg&fridge_libher2_4.png|220;0;1;1;0;1][AUDIO ai_desc3][BGNDIMAGE kitchen2.jpg&fridge_libher2_4.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																													>>>
-																																																																																																																																																																																																																														[mark_fz2dv67oi1bmmp4e2be8]У-У-У-У!!!! Как же долго я спал![IMAGE kitchen3.jpg&fridge_libher3.png|220;0;1;1;0;1][AUDIO ai_desc4][BGNDIMAGE kitchen4.jpg&fridge_libher3.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																														[mark_fz2dv67oi1bmmp4e2be8]У-У-У-У!!!! Как же долго я спал![IMAGE kitchen3.jpg&fridge_libher2_4.png|220;0;1;1;0;1][AUDIO ai_desc4][BGNDIMAGE kitchen4.jpg&fridge_libher2_4.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																															>>>
-																																																																																																																																																																																																																																[mark_ge89e94zhro48441zg3f]И теперь я очень голоден![IMAGE kitchen5.jpg&fridge_libher3.png|220;0;1;1;0;1][AUDIO ai_desc5][BGNDIMAGE kitchen4.jpg&fridge_libher3.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																																[mark_ge89e94zhro48441zg3f]И теперь я очень голоден![IMAGE kitchen5.jpg&fridge_libher2_4.png|220;0;1;1;0;1][AUDIO ai_desc5][BGNDIMAGE kitchen4.jpg&fridge_libher2_4.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																	>>>
 																																																																																																																																																																																																																																		[mark_l26621um3n85747vvl0k]Кто тут у нас?[IMAGE kitchen5.jpg&AI.png|240;0;1;1;0;1][AUDIO ai_desc6][BGNDIMAGE kitchen6.jpg&AI.png|240;0;1;1;0;1]
 																																																																																																																																																																																																																																			>>>

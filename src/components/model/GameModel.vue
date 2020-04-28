@@ -253,8 +253,16 @@ export default {
       this.purchaseItem = commonUtils.getTagValuePURCHASE(this.currentNode._parsedContent)
       console.log('purchaseItem:', this.purchaseItem)
 
-      const bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
+      let bgndImagesSequence = commonUtils.getTagValueBGNDIMAGE(this.currentNode._parsedContent)
       this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)
+
+      // If need to keep [BGNDIMAGE ] content the same as [IMAGE ]
+      // But just re-eval scripts of [IMAGE ]
+      if (this.currentBgndImages === '*') {
+        var tmpParsedContent = this.evalString(this.currentNode._content)
+        bgndImagesSequence = commonUtils.getTagValueIMAGE(tmpParsedContent)
+        this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)
+      }
 
       const imagesSequence = commonUtils.getTagValueIMAGE(this.currentNode._parsedContent)
       this.currentImages = commonUtils.getArrayRandomElement(imagesSequence)
