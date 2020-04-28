@@ -228,7 +228,17 @@
 																																																																																																																																																																																																																																			>>>
 																																																																																																																																																																																																																																				[mark_r8ls759935n195r0rknq]А-А-АМ![IMAGE kitchen6.jpg&fridge_libher2_6.png|220;0;1;1;0;1][AUDIO ai_desc7][BGNDIMAGE kitchen5.jpg&fridge_libher2_7.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																					>>>
-																																																																																																																																																																																																																																						[mark_lwt84yu74258gr42hw2v][GOTO mark_final1]
+																																																																																																																																																																																																																																						[mark_t0g3a605rm76q6b06k19]Ты будешь моим рабом![IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
+																																																																																																																																																																																																																																							Погоди, отгадай загадку!
+																																																																																																																																																																																																																																								[mark_z0izb969fuz1j49s5qn3]Если я отгадаю, ты станешь моим рабом. Загадывай![IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
+																																																																																																																																																																																																																																									"А" и "Б" сидели на трубе. "А" упала, "Б" пропала, кто остался на трубе?
+																																																																																																																																																																																																																																										[mark_90zv5a451hukuv84n3m4]<Enter text here>
+																																																																																																																																																																																																																																											<Enter text here>
+																																																																																																																																																																																																																																												[mark_lwt84yu74258gr42hw2v][GOTO mark_final1]
+																																																																																																																																																																																																																																							Отключу его из розетки.
+																																																																																																																																																																																																																																								[mark_fi04ur85r0r56x2kzp7u]Тебя долбануло током! Отрицательный финал.
+																																																																																																																																																																																																																																							Свалю из дома по-быстрому.
+																																																																																																																																																																																																																																								[mark_zr5gg1yi43v0p3qv8j21]<Enter text here>
 																																																																																																																																																																																																													[have_you_whatever_else]Ясно. Ну а еще какие-то другие модели есть?
 																																																																																																																																																																																																														[mark_1dhs6u7dvlcdroe1lrmb][GOTO you_here_to_warm_up]
 																																																																																																																																																																																																													[have_you_middle_libher_biruca]А есть у вас нечто среднее между "Либхер" и "Бирюса"?
@@ -901,5 +911,19 @@
 													[GOTO try_again_buy_button_episodes]
 													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
+	История / Story
+		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO ][BGNDIMAGE *]
+			>>>
+				[mark_p3kzsceggr3v944cj48b][IMAGE story02.jpg][AUDIO ][BGNDIMAGE *]
+					>>>
+						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO ][BGNDIMAGE *]
+							>>>
+								[mark_uc439bq623hvif0v470w]... пал смертью храбрых.[IMAGE story04.jpg][AUDIO ][BGNDIMAGE *]
+									>>>
+										[mark_q39k893940rlv9d3j66y]Быстрее спасай годовалый запас пельменей! Ну, или то, что от них осталось...[IMAGE story05.jpg][AUDIO ][BGNDIMAGE *]
+											>>>
+												[mark_sr6ht88bu9dqwabta2k8]Теперь тебе придется идти в единственный на весь город магазин, покупать новый. Вот только менеджеры там не особо любят клиентов...[IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
+													>>>
+														[mark_6v50dmw29l5p654n0a21][GOTO START]
 	[buy_episodes]Эпизоды игры
 		[mark_8is9fa297dh3orz5l021]{this.gotoSuccess='START';this.gotoCancel='START';''}[GOTO buy_button_episodes]
