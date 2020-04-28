@@ -4966,7 +4966,7 @@
                             }
                           ],
                           "_mark": "mark_p3kzsceggr3v944cj48b",
-                          "_content": "[LABEL ][IMAGE story02.jpg][BGNDIMAGE *]"
+                          "_content": "[LABEL ...][IMAGE story02.jpg][BGNDIMAGE *]"
                         }
                       ],
                       "_mark": "",
@@ -4974,7 +4974,7 @@
                     }
                   ],
                   "_mark": "mark_o7j6h2zg4xn8f5r7pwyi",
-                  "_content": "[LABEL Ночью были перебои с электричеством...][IMAGE story01.jpg][BGNDIMAGE *]"
+                  "_content": "[LABEL Ночью были перебои с электричеством...][IMAGE story01.jpg][BGNDIMAGE *][MUSIC story][AMBIENT NONE]"
                 }
               ],
               "_mark": "",

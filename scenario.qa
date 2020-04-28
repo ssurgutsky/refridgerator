@@ -912,9 +912,9 @@
 													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
 	История / Story
-		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO ][BGNDIMAGE *]
+		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO ][BGNDIMAGE *][MUSIC story][AMBIENT NONE]
 			>>>
-				[mark_p3kzsceggr3v944cj48b][IMAGE story02.jpg][AUDIO ][BGNDIMAGE *]
+				[mark_p3kzsceggr3v944cj48b]...[IMAGE story02.jpg][AUDIO ][BGNDIMAGE *]
 					>>>
 						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO ][BGNDIMAGE *]
 							>>>
