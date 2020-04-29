@@ -1,0 +1,11 @@
+let arr = [23,37,42];
+
+function randomInt(min, max) {
+  let rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
+}
+let rndIndex = randomInt(0, 2);
+
+this.userAINo = arr[rndIndex];
+console.log('>>>>this.userAINo', this.userAINo);
+'';
