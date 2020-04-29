@@ -1,3 +1,12 @@
-let n = parseInt(this.userNo);
-let result = Math.floor((n + 2) / 3);
-result;
+this.isGoodNo = false;
+this.resultNo = 0;
+
+if (this.userNo.indexOf(',') === -1 && this.userNo.indexOf('.') === -1) {
+  let n = parseInt(this.userNo);
+  
+  if (!isNaN(n) && typeof n === 'number') {
+    this.resultNo = Math.floor((n + 2) / 3);
+    this.isGoodNo = true;
+  }
+}
+'';
