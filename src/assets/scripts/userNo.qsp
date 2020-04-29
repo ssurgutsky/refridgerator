@@ -1,0 +1,3 @@
+let n = parseInt(this.userNo);
+let result = Math.floor((n + 2) / 3);
+result;
