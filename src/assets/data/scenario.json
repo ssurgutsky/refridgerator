@@ -4678,7 +4678,7 @@
                                             }
                                           ],
                                           "_mark": "mark_69dvh6628bxp5k1847p9",
-                                          "_content": "[LABEL НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!!][IMAGE AI_fail3.jpg][AUDIO silent_2]"
+                                          "_content": "[LABEL НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!!][IMAGE AI_fail3.jpg][AUDIO silent_2,explode_fx]"
                                         }
                                       ],
                                       "_mark": "",
@@ -4686,7 +4686,7 @@
                                     }
                                   ],
                                   "_mark": "mark_1d9yi8c122w50122e41c",
-                                  "_content": "[LABEL ТЫ ВЗЛОМАЛ МЕНЯ!!!][IMAGE AI_fail2.jpg][AUDIO silent_2]"
+                                  "_content": "[LABEL КАК ТЫ СМОГ ВЗЛОМАТЬ МЕНЯ?!?!][IMAGE AI_fail2.jpg][AUDIO silent_2]"
                                 }
                               ],
                               "_mark": "",
@@ -4712,7 +4712,7 @@
                                     }
                                   ],
                                   "_mark": "mark_d489lb38v14dn4nxe202",
-                                  "_content": "[LABEL Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.][IMAGE AI_win.jpg][AUDIO negative_final]"
+                                  "_content": "[LABEL Искусственный Интеллект подчинил себе твой разум и волю, сделав тебя рабом. Отрицательный финал.][IMAGE AI_win.jpg][AUDIO negative_final]"
                                 }
                               ],
                               "_mark": "",
@@ -4720,21 +4720,23 @@
                             }
                           ],
                           "_mark": "mark_final1",
-                          "_content": "[LABEL Теперь ты мой раб!][IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg][MUSIC NONE][AMBIENT NONE]"
+                          "_content": "[LABEL ХА-ХА-ХА-ХА-ХА-ХА-ХА! Теперь ты мой раб!][IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg][MUSIC NONE][AMBIENT NONE]"
                         },
                         {
                           "node": [
                             {
+                              "node": [
+                                {
+                                  "_mark": "mark_db5xa16t7m3p7hvzl46r",
+                                  "_content": "[LABEL ][GOTO mark_final1]"
+                                }
+                              ],
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO play_again]"
-                            },
-                            {
-                              "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL >>>]"
                             }
                           ],
                           "_mark": "mark_final_11",
-                          "_content": "[LABEL Искусственный Интеллект долбанул тебя током. Отрицательный финал.][IMAGE AI_electro.jpg][AUDIO negative_final][BGNDIMAGE *][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx]"
+                          "_content": "[LABEL Искусственный Интеллект долбанул тебя током.][IMAGE AI_electro.jpg][AUDIO silent_2.13][BGNDIMAGE *][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx]"
                         },
                         {
                           "node": [
@@ -5111,8 +5113,20 @@
                                                             {
                                                               "node": [
                                                                 {
-                                                                  "_mark": "mark_6v50dmw29l5p654n0a21",
-                                                                  "_content": "[LABEL ][GOTO START]"
+                                                                  "node": [
+                                                                    {
+                                                                      "node": [
+                                                                        {
+                                                                          "_mark": "mark_6v50dmw29l5p654n0a21",
+                                                                          "_content": "[LABEL ][GOTO START]"
+                                                                        }
+                                                                      ],
+                                                                      "_mark": "",
+                                                                      "_content": "[LABEL >>>]"
+                                                                    }
+                                                                  ],
+                                                                  "_mark": "mark_oj9fjqmzq6lo37162y2u",
+                                                                  "_content": "[LABEL А выбрать надо обязательно самый оптимальный. Удачи тебе!][IMAGE story06.jpg][BGNDIMAGE *]"
                                                                 }
                                                               ],
                                                               "_mark": "",
@@ -5120,7 +5134,7 @@
                                                             }
                                                           ],
                                                           "_mark": "mark_sr6ht88bu9dqwabta2k8",
-                                                          "_content": "[LABEL Теперь тебе придется идти в единственный на весь город магазин, покупать новый. Вот только менеджеры там не особо любят клиентов...][IMAGE story06.jpg][BGNDIMAGE *]"
+                                                          "_content": "[LABEL Вот только денег у тебя не густо. Да еще и менеджеры там не особо любят своих клиентов...][IMAGE story06.jpg][BGNDIMAGE *]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -5128,7 +5142,7 @@
                                                     }
                                                   ],
                                                   "_mark": "mark_q39k893940rlv9d3j66y",
-                                                  "_content": "[LABEL Быстрее спасай годовалый запас пельменей! Ну, или то, что от них осталось...][IMAGE story05.jpg][BGNDIMAGE *]"
+                                                  "_content": "[LABEL Теперь тебе придется идти в единственный на весь город магазин, покупать новый...][IMAGE story05.jpg][BGNDIMAGE *]"
                                                 }
                                               ],
                                               "_mark": "",
@@ -5136,7 +5150,7 @@
                                             }
                                           ],
                                           "_mark": "mark_uc439bq623hvif0v470w",
-                                          "_content": "[LABEL ... пал смертью храбрых.][IMAGE story04.jpg][BGNDIMAGE *]"
+                                          "_content": "[LABEL ... перегорел смертью храбрых.][IMAGE story04.jpg][BGNDIMAGE *][SOUNDFX electro_fx]"
                                         }
                                       ],
                                       "_mark": "",
@@ -5144,7 +5158,7 @@
                                     }
                                   ],
                                   "_mark": "mark_u49comqad0g76z59c78g",
-                                  "_content": "[LABEL ... и твой старый верный друг холодильник \"Тошношиба\"...][IMAGE story03.jpg][BGNDIMAGE *]"
+                                  "_content": "[LABEL ... и твой старый верный друг холодильник \"Тошношиба\"...][IMAGE story03.jpg][BGNDIMAGE *][SOUNDFX electro_fx]"
                                 }
                               ],
                               "_mark": "",
@@ -5152,7 +5166,7 @@
                             }
                           ],
                           "_mark": "mark_p3kzsceggr3v944cj48b",
-                          "_content": "[LABEL ...][IMAGE story02.jpg][BGNDIMAGE *]"
+                          "_content": "[LABEL ...][IMAGE story02.jpg][BGNDIMAGE *][SOUNDFX electro_fx]"
                         }
                       ],
                       "_mark": "",

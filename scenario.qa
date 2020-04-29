@@ -860,22 +860,22 @@
 				[SEPARATOR]
 				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO silent_2][MUSIC NONE][AMBIENT NONE]
 					
-						[mark_1d9yi8c122w50122e41c]ТЫ ВЗЛОМАЛ МЕНЯ!!![IMAGE AI_fail2.jpg][AUDIO silent_2]
+						[mark_1d9yi8c122w50122e41c]КАК ТЫ СМОГ ВЗЛОМАТЬ МЕНЯ?!?![IMAGE AI_fail2.jpg][AUDIO silent_2]
 							
-								[mark_69dvh6628bxp5k1847p9]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!![IMAGE AI_fail3.jpg][AUDIO silent_2]
+								[mark_69dvh6628bxp5k1847p9]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!![IMAGE AI_fail3.jpg][AUDIO silent_2,explode_fx]
 									
 										[mark_tb15580fgn0133yybp89]Тебе удалось взломать Искусственный Интеллект! Победа! Главный положительный финал.[IMAGE AI_fail4.jpg][AUDIO silent_2]
 											[play_again]Играть еще раз
 												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
 											[GOTO buy_episodes]
-				[mark_final1]Теперь ты мой раб![IMAGE AI2.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
+				[mark_final1]ХА-ХА-ХА-ХА-ХА-ХА-ХА! Теперь ты мой раб![IMAGE AI2.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
 					>>>
-						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final]
+						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю, сделав тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final]
 							[GOTO play_again]
 							[GOTO buy_episodes]
-				[mark_final_11]Искусственный Интеллект долбанул тебя током. Отрицательный финал.[IMAGE AI_electro.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
-					[GOTO play_again]
-					[GOTO buy_episodes]
+				[mark_final_11]Искусственный Интеллект долбанул тебя током.[IMAGE AI_electro.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
+					>>>
+						[mark_db5xa16t7m3p7hvzl46r][GOTO mark_final1]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
 					[GOTO buy_episodes]
@@ -947,16 +947,18 @@
 	История / Story
 		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO ][BGNDIMAGE *][MUSIC story][AMBIENT NONE]
 			>>>
-				[mark_p3kzsceggr3v944cj48b]...[IMAGE story02.jpg][AUDIO ][BGNDIMAGE *]
+				[mark_p3kzsceggr3v944cj48b]...[IMAGE story02.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
 					>>>
-						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO ][BGNDIMAGE *]
+						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
 							>>>
-								[mark_uc439bq623hvif0v470w]... пал смертью храбрых.[IMAGE story04.jpg][AUDIO ][BGNDIMAGE *]
+								[mark_uc439bq623hvif0v470w]... перегорел смертью храбрых.[IMAGE story04.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
 									>>>
-										[mark_q39k893940rlv9d3j66y]Быстрее спасай годовалый запас пельменей! Ну, или то, что от них осталось...[IMAGE story05.jpg][AUDIO ][BGNDIMAGE *]
+										[mark_q39k893940rlv9d3j66y]Теперь тебе придется идти в единственный на весь город магазин, покупать новый...[IMAGE story05.jpg][AUDIO ][BGNDIMAGE *]
 											>>>
-												[mark_sr6ht88bu9dqwabta2k8]Теперь тебе придется идти в единственный на весь город магазин, покупать новый. Вот только менеджеры там не особо любят клиентов...[IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
+												[mark_sr6ht88bu9dqwabta2k8]Вот только денег у тебя не густо. Да еще и менеджеры там не особо любят своих клиентов...[IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
 													>>>
-														[mark_6v50dmw29l5p654n0a21][GOTO START]
+														[mark_oj9fjqmzq6lo37162y2u]А выбрать надо обязательно самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
+															>>>
+																[mark_6v50dmw29l5p654n0a21][GOTO START]
 	[buy_episodes]Эпизоды игры
 		[mark_8is9fa297dh3orz5l021]{this.gotoSuccess='START';this.gotoCancel='START';''}[GOTO buy_button_episodes]
