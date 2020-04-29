@@ -245,17 +245,11 @@
 																																																																																																																																																																																																																																																				[mark_x979y39qw573qkas1b44]{if (this.isGoodNo) "[GOTO ai_good_number]"; else "[GOTO ai_bad_number]";}
 																																																																																																																																																																																																																																																					
 																																																																																																																																																																																																																																																						[ai_good_number]Твое число: {this.resultNo;}[IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
-																																																																																																																																																																																																																																																							Да.
-																																																																																																																																																																																																																																																								[mark_40xay2zsx6p63m5gy0k5][IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
-																																																																																																																																																																																																																																																									"А" и "Б" сидели на трубе. "А" упала, "Б" пропала, кто остался на трубе?
-																																																																																																																																																																																																																																																										[mark_90zv5a451hukuv84n3m4]<Enter text here>
-																																																																																																																																																																																																																																																											<Enter text here>
-																																																																																																																																																																																																																																																												[mark_lwt84yu74258gr42hw2v][GOTO mark_final1]
-																																																																																																																																																																																																																																																							Нет.
-																																																																																																																																																																																																																																																								[mark_584g5406cplds99hx5d6][GOTO EPISODE17]
+																																																																																																																																																																																																																																																							Да...
+																																																																																																																																																																																																																																																								[mark_1w367i25ga20gmo67y95]{if (this.userNo === "42") {"[GOTO mark_final0]";} else {"[GOTO mark_final1]";}
 																																																																																																																																																																																																																																																						[ai_bad_number]Взломать меня удумал?![IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
 																																																																																																																																																																																																																																																							>>>
-																																																																																																																																																																																																																																																								[mark_1x3p17te5w9vqiop1y46][GOTO EPISODE17]
+																																																																																																																																																																																																																																																								[mark_1x3p17te5w9vqiop1y46][GOTO mark_final1]
 																																																																																																																																																																																																																																							Отключу его из розетки.
 																																																																																																																																																																																																																																								[mark_fi04ur85r0r56x2kzp7u]Тебя долбануло током! Отрицательный финал.
 																																																																																																																																																																																																																																							Свалю из дома по-быстрому.
@@ -860,9 +854,18 @@
 							[GOTO who_on_me]
 				[mark_4dblm1826l6rq388t8z5]
 				[SEPARATOR]
-				[mark_final1]Дефектный Искусственный Интеллект холодильника "Либхер" оказался злодеем и подчинил себе твой разум и волю! Главный драматический финал.[IMAGE fridge_libher3.png|160;-20;2.5;2.5;0;1]
-					[play_again]Играть еще раз
-						[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
+				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO silent_2]
+					
+						[mark_1d9yi8c122w50122e41c]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!![IMAGE AI_fail2.jpg][AUDIO silent_2]
+							
+								[mark_69dvh6628bxp5k1847p9]БАХ!!!!!!!![IMAGE AI_fail3.jpg][AUDIO silent_2]
+									
+										[mark_tb15580fgn0133yybp89]Тебе удалось взломать Искусственный Интеллект! Победа! Главный положительный финал.[IMAGE AI_fail4.jpg][AUDIO silent_2]
+											[play_again]Играть еще раз
+												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
+											[GOTO buy_episodes]
+				[mark_final1]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO silent_2]
+					[GOTO play_again]
 					[GOTO buy_episodes]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
