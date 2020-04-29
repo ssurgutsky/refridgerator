@@ -244,9 +244,9 @@
 																																																																																																																																																																																																																																																			
 																																																																																																																																																																																																																																																				[mark_x979y39qw573qkas1b44]{if (this.isGoodNo) "[GOTO ai_good_number]"; else "[GOTO ai_bad_number]";}
 																																																																																																																																																																																																																																																					
-																																																																																																																																																																																																																																																						[ai_good_number]Твое число: {this.resultNo;}[IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
+																																																																																																																																																																																																																																																						[ai_good_number]Вот твое число: {this.resultNo;}[IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
 																																																																																																																																																																																																																																																							Да...
-																																																																																																																																																																																																																																																								[mark_1w367i25ga20gmo67y95]{if (this.userNo === "42") {"[GOTO mark_final0]";} else {"[GOTO mark_final1]";}
+																																																																																																																																																																																																																																																								[mark_1w367i25ga20gmo67y95]{if (this.userNo == "42") {"[GOTO mark_final0]";} else {"[GOTO mark_final1]";}}
 																																																																																																																																																																																																																																																						[ai_bad_number]Взломать меня удумал?![IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
 																																																																																																																																																																																																																																																							>>>
 																																																																																																																																																																																																																																																								[mark_1x3p17te5w9vqiop1y46][GOTO mark_final1]
@@ -864,10 +864,12 @@
 											[play_again]Играть еще раз
 												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
 											[GOTO buy_episodes]
-				[mark_final1]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE]
-					[GOTO play_again]
-					[GOTO buy_episodes]
-				[mark_final_11]Искусственный Интеллект долбанул тебя током. Отрицательный финал.[IMAGE AI_electro.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx]
+				[mark_final1]Теперь ты мой раб![IMAGE AI2.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
+					>>>
+						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final]
+							[GOTO play_again]
+							[GOTO buy_episodes]
+				[mark_final_11]Искусственный Интеллект долбанул тебя током. Отрицательный финал.[IMAGE AI_electro.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
