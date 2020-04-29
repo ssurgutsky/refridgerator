@@ -224,13 +224,13 @@
 																																																																																																																																																																																																																															>>>
 																																																																																																																																																																																																																																[mark_ge89e94zhro48441zg3f]И теперь я очень голоден![IMAGE kitchen5.jpg&fridge_libher2_5.png|220;0;1;1;0;1][AUDIO ai_desc5][BGNDIMAGE kitchen4.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																	>>>
-																																																																																																																																																																																																																																		[mark_l26621um3n85747vvl0k]Кто тут у нас?[IMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1][AUDIO ai_desc6][BGNDIMAGE kitchen5.jpg&fridge_libher2_7.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																																		[mark_l26621um3n85747vvl0k]Кто тут у нас?[IMAGE kitchen5.jpg&fridge_libher2_7.png|220;0;1;1;0;1][AUDIO ai_desc6][BGNDIMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																			>>>
-																																																																																																																																																																																																																																				[mark_r8ls759935n195r0rknq]А-А-АМ![IMAGE kitchen6.jpg&fridge_libher2_6.png|220;0;1;1;0;1][AUDIO ai_desc7][BGNDIMAGE kitchen5.jpg&fridge_libher2_7.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																																				[mark_r8ls759935n195r0rknq]Посмотрю получше...[IMAGE kitchen6.jpg&fridge_libher2_7.png|220;0;1;1;0;1][AUDIO ai_desc7][BGNDIMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																					>>>
-																																																																																																																																																																																																																																						[mark_t0g3a605rm76q6b06k19]Я вижу тебя, человек.[IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
+																																																																																																																																																																																																																																						[mark_t0g3a605rm76q6b06k19]Это всего лишь человек. Он станет моим рабом.[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																							Что тебе надо?
-																																																																																																																																																																																																																																								[EPISODE16]Загадай любое целое, положительное число от 1 до 100. Если я его угадаю, ты станешь моим рабом. Если нет, отпущу тебя. Загадывай.[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																								[EPISODE16]Сыграем в игру. Загадай любое целое, положительное число от 1 до 100. Если я его угадаю, ты станешь моим рабом. Если нет, отпущу тебя. Загадывай.[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																									>>>
 																																																																																																																																																																																																																																										[mark_6i7ave9j2nveb8gvopqf]Вычти из него "1".[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																											>>>
@@ -251,9 +251,9 @@
 																																																																																																																																																																																																																																																							>>>
 																																																																																																																																																																																																																																																								[mark_1x3p17te5w9vqiop1y46][GOTO mark_final1]
 																																																																																																																																																																																																																																							Отключу его из розетки.
-																																																																																																																																																																																																																																								[mark_fi04ur85r0r56x2kzp7u]Тебя долбануло током! Отрицательный финал.
+																																																																																																																																																																																																																																								[mark_fi04ur85r0r56x2kzp7u][GOTO mark_final_11]
 																																																																																																																																																																																																																																							Свалю из дома по-быстрому.
-																																																																																																																																																																																																																																								[mark_zr5gg1yi43v0p3qv8j21]<Enter text here>
+																																																																																																																																																																																																																																								[mark_zr5gg1yi43v0p3qv8j21][GOTO mark_final_11]
 																																																																																																																																																																																																													[have_you_whatever_else]Ясно. Ну а еще какие-то другие модели есть?
 																																																																																																																																																																																																														[mark_1dhs6u7dvlcdroe1lrmb][GOTO you_here_to_warm_up]
 																																																																																																																																																																																																													[have_you_middle_libher_biruca]А есть у вас нечто среднее между "Либхер" и "Бирюса"?
@@ -854,7 +854,7 @@
 							[GOTO who_on_me]
 				[mark_4dblm1826l6rq388t8z5]
 				[SEPARATOR]
-				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO silent_2]
+				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO silent_2][MUSIC NONE][AMBIENT NONE]
 					
 						[mark_1d9yi8c122w50122e41c]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!![IMAGE AI_fail2.jpg][AUDIO silent_2]
 							
@@ -864,7 +864,10 @@
 											[play_again]Играть еще раз
 												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
 											[GOTO buy_episodes]
-				[mark_final1]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO silent_2]
+				[mark_final1]Искусственный Интеллект подчинил себе твой разум и волю и сделал тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE]
+					[GOTO play_again]
+					[GOTO buy_episodes]
+				[mark_final_11]Искусственный Интеллект долбанул тебя током. Отрицательный финал.[IMAGE AI_electro.jpg][AUDIO negative_final][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx]
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
