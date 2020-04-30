@@ -230,30 +230,30 @@
 																																																																																																																																																																																																																																					>>>
 																																																																																																																																																																																																																																						[mark_r8ls759935n195r0rknq]Сейчас я разгляжу тебя поближе...[IMAGE kitchen6.jpg&fridge_libher2_7.png|220;0;1;1;0;1][AUDIO ai_desc7][BGNDIMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																							Что тебе надо?
-																																																																																																																																																																																																																																								[mark_t0g3a605rm76q6b06k19]Человек, ты станешь моим рабом.[IMAGE kitchen6.jpg&fridge_libher2_7.png|220;0;1;1;0;1][AUDIO silent_2.13][BGNDIMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																																								[mark_t0g3a605rm76q6b06k19]Человек, ты станешь моим рабом.[IMAGE kitchen6.jpg&fridge_libher2_7.png|220;0;1;1;0;1][AUDIO ai_desc8][BGNDIMAGE kitchen5.jpg&fridge_libher2_6.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																																									Ну вот еще!
-																																																																																																																																																																																																																																										[EPISODE16]{script userAINo}У тебя нет выбора. Сейчас мы сыграем с тобой в игру. [IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																										[EPISODE16]{script userAINo}У тебя нет выбора. Сейчас мы сыграем с тобой в игру. [IMAGE AI2.jpg][AUDIO ai_desc9][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																											>>>
-																																																																																																																																																																																																																																												[mark_16o7p2dwcydqyuxr0pk6]Загадай любое целое, положительное число от 1 до 100. Если я его угадаю, ты станешь моим рабом. Если нет, я отпущу тебя. Загадывай![IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																												[mark_16o7p2dwcydqyuxr0pk6]Загадай любое целое, положительное число от 1 до 100. Если я его угадаю, ты станешь моим рабом. Если нет, я отпущу тебя. Загадывай![IMAGE AI2.jpg][AUDIO ai_quiz1][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																													>>>
-																																																																																																																																																																																																																																														[mark_6i7ave9j2nveb8gvopqf]Вычти из него "1".[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																														[mark_6i7ave9j2nveb8gvopqf]Вычти из него "1".[IMAGE AI2.jpg][AUDIO ai_quiz2][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																															>>>
-																																																																																																																																																																																																																																																[mark_7m4bp4xh3i51s8z87kk8]Теперь умножь результат на "2".[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																																[mark_7m4bp4xh3i51s8z87kk8]Теперь умножь результат на "2".[IMAGE AI2.jpg][AUDIO ai_quiz3][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																																	>>>
-																																																																																																																																																																																																																																																		[mark_0etd49f47pn3durc56d3]Прибавь к результату еще раз свое задуманное число.[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																																		[mark_0etd49f47pn3durc56d3]Прибавь к результату еще раз свое задуманное число.[IMAGE AI2.jpg][AUDIO ai_quiz4][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																																			>>>
-																																																																																																																																																																																																																																																				[EPISODE17]Скажи мне, что у тебя получилось?{this.userNo='';'';}[IMAGE AI_{this.userAINo}.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																																				[EPISODE17]Скажи мне, что у тебя получилось?{this.userNo='';'';}[IMAGE AI_{this.userAINo}.jpg][AUDIO ai_quiz5][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																																					[INPUTS this.userNo]
 																																																																																																																																																																																																																																																						[mark_u7wi07r0632c7hp7ar4y]{script userNo}
 																																																																																																																																																																																																																																																							
 																																																																																																																																																																																																																																																								[mark_x979y39qw573qkas1b44]{if (this.isGoodNo) "[GOTO ai_good_number]"; else "[GOTO ai_bad_number]";}
 																																																																																																																																																																																																																																																									
-																																																																																																																																																																																																																																																										[ai_good_number]Вот твое число: {this.resultNo;}[IMAGE AI2.jpg][AUDIO silent_2.13][BGNDIMAGE AI.jpg]
+																																																																																																																																																																																																																																																										[ai_good_number]Вот твое число: {this.resultNo;}[IMAGE AI2.jpg][AUDIO ai_quiz6][BGNDIMAGE AI.jpg]
 																																																																																																																																																																																																																																																											Да...
 																																																																																																																																																																																																																																																												[mark_b538va06h2pyxtzyzto9][GOTO mark_final1]
 																																																																																																																																																																																																																																																											{if (this.userNo == this.userAINo) {"Ошибаешься!";} else {"";}}
 																																																																																																																																																																																																																																																												[mark_4kt3cbuha79amf8dv1j9][GOTO mark_final0]
-																																																																																																																																																																																																																																																										[ai_bad_number]Взломать меня задумал?![IMAGE AI.jpg][AUDIO silent_2.13][BGNDIMAGE AI2.jpg]
+																																																																																																																																																																																																																																																										[ai_bad_number]Взломать меня задумал?![IMAGE AI.jpg][AUDIO ai_quiz7][BGNDIMAGE AI2.jpg]
 																																																																																																																																																																																																																																																											>>>
 																																																																																																																																																																																																																																																												[mark_1x3p17te5w9vqiop1y46][GOTO mark_final1]
 																																																																																																																																																																																																																																									Отключу его из розетки.
@@ -861,22 +861,22 @@
 							[GOTO who_on_me]
 				[mark_4dblm1826l6rq388t8z5]
 				[SEPARATOR]
-				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO silent_2][MUSIC NONE][AMBIENT NONE]
+				[mark_final0]АААА-ААА-ААА-АА-А!!!![IMAGE AI_fail1.jpg][AUDIO ai_fail1][MUSIC NONE][AMBIENT NONE]
 					
-						[mark_1d9yi8c122w50122e41c]КАК ТЫ СМОГ ВЗЛОМАТЬ МЕНЯ?!?![IMAGE AI_fail2.jpg][AUDIO silent_2]
+						[mark_1d9yi8c122w50122e41c]КАК ТЫ СМОГ ВЗЛОМАТЬ МЕНЯ?!?![IMAGE AI_fail2.jpg][AUDIO ai_fail2]
 							
-								[mark_69dvh6628bxp5k1847p9]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!![IMAGE AI_fail3.jpg][AUDIO silent_2,explode_fx]
+								[mark_69dvh6628bxp5k1847p9]НЕЕ-ЕЕ-ЕЕ-ЕЕ-ТТТ!!!! БАХ!!!!!!!![IMAGE AI_fail3.jpg][AUDIO ai_fail3,explode_fx]
 									
 										[mark_tb15580fgn0133yybp89]Тебе удалось взломать Искусственный Интеллект! Победа! Главный положительный финал.[IMAGE AI_fail4.jpg][AUDIO silent_2]
 											[play_again]Играть еще раз
 												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
 											[GOTO buy_episodes]
-				[mark_final1]ХА-ХА-ХА-ХА-ХА-ХА-ХА! Теперь ты мой раб![IMAGE AI2.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
+				[mark_final1]ХА-ХА-ХА-ХА-ХА-ХА-ХА! Теперь ты мой раб![IMAGE AI2.jpg][AUDIO ai_win1][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
 					>>>
-						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю, сделав тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO negative_final]
+						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю, сделав тебя рабом. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO final_ai_slave_you,negative_final]
 							[GOTO play_again]
 							[GOTO buy_episodes]
-				[mark_final_11]Искусственный Интеллект долбанул тебя током.[IMAGE AI_electro.jpg][AUDIO silent_2.13][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
+				[mark_final_11]Искусственный Интеллект долбанул тебя током.[IMAGE AI_electro.jpg][AUDIO ai_shake_you][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
 					>>>
 						[mark_db5xa16t7m3p7hvzl46r][GOTO mark_final1]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
@@ -948,19 +948,19 @@
 													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
 	История / Story
-		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO ][BGNDIMAGE *][MUSIC story][AMBIENT NONE]
+		[mark_o7j6h2zg4xn8f5r7pwyi]Ночью были перебои с электричеством...[IMAGE story01.jpg][AUDIO story1][BGNDIMAGE *][MUSIC story][AMBIENT NONE]
 			>>>
 				[mark_p3kzsceggr3v944cj48b]...[IMAGE story02.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
 					>>>
-						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
+						[mark_u49comqad0g76z59c78g]... и твой старый верный друг холодильник "Тошношиба"...[IMAGE story03.jpg][AUDIO story3][BGNDIMAGE *][SOUNDFX electro_fx]
 							>>>
-								[mark_uc439bq623hvif0v470w]... перегорел смертью храбрых.[IMAGE story04.jpg][AUDIO ][BGNDIMAGE *][SOUNDFX electro_fx]
+								[mark_uc439bq623hvif0v470w]... перегорел смертью храбрых.[IMAGE story04.jpg][AUDIO story4][BGNDIMAGE *][SOUNDFX electro_fx]
 									>>>
-										[mark_q39k893940rlv9d3j66y]Теперь тебе придется идти в единственный на весь город магазин, покупать новый...[IMAGE story05.jpg][AUDIO ][BGNDIMAGE *]
+										[mark_q39k893940rlv9d3j66y]Теперь тебе придется идти в единственный на весь город магазин, покупать новый...[IMAGE story05.jpg][AUDIO story5][BGNDIMAGE *]
 											>>>
-												[mark_sr6ht88bu9dqwabta2k8]Вот только денег у тебя не густо. Да еще и менеджеры там не особо любят своих клиентов...[IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
+												[mark_sr6ht88bu9dqwabta2k8]Вот только денег у тебя не густо. Да еще и менеджеры там не особо любят своих клиентов...[IMAGE story06.jpg][AUDIO story6][BGNDIMAGE *]
 													>>>
-														[mark_oj9fjqmzq6lo37162y2u]А выбрать хотелось бы самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO ][BGNDIMAGE *]
+														[mark_oj9fjqmzq6lo37162y2u]А выбрать хотелось бы самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO story7][BGNDIMAGE *]
 															>>>
 																[mark_6v50dmw29l5p654n0a21][GOTO START]
 	[buy_episodes]Эпизоды игры
