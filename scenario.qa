@@ -933,7 +933,7 @@
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[FOR_MONEY]
-				[buy_button_episodes]Кнопка переключения эпизодов "EPISODE" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.[BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][ANSWERTIME 16.3][TIMEEXPIRED proccess_buying]
+				[buy_button_episodes]Кнопка переключения эпизодов "EPISODE" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.[BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][ANSWERTIME 18.8][TIMEEXPIRED proccess_buying]
 					[try_again_buy_button_episodes]Эпизоды игры.
 						[proccess_buying]{this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
 							

@@ -5106,7 +5106,7 @@
                             }
                           ],
                           "_mark": "buy_button_episodes",
-                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.][BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][TIMEEXPIRED proccess_buying][ANSWERTIME 16.3]"
+                          "_content": "[LABEL Кнопка переключения эпизодов \"EPISODE\" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.][BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][TIMEEXPIRED proccess_buying][ANSWERTIME 18.8]"
                         }
                       ],
                       "_mark": "",
