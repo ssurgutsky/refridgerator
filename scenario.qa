@@ -140,7 +140,7 @@
 																																																																																																																																											Что за черт! Мои ж глаза!
 																																																																																																																																												[mark_7rto484l7swx79lg02r1]А я предупреждал![IMAGE {script fridge_sasung}&{script a_f_l}][AUDIO a_warn_you][BGNDIMAGE *]
 																																																																																																																																													[which_else_fridges]А еще какие холодильники имеются?
-																																																																																																																																														[EPISODE10,buy_episodes2]"Электроглюкс" и "Аристон".[IMAGE view1.jpg&{script a_f_r}][AUDIO a_electro_ariston][BGNDIMAGE *]
+																																																																																																																																														[EPISODE10]"Электроглюкс" и "Аристон".[IMAGE view1.jpg&{script a_f_r}][AUDIO a_electro_ariston][BGNDIMAGE *]
 																																																																																																																																															Расскажите про "Электроглюкс".
 																																																																																																																																																[mark_ebsc8b6i87n3qd6561v4]...[VIDEO go3][AUDIO silent_2.9]
 																																																																																																																																																	
@@ -206,7 +206,7 @@
 																																																																																																																																																																																																													"Либхер", который с дефектом без ИИ?
 																																																																																																																																																																																																														[mark_x327jsp926b1hq4y5z43]Имелось в виду, как три холодильника "Либхер" с ИИ. Или как 10 без ИИ.[IMAGE {script fridge_biruca}&{script a_f_l}][AUDIO a_biruca_desc7][BGNDIMAGE *]
 																																																																																																																																																																																																															Все, решено, я беру "Либхер" без ИИ.
-																																																																																																																																																																																																																[EPISODE14,taken_libher50,buy_episodes4]Вечером того же дня тебе привезли твой холодильник.[IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO you_get_libher][BGNDIMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][MUSIC music1]
+																																																																																																																																																																																																																[EPISODE14,taken_libher50]Вечером того же дня тебе привезли твой холодильник.[IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO you_get_libher][BGNDIMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][MUSIC music1]
 																																																																																																																																																																																																																	>>>
 																																																																																																																																																																																																																		[mark_h4nv89izvq1879301438]Ты очень радовался тому, что удалось отхватить такой шикарный холодильник за полцены.[IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO you_final1][BGNDIMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																			>>>
@@ -214,7 +214,7 @@
 																																																																																																																																																																																																																					>>>
 																																																																																																																																																																																																																						[mark_z61tp1zk2k3465flld7a]Так прошел месяц.[IMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1][AUDIO you_final4][BGNDIMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																							>>>
-																																																																																																																																																																																																																								[buy_episodes5]Но, в один прекрасный день случилось нечто...[IMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1][AUDIO you_final5][BGNDIMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1]
+																																																																																																																																																																																																																								[mark_i8q6j7geviikts77533h]Но, в один прекрасный день случилось нечто...[IMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1][AUDIO you_final5][BGNDIMAGE kitchen.jpg&fridge_libher2_1.png|220;0;1;1;0;1]
 																																																																																																																																																																																																																									>>>
 																																																																																																																																																																																																																										[EPISODE15]В нем внезапно ожил...[IMAGE kitchen.jpg&fridge_libher2_2.png|220;0;1;1;0;1][AUDIO ai_desc1][BGNDIMAGE kitchen.jpg&fridge_libher2_2.png|220;0;1;1;0;1][MUSIC Phantom]
 																																																																																																																																																																																																																											>>>
@@ -260,10 +260,6 @@
 																																																																																																																																																																																																																																										[mark_fi04ur85r0r56x2kzp7u][GOTO mark_final_11]
 																																																																																																																																																																																																																																									Свалю из дома по-быстрому.
 																																																																																																																																																																																																																																										[mark_zr5gg1yi43v0p3qv8j21][GOTO mark_final_11]
-																																																																																																																																																																																																																									Можно побыстрее до сюда проходить?
-																																																																																																																																																																																																																										[mark_x899c99j5r7aop0gn51j]{this.gotoSuccess='buy_episodes5';this.gotoCancel='buy_episodes5';''}[GOTO buy_button_episodes]
-																																																																																																																																																																																																																	Очень долго до сюда проходить!
-																																																																																																																																																																																																																		[mark_mh64jb7e8g69bmm5s2p9]{this.gotoSuccess='buy_episodes4';this.gotoCancel='buy_episodes4';''}[GOTO buy_button_episodes]
 																																																																																																																																																																																																															[have_you_whatever_else]Ясно. Ну а еще какие-то другие модели есть?
 																																																																																																																																																																																																																[mark_1dhs6u7dvlcdroe1lrmb][GOTO you_here_to_warm_up]
 																																																																																																																																																																																																															[have_you_middle_libher_biruca]А есть у вас нечто среднее между "Либхер" и "Бирюса"?
@@ -314,7 +310,7 @@
 																																																																																																																																																																																				[mark_cys17fhbf160xvjr2qcm][GOTO mark_final16]
 																																																																																																																																																																																			[select_toshiba]Я беру "Тошношиба".
 																																																																																																																																																																																				[mark_d3263760xr2bo908sp9v][GOTO mark_final17]
-																																																																																																																																																																																			[select_buy_episodes]Запарился до сюда проходить!
+																																																																																																																																																																																			[select_buy_episodes]Эпизоды игры.
 																																																																																																																																																																																				[mark_3tn96w3ykw0suzwldma6]{this.gotoSuccess='buy_episodes3';this.gotoCancel='buy_episodes3';''}[GOTO buy_button_episodes]
 																																																																																																																																																																																	[GOTO select_libher]
 																																																																																																																																																																																	[GOTO select_sasung]
@@ -323,7 +319,6 @@
 																																																																																																																																																																																	[GOTO select_ariston]
 																																																																																																																																																																																	[GOTO select_electro]
 																																																																																																																																																																																	[GOTO select_toshiba]
-																																																																																																																																																																																	[GOTO select_buy_episodes]
 																																																																																																																																																																															[GOTO select_libher]
 																																																																																																																																																																															[GOTO select_sasung]
 																																																																																																																																																																															[GOTO select_lg]
@@ -471,8 +466,6 @@
 																																																																																																																																																					[GOTO aris_know_anek]
 																																																																																																																																																	Нет, не надо.
 																																																																																																																																																		[mark_4v0ez79ghd3trlw8508t][GOTO ariston_desc]
-																																																																																																																																															Запарился уже до сюда проходить!
-																																																																																																																																																[mark_7555xj72na8800f92yai]{this.gotoSuccess='buy_episodes2';this.gotoCancel='buy_episodes2';''}[GOTO buy_button_episodes]
 																																																																																																																																											[GOTO select_sasung]
 																																																																																																																																			[GOTO which_else_fridges]
 																																																																																																																																	[GOTO which_else_fridges]
@@ -940,9 +933,9 @@
 					[GOTO play_again]
 					[GOTO buy_episodes]
 				[FOR_MONEY]
-				[buy_button_episodes]Кнопка переключения эпизодов "EPISODE" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+				[buy_button_episodes]Кнопка переключения эпизодов "EPISODE" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.[BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][ANSWERTIME 16.3][TIMEEXPIRED proccess_buying]
 					[try_again_buy_button_episodes]Эпизоды игры.
-						[mark_m93t389s21d7j019e00k]{this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
+						[proccess_buying]{this.productId = "com.kri_games.fridge.episodes";'';}{script getPayment}
 							
 								[wait2]...[IMAGE episodes.jpg][AUDIO silent_3]
 									
@@ -950,10 +943,10 @@
 											
 												[payment_success2]...[IMAGE episodes.jpg][PURCHASE cheats]
 													
-														[mark_lo9fb6iz5619s1v1w24v]Поздравляем! Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg]
+														[mark_lo9fb6iz5619s1v1w24v]Поздравляем! Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg][AUDIO episodes_button_bought][BGNDIMAGE *]
 															>>>
 																[mark_l173w68sf3ab3l9l8j3q]{'[GOTO ' + this.gotoSuccess + ']'}
-												[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg][ANSWERSORDER OFF]
+												[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg][AUDIO episodes_button_desc2][BGNDIMAGE *][ANSWERSORDER OFF]
 													[GOTO try_again_buy_button_episodes]
 													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
