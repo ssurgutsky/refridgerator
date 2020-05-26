@@ -37,6 +37,6 @@ this.store.order(productId)
     });
 /**/
 
-// setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
+//setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
 
 '';

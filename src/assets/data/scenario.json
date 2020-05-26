@@ -1091,16 +1091,6 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_mark": "select_toshiba",
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_content": "[LABEL Я беру \"Тошношиба\".]"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "node": [
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_mark": "mark_3tn96w3ykw0suzwldma6",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "_content": "[LABEL {this.gotoSuccess='buy_episodes3';this.gotoCancel='buy_episodes3';''}][GOTO buy_button_episodes]"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ],
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "_mark": "select_buy_episodes",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "_content": "[LABEL Эпизоды игры.]"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ],
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "_mark": "mark_fmmxui92o6asslsle713",
@@ -1173,13 +1163,9 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_mark": "",
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       "_content": "[LABEL ][GOTO select_toshiba]"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    },
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "_mark": "",
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "_content": "[LABEL ][GOTO select_buy_episodes]"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ],
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "_mark": "EPISODE11,buy_episodes3",
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "_mark": "EPISODE11",
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   "_content": "[LABEL Выбирайте поскорее, а то мы уже скоро закрываемся.][IMAGE view1.jpg&{script a_f_r}][AUDIO a_hurry_up][BGNDIMAGE *]"
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ],
@@ -4327,14 +4313,8 @@
                               "_content": "[LABEL ][GOTO I_need_new_fridge]"
                             },
                             {
-                              "node": [
-                                {
-                                  "_mark": "mark_53gh95f0dqoz06f22148",
-                                  "_content": "[LABEL {this.gotoSuccess='GAME_SAVEPOINT';this.gotoCancel='GAME_SAVEPOINT';''}][GOTO buy_button_episodes]"
-                                }
-                              ],
                               "_mark": "",
-                              "_content": "[LABEL Эпизоды игры]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "GAME_SAVEPOINT",
@@ -4696,7 +4676,7 @@
                                                     },
                                                     {
                                                       "_mark": "",
-                                                      "_content": "[LABEL ][GOTO buy_episodes]"
+                                                      "_content": "[LABEL ][GOTO donate_money]"
                                                     }
                                                   ],
                                                   "_mark": "mark_tb15580fgn0133yybp89",
@@ -4738,7 +4718,7 @@
                                     },
                                     {
                                       "_mark": "",
-                                      "_content": "[LABEL ][GOTO buy_episodes]"
+                                      "_content": "[LABEL ][GOTO donate_money]"
                                     }
                                   ],
                                   "_mark": "mark_d489lb38v14dn4nxe202",
@@ -4776,7 +4756,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final2",
@@ -4790,7 +4770,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final3",
@@ -4804,7 +4784,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final4",
@@ -4818,7 +4798,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final5",
@@ -4832,7 +4812,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final6",
@@ -4846,7 +4826,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final7",
@@ -4860,7 +4840,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final8",
@@ -4874,7 +4854,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final9",
@@ -4888,7 +4868,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final11",
@@ -4902,7 +4882,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final12",
@@ -4916,7 +4896,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final13",
@@ -4930,7 +4910,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final14",
@@ -4948,7 +4928,7 @@
                                     },
                                     {
                                       "_mark": "",
-                                      "_content": "[LABEL ][GOTO buy_episodes]"
+                                      "_content": "[LABEL ][GOTO donate_money]"
                                     }
                                   ],
                                   "_mark": "mark_cwsjrc465w9jw7w8r19g",
@@ -4970,7 +4950,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final16",
@@ -4984,7 +4964,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final17",
@@ -4998,7 +4978,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO buy_episodes]"
+                              "_content": "[LABEL ][GOTO donate_money]"
                             }
                           ],
                           "_mark": "mark_final18",
@@ -5217,12 +5197,24 @@
             {
               "node": [
                 {
-                  "_mark": "mark_8is9fa297dh3orz5l021",
-                  "_content": "[LABEL {this.gotoSuccess='START';this.gotoCancel='START';''}][GOTO buy_button_episodes]"
+                  "node": [
+                    {
+                      "node": [
+                        {
+                          "_mark": "mark_bq1290i64k8x5u611vf4",
+                          "_content": "[LABEL ][GOTO START]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL ]"
+                    }
+                  ],
+                  "_mark": "mark_59a4mt6tev4c9o0d0672",
+                  "_content": "[LABEL ][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on\" width=\"450\" height=\"199\"]"
                 }
               ],
-              "_mark": "buy_episodes",
-              "_content": "[LABEL Эпизоды игры]"
+              "_mark": "donate_money",
+              "_content": "[LABEL Достать лопатник]"
             }
           ],
           "_mark": "START",
