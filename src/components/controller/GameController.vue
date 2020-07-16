@@ -12,13 +12,15 @@
       @cheatSkip="cheatSkip"
       @cheatBack="cheatBack"
       @cheatEpisode="cheatEpisode"
-      ref="mainView">
+      ref="mainView"
+    >
     </MainView>
     <GameModel ref="gameModel"></GameModel>
   </div>
 </template>
 
 <script>
+import CacheController from '@/components/controller/CacheController.js'
 import MainView from '@/components/view/MainView.vue'
 import GameModel from '@/components/model/GameModel.vue'
 
@@ -50,6 +52,41 @@ export default {
 
       this.loadPurchasedItems()
 
+      this.mainView.showPreloading()
+      this.onPreloadingUpdate()
+      this.mainView.showImages('logo.jpg')
+
+      CacheController.setPreloadingCallback(this.onPreloadingUpdate)
+      this.onPreloadingUpdate()
+      CacheController.loadAssets().then(res => {
+        // console.log('cachedData:', CacheController.gameAssets)
+        setTimeout(() => {
+          this.assetsCached()
+        }, 1000)
+      })
+    },
+
+    onPreloadingUpdate (obj) {
+      let text = 'Loading...'
+      if (obj) {
+        if (obj.current === obj.total) {
+          text = text + ' done!'
+        } else {
+          text = text + obj.current + '/' + obj.total
+          this.mainView.updateTimerViewPercent(obj.current, obj.total)
+        }
+      }
+      this.mainView.setQuestionText(text)
+    },
+
+    assetsCached () {
+      // Start the game once all assets have been cached
+      this.mainView.showGameView()
+      let jsonObj = CacheController.getAssetByName(CacheController.CATEGORY_DATA, 'scenario.json')
+      // console.log('=======', jsonObj)
+      this.gameModel.scenario = JSON.parse(jsonObj)
+      // console.log('========', this.gameModel.scenario)
+      this.gameModel.prepareData()
       this.restartGame()
     },
 

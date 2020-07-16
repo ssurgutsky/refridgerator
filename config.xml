@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kri-games.fridge" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<widget id="com.skystairgames.fridge" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Fridge</name>
     <description>
-        Fridge. Quest to buy a fridge.
+        Fridge
     </description>
-    <author email="krigamess@gmail.com" href="http://kri-games.ru">
-        Kristina Games Team
+    <author email="skystairgames@gmail.com" href="http://skystairgames.ru">
+        Sky Stair Games Team
     </author>
     <content src="dist/index.html" />
     <preference name="orientation" value="default" />

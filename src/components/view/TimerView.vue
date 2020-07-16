@@ -60,8 +60,11 @@ export default {
 
     updateIndicator () {
       this.styleObject.width = '' + (100 - this.currentMS * 100 / this.totalMS) + '%'
-    }
+    },
 
+    updatePercent (current, total) {
+      this.styleObject.width = '' + (current * 100 / total) + '%'
+    }
   }
 }
 </script>

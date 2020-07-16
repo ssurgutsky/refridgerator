@@ -50,6 +50,15 @@ export default {
 
     },
 
+    showPreloading () {
+      this.$refs.answersView.hideAnswers()
+      this.$refs.controlsView.hideControls()
+    },
+
+    showGameView () {
+      this.$refs.controlsView.showControls()
+    },
+
     setQuestionText (txt) {
       this.$refs.questionView.setQuestion(txt)
     },
@@ -143,6 +152,10 @@ export default {
     processTimeExpired () {
       // console.log('timeExpired')
       this.$emit('timeExpired')
+    },
+
+    updateTimerViewPercent (current, total) {
+      this.$refs.timerView.updatePercent(current, total)
     },
 
     restartGame () {

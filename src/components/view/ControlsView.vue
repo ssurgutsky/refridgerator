@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div :style="styleControls">
     <button @click="onRestartClick">RESTART</button>
     <button :style="styleObjectCheat" @click="onSaveClick">SAVE</button>
     <button :style="styleObjectCheat" @click="onLoadClick">LOAD</button>
-    <button :style="styleObjectCheat" @click="onSkipClick">SKIP</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onSkipClick">SKIP</button>
     <button :style="styleObjectCheat" @click="onBackClick">BACK</button>
     <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onEpisodeClick">EPISODE</button>
   </div>
@@ -14,15 +14,27 @@
 export default {
   data () {
     return {
+      styleControls: {
+        visibility: 'hidden'
+      },
       // Hide cheat button in release
       styleObjectCheat: {
         display: this.$debug ? 'auto' : 'none'
       },
       // Can buy this cheat to enable button
-      isCheatPurchased: false
+      isCheatPurchased: this.$debug
     }
   },
   methods: {
+
+    showControls () {
+      this.styleControls.visibility = 'visible'
+    },
+
+    hideControls () {
+      this.styleControls.visibility = 'hidden'
+    },
+
     onRestartClick () {
       console.log('RESTART')
       this.$emit('restartGame')

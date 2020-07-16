@@ -52,7 +52,7 @@ module.exports = {
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
-        test: /\.(txt|qsp)(\?.*)?$/,
+        test: /\.(txt|rrr)(\?.*)?$/,
         loader: 'raw-loader',
       },
       {
@@ -64,7 +64,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac|json|qsp)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 10000,

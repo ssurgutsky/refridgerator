@@ -16,7 +16,9 @@
 </template>
 
 <script>
+import CacheController from '@/components/controller/CacheController.js'
 import { setTimeout } from 'timers'
+
 export default {
   name: 'AudioPlayer',
   data () {
@@ -61,7 +63,26 @@ export default {
         this.musicPlayer.volume = 0.05
       }
       this.audioPlayer.loop = loop
-      this.audioPlayer.src = require('@/assets/audio/' + name + '.mp3')
+      this.audioPlayer.src = this.getAudioSrc(name)
+      this.audioPlayer.pause()
+      setTimeout(() => {
+        this.audioPlayer.play()
+      }, 10)
+    },
+
+    getAudioSrc (name) {
+      let asset = CacheController.getAssetByName(CacheController.CATEGORY_AUDIO, name)
+      if (asset) {
+        return asset
+      }
+      return this.getAudioPathByName(name)
+    },
+
+    getAudioPathByName (name) {
+      if (name.indexOf('http') >= 0) {
+        return name + '.mp3'
+      }
+      return require('@/assets/audio/' + name + '.mp3')
     },
 
     stopAudio () {
@@ -96,7 +117,11 @@ export default {
       }
 
       this.ambientPlayer.loop = true
-      this.ambientPlayer.src = require('@/assets/audio/' + name + '.mp3')
+      this.ambientPlayer.src = this.getAudioSrc(name)
+      this.ambientPlayer.pause()
+      setTimeout(() => {
+        this.ambientPlayer.play()
+      }, 10)
     },
 
     playMusic (name) {
@@ -113,7 +138,11 @@ export default {
         return
       }
 
-      this.musicPlayer.src = require('@/assets/audio/' + name + '.mp3')
+      this.musicPlayer.src = this.getAudioSrc(name)
+      this.musicPlayer.pause()
+      setTimeout(() => {
+        this.musicPlayer.play()
+      }, 10)
     },
 
     onMusicEnded () {
@@ -123,7 +152,11 @@ export default {
 
     playSFX (name) {
       console.log('SFX', name)
-      this.sfxPlayer.src = require('@/assets/audio/' + name + '.mp3')
+      this.sfxPlayer.src = this.getAudioSrc(name)
+      this.sfxPlayer.pause()
+      setTimeout(() => {
+        this.sfxPlayer.play()
+      }, 10)
     },
 
     stopSFX () {

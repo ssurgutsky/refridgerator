@@ -1,4 +1,6 @@
 /* eslint no-eval: 0 */
+import CacheController from '@/components/controller/CacheController.js'
+
 export default {
   // Image sequence is a string of kind
   // 'bg.png|0,0;1;1;0;1&image1.png|100,50;0.5;0.5;0;1&image2.png|100,50;0.5;0.5;0;1
@@ -12,12 +14,12 @@ export default {
 
       const arr = imagesSequence.split('&')
       //      console.log(arr)
-      const imageItems = arr.map(function (imageStr) {
+      const imageItems = arr.map((imageStr) => {
         let result = {}
         const str = imageStr.split('|')
         if (str[0]) {
           result.name = str[0]
-          result.path = require('@/assets/images/' + result.name)
+          result.path = this.getImageSrc(result.name)
         }
         let params = null
         if (str[1]) {
@@ -33,7 +35,7 @@ export default {
         }
         return result
       })
-      //      console.log(images)
+      // console.log(imageItems)
 
       this.loadAndDrawImageItems(imageItems, canvas, ctx)
         .then(() => {
@@ -43,6 +45,20 @@ export default {
           reject(err)
         })
     })
+  },
+
+  getImageSrc (name) {
+    // return this.getImagePathByName(name)
+
+    let asset = CacheController.getAssetByName(CacheController.CATEGORY_IMAGES, name)
+    if (asset) {
+      return asset
+    }
+    return this.getImagePathByName(name)
+  },
+
+  getImagePathByName (name) {
+    return require('@/assets/images/' + name)
   },
 
   loadAndDrawImageItems (imageItems, canvas, ctx) {

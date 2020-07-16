@@ -1,2 +1,2 @@
-cordova build android --release -- --keystore=../keystore_krigames/krigames.keystore --storePassword=Aj109Asd291 --alias=krigames --password=Aj109Asd291
+cordova build android --release -- --keystore=../keystore_skystairgames/skystairgames.keystore --storePassword=Aj109Asd291 --alias=skystairgames --password=Aj109Asd291
       
