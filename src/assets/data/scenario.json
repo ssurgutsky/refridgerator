@@ -3702,7 +3702,7 @@
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "EPISODE4",
-                                                                                                                                                                                                                          "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER OFF]"
+                                                                                                                                                                                                                          "_content": "[LABEL Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.][VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER ON]"
                                                                                                                                                                                                                         }
                                                                                                                                                                                                                       ],
                                                                                                                                                                                                                       "_mark": "bye_brick",
@@ -5050,7 +5050,7 @@
                                                             }
                                                           ],
                                                           "_mark": "payment_fail2",
-                                                          "_content": "[LABEL Что то не так, попробуй еще раз.][IMAGE episodes.jpg][AUDIO episodes_button_desc2][BGNDIMAGE *][ANSWERSORDER OFF]"
+                                                          "_content": "[LABEL Что то не так, попробуй еще раз.][IMAGE episodes.jpg][AUDIO episodes_button_desc2][BGNDIMAGE *][ANSWERSORDER ON]"
                                                         }
                                                       ],
                                                       "_mark": "",
@@ -5201,6 +5201,28 @@
                     {
                       "node": [
                         {
+                          "_mark": "mark_896gtqav36j1ep393imp",
+                          "_content": "[LABEL ][GOTO START]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL ]"
+                    }
+                  ],
+                  "_mark": "mark_17yx5m8qd16t37sw5a47",
+                  "_content": "[LABEL ][NAVIGATEURL https://www.donationalerts.com/r/serjionio]"
+                }
+              ],
+              "_mark": "donate_money",
+              "_content": "[LABEL Задонатить на развитие игр]"
+            },
+            {
+              "node": [
+                {
+                  "node": [
+                    {
+                      "node": [
+                        {
                           "_mark": "mark_bq1290i64k8x5u611vf4",
                           "_content": "[LABEL ][GOTO START]"
                         }
@@ -5213,12 +5235,12 @@
                   "_content": "[LABEL ][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on\" width=\"450\" height=\"199\"]"
                 }
               ],
-              "_mark": "donate_money",
-              "_content": "[LABEL Достать лопатник]"
+              "_mark": "",
+              "_content": "[LABEL Яндекснуть манями]"
             }
           ],
           "_mark": "START",
-          "_content": "[LABEL Холодильник v1.0. Квест покупки холодильника.{script initSystem}{script resetGameStats}][IMAGE Intro.jpg][MUSIC music1][ANSWERSORDER OFF]"
+          "_content": "[LABEL The Fridge / Холодильник, (версия 1.{this.game_version})\nИнтерактивный видеоквест покупки холодильника.{script initSystem}{script resetGameStats}][IMAGE Intro.jpg][MUSIC music1][ANSWERSORDER ON]"
         }
       ]
     }

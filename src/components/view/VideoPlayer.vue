@@ -96,10 +96,11 @@ export default {
     },
 
     getVideoPathByName (name) {
-      if (name.indexOf('http') >= 0) {
-        return name + '.mp4'
+      let result = name
+      if (result.indexOf('.mp4') < 0) {
+        result = result + '.mp4'
       }
-      return require('@/assets/video/' + name + '.mp4')
+      return require('@/assets/video/' + result)
     },
 
     stopVideo () {

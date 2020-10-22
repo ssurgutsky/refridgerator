@@ -5,6 +5,8 @@ let productId = this.productId;
 this.payment_pending = true;
 this.payment_success = false;
 
+/*
+// Activate real payment here (and disable testing payment below)
 this.store.order(productId)
     .then((p) => {
         console.log("store.order.then::", p);
@@ -37,6 +39,7 @@ this.store.order(productId)
     });
 /**/
 
-//setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
+// Disable testing payment
+setTimeout(() => {this.payment_pending = false; this.payment_success = Math.random() < 0.5;}, 3000)
 
 '';

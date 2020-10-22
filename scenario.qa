@@ -1,4 +1,4 @@
-[START]Холодильник v1.0. Квест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER OFF]{script resetGameStats}
+[START]The Fridge / Холодильник, (версия 1.{this.game_version})\nИнтерактивный видеоквест покупки холодильника.[IMAGE Intro.jpg][MUSIC music1]{script initSystem}[ANSWERSORDER ON]{script resetGameStats}
 	START GAME / НАЧАТЬ ИГРУ
 		[EPISODE1]Продавец чем-то занят. Что делает - не понятно.[IMAGE view1.jpg&{script a_b}][AUDIO manager_is_busy][BGNDIMAGE *]
 			
@@ -50,7 +50,7 @@
 																																																	Давай, помоги холодильник выбрать!
 																																																		[gop_subwork]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO g_dont_disturb_me][BGNDVIDEO GopStandsBouncing]
 																																																			[bye_brick]Ну бывай!
-																																																				[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER OFF]
+																																																				[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER ON]
 																																																					[donate]Достать монету.
 																																																						[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.fridge.coin1";'';}{script getPayment}
 																																																							
@@ -942,7 +942,7 @@
 														[mark_lo9fb6iz5619s1v1w24v]Поздравляем! Кнопка переключения эпизодов "EPISODE" появилась внизу. Она будет доступна всегда, пока ты не удалишь игру.[IMAGE episodes.jpg][AUDIO episodes_button_bought][BGNDIMAGE *]
 															>>>
 																[mark_l173w68sf3ab3l9l8j3q]{'[GOTO ' + this.gotoSuccess + ']'}
-												[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg][AUDIO episodes_button_desc2][BGNDIMAGE *][ANSWERSORDER OFF]
+												[payment_fail2]Что то не так, попробуй еще раз.[IMAGE episodes.jpg][AUDIO episodes_button_desc2][BGNDIMAGE *][ANSWERSORDER ON]
 													[GOTO try_again_buy_button_episodes]
 													[cancel_buy_button_episodes]Нет, спасибо.
 														[mark_677039120q01r58og222]{'[GOTO ' + this.gotoCancel + ']'}
@@ -963,7 +963,11 @@
 														[mark_oj9fjqmzq6lo37162y2u]А выбрать хочется самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO story7][BGNDIMAGE *]
 															>>>
 																[mark_6v50dmw29l5p654n0a21][GOTO START]
-	[donate_money]Достать лопатник
+	[donate_money]Задонатить на развитие игр
+		[mark_17yx5m8qd16t37sw5a47][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+			
+				[mark_896gtqav36j1ep393imp][GOTO START]
+	Яндекснуть манями
 		[mark_59a4mt6tev4c9o0d0672][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
 			
 				[mark_bq1290i64k8x5u611vf4][GOTO START]

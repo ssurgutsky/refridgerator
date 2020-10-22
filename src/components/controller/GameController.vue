@@ -12,6 +12,7 @@
       @cheatSkip="cheatSkip"
       @cheatBack="cheatBack"
       @cheatEpisode="cheatEpisode"
+      @donate="donate"
       ref="mainView"
     >
     </MainView>
@@ -106,6 +107,7 @@ export default {
     },
 
     showCurrentQuestion () {
+      this.mainView.clearTimer()
       this.gameModel.prepareCurrentQuestion()
       this.mainView.clearAnswers()
 
@@ -138,6 +140,7 @@ export default {
       this.playAmbient()
       this.playSoundFx()
       this.playMusic()
+      this.playBgndMusic()
     },
 
     showAfterQuestion () {
@@ -161,7 +164,11 @@ export default {
       let inputSVal = this.gameModel.inputSVarValue
 
       this.mainView.showAnswers(this.gameModel.getCurrentAnswers(), isInputS, inputSVal)
-      this.mainView.setTimer(this.gameModel.getAnswerTime())
+      this.mainView.setTimer(this.gameModel.getAnswerTime(), this.gameModel.timeExpiredMark)
+
+      if (this.gameModel.isHideAnswers) {
+        this.mainView.hideAnswers()
+      }
     },
 
     processAnswer (item) {
@@ -181,6 +188,7 @@ export default {
       this.playAmbient()
       this.playSoundFx()
       this.playMusic()
+      this.playBgndMusic()
 
       this.mode = this.MODE_ANSWER
       this.playVideoAndAudio()
@@ -352,6 +360,22 @@ export default {
       this.playMusic(true)
     },
 
+    playBgndMusic (isNextRandomMusic) {
+      if (this.gameModel.hasBgndMusicEmpty()) return
+
+      if (!this.gameModel.isNewBgndMusic && !isNextRandomMusic) return
+
+      this.gameModel.setNextRandomBgndMusic()
+
+      let name = this.gameModel.getCurrentBgndMusicName()
+      this.mainView.playBgndMusic(name)
+    },
+
+    processBgndMusicEnded (name) {
+      console.log('bgnd music ended:', name)
+      this.playBgndMusic(true)
+    },
+
     processTimeExpired () {
       console.log('Time expired!')
       this.gameModel.processTimeExpired()
@@ -407,6 +431,10 @@ export default {
       this.mainView.clearTimer()
       this.gameModel.setEpisode()
       this.showCurrentQuestion()
+    },
+
+    donate () {
+      window.open('https://www.donationalerts.com/r/serjionio', '_system')
     }
 
   }

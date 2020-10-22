@@ -6,6 +6,7 @@
     <AudioPlayer class="audio-container" ref="audioPlayer"
       @audioEnded="processAudioEnded"
       @musicEnded="processMusicEnded"
+      @bgndMusicEnded="processBgndMusicEnded"
     />
     <QuestionView class="questions-container" ref="questionView"/>
     <TimerView class="timer-container" ref="timerView" @timeExpired="processTimeExpired" />
@@ -17,6 +18,7 @@
       @cheatSkip="cheatSkip"
       @cheatBack="cheatBack"
       @cheatEpisode="cheatEpisode"
+      @donate="donate"
     />
   </div>
 </template>
@@ -73,8 +75,12 @@ export default {
       this.$refs.answersView.hideAnswers()
     },
 
-    setTimer (seconds) {
-      this.$refs.timerView.setTimer(seconds)
+    hideAnswers () {
+      this.$refs.answersView.hideAnswers()
+    },
+
+    setTimer (seconds, mark) {
+      this.$refs.timerView.setTimer(seconds, mark)
     },
 
     clearTimer (seconds) {
@@ -121,6 +127,10 @@ export default {
       this.$refs.audioPlayer.playMusic(name)
     },
 
+    playBgndMusic (name, loop) {
+      this.$refs.audioPlayer.playBgndMusic(name)
+    },
+
     playSFX (name, loop) {
       this.$refs.audioPlayer.playSFX(name)
     },
@@ -147,6 +157,11 @@ export default {
     processMusicEnded (name) {
       // console.log('musicEnded', name)
       this.$emit('musicEnded', name)
+    },
+
+    processBgndMusicEnded (name) {
+      // console.log('bgndMusicEnded', name)
+      this.$emit('bgndMusicEnded', name)
     },
 
     processTimeExpired () {
@@ -182,6 +197,11 @@ export default {
     cheatEpisode () {
       console.log('cheatEpisode')
       this.$emit('cheatEpisode')
+    },
+
+    donate () {
+      console.log('donate')
+      this.$emit('donate')
     },
 
     enablePurchasedCheats () {

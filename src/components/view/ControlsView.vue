@@ -1,15 +1,18 @@
 <template>
   <div :style="styleControls">
     <button @click="onRestartClick">RESTART</button>
-    <button :style="styleObjectCheat" @click="onSaveClick">SAVE</button>
-    <button :style="styleObjectCheat" @click="onLoadClick">LOAD</button>
-    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onSkipClick">SKIP</button>
-    <button :style="styleObjectCheat" @click="onBackClick">BACK</button>
-    <button :style="styleObjectCheat" v-show="isCheatPurchased" @click="onEpisodeClick">EPISODE</button>
+    <button :style="styleObjectCheat" v-show="isSaveButton" @click="onSaveClick">SAVE</button>
+    <button :style="styleObjectCheat" v-show="isLoadButton" @click="onLoadClick">LOAD</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased || isSkipButton" @click="onSkipClick">SKIP</button>
+    <button :style="styleObjectCheat" v-show="isBackButton" @click="onBackClick">BACK</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased || isEpisodesButton" @click="onEpisodeClick">EPISODE</button>
+    <button :style="styleObjectCheat" v-show="isDonateButton" @click="onDonateClick">DONATE</button>
   </div>
 </template>
 
 <script>
+
+import Settings from '@/components/Settings.js'
 
 export default {
   data () {
@@ -22,7 +25,13 @@ export default {
         display: this.$debug ? 'auto' : 'none'
       },
       // Can buy this cheat to enable button
-      isCheatPurchased: this.$debug
+      isCheatPurchased: this.$debug,
+      isSaveButton: Settings.ENABLE_SAVE_BUTTON || this.$debug,
+      isLoadButton: Settings.ENABLE_LOAD_BUTTON || this.$debug,
+      isBackButton: Settings.ENABLE_BACK_BUTTON || this.$debug,
+      isEpisodesButton: Settings.ENABLE_EPISODES_BUTTON || this.$debug,
+      isSkipButton: Settings.ENABLE_SKIP_BUTTON || this.$debug,
+      isDonateButton: Settings.ENABLE_DONATE_BUTTON || this.$debug
     }
   },
   methods: {
@@ -63,6 +72,11 @@ export default {
     onEpisodeClick () {
       console.log('cheatEpisode')
       this.$emit('cheatEpisode')
+    },
+
+    onDonateClick () {
+      console.log('donate')
+      this.$emit('donate')
     },
 
     enablePurchasedCheats () {

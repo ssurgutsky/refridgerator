@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { setTimeout, clearTimeout } from 'timers'
+import { setInterval, clearInterval } from 'timers'
 
 export default {
   data () {
@@ -21,38 +21,39 @@ export default {
   },
   methods: {
 
-    setTimer (seconds) {
+    setTimer (seconds, mark) {
+      console.log('TimerView::setTimer', seconds, mark)
+      this.mark = mark
+      this.seconds = seconds
       this.clearTimer()
-
       if (seconds <= 0) return
 
       this.totalMS = seconds * 1000
       this.currentMS = 0
-      this.processTimerUpdate()
-    },
 
-    processTimerUpdate () {
-      this.currentMS += this.interval
+      this.timerId = setInterval(() => {
+        this.currentMS += this.interval
 
-      this.updateIndicator()
+        // console.log('TimerView::PROCESSTIMERUPDATE:::', this.mark, this.seconds, this.currentMS, this.totalMS)
 
-      if (this.currentMS > this.totalMS) {
-        this.onTimeExpired()
-        this.currentMS = this.totalMS
-        return
-      }
+        this.updateIndicator()
 
-      this.timerId = setTimeout(this.processTimerUpdate, this.interval)
+        if (this.currentMS > this.totalMS) {
+          this.clearTimer()
+          this.currentMS = this.totalMS
+          this.onTimeExpired()
+        }
+      }, this.interval)
     },
 
     onTimeExpired () {
-      // console.log('timeExpired')
+      console.log('TimerView::timeExpired')
       this.$emit('timeExpired')
     },
 
     clearTimer () {
-      clearTimeout(this.timerId)
-      this.timerId = 0
+      console.log('TimerView::clearTimer')
+      clearInterval(this.timerId)
       this.totalMS = 100
       this.currentMS = 100
       this.updateIndicator()

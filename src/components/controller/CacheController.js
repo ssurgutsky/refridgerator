@@ -74,7 +74,7 @@ export default {
         return
       }
       if (('indexedDB' in window)) {
-        let openRequest = indexedDB.open(Settings.INDEXEDDB_STORE_NAME, Settings.INDEXEDDB_VERSION)
+        let openRequest = indexedDB.open(Settings.INDEXEDDB_STORE_NAME, Settings.GAME_VERSION)
         // console.log(openRequest)
         openRequest.onupgradeneeded = (event) => {
           let db = event.target.result
@@ -97,7 +97,7 @@ export default {
           req.onsuccess = (event) => {
             let tmp = event.target.result
             if (tmp && tmp.value) {
-              console.log('Taken gameAssets from IndexedDB v.' + Settings.INDEXEDDB_VERSION, tmp)
+              console.log('Taken gameAssets from IndexedDB v.' + Settings.GAME_VERSION, tmp)
               resolve(tmp.value)
             } else {
               reject(new TypeError('No gameAssets record in IndexedDB!'))
@@ -129,7 +129,7 @@ export default {
         return
       }
       if (('indexedDB' in window)) {
-        let openRequest = indexedDB.open(Settings.INDEXEDDB_STORE_NAME, Settings.INDEXEDDB_VERSION)
+        let openRequest = indexedDB.open(Settings.INDEXEDDB_STORE_NAME, Settings.GAME_VERSION)
         // console.log(openRequest)
         openRequest.onupgradeneeded = (event) => {
           let db = event.target.result
@@ -149,7 +149,7 @@ export default {
           // console.log(store)
 
           store.put({id: 1, value: this.gameAssets})
-          console.log('Saving loaded assets to IndexedDB v.' + Settings.INDEXEDDB_VERSION)
+          console.log('Saving loaded assets to IndexedDB v.' + Settings.GAME_VERSION)
 
           tx.oncomplete = () => {
             console.log('Save success')
@@ -157,7 +157,7 @@ export default {
           }
           tx.onerror = (event) => {
             console.log('Save error!')
-            reject(new TypeError('Error saving loaded assets to IndexedDB! v.' + Settings.INDEXEDDB_VERSION))
+            reject(new TypeError('Error saving loaded assets to IndexedDB! v.' + Settings.GAME_VERSION))
           }
         }
       } else {
@@ -193,7 +193,7 @@ export default {
       let url = require('@/assets/' + name)
 
       // For html version
-      // url = 'https://github.com/ssurgutsky/t/tree/master/static/' + name
+      // url = 'http://alloworigin.com/get?url=http://creofilm.hostronavt.ru/static/' + name
       // console.log(url)
       // console.log(counter, url)
       await this.fetchLocal(url).then(response => {

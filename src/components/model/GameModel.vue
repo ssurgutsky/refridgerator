@@ -31,10 +31,14 @@ export default {
     currentAmbientName: '',
     currentMusicSequence: [],
     currentMusicIndex: 0,
+    currentBgndMusicSequence: [],
+    currentBgndMusicIndex: 0,
     currentSoundFxName: '',
     isNewMusic: false,
+    isNewBgndMusic: false,
     navigateUrl: '',
-    episodeNo: 1
+    episodeNo: 1,
+    isHideAnswers: false
   }),
   computed: {
   //   gameScriptsDictionary () {
@@ -137,6 +141,13 @@ export default {
         this.gameData.store = storeLink
 
         console.log('gameData:', this.gameData)
+
+        // Check current version and game data cache version, upgrade if need
+        if (this.getGameDataVarValue(Settings.GAME_VERSION_VAR_NAME) < Settings.GAME_VERSION) {
+          markName = Settings.GAME_UPGRADE_POINT
+        }
+        this.setGameDataVarValue(Settings.GAME_VERSION_VAR_NAME, Settings.GAME_VERSION)
+
         this.gotoMark(markName)
         return true
       }
@@ -154,9 +165,13 @@ export default {
     },
 
     restartGame () {
+      // Set current version to this var
+      // To show it in game title (e.g. Taxoman {this.game_version})
+      this.setGameDataVarValue(Settings.GAME_VERSION_VAR_NAME, Settings.GAME_VERSION)
+
       this.currentNode = this.scenario.node[0].node[0]
       if (this.sessions > 0) {
-        let startNode = this.findNodeWithMark(this.scenario, 'GAME_SAVEPOINT')
+        let startNode = this.findNodeWithMark(this.scenario, Settings.GAME_SAVE_POINT)
         if (startNode) {
           this.currentNode = startNode
         }
@@ -269,6 +284,14 @@ export default {
       this.currentSoundFxName = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
 
       this.processNodeMusic(this.currentNode)
+      this.processNodeBgndMusic(this.currentNode)
+
+      this.answerTime = commonUtils.getTagValueANSWERTIME(this.currentNode._parsedContent)
+      this.timeExpiredMark = commonUtils.getTagValueTIMEEXPIRED(this.currentNode._parsedContent)
+
+      this.isHideAnswers = commonUtils.getTagValueHIDEANSWERS(this.currentNode._parsedContent) === 'ON'
+
+      // console.log(']]]]]]]]]]]]]]', this.answerTime, this.timeExpiredMark)
     },
 
     hasEmptyQuestion () {
@@ -309,6 +332,11 @@ export default {
       return result
     },
 
+    getCurrentBgndMusicName () {
+      let result = this.currentBgndMusicSequence[this.currentBgndMusicIndex]
+      return result
+    },
+
     setNextVideo () {
       this.currentVideoIndex++
     },
@@ -323,6 +351,15 @@ export default {
 
       while (this.currentMusicSequence.length > 1 && oldIndex === this.currentMusicIndex) {
         this.currentMusicIndex = commonUtils.getArrayRandomIndex(this.currentMusicSequence)
+      }
+    },
+
+    setNextRandomBgndMusic () {
+      if (this.hasBgndMusicEmpty()) return
+      const oldIndex = this.currentBgndMusicIndex
+
+      while (this.currentBgndMusicSequence.length > 1 && oldIndex === this.currentBgndMusicIndex) {
+        this.currentBgndMusicIndex = commonUtils.getArrayRandomIndex(this.currentBgndMusicSequence)
       }
     },
 
@@ -362,6 +399,10 @@ export default {
       return this.currentMusicSequence.length === 0
     },
 
+    hasBgndMusicEmpty () {
+      return this.currentBgndMusicSequence.length === 0
+    },
+
     prepareCurrentAnswers () {
       this.currentAnswers = []
 
@@ -382,6 +423,8 @@ export default {
         for (let i in this.currentNode.node) {
           let gotoNode = this.processGOTONode(this.currentNode.node[i])
 
+          console.log('ANSWER#' + i + ': ', gotoNode._parsedContent)
+
           let text = commonUtils.getTagValueLABEL(gotoNode._parsedContent)
 
           if (totalAnswersCount > 1 && text === '') continue
@@ -390,13 +433,10 @@ export default {
         }
 
         let answersOrder = commonUtils.getTagValueANSWERSORDER(this.currentNode._parsedContent)
-        if (answersOrder.toUpperCase() !== 'OFF' && !this.$debug) {
+        if (answersOrder.toUpperCase() !== 'ON' && !this.$debug) {
           commonUtils.shuffle(this.currentAnswers)
         }
       }
-
-      this.answerTime = commonUtils.getTagValueANSWERTIME(this.currentNode._parsedContent)
-      this.timeExpiredMark = commonUtils.getTagValueTIMEEXPIRED(this.currentNode._parsedContent)
     },
 
     hasEmptyAnswer () {
@@ -441,6 +481,7 @@ export default {
       this.currentSoundFxName = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
 
       this.processNodeMusic(this.currentNode)
+      this.processNodeBgndMusic(this.currentNode)
     },
 
     processNodeMusic (node) {
@@ -449,6 +490,15 @@ export default {
       if (this.isNewMusic) {
         this.currentMusicSequence = musicSequence
         this.currentMusicIndex = 0
+      }
+    },
+
+    processNodeBgndMusic (node) {
+      const bgndMusicSequence = commonUtils.getTagValueBGNDMUSIC(node._parsedContent)
+      this.isNewBgndMusic = bgndMusicSequence.length > 0
+      if (this.isNewBgndMusic) {
+        this.currentBgndMusicSequence = bgndMusicSequence
+        this.currentBgndMusicIndex = 0
       }
     },
 
@@ -483,16 +533,26 @@ export default {
       if (gotoNode) {
         this.currentNode = gotoNode
       } else {
-        console.log('Cant find mark name', markName)
+        console.log('%c Cant find mark name: ' + markName + ', will use default mark:' + Settings.DEFAULT_LOAD_MARK_NAME, 'background: #FF0000; color: #FFFFFF')
+        markName = Settings.DEFAULT_LOAD_MARK_NAME
+        const gotoNode = this.findNodeWithMark(this.scenario, markName)
+        if (gotoNode) {
+          this.currentNode = gotoNode
+        } else {
+          console.log('%c Cant find even default mark name: ' + markName, 'background: #FF0000; color: #FFFFFF')
+        }
       }
     },
 
     processTimeExpired () {
+      console.log('this.timeExpiredMark', this.timeExpiredMark)
       if (this.timeExpiredMark !== '') {
         let gotoNode = this.findNodeWithMark(this.scenario, this.timeExpiredMark)
+        console.log('gotoNode', gotoNode)
         if (gotoNode) {
           this.currentNode = gotoNode
         }
+        this.timeExpiredMark = ''
       }
     },
 
@@ -523,6 +583,18 @@ export default {
 
       input = '{if (Math.random() < 0.5) this.actorName="rock"; else this.actorName="kanye";"";}Hey brother stop!'
       output = 'Hey brother stop!'
+      result = this.evalString(input)
+      commonUtils.checkCondition(input, output, result)
+
+      this.gameData = {a: 1}
+      input = 'check_nested{this.a=2;let b=3; if (this.a != this.b) {{script test/test_nested.qsp}} else {"GOTO2"};}'
+      output = 'check_nested[GOTO1]'
+      result = this.evalString(input)
+      commonUtils.checkCondition(input, output, result)
+
+      this.gameData = {a: 1}
+      input = '...[IMAGE logo.png]'
+      output = '...[IMAGE logo.png]'
       result = this.evalString(input)
       commonUtils.checkCondition(input, output, result)
 

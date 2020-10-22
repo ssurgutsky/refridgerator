@@ -9,6 +9,9 @@
     <audio autoplay ref="musicPlayer" @ended="onMusicEnded">
       <source type="audio/mp3" />
     </audio>
+    <audio autoplay ref="bgndMusicPlayer" @ended="onBgndMusicEnded">
+      <source type="audio/mp3" />
+    </audio>
     <audio autoplay ref="sfxPlayer">
       <source type="audio/mp3" />
     </audio>
@@ -26,6 +29,7 @@ export default {
       audioPlayer: null,
       ambientPlayer: null,
       musicPlayer: null,
+      bgndMusicPlayer: null,
       sfxPlayer: null,
       currentAudioName: '',
       currentAmbientName: '',
@@ -44,6 +48,7 @@ export default {
       this.audioPlayer = this.$refs.audioPlayer
       this.ambientPlayer = this.$refs.ambientPlayer
       this.musicPlayer = this.$refs.musicPlayer
+      this.bgndMusicPlayer = this.$refs.bgndMusicPlayer
       this.sfxPlayer = this.$refs.sfxPlayer
     },
 
@@ -62,6 +67,9 @@ export default {
       if (this.musicPlayer.src !== '') {
         this.musicPlayer.volume = 0.05
       }
+      if (this.bgndMusicPlayer.src !== '') {
+        this.bgndMusicPlayer.volume = 0.05
+      }
       this.audioPlayer.loop = loop
       this.audioPlayer.src = this.getAudioSrc(name)
       this.audioPlayer.pause()
@@ -71,6 +79,9 @@ export default {
     },
 
     getAudioSrc (name) {
+      if (name.indexOf('http') >= 0) {
+        return name
+      }
       let asset = CacheController.getAssetByName(CacheController.CATEGORY_AUDIO, name)
       if (asset) {
         return asset
@@ -79,16 +90,20 @@ export default {
     },
 
     getAudioPathByName (name) {
-      if (name.indexOf('http') >= 0) {
-        return name + '.mp3'
+      let result = name
+      if (result.indexOf('.mp3') < 0) {
+        result = result + '.mp3'
       }
-      return require('@/assets/audio/' + name + '.mp3')
+      return require('@/assets/audio/' + result)
     },
 
     stopAudio () {
       this.audioPlayer.pause()
       if (this.musicPlayer.src !== '') {
         this.musicPlayer.volume = 0.4
+      }
+      if (this.bgndMusicPlayer.src !== '') {
+        this.bgndMusicPlayer.volume = 0.4
       }
     },
 
@@ -125,7 +140,7 @@ export default {
     },
 
     playMusic (name) {
-      console.log(name)
+      console.log('playMusic', name)
 
       if (name === '') {
         return
@@ -148,6 +163,32 @@ export default {
     onMusicEnded () {
       //      console.log('musicEnded', this.currentMusicName)
       this.$emit('musicEnded', this.currentMusicName)
+    },
+
+    playBgndMusic (name) {
+      console.log('playBgndMusic', name)
+
+      if (name === '') {
+        return
+      }
+
+      this.currentBgndMusicName = name
+
+      if (name.toUpperCase() === 'NONE' || name.toUpperCase() === 'OFF') {
+        this.bgndMusicPlayer.src = ''
+        return
+      }
+
+      this.bgndMusicPlayer.src = this.getAudioSrc(name)
+      this.bgndMusicPlayer.pause()
+      setTimeout(() => {
+        this.bgndMusicPlayer.play()
+      }, 10)
+    },
+
+    onBgndMusicEnded () {
+      //      console.log('musicEnded', this.currentMusicName)
+      this.$emit('bgndMusicEnded', this.currentBgndMusicName)
     },
 
     playSFX (name) {
