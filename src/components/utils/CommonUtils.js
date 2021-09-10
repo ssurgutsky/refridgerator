@@ -265,7 +265,6 @@ export default {
             .replace(SCRIPT_EXTENSION, '')
             .replace(SCRIPT_SUFFIX, '')
             .trim()
-            .toLowerCase()
 
           // console.log('SCRIPT NAME:', scriptName)
           let scriptBody = CacheController.getAssetByName(CacheController.CATEGORY_SCRIPTS, scriptName)
