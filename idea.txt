@@ -1,3 +1,33 @@
+Interactive video quest "Fridge".
+How to play: read the message and select your answer from the list below.
+
+Scenario: That morning started out lousy. Looks like there was a power outage at night and your old Toshnoshiba refrigerator burned out, leaving a huge puddle on the floor. Or is it the cat pissed? Never mind. We need to save a goggle stock of dumplings!
+
+Features:
+- in total 19 possible finals (1 main only)
+- train your skills to talk with managers in the shop
+- the Gop from 'Gopnik simulator' included
+
+Goal: very simple - to buy a refrigerator. But you are unlikely to be able to do it.
+
+Warning! Full features of the application might not be available in devices that do not support the Russian  language.
+
+Интерактивный видео-квест <Холодильник>.
+Как играть: прочтите сообщение и выберите свой ответ из списка ниже.
+
+Сценарий: То утро началось ужасно. Похоже, ночью отключили электричество, и ваш старый холодильник Toshnoshiba сгорел, оставив на полу огромную лужу. Или это кот разозлился? Не бери в голову. Нам нужно сохранить запас пельменей!
+
+Функции:
+- всего 19 возможных финалов (только 1 основной)
+- тренируйте навыки общения с менеджерами в магазине
+- гоп из "Симулятора гопников" в комплекте
+
+Цель: очень простая - купить холодильник. Но вряд ли у вас получится это сделать.
+
+Warning! Full features of the application might not be available in devices that do not support the Russian  language.
+
+
+
 TODO:
 
 Озвучить

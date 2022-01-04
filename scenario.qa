@@ -963,11 +963,11 @@
 														[mark_oj9fjqmzq6lo37162y2u]А выбрать хочется самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO story7][BGNDIMAGE *]
 															>>>
 																[mark_6v50dmw29l5p654n0a21][GOTO START]
-	[donate_money]Задонатить на развитие игр
-		[mark_17yx5m8qd16t37sw5a47][NAVIGATEURL https://www.donationalerts.com/r/serjionio]
+	[donate_money]На развитие проекта (sobe.ru/na/serjios)
+		[mark_17yx5m8qd16t37sw5a47][NAVIGATEURL https://sobe.ru/na/serjios]
 			
 				[mark_896gtqav36j1ep393imp][GOTO START]
-	Яндекснуть манями
-		[mark_59a4mt6tev4c9o0d0672][NAVIGATEURL https://money.yandex.ru/embed/shop.xml?account=41001220674141&quickpay=shop&payment-type-choice=on&writer=seller&targets=На развитие проекта&targets-hint=&default-sum=50&button-text=01&mail=on" width="450" height="199"]
+	Донат Сержиосу (qiwi.com/n/SERJIOS)
+		[mark_59a4mt6tev4c9o0d0672][NAVIGATEURL https://qiwi.com/n/SERJIOS]
 			
 				[mark_bq1290i64k8x5u611vf4][GOTO START]
