@@ -8,6 +8,7 @@ export default {
     'GOTO',
     'NAVIGATEURL',
     'PURCHASE',
+    'BGPICTURE',
     'VIDEO',
     'AUDIO',
     'BGNDVIDEO',
@@ -73,28 +74,32 @@ export default {
     return this.getTagValueAudioSequence(content, 'AUDIO')
   },
 
+  getTagValueSOUNDFX (content) {
+    return this.getTagValueAudioSequence(content, 'SOUNDFX')
+  },
+
   getTagValueBGNDVIDEO (content) {
     return this.getTagValueVideoSequence(content, 'BGNDVIDEO')
   },
 
   getTagValueBGNDAUDIO (content) {
-    return this.getTagValueVideoSequence(content, 'BGNDAUDIO')
+    return this.getTagValueAudioSequence(content, 'BGNDAUDIO')
   },
 
-  getTagValueBGNDIMAGE (content) {
-    return this.getTagValueSequence(content, 'BGNDIMAGE')
+  getTagValueBGPICTURE (content) {
+    return this.getTagValueSequence(content, 'BGPICTURE')
   },
 
   getTagValueIMAGE (content) {
     return this.getTagValueSequence(content, 'IMAGE')
   },
 
-  getTagValueAMBIENT (content) {
-    return this.getTagValue(content, 'AMBIENT').replace('.mp3', '')
+  getTagValueBGNDIMAGE (content) {
+    return this.getTagValueSequence(content, 'BGNDIMAGE')
   },
 
-  getTagValueSOUNDFX (content) {
-    return this.getTagValue(content, 'SOUNDFX').replace('.mp3', '')
+  getTagValueAMBIENT (content) {
+    return this.getTagValue(content, 'AMBIENT').replace('.mp3', '')
   },
 
   getTagValueMUSIC (content) {

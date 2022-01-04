@@ -1,12 +1,12 @@
 <template>
   <div :style="styleControls">
-    <button @click="onRestartClick">RESTART</button>
-    <button :style="styleObjectCheat" v-show="isSaveButton" @click="onSaveClick">SAVE</button>
-    <button :style="styleObjectCheat" v-show="isLoadButton" @click="onLoadClick">LOAD</button>
-    <button :style="styleObjectCheat" v-show="isCheatPurchased || isSkipButton" @click="onSkipClick">SKIP</button>
-    <button :style="styleObjectCheat" v-show="isBackButton" @click="onBackClick">BACK</button>
-    <button :style="styleObjectCheat" v-show="isCheatPurchased || isEpisodesButton" @click="onEpisodeClick">EPISODE</button>
-    <button :style="styleObjectCheat" v-show="isDonateButton" @click="onDonateClick">DONATE</button>
+    <button @click="onRestartClick">3AHOBO</button>
+    <button :style="styleObjectCheat" v-show="isSaveButton" @click="onSaveClick">Coxp.</button>
+    <button :style="styleObjectCheat" v-show="isLoadButton" @click="onLoadClick">3arp.</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased || isSkipButton" @click="onSkipClick">npon.</button>
+    <button :style="styleObjectCheat" v-show="isBackButton" @click="onBackClick">Ha3ag</button>
+    <button :style="styleObjectCheat" v-show="isCheatPurchased || isEpisodesButton" @click="onEpisodeClick">3nu3og</button>
+    <button :style="styleObjectCheat" v-show="isDonateButton" @click="onDonateClick">rpynna VK</button>
   </div>
 </template>
 

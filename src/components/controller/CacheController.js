@@ -12,7 +12,7 @@ export default {
     let assetName = name
     switch (category) {
       case this.CATEGORY_VIDEO:
-        if (assetName.indexOf('.mp4') < 0) {
+        if (assetName.indexOf('.') < 0) {
           assetName = name + '.mp4'
         }
         break
@@ -168,7 +168,7 @@ export default {
   },
 
   async loadGameAssetsDictionary () {
-    const requireContext = Settings.CACHE_ENABLED ? require.context('@/assets/', true, /\.(mp3|mp4|jpg|png|qsp|json)(\?.*)?$/)
+    const requireContext = Settings.CACHE_ENABLED ? require.context('@/assets/', true, /\.(mp3|mp4|mov|gif|webm|jpg|png|qsp|json)(\?.*)?$/)
       : require.context('@/assets/', true, /\.(qsp|json)(\?.*)?$/)
     let arr = requireContext.keys().map(file =>
       [file.replace('./', ''), requireContext(file)]

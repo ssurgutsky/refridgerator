@@ -26,6 +26,10 @@ export default {
     currentVideoIndex: 0,
     currentAudioSequence: [],
     currentAudioIndex: 0,
+    currentSFXSequence: [],
+    currentSFXIndex: 0,
+    currentBgPictures: null,
+    prevBgPictures: null,
     currentBgndImages: null,
     currentImages: null,
     currentAmbientName: '',
@@ -33,7 +37,6 @@ export default {
     currentMusicIndex: 0,
     currentBgndMusicSequence: [],
     currentBgndMusicIndex: 0,
-    currentSoundFxName: '',
     isNewMusic: false,
     isNewBgndMusic: false,
     navigateUrl: '',
@@ -271,6 +274,10 @@ export default {
         this.currentBgndImages = commonUtils.getArrayRandomElement(bgndImagesSequence)
       }
 
+      this.prevBgPictures = this.currentBgPictures
+      const bgPicturesSequence = commonUtils.getTagValueBGPICTURE(this.currentNode._parsedContent)
+      this.currentBgPictures = commonUtils.getArrayRandomElement(bgPicturesSequence)
+
       const imagesSequence = commonUtils.getTagValueIMAGE(this.currentNode._parsedContent)
       this.currentImages = commonUtils.getArrayRandomElement(imagesSequence)
 
@@ -281,7 +288,8 @@ export default {
 
       this.currentAmbientName = commonUtils.getTagValueAMBIENT(this.currentNode._parsedContent)
 
-      this.currentSoundFxName = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
+      this.currentSFXSequence = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
+      this.currentSFXIndex = 0
 
       this.processNodeMusic(this.currentNode)
       this.processNodeBgndMusic(this.currentNode)
@@ -323,6 +331,11 @@ export default {
       return result
     },
 
+    getCurrentSFXName () {
+      let result = this.currentSFXSequence[this.currentSFXIndex]
+      return result
+    },
+
     getCurrentAmbientName () {
       return this.currentAmbientName
     },
@@ -342,7 +355,12 @@ export default {
     },
 
     setNextAudio () {
+      // console.log('SET NEXT AUDIO')
       this.currentAudioIndex++
+    },
+
+    setNextSFX () {
+      this.currentSFXIndex++
     },
 
     setNextRandomMusic () {
@@ -471,6 +489,8 @@ export default {
       this.currentVideoIndex = 0
       this.currentAudioSequence = commonUtils.getTagValueAUDIO(this.currentNode._parsedContent)
       this.currentAudioIndex = 0
+      this.currentSFXSequence = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
+      this.currentSFXIndex = 0
 
       const imagesSequence = commonUtils.getTagValueIMAGE(this.currentNode._parsedContent)
       this.currentImages = commonUtils.getArrayRandomElement(imagesSequence)
@@ -478,7 +498,6 @@ export default {
       this.nextNode = this.currentNode.node[0]
 
       this.currentAmbientName = commonUtils.getTagValueAMBIENT(this.currentNode._parsedContent)
-      this.currentSoundFxName = commonUtils.getTagValueSOUNDFX(this.currentNode._parsedContent)
 
       this.processNodeMusic(this.currentNode)
       this.processNodeBgndMusic(this.currentNode)

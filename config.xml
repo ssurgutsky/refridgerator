@@ -10,11 +10,12 @@
     <content src="dist/index.html" />
     <preference name="orientation" value="default" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="android-targetSdkVersion" value="30" />
     <preference name="AllowInlineMediaPlayback" value="true"/>
 
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-whitelist" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <gap:plugin name="cordova-plugin-purchase" source="npm" version="9.0.0"></gap:plugin>
 
     <access origin="*" />
@@ -28,5 +29,12 @@
         <icon density="xhdpi" src="www/dist/res/icon/android/drawable-xhdpi-icon.png" />
         <icon density="xxhdpi" src="www/dist/res/icon/android/drawable-xxhdpi-icon.png" />
         <icon density="xxxhdpi" src="www/dist/res/icon/android/drawable-xxxhdpi-icon.png" />
+
+	<splash src="www/dist/res/icon/android/splash-port-hdpi.png" density="hdpi"/>
+	<splash src="www/dist/res/icon/android/splash-port-ldpi.png" density="ldpi"/>
+	<splash src="www/dist/res/icon/android/splash-port-mdpi.png" density="mdpi"/>
+	<splash src="www/dist/res/icon/android/splash-port-xhdpi.png" density="xhdpi"/>
+	<splash src="www/dist/res/icon/android/splash-port-xxhdpi.png" density="xxhdpi"/>
+
     </platform>
 </widget>

@@ -4,6 +4,7 @@
       @answerClick="processAnswer"
       @videoEnded="processVideoEnded"
       @audioEnded="processAudioEnded"
+      @sfxEnded="processSFXEnded"
       @musicEnded="processMusicEnded"
       @restartGame="restartGame"
       @saveGame="saveGame"
@@ -24,6 +25,7 @@
 import CacheController from '@/components/controller/CacheController.js'
 import MainView from '@/components/view/MainView.vue'
 import GameModel from '@/components/model/GameModel.vue'
+import Settings from '@/components/Settings.js'
 
 export default {
   components: {
@@ -101,8 +103,10 @@ export default {
 
     restartGame () {
       console.log('Restart')
-      this.mainView.clearTimer()
+      this.stopVideo()
+      this.stopAudio()
       this.gameModel.restartGame()
+      this.mainView.clearTimer()
       this.showCurrentQuestion()
     },
 
@@ -134,6 +138,7 @@ export default {
       this.mode = this.MODE_QUESTION
       this.playVideoAndAudio()
 
+      this.clearAndShowBgPictures()
       this.mainView.clearBgndImages()
       this.clearAndShowImages()
 
@@ -210,11 +215,17 @@ export default {
       }
     },
 
+    processSFXEnded (name) {
+      console.log('sfx ended:', name)
+      this.gameModel.setNextSFX()
+      this.playSoundFx()
+    },
+
     playVideoAndAudio () {
       let hasVideoEmpty = this.gameModel.hasVideoEmpty()
       let hasAudioEmpty = this.gameModel.hasAudioEmpty()
 
-      if (hasVideoEmpty && hasAudioEmpty) {
+      if (hasVideoEmpty && hasAudioEmpty && !this.checkIsSpeechEnabled()) {
         this.processVideoAndAudioEnding()
         return
       }
@@ -222,14 +233,18 @@ export default {
       if (!hasVideoEmpty) {
         this.playVideoSequence()
       }
-      if (!hasAudioEmpty) {
+      if (!hasAudioEmpty || this.checkIsSpeechEnabled()) {
         this.playAudioSequence()
       }
     },
 
     playVideoSequence () {
+      let hasAudioPlaying = this.gameModel.hasCurrentAudio()
+
       if (!this.gameModel.hasCurrentVideo() && this.mode === this.MODE_QUESTION && !this.gameModel.isFinal) {
-        this.gameModel.setCurrentVideoIndex(0)
+        if (hasAudioPlaying) {
+          this.gameModel.setCurrentVideoIndex(0)
+        }
       }
 
       if (!this.gameModel.hasCurrentVideo() && this.mode === this.MODE_AFTER_QUESTION) {
@@ -244,15 +259,32 @@ export default {
     },
 
     playAudioSequence () {
+      // console.log('PLAY AUDIO SEQ, mode=', this.mode)
       if (!this.gameModel.hasCurrentAudio() && this.mode === this.MODE_AFTER_QUESTION) {
         this.gameModel.setCurrentAudioIndex(0)
+      }
+
+      if (this.checkIsSpeechEnabled()) {
+        this.mainView.playAudio(this.gameModel.getCurrentAudioName(), false, this.gameModel.getCurrentQuestionLabel())
+        return true
       }
 
       if (this.gameModel.hasCurrentAudio()) {
         this.mainView.playAudio(this.gameModel.getCurrentAudioName(), false)
         return true
       }
+
       return false
+    },
+
+    checkIsSpeechEnabled () {
+      let result =
+        Settings.ENABLE_SPEECH &&
+        this.mode === this.MODE_QUESTION &&
+        this.gameModel.getCurrentQuestionLabel() &&
+        this.gameModel.getCurrentQuestionLabel() !== '...'
+
+      return result
     },
 
     processVideoAndAudioEnding () {
@@ -261,7 +293,7 @@ export default {
       let hasVideoEmpty = this.gameModel.hasVideoEmpty()
       let hasAudioEmpty = this.gameModel.hasAudioEmpty()
 
-      console.log(this.mode, hasVideoPlaying, hasAudioPlaying, hasVideoEmpty, hasAudioEmpty)
+      console.log('<<<<<', this.mode, hasVideoPlaying, hasAudioPlaying, hasVideoEmpty, hasAudioEmpty)
 
       if (this.mode === this.MODE_QUESTION) {
         if (
@@ -273,8 +305,8 @@ export default {
         ) {
           console.log('case1')
 
-          this.mainView.stopVideo()
-          this.mainView.stopAudio()
+          this.stopVideo()
+          this.stopAudio()
 
           this.showCurrentAnswers()
           if (!this.gameModel.isFinal) {
@@ -302,8 +334,8 @@ export default {
           (!hasVideoPlaying && !hasAudioPlaying)
         ) {
           console.log('case3')
-          this.mainView.stopVideo()
-          this.mainView.stopAudio()
+          this.stopVideo()
+          this.stopAudio()
           this.gameModel.setNextQuestion()
           this.showCurrentQuestion()
         }
@@ -332,13 +364,17 @@ export default {
       this.mainView.showImages(this.gameModel.currentImages)
     },
 
+    clearAndShowBgPictures () {
+      this.mainView.showBgPictures(this.gameModel.currentBgPictures)
+    },
+
     playAmbient () {
       let name = this.gameModel.getCurrentAmbientName()
       this.mainView.playAmbient(name)
     },
 
     playSoundFx () {
-      let name = this.gameModel.currentSoundFxName
+      let name = this.gameModel.getCurrentSFXName()
       if (name && name !== '') {
         this.mainView.playSFX(name)
       }
@@ -379,7 +415,20 @@ export default {
     processTimeExpired () {
       console.log('Time expired!')
       this.gameModel.processTimeExpired()
+      this.stopVideo()
+      this.stopAudio()
+      this.mainView.clearTimer()
       this.showCurrentQuestion()
+    },
+
+    stopVideo () {
+      this.mainView.stopVideo()
+      this.gameModel.setCurrentVideoIndex(0)
+    },
+
+    stopAudio () {
+      this.mainView.stopAudio()
+      this.gameModel.setCurrentAudioIndex(0)
     },
 
     saveGame () {
@@ -390,8 +439,9 @@ export default {
 
     loadGame () {
       if (this.gameModel.loadGameData()) {
-        this.mainView.stopVideo()
-        this.mainView.stopAudio()
+        this.stopVideo()
+        this.stopAudio()
+        this.mainView.stopMusic()
         this.mainView.clearTimer()
         this.showCurrentQuestion()
       } else {
@@ -402,39 +452,39 @@ export default {
     /* CHEATS */
     cheatSkip () {
       if (this.mode === this.MODE_QUESTION) {
-        this.mainView.stopVideo()
-        this.mainView.stopAudio()
+        this.stopVideo()
+        this.stopAudio()
         this.showCurrentAnswers()
         if (!this.gameModel.isFinal) {
           this.showAfterQuestion()
         }
       }
       if (this.mode === this.MODE_ANSWER) {
-        this.mainView.stopVideo()
-        this.mainView.stopAudio()
+        this.stopVideo()
+        this.stopAudio()
         this.gameModel.setNextQuestion()
         this.showCurrentQuestion()
       }
     },
 
     cheatBack () {
-      this.mainView.stopVideo()
-      this.mainView.stopAudio()
+      this.stopVideo()
+      this.stopAudio()
       this.mainView.clearTimer()
       this.gameModel.setPrevQuestion()
       this.showCurrentQuestion()
     },
 
     cheatEpisode () {
-      this.mainView.stopVideo()
-      this.mainView.stopAudio()
+      this.stopVideo()
+      this.stopAudio()
       this.mainView.clearTimer()
       this.gameModel.setEpisode()
       this.showCurrentQuestion()
     },
 
     donate () {
-      window.open('https://www.donationalerts.com/r/serjionio', '_system')
+      window.open('https://vk.com/club23748098', '_system')
     }
 
   }

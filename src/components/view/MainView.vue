@@ -1,10 +1,12 @@
 <template>
   <div ref="mainView" class="main-view">
+    <BgPicturePlayer class="bg-picture-container" ref="bgPicturePlayer"/>
     <VideoPlayer class="video-container" ref="videoPlayer" @videoEnded="processVideoEnded"/>
     <BgndImagePlayer class="bgnd-image-container" ref="bgndImagePlayer"/>
     <ImagePlayer class="image-container" ref="imagePlayer"/>
     <AudioPlayer class="audio-container" ref="audioPlayer"
       @audioEnded="processAudioEnded"
+      @sfxEnded="processSFXEnded"
       @musicEnded="processMusicEnded"
       @bgndMusicEnded="processBgndMusicEnded"
     />
@@ -24,6 +26,7 @@
 </template>
 
 <script>
+import BgPicturePlayer from './BgPicturePlayer.vue'
 import VideoPlayer from './VideoPlayer.vue'
 import BgndImagePlayer from './BgndImagePlayer.vue'
 import ImagePlayer from './ImagePlayer.vue'
@@ -35,6 +38,7 @@ import ControlsView from './ControlsView.vue'
 
 export default {
   components: {
+    BgPicturePlayer,
     VideoPlayer,
     BgndImagePlayer,
     ImagePlayer,
@@ -87,6 +91,10 @@ export default {
       this.$refs.timerView.clearTimer()
     },
 
+    showBgPictures (images) {
+      this.$refs.bgPicturePlayer.showBgPictures(images)
+    },
+
     playVideo (name, loop) {
       this.$refs.videoPlayer.playVideo(name, loop)
     },
@@ -95,8 +103,8 @@ export default {
       this.$refs.videoPlayer.stopVideo()
     },
 
-    playAudio (name, loop) {
-      this.$refs.audioPlayer.playAudio(name, loop)
+    playAudio (name, loop, text) {
+      this.$refs.audioPlayer.playAudio(name, loop, text)
     },
 
     stopAudio () {
@@ -127,8 +135,16 @@ export default {
       this.$refs.audioPlayer.playMusic(name)
     },
 
+    stopMusic () {
+      this.$refs.audioPlayer.stopMusic()
+    },
+
     playBgndMusic (name, loop) {
       this.$refs.audioPlayer.playBgndMusic(name)
+    },
+
+    stopBgndMusic () {
+      this.$refs.audioPlayer.stopBgndMusic()
     },
 
     playSFX (name, loop) {
@@ -152,6 +168,11 @@ export default {
     processAudioEnded (name) {
       // console.log('audioEnded', name)
       this.$emit('audioEnded', name)
+    },
+
+    processSFXEnded (name) {
+      // console.log('sfxEnded', name)
+      this.$emit('sfxEnded', name)
     },
 
     processMusicEnded (name) {
@@ -221,6 +242,17 @@ export default {
   }
 
   @media screen and (max-aspect-ratio: 13/9) {
+    .bg-picture-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50vh;
+      margin: 0;
+      padding: 0;
+      z-index: -5;
+    }
+
     .video-container {
       position: fixed;
       top: 0;
@@ -252,17 +284,6 @@ export default {
       margin: 0;
       padding: 0;
       z-index: -2;
-    }
-
-    .yandex-money-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 50vh;
-      margin: 0;
-      padding: 0;
-      z-index: -1;
     }
 
     .questions-container {
@@ -299,6 +320,17 @@ export default {
   }
 
   @media screen and (min-aspect-ratio: 13/9) {
+    .bg-picture-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 50vw;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      z-index: -5;
+    }
+
     .video-container {
       position: fixed;
       top: 0;
@@ -310,7 +342,7 @@ export default {
       z-index: -4;
     }
 
-    .image-container {
+    .bgnd-image-container {
       position: fixed;
       top: 0;
       left: 0;
@@ -321,7 +353,7 @@ export default {
       z-index: -3;
     }
 
-    .bgnd-image-container {
+    .image-container {
       position: fixed;
       top: 0;
       left: 0;
@@ -330,17 +362,6 @@ export default {
       margin: 0;
       padding: 0;
       z-index: -2;
-    }
-
-    .yandex-money-container {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 50vw;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      z-index: -1;
     }
 
     .questions-container {
