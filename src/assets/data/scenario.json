@@ -3652,7 +3652,7 @@
                                                                                                                                                                                                                                                           "node": [
                                                                                                                                                                                                                                                             {
                                                                                                                                                                                                                                                               "_mark": "",
-                                                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO donate]"
+                                                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO donate_coin]"
                                                                                                                                                                                                                                                             },
                                                                                                                                                                                                                                                             {
                                                                                                                                                                                                                                                               "node": [
@@ -3693,7 +3693,7 @@
                                                                                                                                                                                                                                   "_content": "[LABEL {this.productId = \"com.kri_games.fridge.coin1\";'';}{script getPayment}]"
                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                               ],
-                                                                                                                                                                                                                              "_mark": "donate",
+                                                                                                                                                                                                                              "_mark": "donate_coin",
                                                                                                                                                                                                                               "_content": "[LABEL Достать монету.]"
                                                                                                                                                                                                                             },
                                                                                                                                                                                                                             {
@@ -3714,7 +3714,7 @@
                                                                                                                                                                                                                           "node": [
                                                                                                                                                                                                                             {
                                                                                                                                                                                                                               "_mark": "",
-                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO donate]"
+                                                                                                                                                                                                                              "_content": "[LABEL ][GOTO donate_coin]"
                                                                                                                                                                                                                             }
                                                                                                                                                                                                                           ],
                                                                                                                                                                                                                           "_mark": "mark_38182ju02y06sj52nu7p",
@@ -4314,7 +4314,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "GAME_SAVEPOINT",
@@ -4676,7 +4676,7 @@
                                                     },
                                                     {
                                                       "_mark": "",
-                                                      "_content": "[LABEL ][GOTO donate_money]"
+                                                      "_content": "[LABEL ][GOTO donate]"
                                                     }
                                                   ],
                                                   "_mark": "mark_tb15580fgn0133yybp89",
@@ -4718,7 +4718,7 @@
                                     },
                                     {
                                       "_mark": "",
-                                      "_content": "[LABEL ][GOTO donate_money]"
+                                      "_content": "[LABEL ][GOTO donate]"
                                     }
                                   ],
                                   "_mark": "mark_d489lb38v14dn4nxe202",
@@ -4756,7 +4756,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final2",
@@ -4770,7 +4770,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final3",
@@ -4784,7 +4784,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final4",
@@ -4798,7 +4798,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final5",
@@ -4812,7 +4812,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final6",
@@ -4826,7 +4826,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final7",
@@ -4840,7 +4840,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final8",
@@ -4854,7 +4854,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final9",
@@ -4868,7 +4868,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final11",
@@ -4882,7 +4882,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final12",
@@ -4896,7 +4896,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final13",
@@ -4910,7 +4910,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final14",
@@ -4928,7 +4928,7 @@
                                     },
                                     {
                                       "_mark": "",
-                                      "_content": "[LABEL ][GOTO donate_money]"
+                                      "_content": "[LABEL ][GOTO donate]"
                                     }
                                   ],
                                   "_mark": "mark_cwsjrc465w9jw7w8r19g",
@@ -4950,7 +4950,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final16",
@@ -4964,7 +4964,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final17",
@@ -4978,7 +4978,7 @@
                             },
                             {
                               "_mark": "",
-                              "_content": "[LABEL ][GOTO donate_money]"
+                              "_content": "[LABEL ][GOTO donate]"
                             }
                           ],
                           "_mark": "mark_final18",
@@ -5201,42 +5201,76 @@
                     {
                       "node": [
                         {
-                          "_mark": "mark_896gtqav36j1ep393imp",
-                          "_content": "[LABEL ][GOTO START]"
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "_mark": "mark_gpz4h2d5q2gj83yqc71b",
+                                  "_content": "[LABEL ][GOTO START]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL ]"
+                            }
+                          ],
+                          "_mark": "mark_f80u11uv548604r8v3v5",
+                          "_content": "[LABEL ][NAVIGATEURL https://www.tinkoff.ru/cf/7xIiPBRWF9P]"
                         }
                       ],
                       "_mark": "",
-                      "_content": "[LABEL ]"
-                    }
-                  ],
-                  "_mark": "mark_17yx5m8qd16t37sw5a47",
-                  "_content": "[LABEL ][NAVIGATEURL https://sobe.ru/na/serjios]"
-                }
-              ],
-              "_mark": "donate_money",
-              "_content": "[LABEL На развитие проекта (sobe.ru/na/serjios)]"
-            },
-            {
-              "node": [
-                {
-                  "node": [
+                      "_content": "[LABEL Перевод Tinkoff]"
+                    },
                     {
                       "node": [
                         {
-                          "_mark": "mark_bq1290i64k8x5u611vf4",
-                          "_content": "[LABEL ][GOTO START]"
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "_mark": "mark_xw21sf4q2mxo3q0x9b78",
+                                  "_content": "[LABEL ][GOTO START]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL ]"
+                            }
+                          ],
+                          "_mark": "mark_n4f3t5qf3l1tjoui2c2f",
+                          "_content": "[LABEL ][NAVIGATEURL https://qiwi.com/n/SERJIOS]"
                         }
                       ],
                       "_mark": "",
-                      "_content": "[LABEL ]"
+                      "_content": "[LABEL Перевод Qiwi]"
+                    },
+                    {
+                      "node": [
+                        {
+                          "node": [
+                            {
+                              "node": [
+                                {
+                                  "_mark": "mark_06z79l0n6q345b2ni5q2",
+                                  "_content": "[LABEL ][GOTO START]"
+                                }
+                              ],
+                              "_mark": "",
+                              "_content": "[LABEL ]"
+                            }
+                          ],
+                          "_mark": "mark_iz89w1lh9902e1966gt6",
+                          "_content": "[LABEL ][NAVIGATEURL https://yoomoney.ru/to/41001220674141]"
+                        }
+                      ],
+                      "_mark": "",
+                      "_content": "[LABEL Перевод YooMoney]"
                     }
                   ],
-                  "_mark": "mark_59a4mt6tev4c9o0d0672",
-                  "_content": "[LABEL ][NAVIGATEURL https://qiwi.com/n/SERJIOS]"
+                  "_mark": "mark_8o716rk6f9gm5w4vo191",
+                  "_content": "[LABEL Если понравилось, закинь сколько не жалко.][IMAGE donate.png]"
                 }
               ],
-              "_mark": "",
-              "_content": "[LABEL Донат Сержиосу (qiwi.com/n/SERJIOS)]"
+              "_mark": "donate",
+              "_content": "[LABEL Donate / Дать денежку]"
             }
           ],
           "_mark": "START",

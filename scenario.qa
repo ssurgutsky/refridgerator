@@ -51,7 +51,7 @@
 																																																		[gop_subwork]Слух, не мешай, я щас тут типа на подработке. Иди давай, не распугивай клиентов![VIDEO GopSpeechLoadingLoop][AUDIO g_dont_disturb_me][BGNDVIDEO GopStandsBouncing]
 																																																			[bye_brick]Ну бывай!
 																																																				[EPISODE4]Погодь! Выручи деньгами? А то я лохов уже неделю не встречал. Вымерли что-ли?!... А я тебе холодильник подскажу реальный.[VIDEO GopSpeechLoadingLoop][AUDIO g_help_money][BGNDVIDEO GopStandsBouncing][ANSWERSORDER ON]
-																																																					[donate]Достать монету.
+																																																					[donate_coin]Достать монету.
 																																																						[mark_ht148aj862wm21q30ogd]{this.productId = "com.kri_games.fridge.coin1";'';}{script getPayment}
 																																																							
 																																																								[wait]...[VIDEO GopStandsBouncing][AUDIO silent_4]
@@ -711,13 +711,13 @@
 																																																																							[GOTO I_need_other_thing]
 																																																																							[GOTO are_you_administrator]
 																																																												[payment_fail]Чота не так, чел, попробуй еще![VIDEO GopSpeechLoadingLoop][AUDIO tryagain][BGNDVIDEO GopStandsBouncing]
-																																																													[GOTO donate]
+																																																													[GOTO donate_coin]
 																																																													[brick_no_money]Извини, нет денег.
 																																																														[mark_pqpzb50d47xietci730a][GOTO back_to_shop]
 																																																					[GOTO brick_no_money]
 																																																			[gop_help_choose]Помоги холодильник выбрать, я тебе денег заплачу.
 																																																				[mark_38182ju02y06sj52nu7p]О, нормальный тема! Давай.[VIDEO GopSpeechLoadingLoop][AUDIO g_norm_theme][BGNDVIDEO GopStandsBouncing]
-																																																					[GOTO donate]
+																																																					[GOTO donate_coin]
 																																																	[GOTO bye_brick]
 																																																	[GOTO gop_help_choose]
 																																															Какой работы-подработки?
@@ -799,7 +799,7 @@
 							[GOTO I_need_new_fridge]
 					[GOTO tell_me_please]
 					[GOTO I_need_new_fridge]
-					[GOTO donate_money]
+					[GOTO donate]
 				[call_security]Охрана! Подойдите сюда! Тут у нас неадекватный посетитель...[IMAGE view1.jpg&{script a_f_r}][AUDIO a_call_security1][BGNDIMAGE *]
 					>>>
 						[mark_etu46u585h62p7c0i90t][GOTO security_go_out_shop]
@@ -869,65 +869,65 @@
 										[mark_tb15580fgn0133yybp89]Тебе удалось взломать Искусственный Интеллект! Победа! Главный положительный финал.[IMAGE AI_fail4.jpg][AUDIO explode_fx,final_main]
 											[play_again]Играть еще раз
 												[mark_fymeu411qbfulw5d1807][GOTO GAME_SAVEPOINT]
-											[GOTO donate_money]
+											[GOTO donate]
 				[mark_final1]ХА-ХА-ХА-ХА-ХА-ХА-ХА! Теперь ты мой раб![IMAGE AI2.jpg][AUDIO ai_win1][MUSIC NONE][AMBIENT NONE][BGNDIMAGE AI.jpg]
 					>>>
 						[mark_d489lb38v14dn4nxe202]Искусственный Интеллект подчинил себе твой разум и волю, сделав из тебя раба. Отрицательный финал.[IMAGE AI_win.jpg][AUDIO final_ai_slave_you,negative_final]
 							[GOTO play_again]
-							[GOTO donate_money]
+							[GOTO donate]
 				[mark_final_11]Искусственный Интеллект долбанул тебя током.[IMAGE AI_electro.jpg][AUDIO ai_shake_you][MUSIC NONE][AMBIENT NONE][SOUNDFX electro_fx][BGNDIMAGE *]
 					>>>
 						[mark_db5xa16t7m3p7hvzl46r][GOTO mark_final1]
 				[mark_final2]Магазин закрылся, тебе пришлось уйти ни с чем. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_shop_closed,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final3]Ты психанул и ушел из магазина. Отрицательный финал.[IMAGE gone_from_shop.jpg][AUDIO final_you_go_out,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final4]Тебя выкурили из магазина подоспевшие менеджеры. Отрицательный финал.[IMAGE managers_smoke.jpg][AUDIO final_you_smoked_out,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final5]Тебя выкинули из магазина. Отрицательный финал.[IMAGE out_of_shop.jpg][AUDIO final_you_kicked_off,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final6]Похоже, ты забыл за чем пришел. В итоге тебе впарили другой товар, из-за которого на следующий день сгорел твой дом. Отрицательный финал.[IMAGE house_in_fire.jpg][AUDIO final_home_fired,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final7]Тебе пришлось срочно уйти из магазина. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_go_out_quick,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final8]Ты прождал, пока магазин закрылся. Отрицательный финал.[IMAGE shop_is_closed.jpg][AUDIO final_wait_until_closed,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final9]Ты купил хороший, но не оптимальный товар. Можно было найти лучше. Нейтральный финал.[IMAGE kitchen.jpg&fridge_orsk.png|150;100;1;1;0;1][AUDIO final_good_not_best,neitral_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final11]Тебе втюхнули товар, который через полгода обесценился в два раза. А ты, как лох, выплачивал за него кредит целых три года. Самый худший финал.[IMAGE kitchen.jpg&fridge_libher.png|220;0;1;1;0;1][AUDIO final_most_bad][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final12]Ты купил дешевый товар, начал собирать объедки в его контейнер и превратился в бомжа. Отрицательный финал.[IMAGE kitchen.jpg&fridge_bomsh.png|120;290;1;1;0;1][AUDIO final_bomsh,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final13]Ты оказался одинокой женщиной, поэтому тебе подарили месячный запас морковки, огурцов и бананов. Нейтральный финал.[IMAGE kitchen.jpg&fridge_sasung.png|50;50;1;1;0;1][AUDIO final_lonly_woman,neitral_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final14]Лыжы не обязательно хранить летом в холодильнике. Не стоило переплачивать за это. Отрицательный финал.[AUDIO final_lg_bad,negative_final][IMAGE kitchen.jpg&fridge_lg2.png|150;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final15]В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его...[IMAGE kitchen.jpg&fridge_ariston.png|115;20;1;1;0;1][AUDIO final_ariston1][MUSIC NONE][AMBIENT NONE]
 					
 						[mark_cwsjrc465w9jw7w8r19g]В итоге ты устал вытирать коричневые лужи от холодильника, разозлился, пнул его и сломал ногу. Отрицательный финал.[IMAGE kitchen.jpg&fridge_ariston2.png|115;20;1;1;0;1][AUDIO final_ariston2,negative_final]
 							[GOTO play_again]
-							[GOTO donate_money]
+							[GOTO donate]
 				[mark_final16]Через неделю этот холодильник сбежал от тебя, переведя все твои деньги на собственный счет и оформив самовывоз через Интернет. Отрицательный финал.[AUDIO final_electro,negative_final][IMAGE kitchen.jpg&fridge_electro.png|200;20;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final17]Ты снова наступил на те же грабли, взяв такой же холодильник. Он сгорел при следующем скачке напряжения. Отрицательный финал.[IMAGE house_in_fire.jpg][AUDIO final_tosh,negative_final][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[mark_final18]Дома, летом, в жару, ты залез внутрь холодильника охладиться и, нечаянно, захлопнул за собой дверцу. А холодильник изнутри не открывается... Отрицательный финал.[AUDIO final_frozen,negative_final][IMAGE kitchen.jpg&fridge_biruca.png|250;0;1;1;0;1][MUSIC NONE][AMBIENT NONE]
 					[GOTO play_again]
-					[GOTO donate_money]
+					[GOTO donate]
 				[FOR_MONEY]
 				[buy_button_episodes]Кнопка переключения эпизодов "EPISODE" дает возможность быстрого перехода по сценам в игре, чтобы не проходить каждый раз все заново. Она появится внизу и будет доступна всегда, пока ты не удалишь игру.[BGNDIMAGE episodes.jpg][BGNDAUDIO episodes_button_desc1][ANSWERTIME 18.8][TIMEEXPIRED proccess_buying]
 					[try_again_buy_button_episodes]Эпизоды игры.
@@ -963,11 +963,17 @@
 														[mark_oj9fjqmzq6lo37162y2u]А выбрать хочется самый оптимальный. Удачи тебе![IMAGE story06.jpg][AUDIO story7][BGNDIMAGE *]
 															>>>
 																[mark_6v50dmw29l5p654n0a21][GOTO START]
-	[donate_money]На развитие проекта (sobe.ru/na/serjios)
-		[mark_17yx5m8qd16t37sw5a47][NAVIGATEURL https://sobe.ru/na/serjios]
-			
-				[mark_896gtqav36j1ep393imp][GOTO START]
-	Донат Сержиосу (qiwi.com/n/SERJIOS)
-		[mark_59a4mt6tev4c9o0d0672][NAVIGATEURL https://qiwi.com/n/SERJIOS]
-			
-				[mark_bq1290i64k8x5u611vf4][GOTO START]
+	[donate]Donate / Дать денежку
+		[mark_8o716rk6f9gm5w4vo191][IMAGE donate.png]Если понравилось, закинь сколько не жалко.
+			Перевод Tinkoff
+				[mark_f80u11uv548604r8v3v5][NAVIGATEURL https://www.tinkoff.ru/cf/7xIiPBRWF9P]
+					
+						[mark_gpz4h2d5q2gj83yqc71b][GOTO START]
+			Перевод Qiwi
+				[mark_n4f3t5qf3l1tjoui2c2f][NAVIGATEURL https://qiwi.com/n/SERJIOS]
+					
+						[mark_xw21sf4q2mxo3q0x9b78][GOTO START]
+			Перевод YooMoney
+				[mark_iz89w1lh9902e1966gt6][NAVIGATEURL https://yoomoney.ru/to/41001220674141]
+					
+						[mark_06z79l0n6q345b2ni5q2][GOTO START]
